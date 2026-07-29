@@ -1,0 +1,28 @@
+{
+  "issues": [
+    {
+      "category": "Security Issue",
+      "priority": "P2",
+      "issue": "Login failure detected at 07:03:17 UTC on 2024-07-15. User 'c22478b' failed to log in to TcServer 'tcserver00012@CADENAS_QA1_TcPoolB@3532@OITTOR56APCC150' because the server was locked by another session (CADENAS_QA1_TcPoolA@25@1721026899803@getAuthenticatedAssignedServer@1).",
+      "generic_recommendation": "Investigate the server lock mechanism to ensure that sessions are properly managed and released. Review authentication and session assignment logic to prevent unauthorized access or session conflicts.",
+      "specific_recommendation": null,
+      "solution_steps": null
+    },
+    {
+      "category": "Performance Issue",
+      "priority": "P3",
+      "issue": "TcServer lock expiry warning at 07:01:39 UTC on 2024-07-15. TcServer 'tcserver00012@CADENAS_QA1_TcPoolB@3532@OITTOR56APCC150' lock expired for session 'CADENAS_QA1_TcPoolB@29@1721026599763@getAuthenticatedAssignedServer@1', indicating a session that held the server lock did not release it within the expected time.",
+      "generic_recommendation": "Review session timeout configurations and lock expiry policies. Investigate whether sessions are timing out prematurely or taking too long to process, and tune the server lock timeout settings accordingly.",
+      "specific_recommendation": null,
+      "solution_steps": null
+    },
+    {
+      "category": "Others",
+      "priority": "P4",
+      "issue": "TcServer 'tcserver00005@CADENAS_QA1_TcPoolA@8132@OITTOR56APCC140' was removed and finished at 06:35:20 UTC on 2024-07-15, immediately followed by a new server 'tcserver00031' being launched (PID=5816). This indicates a server restart or replacement event.",
+      "generic_recommendation": "Monitor the frequency of server removals and restarts. If this is occurring frequently, investigate the root cause such as crashes, resource exhaustion, or scheduled cycling, and take corrective action to ensure server stability.",
+      "specific_recommendation": null,
+      "solution_steps": null
+    }
+  ]
+}
