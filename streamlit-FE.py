@@ -3,7 +3,12 @@ from pathlib import Path
 import streamlit as st
 from langchain_core.messages import HumanMessage, AIMessage
 
-from frontend_utils import generate_thread_id, discover_log_files, thread_label
+from frontend_utils import (
+    ALL_FILES_OPTION,
+    generate_thread_id,
+    discover_log_files,
+    thread_label,
+)
 
 try:
     from LogAgent_chat import stream_messages
@@ -12,9 +17,6 @@ except Exception as exc:  # pragma: no cover - shown directly in the UI
     stream_messages = None
     BACKEND_IMPORT_ERROR = str(exc)
 
-
-PROJECT_ROOT = Path(__file__).resolve().parent
-LOGS_ROOT = PROJECT_ROOT / 'logs'
 
 st.set_page_config(page_title='Log Analyser Chat', page_icon=':mag:', layout='wide')
 
@@ -42,11 +44,21 @@ def start_new_chat_draft() -> None:
     st.session_state.draft_nonce += 1
 
 
-def create_thread(mode: str, log_file: Path) -> str:
+def resolve_log_selection(selection: str, log_files: list[Path]) -> str:
+    '''
+    Turns the dropdown selection into the path string passed to the agent.
+    "All files" becomes a newline-separated list of absolute paths.
+    '''
+    if selection == ALL_FILES_OPTION:
+        return '\n'.join(str(path.resolve()) for path in log_files)
+    return str(Path(selection).resolve())
+
+
+def create_thread(mode: str, log_target: str) -> str:
     thread_id = generate_thread_id('query' if mode == 'Query' else 'scheduled')
     st.session_state.threads[thread_id] = {
         'mode': mode,
-        'log_file': str(log_file.resolve()),
+        'log_file': log_target,
         'messages': [],   # full LangChain message history for this thread, kept in memory only
         'label': None,    # filled in once the first message is sent
     }
@@ -109,24 +121,49 @@ def render_new_chat_form() -> None:
     else:
         st.caption('No input needed - the agent will analyse the latest logs automatically.')
 
-    log_files = discover_log_files(LOGS_ROOT)
-    if not log_files:
-        st.error(f'No log files found under `{LOGS_ROOT}`.')
+    folder_raw = st.text_input(
+        'Absolute path to log folder',
+        placeholder=r'C:\path\to\logs',
+        key=f'draft_folder_{nonce}',
+    )
+
+    folder_path = Path(folder_raw.strip()) if folder_raw.strip() else None
+    if not folder_path:
+        st.caption('Enter an absolute folder path to list log files.')
         return
 
-    log_file = st.selectbox(
+    if not folder_path.exists():
+        st.error(f'Path does not exist: `{folder_path}`')
+        return
+
+    if not folder_path.is_dir():
+        st.error(f'Path is not a folder: `{folder_path}`')
+        return
+
+    log_files = discover_log_files(folder_path)
+    if not log_files:
+        st.error(f'No `.log` / `.txt` files found under `{folder_path}`.')
+        return
+
+    options = [ALL_FILES_OPTION, *[str(path.resolve()) for path in log_files]]
+    selected = st.selectbox(
         'Log file to analyse',
-        options=log_files,
-        format_func=lambda path: str(path.relative_to(LOGS_ROOT)),
+        options=options,
+        format_func=lambda value: (
+            f'All files ({len(log_files)})'
+            if value == ALL_FILES_OPTION
+            else str(Path(value).relative_to(folder_path.resolve()))
+        ),
         key=f'draft_file_{nonce}',
     )
 
-    ready = log_file is not None and (mode != 'Query' or bool((user_query or '').strip()))
+    ready = selected is not None and (mode != 'Query' or bool((user_query or '').strip()))
     if mode == 'Query' and not ready:
         st.caption('Enter a question to enable the button.')
 
     if st.button('Start Analysis', type='primary', disabled=not ready):
-        thread_id = create_thread(mode, log_file)
+        log_target = resolve_log_selection(selected, log_files)
+        thread_id = create_thread(mode, log_target)
         run_turn(thread_id, user_query.strip() if user_query else None)
         st.rerun()
 
@@ -192,7 +229,11 @@ def render_active_chat() -> None:
     thread = st.session_state.threads[thread_id]
 
     st.subheader('Chat')
-    st.caption(f"Mode: `{thread['mode']}` \u00b7 Log file: `{thread['log_file']}`")
+    log_display = thread['log_file']
+    if '\n' in log_display:
+        file_count = len(log_display.splitlines())
+        log_display = f'All files ({file_count})'
+    st.caption(f"Mode: `{thread['mode']}` \u00b7 Log file: `{log_display}`")
 
     render_message_history(thread['messages'])
 

@@ -14,19 +14,31 @@ def generate_thread_id(generation_type: str):
 
 
 LOG_FILE_EXTENSIONS = {'.log', '.txt'}
+ALL_FILES_OPTION = '__all_files__'
+
+
+def _creation_time(path: Path) -> float:
+    '''
+    Best-effort file creation time. Uses birth time when available,
+    otherwise falls back to ctime (creation time on Windows).
+    '''
+    stat = path.stat()
+    return getattr(stat, 'st_birthtime', stat.st_ctime)
+
 
 def discover_log_files(logs_root: Path) -> list[Path]:
     '''
-    Recursively lists every log file available under the logs root folder,
-    so the user can pick one from the frontend.
+    Recursively lists every log file under the given folder,
+    newest creation time first.
     '''
-    if not logs_root.exists():
+    if not logs_root.exists() or not logs_root.is_dir():
         return []
 
-    return sorted(
+    files = [
         path for path in logs_root.rglob('*')
         if path.is_file() and path.suffix.lower() in LOG_FILE_EXTENSIONS
-    )
+    ]
+    return sorted(files, key=_creation_time, reverse=True)
 
 
 def thread_label(mode: str, text: str | None, thread_id: str) -> str:
