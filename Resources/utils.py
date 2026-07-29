@@ -2,6 +2,14 @@ import json
 from Models.log_agent import IssueReport, IssuesReported
 from langchain_core.messages import AIMessage
 
+
+def trace(step: str, **details: object) -> None:
+    '''Print a consistent trace line for model/tool tracking (Streamlit terminal).'''
+    parts = [f'[LogAgent] {step}']
+    for key, value in details.items():
+        parts.append(f'{key}={value}')
+    print(' | '.join(parts), flush=True)
+
 def _parse_tool_logs(content) -> list[dict]:
     if isinstance(content, list):
         return [entry for entry in content if isinstance(entry, dict)]
@@ -13,6 +21,23 @@ def _parse_tool_logs(content) -> list[dict]:
         if isinstance(parsed, list):
             return [entry for entry in parsed if isinstance(entry, dict)]
     return []
+
+
+def message_text(content) -> str:
+    '''Normalize Bedrock/LangChain message content (str or content blocks) to text.'''
+    if content is None:
+        return ''
+    if isinstance(content, str):
+        return content
+    if isinstance(content, list):
+        parts: list[str] = []
+        for block in content:
+            if isinstance(block, str):
+                parts.append(block)
+            elif isinstance(block, dict) and block.get('type') == 'text':
+                parts.append(block.get('text') or '')
+        return ''.join(parts)
+    return str(content)
 
 
 def _format_issue_item(issue_item: IssueReport) -> str:

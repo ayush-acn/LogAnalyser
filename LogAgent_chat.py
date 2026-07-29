@@ -1,12 +1,10 @@
-import json
 from typing import List
 
 from langchain_core.messages import HumanMessage, SystemMessage, AIMessage, AnyMessage
-from langchain_core.prompts import ChatPromptTemplate
-
 
 from langgraph.checkpoint.memory import MemorySaver
 from Resources.graph import build_graph
+from Resources.utils import message_text, trace
 from Prompts.SystemPrompts import LogsAnalyzerSystemPrompt, UserLogQuerySystemPrompt
 from dotenv import load_dotenv
 load_dotenv()
@@ -32,53 +30,65 @@ def stream_messages(messages: List[AnyMessage], thread_id: str, log_file_path: s
     '''
 
     default_query = 'Please analyse the latest logs from the file.'
-    
+
+    # With a checkpointer, only send *new* messages each turn. Re-sending the
+    # full frontend history would duplicate everything already stored in state.
+    new_messages: List[AnyMessage] = []
     if len(messages) == 0:
-        messages.append(SystemMessage(content = new_chat(log_file_path, user_query)))
+        system_message = SystemMessage(content=new_chat(log_file_path, user_query))
+        messages.append(system_message)
+        new_messages.append(system_message)
 
-    messages.append(HumanMessage(content = user_query if user_query else default_query))
+    human_message = HumanMessage(content=user_query if user_query else default_query)
+    messages.append(human_message)
+    new_messages.append(human_message)
+
     config = {'configurable': {'thread_id': thread_id}}
-    
-    AIresp = ''
+
+    trace(
+        'TURN start',
+        thread=thread_id,
+        query=(user_query or default_query)[:80],
+        new_messages=len(new_messages),
+    )
+
+    # Orch may stream text before tool_calls appear on later chunks. Buffer orch
+    # text and only emit it when the turn never produced a resp answer.
+    orch_parts: list[str] = []
+    resp_emitted = False
+
     for chunk, metadata in graph.stream(
-        {'messages': messages},
-        config = config,
-        stream_mode = 'messages'
+        {'messages': new_messages},
+        config=config,
+        stream_mode='messages',
     ):
-       if (
-            metadata.get('langgraph_node') == 'resp'
-            and isinstance(chunk, AIMessage)
-            and isinstance(chunk.content, str)
-            and chunk.content
-        ):
-            AIresp += chunk.content
-            yield chunk.content
-    
+        if not isinstance(chunk, AIMessage):
+            continue
 
+        node = metadata.get('langgraph_node')
+        if node not in ('resp', 'orch'):
+            continue
 
+        if getattr(chunk, 'tool_calls', None):
+            orch_parts.clear()
+            continue
 
+        text = message_text(chunk.content)
+        if not text:
+            continue
 
+        if node == 'resp':
+            resp_emitted = True
+            yield text
+        else:
+            orch_parts.append(text)
 
+    if not resp_emitted:
+        for text in orch_parts:
+            yield text
 
-# if __name__ == '__main__':
-#     # user_message = f"Can you analyse the logs from 6:30 to 8:00 on 2024-07-15? Logfilepath : {log_file_path}"
-#     resp = ''
-#     for chunk in stream_messages(user_message):
-#         resp+=str(chunk)
-#         print(chunk, end = '')
-
-#     # print(resp)
-
-
-# response = graph.invoke({
-#     'messages': [
-#         SystemMessage(content = f"The log file path is {log_file_path}"),
-#         HumanMessage(content = "Can you analyse the logs from 6:30 to 8:00 on 2024-07-15?")
-#     ]
-# }, config = {'configurable': {'thread_id': thread_id}})
-
-# # 
-# from pprint import pprint
-# print(response)
-# with open(f'Results/chatflow_{thread_id}.json', 'w') as f:
-#     f.write(json.dumps(response['issues'].model_dump(), indent = 2))
+    trace(
+        'TURN end',
+        thread=thread_id,
+        source='resp' if resp_emitted else 'orch',
+    )
