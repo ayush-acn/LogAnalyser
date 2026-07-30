@@ -1,0 +1,23 @@
+2026/07/16-13:43:38.841 UTC - INFO - - - - - Active Workspace DARSI version: 7.3.3
+2026/07/16-13:43:38.937 UTC - INFO - Waiting for vault to be ready; timeout is 3 minute(s)...
+Warning: Ignoring extra certs from `@CHANGE_ME_NODE_EXTRA_CA_CERTS@`, load failed: error:80000002:system library::No such file or directory
+2026/07/16-13:43:39.060 UTC - INFO - Vault is ready.
+2026/07/16-13:43:39.148 UTC - INFO - - - - - Public key successfully read from vault
+2026/07/16-13:44:01.255 UTC - INFO - - - - - adding /build/reset route
+2026/07/16-13:44:01.255 UTC - INFO - - - - - adding /build/start route
+2026/07/16-13:44:01.256 UTC - INFO - - - - - adding /build/status route
+2026/07/16-13:44:01.256 UTC - INFO - - - - - adding /build/log route
+2026/07/16-13:44:01.257 UTC - INFO - - - - - adding /build/lmd route
+2026/07/16-13:44:01.258 UTC - INFO - - - - - polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/16-13:44:01.258 UTC - INFO - - - - - /build routes complete
+2026/07/16-13:44:06.837 UTC - INFO - - - - - Using file server http://TC-DEV-TC:9090/filerepo
+2026/07/16-13:44:06.837 UTC - INFO - - - - - Listening on port 52236
+2026/07/16-13:44:06.839 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/16-13:44:06.842 UTC - INFO - - - - - Registering with Eureka http://TC-DEV-TC:8787/eureka/v2/apps
+2026/07/16-13:44:06.850 UTC - INFO - - - - - Eureka Client Registration - Registered with Eureka /eureka/v2/apps/afx-darsi/10.30.1.250:52236
+2026/07/16-13:44:06.853 UTC - INFO - - - - - FileRepo service started successfully
+2026/07/16-13:44:06.856 UTC - INFO - - - - - Generating JWT for - READONLY
+2026/07/16-13:44:06.883 UTC - INFO - - - - - Generating JWT for - READONLY
+2026/07/16-13:44:06.897 UTC - INFO - - - - - Downloading darsi_files.zip from fileRepo artifactory to D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_files.zip
+2026/07/16-13:44:06.914 UTC - WARN - - - - - 1: Error downloading file http://TC-DEV-TC:9090/filerepo/fileio/v1/file/darsi/darsi_files.zip : 404
+2026/07/16-13:44:06.915 UTC - ERROR - - - - - Unable to download darsi_files.zip from fileRepo artifactory

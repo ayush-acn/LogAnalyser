@@ -1,0 +1,280 @@
+2026/07/23-07:12:46.460 UTC - INFO  - - 0E254638D - - - Starting Service...
+2026/07/23-07:12:46.478 UTC - INFO  - - 0E254638D - - - In 4tier mode. Url is http://tc-dev-tc:7001/tc
+2026/07/23-07:12:46.487 UTC - WARN  - - 0E254638D - - - TC_USE_KEYMANAGER environment variable is configured to not use KeyManager.
+2026/07/23-07:12:58.363 UTC - WARN  - - 0E254638D - - - Connection to Tc failed. (Attempt 1 of 5.)
+2026/07/23-07:12:58.364 UTC - INFO  - - 0E254638D - - - Sleeping for 5 seconds
+2026/07/23-07:13:04.929 UTC - WARN  - - 0E254638D - - - Connection to Tc failed. (Attempt 2 of 5.)
+2026/07/23-07:13:04.929 UTC - INFO  - - 0E254638D - - - Sleeping for 5 seconds
+2026/07/23-07:13:11.474 UTC - WARN  - - 0E254638D - - - Connection to Tc failed. (Attempt 3 of 5.)
+2026/07/23-07:13:11.476 UTC - INFO  - - 0E254638D - - - Sleeping for 5 seconds
+2026/07/23-07:13:18.081 UTC - WARN  - - 0E254638D - - - Connection to Tc failed. (Attempt 4 of 5.)
+2026/07/23-07:13:18.081 UTC - INFO  - - 0E254638D - - - Sleeping for 5 seconds
+2026/07/23-07:13:24.816 UTC - WARN  - - 0E254638D - - - Connection to Tc failed. (Attempt 5 of 5.)
+2026/07/23-07:13:24.817 UTC - ERROR - - 0E254638D - - - Login Error: com.teamcenter.schemas.soa._2006_03.exceptions.InternalServerException: Failed to get a server assignment. None of the Server Managers are on-line. If this problem persists, please contact the system administrator.
+2026/07/23-07:13:24.818 UTC - ERROR - - 0E254638D - - - Login failed (dcproxy, http://tc-dev-tc:7001/tc)
+2026/07/23-07:13:24.818 UTC - INFO  - - 0E254638D - - - Stopping Service...
+2026/07/23-07:13:24.823 UTC - ERROR - - 0E254638D - - - Exception. java.lang.Exception: java.lang.Exception: Max retry reached. Connection to http://tc-dev-tc:7001/tc failed.
+	at com.teamcenter.ets.extract.Extractor.<init>(Extractor.java:271)
+	at com.teamcenter.ets.ServiceMode.startService(ServiceMode.java:67)
+	at com.teamcenter.ets.ServiceMode.main(ServiceMode.java:256)
+Caused by: java.lang.Exception: Max retry reached. Connection to http://tc-dev-tc:7001/tc failed.
+	at com.teamcenter.ets.soa.ConnectionManager4Tier.connect(ConnectionManager4Tier.java:237)
+	at com.teamcenter.ets.soa.ConnectionManager.connect(ConnectionManager.java:79)
+	at com.teamcenter.ets.SessionManager.login(SessionManager.java:88)
+	at com.teamcenter.ets.extract.Extractor.<init>(Extractor.java:137)
+	... 2 more
+
+2026/07/23-07:56:21.120 UTC - INFO  - - 09FA675FE - - - Starting Service...
+2026/07/23-07:56:21.167 UTC - INFO  - - 09FA675FE - - - In 4tier mode. Url is http://tc-dev-tc:7001/tc
+2026/07/23-07:56:21.177 UTC - WARN  - - 09FA675FE - - - TC_USE_KEYMANAGER environment variable is configured to not use KeyManager.
+2026/07/23-07:56:39.603 UTC - INFO  - - 09FA675FE - - - Syslog tcserver.exe2954cb83.syslog
+2026/07/23-07:56:39.727 UTC - INFO  - - 09FA675FE - - - Login to TC Server completed.
+2026/07/23-07:56:39.936 UTC - INFO  - - 09FA675FE - - - 
+2026/07/23-07:56:39.936 UTC - INFO  - - 09FA675FE - - - Connected to Scheduler on Url rmi://TC-DEV-TC:2001
+2026/07/23-07:56:40.582 UTC - INFO  - - 09FA675FE - - - Scheduling request state management task. Interval in minutes: 30
+2026/07/23-07:56:40.585 UTC - INFO  - - 09FA675FE - - - Start processing requests in database.
+2026/07/23-15:30:53.894 UTC - WARN  - - 09FA675FE - HandleInternalServerException - 00380AFE4R544 - The server returned a connection error.
+A connection to the server was refused (http://tc-dev-tc:7001/tc). 
+Ensure that server is active on this host (tc-dev-tc) and port (7001), or this is the proper URL.
+2026/07/23-15:30:53.896 UTC - ERROR - - 09FA675FE - - - Get next Request exception. java.lang.RuntimeException: com.teamcenter.schemas.soa._2006_03.exceptions.ConnectionException: A connection to the server was refused (http://tc-dev-tc:7001/tc). 
+Ensure that server is active on this host (tc-dev-tc) and port (7001), or this is the proper URL.
+	at com.teamcenter.ets.soa.SOAExceptionHandler.handleException(SOAExceptionHandler.java:94)
+	at com.teamcenter.soa.internal.client.XmlRestSender.invokeImpl(Unknown Source)
+	at com.teamcenter.soa.internal.client.XmlRestSender.invoke3(Unknown Source)
+	at com.teamcenter.services.internal.strong.core.DispatcherManagementRestBindingStub.queryDispatcherRequests(Unknown Source)
+	at com.teamcenter.ets.soa.TeamcenterServerProxy.queryRequests(TeamcenterServerProxy.java:412)
+	at com.teamcenter.ets.request.TranslationRequest.getFilteredRequest(TranslationRequest.java:375)
+	at com.teamcenter.ets.extract.Extractor.getNext(Extractor.java:768)
+	at com.teamcenter.ets.extract.Extractor.start(Extractor.java:309)
+	at com.teamcenter.ets.extract.Extractor.<init>(Extractor.java:265)
+	at com.teamcenter.ets.ServiceMode.startService(ServiceMode.java:67)
+	at com.teamcenter.ets.ServiceMode.main(ServiceMode.java:256)
+Caused by: com.teamcenter.schemas.soa._2006_03.exceptions.ConnectionException: A connection to the server was refused (http://tc-dev-tc:7001/tc). 
+Ensure that server is active on this host (tc-dev-tc) and port (7001), or this is the proper URL.
+	at com.teamcenter.soa.internal.client.HttpTransport.executeRequest(Unknown Source)
+	... 10 more
+
+2026/07/24-04:27:47.785 UTC - INFO  - - 059256FCC - - - Starting Service...
+2026/07/24-04:27:47.816 UTC - INFO  - - 059256FCC - - - In 4tier mode. Url is http://tc-dev-tc:7001/tc
+2026/07/24-04:27:47.826 UTC - WARN  - - 059256FCC - - - TC_USE_KEYMANAGER environment variable is configured to not use KeyManager.
+2026/07/24-04:28:53.596 UTC - WARN  - - 059256FCC - - - Connection to Tc failed. (Attempt 1 of 5.)
+2026/07/24-04:28:53.597 UTC - INFO  - - 059256FCC - - - Sleeping for 5 seconds
+2026/07/24-04:28:58.703 UTC - WARN  - - 059256FCC - - - Connection to Tc failed. (Attempt 2 of 5.)
+2026/07/24-04:28:58.703 UTC - INFO  - - 059256FCC - - - Sleeping for 5 seconds
+2026/07/24-04:29:09.934 UTC - WARN  - - 059256FCC - - - Connection to Tc failed. (Attempt 3 of 5.)
+2026/07/24-04:29:09.936 UTC - INFO  - - 059256FCC - - - Sleeping for 5 seconds
+2026/07/24-04:29:14.976 UTC - WARN  - - 059256FCC - - - Connection to Tc failed. (Attempt 4 of 5.)
+2026/07/24-04:29:14.977 UTC - INFO  - - 059256FCC - - - Sleeping for 5 seconds
+2026/07/24-04:29:20.013 UTC - WARN  - - 059256FCC - - - Connection to Tc failed. (Attempt 5 of 5.)
+2026/07/24-04:29:20.015 UTC - ERROR - - 059256FCC - - - Login Error: com.teamcenter.schemas.soa._2006_03.exceptions.InternalServerException: Failed to get a server assignment. There was unexpected error on the Web Tier and/or the Server Manager. Please contact the system administrator.
+2026/07/24-04:29:20.018 UTC - ERROR - - 059256FCC - - - Login failed (dcproxy, http://tc-dev-tc:7001/tc)
+2026/07/24-04:29:20.019 UTC - INFO  - - 059256FCC - - - Stopping Service...
+2026/07/24-04:29:20.023 UTC - ERROR - - 059256FCC - - - Exception. java.lang.Exception: java.lang.Exception: Max retry reached. Connection to http://tc-dev-tc:7001/tc failed.
+	at com.teamcenter.ets.extract.Extractor.<init>(Extractor.java:271)
+	at com.teamcenter.ets.ServiceMode.startService(ServiceMode.java:67)
+	at com.teamcenter.ets.ServiceMode.main(ServiceMode.java:256)
+Caused by: java.lang.Exception: Max retry reached. Connection to http://tc-dev-tc:7001/tc failed.
+	at com.teamcenter.ets.soa.ConnectionManager4Tier.connect(ConnectionManager4Tier.java:237)
+	at com.teamcenter.ets.soa.ConnectionManager.connect(ConnectionManager.java:79)
+	at com.teamcenter.ets.SessionManager.login(SessionManager.java:88)
+	at com.teamcenter.ets.extract.Extractor.<init>(Extractor.java:137)
+	... 2 more
+
+2026/07/27-09:49:44.933 UTC - INFO  - - 0827E3DE9 - - - Starting Service...
+2026/07/27-09:49:44.954 UTC - INFO  - - 0827E3DE9 - - - In 4tier mode. Url is http://tc-dev-tc:7001/tc
+2026/07/27-09:49:44.980 UTC - WARN  - - 0827E3DE9 - - - TC_USE_KEYMANAGER environment variable is configured to not use KeyManager.
+2026/07/27-09:50:57.070 UTC - WARN  - - 0827E3DE9 - - - Connection to Tc failed. (Attempt 1 of 5.)
+2026/07/27-09:50:57.071 UTC - INFO  - - 0827E3DE9 - - - Sleeping for 5 seconds
+2026/07/27-09:51:02.146 UTC - WARN  - - 0827E3DE9 - - - Connection to Tc failed. (Attempt 2 of 5.)
+2026/07/27-09:51:02.147 UTC - INFO  - - 0827E3DE9 - - - Sleeping for 5 seconds
+2026/07/27-09:51:07.209 UTC - WARN  - - 0827E3DE9 - - - Connection to Tc failed. (Attempt 3 of 5.)
+2026/07/27-09:51:07.211 UTC - INFO  - - 0827E3DE9 - - - Sleeping for 5 seconds
+2026/07/27-09:51:12.235 UTC - WARN  - - 0827E3DE9 - - - Connection to Tc failed. (Attempt 4 of 5.)
+2026/07/27-09:51:12.235 UTC - INFO  - - 0827E3DE9 - - - Sleeping for 5 seconds
+2026/07/27-09:51:17.375 UTC - WARN  - - 0827E3DE9 - - - Connection to Tc failed. (Attempt 5 of 5.)
+2026/07/27-09:51:17.376 UTC - ERROR - - 0827E3DE9 - - - Login Error: com.teamcenter.schemas.soa._2006_03.exceptions.InternalServerException: Failed to get a server assignment. There was unexpected error on the Web Tier and/or the Server Manager. Please contact the system administrator.
+2026/07/27-09:51:17.380 UTC - ERROR - - 0827E3DE9 - - - Login failed (dcproxy, http://tc-dev-tc:7001/tc)
+2026/07/27-09:51:17.380 UTC - INFO  - - 0827E3DE9 - - - Stopping Service...
+2026/07/27-09:51:17.387 UTC - ERROR - - 0827E3DE9 - - - Exception. java.lang.Exception: java.lang.Exception: Max retry reached. Connection to http://tc-dev-tc:7001/tc failed.
+	at com.teamcenter.ets.extract.Extractor.<init>(Extractor.java:271)
+	at com.teamcenter.ets.ServiceMode.startService(ServiceMode.java:67)
+	at com.teamcenter.ets.ServiceMode.main(ServiceMode.java:256)
+Caused by: java.lang.Exception: Max retry reached. Connection to http://tc-dev-tc:7001/tc failed.
+	at com.teamcenter.ets.soa.ConnectionManager4Tier.connect(ConnectionManager4Tier.java:237)
+	at com.teamcenter.ets.soa.ConnectionManager.connect(ConnectionManager.java:79)
+	at com.teamcenter.ets.SessionManager.login(SessionManager.java:88)
+	at com.teamcenter.ets.extract.Extractor.<init>(Extractor.java:137)
+	... 2 more
+
+2026/07/27-11:45:50.128 UTC - INFO  - - 00FE2127D - - - Starting Service...
+2026/07/27-11:45:50.142 UTC - INFO  - - 00FE2127D - - - In 4tier mode. Url is http://tc-dev-tc:7001/tc
+2026/07/27-11:45:50.157 UTC - WARN  - - 00FE2127D - - - TC_USE_KEYMANAGER environment variable is configured to not use KeyManager.
+2026/07/27-11:45:53.280 UTC - WARN  - - 00FE2127D - - - Connection to Tc failed. (Attempt 1 of 5.)
+2026/07/27-11:45:53.281 UTC - INFO  - - 00FE2127D - - - Sleeping for 5 seconds
+2026/07/27-11:45:58.318 UTC - WARN  - - 00FE2127D - - - Connection to Tc failed. (Attempt 2 of 5.)
+2026/07/27-11:45:58.319 UTC - INFO  - - 00FE2127D - - - Sleeping for 5 seconds
+2026/07/27-11:46:03.376 UTC - WARN  - - 00FE2127D - - - Connection to Tc failed. (Attempt 3 of 5.)
+2026/07/27-11:46:03.378 UTC - INFO  - - 00FE2127D - - - Sleeping for 5 seconds
+2026/07/27-11:46:14.959 UTC - INFO  - - 00FE2127D - - - Syslog tcserver.exe27009aea.syslog
+2026/07/27-11:46:15.143 UTC - INFO  - - 00FE2127D - - - Login to TC Server completed.
+2026/07/27-11:46:15.146 UTC - INFO  - - 00FE2127D - - - Adding Filter: Service.TranslatorFilter.
+2026/07/27-11:46:15.312 UTC - INFO  - - 00FE2127D - - - 
+2026/07/27-11:46:15.313 UTC - INFO  - - 00FE2127D - - - Connected to Scheduler on Url rmi://TC-DEV-TC:2001
+2026/07/27-11:46:15.861 UTC - INFO  - - 00FE2127D - - - Scheduling request state management task. Interval in minutes: 30
+2026/07/27-11:46:15.862 UTC - INFO  - - 00FE2127D - - - Start processing requests in database.
+2026/07/28-04:52:59.306 UTC - INFO  - - 0D527BEBD - - - Starting Service...
+2026/07/28-04:52:59.353 UTC - INFO  - - 0D527BEBD - - - In 4tier mode. Url is http://tc-dev-tc:7001/tc
+2026/07/28-04:52:59.369 UTC - WARN  - - 0D527BEBD - - - TC_USE_KEYMANAGER environment variable is configured to not use KeyManager.
+2026/07/28-04:54:21.225 UTC - WARN  - - 0D527BEBD - - - Connection to Tc failed. (Attempt 1 of 5.)
+2026/07/28-04:54:21.226 UTC - INFO  - - 0D527BEBD - - - Sleeping for 5 seconds
+2026/07/28-04:54:26.264 UTC - WARN  - - 0D527BEBD - - - Connection to Tc failed. (Attempt 2 of 5.)
+2026/07/28-04:54:26.265 UTC - INFO  - - 0D527BEBD - - - Sleeping for 5 seconds
+2026/07/28-04:54:31.341 UTC - WARN  - - 0D527BEBD - - - Connection to Tc failed. (Attempt 3 of 5.)
+2026/07/28-04:54:31.342 UTC - INFO  - - 0D527BEBD - - - Sleeping for 5 seconds
+2026/07/28-04:54:36.367 UTC - WARN  - - 0D527BEBD - - - Connection to Tc failed. (Attempt 4 of 5.)
+2026/07/28-04:54:36.367 UTC - INFO  - - 0D527BEBD - - - Sleeping for 5 seconds
+2026/07/28-04:54:41.388 UTC - WARN  - - 0D527BEBD - - - Connection to Tc failed. (Attempt 5 of 5.)
+2026/07/28-04:54:41.388 UTC - ERROR - - 0D527BEBD - - - Login Error: com.teamcenter.schemas.soa._2006_03.exceptions.InternalServerException: Failed to get a server assignment. There was unexpected error on the Web Tier and/or the Server Manager. Please contact the system administrator.
+2026/07/28-04:54:41.390 UTC - ERROR - - 0D527BEBD - - - Login failed (dcproxy, http://tc-dev-tc:7001/tc)
+2026/07/28-04:54:41.390 UTC - INFO  - - 0D527BEBD - - - Stopping Service...
+2026/07/28-04:54:41.394 UTC - ERROR - - 0D527BEBD - - - Exception. java.lang.Exception: java.lang.Exception: Max retry reached. Connection to http://tc-dev-tc:7001/tc failed.
+	at com.teamcenter.ets.extract.Extractor.<init>(Extractor.java:271)
+	at com.teamcenter.ets.ServiceMode.startService(ServiceMode.java:67)
+	at com.teamcenter.ets.ServiceMode.main(ServiceMode.java:256)
+Caused by: java.lang.Exception: Max retry reached. Connection to http://tc-dev-tc:7001/tc failed.
+	at com.teamcenter.ets.soa.ConnectionManager4Tier.connect(ConnectionManager4Tier.java:237)
+	at com.teamcenter.ets.soa.ConnectionManager.connect(ConnectionManager.java:79)
+	at com.teamcenter.ets.SessionManager.login(SessionManager.java:88)
+	at com.teamcenter.ets.extract.Extractor.<init>(Extractor.java:137)
+	... 2 more
+
+2026/07/28-15:36:07.685 UTC - INFO  - - 02DA67C92 - - - Starting Service...
+2026/07/28-15:36:08.009 UTC - INFO  - - 02DA67C92 - - - In 4tier mode. Url is http://tc-dev-tc:7001/tc
+2026/07/28-15:36:08.076 UTC - WARN  - - 02DA67C92 - - - TC_USE_KEYMANAGER environment variable is configured to not use KeyManager.
+2026/07/28-15:37:14.068 UTC - WARN  - - 02DA67C92 - - - Connection to Tc failed. (Attempt 1 of 5.)
+2026/07/28-15:37:14.069 UTC - INFO  - - 02DA67C92 - - - Sleeping for 5 seconds
+2026/07/28-15:37:19.110 UTC - WARN  - - 02DA67C92 - - - Connection to Tc failed. (Attempt 2 of 5.)
+2026/07/28-15:37:19.111 UTC - INFO  - - 02DA67C92 - - - Sleeping for 5 seconds
+2026/07/28-15:37:24.166 UTC - WARN  - - 02DA67C92 - - - Connection to Tc failed. (Attempt 3 of 5.)
+2026/07/28-15:37:24.168 UTC - INFO  - - 02DA67C92 - - - Sleeping for 5 seconds
+2026/07/28-15:37:29.196 UTC - WARN  - - 02DA67C92 - - - Connection to Tc failed. (Attempt 4 of 5.)
+2026/07/28-15:37:29.196 UTC - INFO  - - 02DA67C92 - - - Sleeping for 5 seconds
+2026/07/28-15:37:34.247 UTC - WARN  - - 02DA67C92 - - - Connection to Tc failed. (Attempt 5 of 5.)
+2026/07/28-15:37:34.247 UTC - ERROR - - 02DA67C92 - - - Login Error: com.teamcenter.schemas.soa._2006_03.exceptions.InternalServerException: Failed to get a server assignment. There was unexpected error on the Web Tier and/or the Server Manager. Please contact the system administrator.
+2026/07/28-15:37:34.248 UTC - ERROR - - 02DA67C92 - - - Login failed (dcproxy, http://tc-dev-tc:7001/tc)
+2026/07/28-15:37:34.249 UTC - INFO  - - 02DA67C92 - - - Stopping Service...
+2026/07/28-15:37:34.254 UTC - ERROR - - 02DA67C92 - - - Exception. java.lang.Exception: java.lang.Exception: Max retry reached. Connection to http://tc-dev-tc:7001/tc failed.
+	at com.teamcenter.ets.extract.Extractor.<init>(Extractor.java:271)
+	at com.teamcenter.ets.ServiceMode.startService(ServiceMode.java:67)
+	at com.teamcenter.ets.ServiceMode.main(ServiceMode.java:256)
+Caused by: java.lang.Exception: Max retry reached. Connection to http://tc-dev-tc:7001/tc failed.
+	at com.teamcenter.ets.soa.ConnectionManager4Tier.connect(ConnectionManager4Tier.java:237)
+	at com.teamcenter.ets.soa.ConnectionManager.connect(ConnectionManager.java:79)
+	at com.teamcenter.ets.SessionManager.login(SessionManager.java:88)
+	at com.teamcenter.ets.extract.Extractor.<init>(Extractor.java:137)
+	... 2 more
+
+2026/07/29-04:22:51.355 UTC - INFO  - - 0BE7AB1A6 - - - Starting Service...
+2026/07/29-04:22:51.384 UTC - INFO  - - 0BE7AB1A6 - - - In 4tier mode. Url is http://tc-dev-tc:7001/tc
+2026/07/29-04:22:51.399 UTC - WARN  - - 0BE7AB1A6 - - - TC_USE_KEYMANAGER environment variable is configured to not use KeyManager.
+2026/07/29-04:24:00.103 UTC - WARN  - - 0BE7AB1A6 - - - Connection to Tc failed. (Attempt 1 of 5.)
+2026/07/29-04:24:00.104 UTC - INFO  - - 0BE7AB1A6 - - - Sleeping for 5 seconds
+2026/07/29-04:24:05.181 UTC - WARN  - - 0BE7AB1A6 - - - Connection to Tc failed. (Attempt 2 of 5.)
+2026/07/29-04:24:05.182 UTC - INFO  - - 0BE7AB1A6 - - - Sleeping for 5 seconds
+2026/07/29-04:24:10.331 UTC - WARN  - - 0BE7AB1A6 - - - Connection to Tc failed. (Attempt 3 of 5.)
+2026/07/29-04:24:10.334 UTC - INFO  - - 0BE7AB1A6 - - - Sleeping for 5 seconds
+2026/07/29-04:24:15.444 UTC - WARN  - - 0BE7AB1A6 - - - Connection to Tc failed. (Attempt 4 of 5.)
+2026/07/29-04:24:15.445 UTC - INFO  - - 0BE7AB1A6 - - - Sleeping for 5 seconds
+2026/07/29-04:24:20.475 UTC - WARN  - - 0BE7AB1A6 - - - Connection to Tc failed. (Attempt 5 of 5.)
+2026/07/29-04:24:20.476 UTC - ERROR - - 0BE7AB1A6 - - - Login Error: com.teamcenter.schemas.soa._2006_03.exceptions.InternalServerException: Failed to get a server assignment. There was unexpected error on the Web Tier and/or the Server Manager. Please contact the system administrator.
+2026/07/29-04:24:20.477 UTC - ERROR - - 0BE7AB1A6 - - - Login failed (dcproxy, http://tc-dev-tc:7001/tc)
+2026/07/29-04:24:20.477 UTC - INFO  - - 0BE7AB1A6 - - - Stopping Service...
+2026/07/29-04:24:20.481 UTC - ERROR - - 0BE7AB1A6 - - - Exception. java.lang.Exception: java.lang.Exception: Max retry reached. Connection to http://tc-dev-tc:7001/tc failed.
+	at com.teamcenter.ets.extract.Extractor.<init>(Extractor.java:271)
+	at com.teamcenter.ets.ServiceMode.startService(ServiceMode.java:67)
+	at com.teamcenter.ets.ServiceMode.main(ServiceMode.java:256)
+Caused by: java.lang.Exception: Max retry reached. Connection to http://tc-dev-tc:7001/tc failed.
+	at com.teamcenter.ets.soa.ConnectionManager4Tier.connect(ConnectionManager4Tier.java:237)
+	at com.teamcenter.ets.soa.ConnectionManager.connect(ConnectionManager.java:79)
+	at com.teamcenter.ets.SessionManager.login(SessionManager.java:88)
+	at com.teamcenter.ets.extract.Extractor.<init>(Extractor.java:137)
+	... 2 more
+
+2026/07/29-04:43:17.914 UTC - INFO  - - 07388BE66 - - - Starting Service...
+2026/07/29-04:43:17.933 UTC - INFO  - - 07388BE66 - - - In 4tier mode. Url is http://tc-dev-tc:7001/tc
+2026/07/29-04:43:17.953 UTC - WARN  - - 07388BE66 - - - TC_USE_KEYMANAGER environment variable is configured to not use KeyManager.
+2026/07/29-04:44:22.182 UTC - WARN  - - 07388BE66 - - - Connection to Tc failed. (Attempt 1 of 5.)
+2026/07/29-04:44:22.183 UTC - INFO  - - 07388BE66 - - - Sleeping for 5 seconds
+2026/07/29-04:44:27.226 UTC - WARN  - - 07388BE66 - - - Connection to Tc failed. (Attempt 2 of 5.)
+2026/07/29-04:44:27.227 UTC - INFO  - - 07388BE66 - - - Sleeping for 5 seconds
+2026/07/29-04:44:39.535 UTC - WARN  - - 07388BE66 - - - Connection to Tc failed. (Attempt 3 of 5.)
+2026/07/29-04:44:39.540 UTC - INFO  - - 07388BE66 - - - Sleeping for 5 seconds
+2026/07/29-04:44:44.589 UTC - WARN  - - 07388BE66 - - - Connection to Tc failed. (Attempt 4 of 5.)
+2026/07/29-04:44:44.590 UTC - INFO  - - 07388BE66 - - - Sleeping for 5 seconds
+2026/07/29-04:44:49.614 UTC - WARN  - - 07388BE66 - - - Connection to Tc failed. (Attempt 5 of 5.)
+2026/07/29-04:44:49.614 UTC - ERROR - - 07388BE66 - - - Login Error: com.teamcenter.schemas.soa._2006_03.exceptions.InternalServerException: Failed to get a server assignment. There was unexpected error on the Web Tier and/or the Server Manager. Please contact the system administrator.
+2026/07/29-04:44:49.615 UTC - ERROR - - 07388BE66 - - - Login failed (dcproxy, http://tc-dev-tc:7001/tc)
+2026/07/29-04:44:49.616 UTC - INFO  - - 07388BE66 - - - Stopping Service...
+2026/07/29-04:44:49.620 UTC - ERROR - - 07388BE66 - - - Exception. java.lang.Exception: java.lang.Exception: Max retry reached. Connection to http://tc-dev-tc:7001/tc failed.
+	at com.teamcenter.ets.extract.Extractor.<init>(Extractor.java:271)
+	at com.teamcenter.ets.ServiceMode.startService(ServiceMode.java:67)
+	at com.teamcenter.ets.ServiceMode.main(ServiceMode.java:256)
+Caused by: java.lang.Exception: Max retry reached. Connection to http://tc-dev-tc:7001/tc failed.
+	at com.teamcenter.ets.soa.ConnectionManager4Tier.connect(ConnectionManager4Tier.java:237)
+	at com.teamcenter.ets.soa.ConnectionManager.connect(ConnectionManager.java:79)
+	at com.teamcenter.ets.SessionManager.login(SessionManager.java:88)
+	at com.teamcenter.ets.extract.Extractor.<init>(Extractor.java:137)
+	... 2 more
+
+2026/07/29-16:06:11.172 UTC - INFO  - - 0FF3DB87C - - - Starting Service...
+2026/07/29-16:06:11.276 UTC - INFO  - - 0FF3DB87C - - - In 4tier mode. Url is http://tc-dev-tc:7001/tc
+2026/07/29-16:06:11.306 UTC - WARN  - - 0FF3DB87C - - - TC_USE_KEYMANAGER environment variable is configured to not use KeyManager.
+2026/07/29-16:07:17.147 UTC - WARN  - - 0FF3DB87C - - - Connection to Tc failed. (Attempt 1 of 5.)
+2026/07/29-16:07:17.148 UTC - INFO  - - 0FF3DB87C - - - Sleeping for 5 seconds
+2026/07/29-16:07:22.208 UTC - WARN  - - 0FF3DB87C - - - Connection to Tc failed. (Attempt 2 of 5.)
+2026/07/29-16:07:22.209 UTC - INFO  - - 0FF3DB87C - - - Sleeping for 5 seconds
+2026/07/29-16:07:27.237 UTC - WARN  - - 0FF3DB87C - - - Connection to Tc failed. (Attempt 3 of 5.)
+2026/07/29-16:07:27.239 UTC - INFO  - - 0FF3DB87C - - - Sleeping for 5 seconds
+2026/07/29-16:07:32.264 UTC - WARN  - - 0FF3DB87C - - - Connection to Tc failed. (Attempt 4 of 5.)
+2026/07/29-16:07:32.265 UTC - INFO  - - 0FF3DB87C - - - Sleeping for 5 seconds
+2026/07/29-16:07:37.324 UTC - WARN  - - 0FF3DB87C - - - Connection to Tc failed. (Attempt 5 of 5.)
+2026/07/29-16:07:37.325 UTC - ERROR - - 0FF3DB87C - - - Login Error: com.teamcenter.schemas.soa._2006_03.exceptions.InternalServerException: Failed to get a server assignment. There was unexpected error on the Web Tier and/or the Server Manager. Please contact the system administrator.
+2026/07/29-16:07:37.326 UTC - ERROR - - 0FF3DB87C - - - Login failed (dcproxy, http://tc-dev-tc:7001/tc)
+2026/07/29-16:07:37.326 UTC - INFO  - - 0FF3DB87C - - - Stopping Service...
+2026/07/29-16:07:37.330 UTC - ERROR - - 0FF3DB87C - - - Exception. java.lang.Exception: java.lang.Exception: Max retry reached. Connection to http://tc-dev-tc:7001/tc failed.
+	at com.teamcenter.ets.extract.Extractor.<init>(Extractor.java:271)
+	at com.teamcenter.ets.ServiceMode.startService(ServiceMode.java:67)
+	at com.teamcenter.ets.ServiceMode.main(ServiceMode.java:256)
+Caused by: java.lang.Exception: Max retry reached. Connection to http://tc-dev-tc:7001/tc failed.
+	at com.teamcenter.ets.soa.ConnectionManager4Tier.connect(ConnectionManager4Tier.java:237)
+	at com.teamcenter.ets.soa.ConnectionManager.connect(ConnectionManager.java:79)
+	at com.teamcenter.ets.SessionManager.login(SessionManager.java:88)
+	at com.teamcenter.ets.extract.Extractor.<init>(Extractor.java:137)
+	... 2 more
+
+2026/07/30-05:36:59.666 UTC - INFO  - - 0E569FBA5 - - - Starting Service...
+2026/07/30-05:36:59.715 UTC - INFO  - - 0E569FBA5 - - - In 4tier mode. Url is http://tc-dev-tc:7001/tc
+2026/07/30-05:36:59.731 UTC - WARN  - - 0E569FBA5 - - - TC_USE_KEYMANAGER environment variable is configured to not use KeyManager.
+2026/07/30-05:37:56.906 UTC - WARN  - - 0E569FBA5 - - - Connection to Tc failed. (Attempt 1 of 5.)
+2026/07/30-05:37:56.906 UTC - INFO  - - 0E569FBA5 - - - Sleeping for 5 seconds
+2026/07/30-05:38:02.532 UTC - WARN  - - 0E569FBA5 - - - Connection to Tc failed. (Attempt 2 of 5.)
+2026/07/30-05:38:02.533 UTC - INFO  - - 0E569FBA5 - - - Sleeping for 5 seconds
+2026/07/30-05:38:16.653 UTC - WARN  - - 0E569FBA5 - - - Connection to Tc failed. (Attempt 3 of 5.)
+2026/07/30-05:38:16.654 UTC - INFO  - - 0E569FBA5 - - - Sleeping for 5 seconds
+2026/07/30-05:38:21.694 UTC - WARN  - - 0E569FBA5 - - - Connection to Tc failed. (Attempt 4 of 5.)
+2026/07/30-05:38:21.694 UTC - INFO  - - 0E569FBA5 - - - Sleeping for 5 seconds
+2026/07/30-05:38:26.736 UTC - WARN  - - 0E569FBA5 - - - Connection to Tc failed. (Attempt 5 of 5.)
+2026/07/30-05:38:26.737 UTC - ERROR - - 0E569FBA5 - - - Login Error: com.teamcenter.schemas.soa._2006_03.exceptions.InternalServerException: Failed to get a server assignment. There was unexpected error on the Web Tier and/or the Server Manager. Please contact the system administrator.
+2026/07/30-05:38:26.738 UTC - ERROR - - 0E569FBA5 - - - Login failed (dcproxy, http://tc-dev-tc:7001/tc)
+2026/07/30-05:38:26.738 UTC - INFO  - - 0E569FBA5 - - - Stopping Service...
+2026/07/30-05:38:26.743 UTC - ERROR - - 0E569FBA5 - - - Exception. java.lang.Exception: java.lang.Exception: Max retry reached. Connection to http://tc-dev-tc:7001/tc failed.
+	at com.teamcenter.ets.extract.Extractor.<init>(Extractor.java:271)
+	at com.teamcenter.ets.ServiceMode.startService(ServiceMode.java:67)
+	at com.teamcenter.ets.ServiceMode.main(ServiceMode.java:256)
+Caused by: java.lang.Exception: Max retry reached. Connection to http://tc-dev-tc:7001/tc failed.
+	at com.teamcenter.ets.soa.ConnectionManager4Tier.connect(ConnectionManager4Tier.java:237)
+	at com.teamcenter.ets.soa.ConnectionManager.connect(ConnectionManager.java:79)
+	at com.teamcenter.ets.SessionManager.login(SessionManager.java:88)
+	at com.teamcenter.ets.extract.Extractor.<init>(Extractor.java:137)
+	... 2 more
+

@@ -13,7 +13,7 @@ def generate_thread_id(generation_type: str):
         raise ValueError(f"Invalid generation type: {generation_type}")
 
 
-LOG_FILE_EXTENSIONS = {'.log', '.txt'}
+LOG_FILE_EXTENSIONS = {'.log', '.txt', '.syslog', '.fscproxylog' , '.pjl', '.tmp'}
 ALL_FILES_OPTION = '__all_files__'
 
 

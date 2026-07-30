@@ -1,0 +1,33 @@
+2026/07/22-13:13:54.670 UTC - INFO  -- 0FBE2BCA7 - - - [Startup] JVM and TCCS version information
+	JVM launching location: D:\PLM\Java\jdk
+	Current JVM version: 17.0.3
+	Input JVM arguments: [-Xmx768M, --add-opens=java.base/sun.security.provider=ALL-UNNAMED, -Djava.library.path=D:\PLM\Siemens\Teamcenter2506\tc_root\tccs/lib, -Dsun.net.client.defaultConnectTimeout=90000, -Dsun.net.client.defaultReadTimeout=90000]
+	Input program arguments: []
+	Starting TCCS with the following software components:
+		TcCommService   Version: 2506   Build Date: 20250822
+		FMSClientCache   Version: 2506   Build Date: 20250822
+		TcProxyClient   Version: 2506   Build Date: 20250822
+		TcServerProxy   Version: 2506   Build Date: 20250822
+		TcModelEventManager   Version: 2506   Build Date: 20250822
+2026/07/22-13:13:54.691 UTC - INFO  -- 0FBE2BCA7 - - - [Startup] TCCS is launched!
+2026/07/22-13:13:54.692 UTC - INFO  -- 0FBE2BCA7 - - - [startup] Attempting to read personal configuration from : C:\Users\IDC-ADMIN\Siemens\cfg\tccs\Teamcenter
+
+2026/07/22-13:13:54.716 UTC - INFO  -- 0FBE2BCA7 - - - [Startup] TCCS process lock obtained.
+2026/07/22-13:13:54.717 UTC - INFO  -- 0FBE2BCA7 - - - [Startup] TCCS Configuration found in C:\Users\IDC-ADMIN\Siemens\cfg\tccs\Teamcenter
+2026/07/22-13:13:55.120 UTC - INFO  -- 0FBE2BCA7 - - - Initializing TcProxyClient...
+2026/07/22-13:13:56.477 UTC - INFO  -- 0FBE2BCA7 - - - TcModelEventManager is pending on FCCCache initialization.
+2026/07/22-13:13:56.486 UTC - INFO  -- 0FBE2BCA7 - - - TcServerProxy is pending on FCCCache initialization.
+2026/07/22-13:13:56.987 UTC - INFO  -- 0FBE2BCA7 - - - TcServerProxy is pending on FCCCache initialization.
+2026/07/22-13:13:56.978 UTC - INFO  -- 0FBE2BCA7 - - - TcModelEventManager is pending on FCCCache initialization.
+2026/07/22-13:13:57.488 UTC - INFO  -- 0FBE2BCA7 - - - TcServerProxy is pending on FCCCache initialization.
+2026/07/22-13:13:57.535 UTC - INFO  -- 0FBE2BCA7 - - - TcModelEventManager is pending on FCCCache initialization.
+2026/07/22-13:13:57.756 UTC - INFO  -- 0FBE2BCA7 - - - FCC published Cache initialization result: true
+2026/07/22-13:13:58.061 UTC - INFO  -- 0FBE2BCA7 - - - [TcMEM] TcMEM Pipe Acceptor starting TcMEM........
+2026/07/22-13:13:58.062 UTC - INFO  -- 0FBE2BCA7 - - - [TcMEM] Server pipe '\\.\pipe\Teamcenter_TcMEM' open.
+2026/07/22-13:13:58.063 UTC - INFO  -- 0FBE2BCA7 - - - TSP Pipe Proxy Acceptor starting TSP........
+2026/07/22-13:13:58.071 UTC - INFO  -- 0FBE2BCA7 - - - TSP Server pipe '\\.\pipe\Teamcenter_TSP' open.
+2026/07/22-13:13:58.084 UTC - INFO  -- 0FBE2BCA7 - - - TCCS generates this ServerID when launching TCTP tcserver: TctpTcServer_IDC-ADMIN_TcEnv1_EmptyDiscr
+2026/07/22-13:13:58.132 UTC - INFO  -- 07B94E95D - - 0CC7995B8R001 - [TcMEM] Client with id=tc-dev-tc.11332.01 shared server id=infodba.tc-dev-tc.SharedSession.http://10.30.1.250:7001/tc has been registered successfully
+2026/07/22-13:14:02.811 UTC - INFO  -- 0FBE2BCA7 - - - Environment variable TC_DATA resolved to D:\PLM\Siemens\Teamcenter2506\TC_DATA
+2026/07/22-13:14:02.829 UTC - INFO  -- 0FBE2BCA7 - - - The process launched by Server Manager has this process ID: 11928
+2026/07/22-13:17:53.047 UTC - INFO  -- 07B94E95D - - 0CC7995B8R156 - [TcMEM] Client with id=tc-dev-tc.11332.01 has been unregistered successfully

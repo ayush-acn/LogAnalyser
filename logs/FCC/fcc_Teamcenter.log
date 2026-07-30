@@ -1,0 +1,15 @@
+2026/07/30-06:18:50.451 UTC - EVENT -- 0EDC03AAE - - - FMS Client Cache 2506.20250822 starting, featuring:
+  TcCommService  2506.20250822
+  TcProxyClient  2506.20250822
+  FMS Utilities  2506.20250822
+  FSCJavaClientProxy  2506.20250822
+2026/07/30-06:18:50.474 UTC - EVENT -- 0EDC03AAE - - - Property 'filewarmer.properties' undefined: FileWarmer disabled.
+2026/07/30-06:18:50.493 UTC - EVENT -- 0EDC03AAE - - - Server pipe '\\.\pipe\FMSClientPipe' open.
+2026/07/30-06:18:50.792 UTC - EVENT -- 0EDC03AAE - - - The segment cache parameters in effect are:
+  28672 512-byte file pages in fms.mf
+  6144 512-byte hash blocks in fms.hsh
+  10688 16KB segments in fms.seg
+  11 (max) extent files fms*.ext
+  256 MB per extent file
+2026/07/30-06:18:50.793 UTC - EVENT -- 0EDC03AAE - - - Cache initialization complete.
+2026/07/30-06:18:50.796 UTC - EVENT -- 0EDC03AAE - - - FCC successfully published the Cache Initialization success to TCCS.

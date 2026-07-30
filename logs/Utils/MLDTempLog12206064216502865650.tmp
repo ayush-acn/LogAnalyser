@@ -1,0 +1,26 @@
+2026/07/30-05:36:59.666 UTC - INFO  - - 0E569FBA5 - - - Starting Service...
+2026/07/30-05:36:59.715 UTC - INFO  - - 0E569FBA5 - - - In 4tier mode. Url is http://tc-dev-tc:7001/tc
+2026/07/30-05:36:59.731 UTC - WARN  - - 0E569FBA5 - - - TC_USE_KEYMANAGER environment variable is configured to not use KeyManager.
+2026/07/30-05:37:56.906 UTC - WARN  - - 0E569FBA5 - - - Connection to Tc failed. (Attempt 1 of 5.)
+2026/07/30-05:37:56.906 UTC - INFO  - - 0E569FBA5 - - - Sleeping for 5 seconds
+2026/07/30-05:38:02.532 UTC - WARN  - - 0E569FBA5 - - - Connection to Tc failed. (Attempt 2 of 5.)
+2026/07/30-05:38:02.533 UTC - INFO  - - 0E569FBA5 - - - Sleeping for 5 seconds
+2026/07/30-05:38:16.653 UTC - WARN  - - 0E569FBA5 - - - Connection to Tc failed. (Attempt 3 of 5.)
+2026/07/30-05:38:16.654 UTC - INFO  - - 0E569FBA5 - - - Sleeping for 5 seconds
+2026/07/30-05:38:21.694 UTC - WARN  - - 0E569FBA5 - - - Connection to Tc failed. (Attempt 4 of 5.)
+2026/07/30-05:38:21.694 UTC - INFO  - - 0E569FBA5 - - - Sleeping for 5 seconds
+2026/07/30-05:38:26.736 UTC - WARN  - - 0E569FBA5 - - - Connection to Tc failed. (Attempt 5 of 5.)
+2026/07/30-05:38:26.737 UTC - ERROR - - 0E569FBA5 - - - Login Error: com.teamcenter.schemas.soa._2006_03.exceptions.InternalServerException: Failed to get a server assignment. There was unexpected error on the Web Tier and/or the Server Manager. Please contact the system administrator.
+2026/07/30-05:38:26.738 UTC - ERROR - - 0E569FBA5 - - - Login failed (dcproxy, http://tc-dev-tc:7001/tc)
+2026/07/30-05:38:26.738 UTC - INFO  - - 0E569FBA5 - - - Stopping Service...
+2026/07/30-05:38:26.743 UTC - ERROR - - 0E569FBA5 - - - Exception. java.lang.Exception: java.lang.Exception: Max retry reached. Connection to http://tc-dev-tc:7001/tc failed.
+	at com.teamcenter.ets.extract.Extractor.<init>(Extractor.java:271)
+	at com.teamcenter.ets.ServiceMode.startService(ServiceMode.java:67)
+	at com.teamcenter.ets.ServiceMode.main(ServiceMode.java:256)
+Caused by: java.lang.Exception: Max retry reached. Connection to http://tc-dev-tc:7001/tc failed.
+	at com.teamcenter.ets.soa.ConnectionManager4Tier.connect(ConnectionManager4Tier.java:237)
+	at com.teamcenter.ets.soa.ConnectionManager.connect(ConnectionManager.java:79)
+	at com.teamcenter.ets.SessionManager.login(SessionManager.java:88)
+	at com.teamcenter.ets.extract.Extractor.<init>(Extractor.java:137)
+	... 2 more
+

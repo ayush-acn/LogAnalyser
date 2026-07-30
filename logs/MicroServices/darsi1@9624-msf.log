@@ -1,0 +1,219 @@
+2026/07/17-09:58:30.271 UTC - INFO - - - - - Active Workspace DARSI version: 7.3.3
+2026/07/17-09:58:30.323 UTC - INFO - Waiting for vault to be ready; timeout is 3 minute(s)...
+Warning: Ignoring extra certs from `@CHANGE_ME_NODE_EXTRA_CA_CERTS@`, load failed: error:80000002:system library::No such file or directory
+2026/07/17-09:58:30.495 UTC - INFO - Vault is ready.
+2026/07/17-09:58:30.587 UTC - INFO - - - - - Public key successfully read from vault
+2026/07/17-09:58:49.190 UTC - INFO - - - - - adding /build/reset route
+2026/07/17-09:58:49.191 UTC - INFO - - - - - adding /build/start route
+2026/07/17-09:58:49.191 UTC - INFO - - - - - adding /build/status route
+2026/07/17-09:58:49.191 UTC - INFO - - - - - adding /build/log route
+2026/07/17-09:58:49.192 UTC - INFO - - - - - adding /build/lmd route
+2026/07/17-09:58:49.193 UTC - INFO - - - - - polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/17-09:58:49.193 UTC - INFO - - - - - /build routes complete
+2026/07/17-09:58:53.397 UTC - INFO - - - - - Using file server http://TC-DEV-TC:9090/filerepo
+2026/07/17-09:58:53.397 UTC - INFO - - - - - Listening on port 53295
+2026/07/17-09:58:53.399 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/17-09:58:53.402 UTC - INFO - - - - - Registering with Eureka http://TC-DEV-TC:8787/eureka/v2/apps
+2026/07/17-09:58:53.414 UTC - INFO - - - - - FileRepo service started successfully
+2026/07/17-09:58:53.415 UTC - INFO - - - - - Eureka Client Registration - Registered with Eureka /eureka/v2/apps/afx-darsi/10.30.1.250:53295
+2026/07/17-09:58:53.434 UTC - INFO - - - - - Generating JWT for - READONLY
+2026/07/17-09:58:53.494 UTC - INFO - - - - - Generating JWT for - READONLY
+2026/07/17-09:58:53.507 UTC - INFO - - - - - Downloading darsi_files.zip from fileRepo artifactory to D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_files.zip
+2026/07/17-09:58:54.769 UTC - INFO - - - - - Downloaded darsi_files.zip from fileRepo artifactory
+2026/07/17-09:58:54.769 UTC - INFO - - - - - Clean existing darsi_repo folder
+2026/07/17-09:59:25.277 UTC - INFO - - - - - Unzipping D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_files.zip to D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_repo
+2026/07/17-10:13:18.356 UTC - INFO - - - - - Removing D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_files.zip
+2026/07/17-10:13:18.391 UTC - INFO - - - - - D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_files.zip unzipped (833.113s)
+2026/07/17-10:13:18.392 UTC - INFO - - - - - Listing contents of /viewmodel on http://TC-DEV-TC:9090/filerepo/fileio/v1/files/list
+2026/07/17-10:13:18.511 UTC - INFO - - - - - There are no deltas in /viewmodel
+2026/07/17-10:13:18.512 UTC - INFO - - - - - Listing contents of /html on http://TC-DEV-TC:9090/filerepo/fileio/v1/files/list
+2026/07/17-10:13:18.549 UTC - INFO - - - - - There are no deltas in /html
+2026/07/17-10:13:18.550 UTC - INFO - - - - - Listing contents of /image on http://TC-DEV-TC:9090/filerepo/fileio/v1/files/list
+2026/07/17-10:13:18.660 UTC - INFO - - - - - There are no deltas in /image
+2026/07/17-10:13:18.679 UTC - INFO - - - - - ready for build
+2026/07/17-10:13:18.683 UTC - INFO - Waiting for vault to be ready; timeout is 3 minute(s)...
+2026/07/17-10:13:18.703 UTC - INFO - Vault is ready.
+2026/07/17-10:13:18.788 UTC - INFO - - - - - Public key successfully read from vault
+2026/07/17-10:13:18.789 UTC - WARN - - - - - verifyAuthorizedUser: JsonWebTokenError: jwt must be provided
+2026/07/17-10:13:18.789 UTC - INFO - - - - - build start/reset route request from undefined @ 1784283198679
+2026/07/17-10:13:18.812 UTC - INFO - - - - - Generating JWT for - READONLY
+2026/07/17-10:13:18.831 UTC - INFO - - - - - Cleaning out folder to clear cache in directory D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_repo
+2026/07/17-10:13:18.832 UTC - INFO - - - - - Clean complete (0.001s)
+2026/07/17-10:13:18.832 UTC - INFO - - - - - Executing npm run build in directory D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_repo
+2026/07/17-10:13:18.834 UTC - INFO - - - - - Executing D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_repo\node_modules\@swf\react-scripts/scripts/build.js 
+2026/07/17-10:13:59.419 UTC - INFO - - - - - [10:13:59] info: config-overrides: generated paths (338 ms)
+2026/07/17-10:14:00.230 UTC - INFO - - - - - [10:14:00] info: PRE_BUILD_CHECKS: 46198 MB available / 67868 MB total
+2026/07/17-10:14:00.231 UTC - INFO - - - - - [10:14:00] info: Default SOURCE_MAP_QUALITY is set to 'MEDIUM'. For faster build timing and HMR set the SOURCE_MAP_QUALITY to 'LOW'.
+2026/07/17-10:14:00.231 UTC - INFO - - - - - [10:14:00] info: Building site: all
+2026/07/17-10:14:00.233 UTC - INFO - - - - - [10:14:00] info:   Included kits:
+2026/07/17-10:14:00.233 UTC - INFO - - - - - [10:14:00] info:     afx
+2026/07/17-10:14:00.233 UTC - INFO - - - - - [10:14:00] info:     afx-charts
+2026/07/17-10:14:00.234 UTC - INFO - - - - - [10:14:00] info:     afx-echarts
+2026/07/17-10:14:00.234 UTC - INFO - - - - - [10:14:00] info:     afx-source-editor
+2026/07/17-10:14:00.234 UTC - INFO - - - - - [10:14:00] info:     afx-vis-viewer
+2026/07/17-10:14:00.234 UTC - INFO - - - - - [10:14:00] info:     chat
+2026/07/17-10:14:00.234 UTC - INFO - - - - - [10:14:00] info:     commonframe
+2026/07/17-10:14:00.234 UTC - INFO - - - - - [10:14:00] info:     composites
+2026/07/17-10:14:00.234 UTC - INFO - - - - - [10:14:00] info:     datadiscoveryservices
+2026/07/17-10:14:00.234 UTC - INFO - - - - - [10:14:00] info:     docmgmt
+2026/07/17-10:14:00.234 UTC - INFO - - - - - [10:14:00] info:     elements
+2026/07/17-10:14:00.234 UTC - INFO - - - - - [10:14:00] info:     engine
+2026/07/17-10:14:00.234 UTC - INFO - - - - - [10:14:00] info:     essentials
+2026/07/17-10:14:00.234 UTC - INFO - - - - - [10:14:00] info:     graphComponent
+2026/07/17-10:14:00.234 UTC - INFO - - - - - [10:14:00] info:     graphing
+2026/07/17-10:14:00.234 UTC - INFO - - - - - [10:14:00] info:     jitViewCompilerKit
+2026/07/17-10:14:00.234 UTC - INFO - - - - - [10:14:00] info:     pagecomponents
+2026/07/17-10:14:00.234 UTC - INFO - - - - - [10:14:00] info:     projmgmt
+2026/07/17-10:14:00.234 UTC - INFO - - - - - [10:14:00] info:     ps
+2026/07/17-10:14:00.235 UTC - INFO - - - - - [10:14:00] info:     pvwKit
+2026/07/17-10:14:00.235 UTC - INFO - - - - - [10:14:00] info:     reports
+2026/07/17-10:14:00.235 UTC - INFO - - - - - [10:14:00] info:     search
+2026/07/17-10:14:00.235 UTC - INFO - - - - - [10:14:00] info:     searchcore
+2026/07/17-10:14:00.235 UTC - INFO - - - - - [10:14:00] info:     security
+2026/07/17-10:14:00.235 UTC - INFO - - - - - [10:14:00] info:     subscription
+2026/07/17-10:14:00.235 UTC - INFO - - - - - [10:14:00] info:     table
+2026/07/17-10:14:00.235 UTC - INFO - - - - - [10:14:00] info:     tc-aw-framework
+2026/07/17-10:14:00.235 UTC - INFO - - - - - [10:14:00] info:     tc-aw-solution
+2026/07/17-10:14:00.235 UTC - INFO - - - - - [10:14:00] info:     uibuilder
+2026/07/17-10:14:00.235 UTC - INFO - - - - - [10:14:00] info:     uibuilderframework
+2026/07/17-10:14:00.235 UTC - INFO - - - - - [10:14:00] info:     usermanagement
+2026/07/17-10:14:00.235 UTC - INFO - - - - - [10:14:00] info:     wysiwygWidgets
+2026/07/17-10:14:05.456 UTC - INFO - - - - - [10:14:05] info: config-overrides: webpack config (5.23 s)
+2026/07/17-10:14:05.456 UTC - INFO - - - - - [10:14:05] info: Building components cache
+2026/07/17-10:14:18.250 UTC - INFO - - - - - [10:14:18] info: Component cache creation completed
+2026/07/17-10:14:22.233 UTC - INFO - - - - - Creating an optimized production build...
+2026/07/17-10:14:28.428 UTC - INFO - - - - - Browserslist: browsers data (caniuse-lite) is 11 months old. Please run:
+2026/07/17-10:14:28.428 UTC - INFO - - - - -   npx update-browserslist-db@latest
+2026/07/17-10:14:28.428 UTC - INFO - - - - -   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2026/07/17-10:17:21.476 UTC - INFO - - - - - [10:17:21] warn: image/cmdOpen24.svg is included in multiple bundles. image/cmdOpen24.svg is included in foldersBundle
+2026/07/17-10:17:21.476 UTC - INFO - - - - - [10:17:21] warn: image/cmdSettings24.svg is included in multiple bundles. image/cmdSettings24.svg is included in gatewayPageBundle
+2026/07/17-10:17:21.476 UTC - INFO - - - - - [10:17:21] warn: image/cmdPrint24.svg is included in multiple bundles. image/cmdPrint24.svg is included in foldersBundle
+2026/07/17-10:17:21.476 UTC - INFO - - - - - [10:17:21] warn: image/cmdExport16.svg is included in multiple bundles. image/cmdExport16.svg is included in foldersBundle
+2026/07/17-10:18:42.693 UTC - INFO - - - - - [10:18:42] info: Peak Memory: 3523 MB  Avg Memory: 3006 MB
+2026/07/17-10:18:42.702 UTC - INFO - - - - - Compiled with warnings.
+2026/07/17-10:18:42.702 UTC - INFO - - - - - Critical dependency: the request of a dependency is an expression
+2026/07/17-10:18:42.703 UTC - INFO - - - - - Search for the keywords to learn more about each warning.
+2026/07/17-10:18:42.707 UTC - INFO - - - - - To ignore, add // eslint-disable-next-line to the line before.
+2026/07/17-10:18:42.707 UTC - INFO - - - - - File sizes after gzip:
+2026/07/17-10:18:42.808 UTC - INFO - - - - - The project was built assuming it is hosted at ./.
+2026/07/17-10:18:42.808 UTC - INFO - - - - - You can control this with the homepage field in your package.json.
+2026/07/17-10:18:42.808 UTC - INFO - - - - - The out\site folder is ready to be deployed.
+2026/07/17-10:18:42.809 UTC - INFO - - - - - Find out more about deployment here:
+2026/07/17-10:18:42.809 UTC - INFO - - - - -   https://cra.link/deployment
+2026/07/17-10:18:44.268 UTC - INFO - - - - - Build complete (325.435s)
+2026/07/17-10:18:44.269 UTC - INFO - - - - - Zipping up the siteDev
+2026/07/17-10:19:12.790 UTC - INFO - - - - - siteDev zipping process is finished and the zip file is ready (28.521s)
+2026/07/17-10:19:12.790 UTC - INFO - - - - - Uploading siteDev.zip to FileRepository
+2026/07/17-10:19:12.792 UTC - INFO - - - - - Generating JWT for - READONLY
+2026/07/17-10:19:30.552 UTC - INFO - - - - - Uploaded siteDev.zip to FileRepository successfully (17.761s)
+2026/07/17-10:19:30.613 UTC - INFO - - - - - Updating /config/indicators.json on http://TC-DEV-TC:9090/filerepo/fileio/v1/files
+2026/07/17-10:19:30.625 UTC - INFO - - - - - Updating /config/workspace.json on http://TC-DEV-TC:9090/filerepo/fileio/v1/files
+2026/07/17-10:19:30.666 UTC - INFO - - - - - Updating /config/commandsViewModel.json on http://TC-DEV-TC:9090/filerepo/fileio/v1/files
+2026/07/17-10:19:30.672 UTC - INFO - - - - - Updating /config/typeIconsRegistry.json on http://TC-DEV-TC:9090/filerepo/fileio/v1/files
+2026/07/17-10:19:30.674 UTC - INFO - - - - - Updating /config/states.json on http://TC-DEV-TC:9090/filerepo/fileio/v1/files
+2026/07/17-10:19:30.716 UTC - INFO - - - - - Updating /.darsi/buildTimeStamp.json on http://TC-DEV-TC:9090/filerepo/fileio/v1/files
+2026/07/17-10:34:18.210 UTC - INFO - - - - - No request in reset queue
+2026/07/17-10:34:18.250 UTC - INFO - - - - - Generating JWT for - READONLY
+2026/07/17-10:34:18.264 UTC - INFO - - - - - Downloading darsi_files.zip from fileRepo artifactory to D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_files.zip
+2026/07/17-10:34:19.700 UTC - INFO - - - - - Downloaded darsi_files.zip from fileRepo artifactory
+2026/07/17-10:34:19.700 UTC - INFO - - - - - Clean existing darsi_repo folder
+2026/07/17-10:34:50.548 UTC - INFO - - - - - Unzipping D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_files.zip to D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_repo
+2026/07/17-10:47:18.515 UTC - INFO - - - - - Removing D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_files.zip
+2026/07/17-10:47:18.546 UTC - INFO - - - - - D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_files.zip unzipped (747.998s)
+2026/07/17-10:47:18.547 UTC - INFO - - - - - Listing contents of /viewmodel on http://TC-DEV-TC:9090/filerepo/fileio/v1/files/list
+2026/07/17-10:47:18.604 UTC - INFO - - - - - There are no deltas in /viewmodel
+2026/07/17-10:47:18.604 UTC - INFO - - - - - Listing contents of /html on http://TC-DEV-TC:9090/filerepo/fileio/v1/files/list
+2026/07/17-10:47:18.627 UTC - INFO - - - - - There are no deltas in /html
+2026/07/17-10:47:18.627 UTC - INFO - - - - - Listing contents of /image on http://TC-DEV-TC:9090/filerepo/fileio/v1/files/list
+2026/07/17-10:47:18.759 UTC - INFO - - - - - There are no deltas in /image
+2026/07/17-10:47:18.766 UTC - INFO - Waiting for vault to be ready; timeout is 3 minute(s)...
+2026/07/17-10:47:18.783 UTC - INFO - Vault is ready.
+2026/07/17-10:47:18.844 UTC - INFO - - - - - Public key successfully read from vault
+2026/07/17-10:47:18.845 UTC - INFO - - - - - build start/reset route request from READONLY @ 1784285238761
+2026/07/17-10:47:18.846 UTC - INFO - - - - - Generating JWT for - READONLY
+2026/07/17-10:47:18.856 UTC - INFO - - - - - Cleaning out folder to clear cache in directory D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_repo
+2026/07/17-10:47:18.857 UTC - INFO - - - - - Clean complete (0.001s)
+2026/07/17-10:47:18.858 UTC - INFO - - - - - Executing npm run build in directory D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_repo
+2026/07/17-10:47:18.858 UTC - INFO - - - - - Executing D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_repo\node_modules\@swf\react-scripts/scripts/build.js 
+2026/07/17-10:47:24.136 UTC - INFO - - - - - [10:47:24] info: config-overrides: generated paths (234 ms)
+2026/07/17-10:47:24.747 UTC - INFO - - - - - [10:47:24] info: PRE_BUILD_CHECKS: 46528 MB available / 67868 MB total
+2026/07/17-10:47:24.748 UTC - INFO - - - - - [10:47:24] info: Default SOURCE_MAP_QUALITY is set to 'MEDIUM'. For faster build timing and HMR set the SOURCE_MAP_QUALITY to 'LOW'.
+2026/07/17-10:47:24.749 UTC - INFO - - - - - [10:47:24] info: Building site: all
+2026/07/17-10:47:24.750 UTC - INFO - - - - - [10:47:24] info:   Included kits:
+2026/07/17-10:47:24.750 UTC - INFO - - - - - [10:47:24] info:     2d-viewer
+2026/07/17-10:47:24.750 UTC - INFO - - - - - [10:47:24] info:     accessmanager
+2026/07/17-10:47:24.750 UTC - INFO - - - - - [10:47:24] info:     afx
+2026/07/17-10:47:24.750 UTC - INFO - - - - - [10:47:24] info:     afx-charts
+2026/07/17-10:47:24.750 UTC - INFO - - - - - [10:47:24] info:     afx-echarts
+2026/07/17-10:47:24.750 UTC - INFO - - - - - [10:47:24] info:     afx-source-editor
+2026/07/17-10:47:24.750 UTC - INFO - - - - - [10:47:24] info:     afx-vis-viewer
+2026/07/17-10:47:24.750 UTC - INFO - - - - - [10:47:24] info:     change
+2026/07/17-10:47:24.750 UTC - INFO - - - - - [10:47:24] info:     chat
+2026/07/17-10:47:24.750 UTC - INFO - - - - - [10:47:24] info:     commonframe
+2026/07/17-10:47:24.750 UTC - INFO - - - - - [10:47:24] info:     composites
+2026/07/17-10:47:24.750 UTC - INFO - - - - - [10:47:24] info:     datadiscoveryservices
+2026/07/17-10:47:24.750 UTC - INFO - - - - - [10:47:24] info:     docmgmt
+2026/07/17-10:47:24.750 UTC - INFO - - - - - [10:47:24] info:     elements
+2026/07/17-10:47:24.750 UTC - INFO - - - - - [10:47:24] info:     engine
+2026/07/17-10:47:24.750 UTC - INFO - - - - - [10:47:24] info:     essentials
+2026/07/17-10:47:24.750 UTC - INFO - - - - - [10:47:24] info:     graphComponent
+2026/07/17-10:47:24.750 UTC - INFO - - - - - [10:47:24] info:     graphing
+2026/07/17-10:47:24.750 UTC - INFO - - - - - [10:47:24] info:     hosted-vis
+2026/07/17-10:47:24.751 UTC - INFO - - - - - [10:47:24] info:     jitViewCompilerKit
+2026/07/17-10:47:24.751 UTC - INFO - - - - - [10:47:24] info:     massupdate
+2026/07/17-10:47:24.751 UTC - INFO - - - - - [10:47:24] info:     occmgmt
+2026/07/17-10:47:24.751 UTC - INFO - - - - - [10:47:24] info:     pagecomponents
+2026/07/17-10:47:24.751 UTC - INFO - - - - - [10:47:24] info:     projmgmt
+2026/07/17-10:47:24.751 UTC - INFO - - - - - [10:47:24] info:     ps
+2026/07/17-10:47:24.751 UTC - INFO - - - - - [10:47:24] info:     pvwKit
+2026/07/17-10:47:24.751 UTC - INFO - - - - - [10:47:24] info:     relations
+2026/07/17-10:47:24.751 UTC - INFO - - - - - [10:47:24] info:     reports
+2026/07/17-10:47:24.751 UTC - INFO - - - - - [10:47:24] info:     search
+2026/07/17-10:47:24.751 UTC - INFO - - - - - [10:47:24] info:     searchcore
+2026/07/17-10:47:24.751 UTC - INFO - - - - - [10:47:24] info:     security
+2026/07/17-10:47:24.751 UTC - INFO - - - - - [10:47:24] info:     structurecompare
+2026/07/17-10:47:24.751 UTC - INFO - - - - - [10:47:24] info:     structureviewer
+2026/07/17-10:47:24.751 UTC - INFO - - - - - [10:47:24] info:     subscription
+2026/07/17-10:47:24.751 UTC - INFO - - - - - [10:47:24] info:     table
+2026/07/17-10:47:24.751 UTC - INFO - - - - - [10:47:24] info:     tc-aw-framework
+2026/07/17-10:47:24.751 UTC - INFO - - - - - [10:47:24] info:     tc-aw-solution
+2026/07/17-10:47:24.751 UTC - INFO - - - - - [10:47:24] info:     uibuilder
+2026/07/17-10:47:24.752 UTC - INFO - - - - - [10:47:24] info:     uibuilderframework
+2026/07/17-10:47:24.752 UTC - INFO - - - - - [10:47:24] info:     usermanagement
+2026/07/17-10:47:24.752 UTC - INFO - - - - - [10:47:24] info:     vieweradmin
+2026/07/17-10:47:24.752 UTC - INFO - - - - - [10:47:24] info:     workflow
+2026/07/17-10:47:24.752 UTC - INFO - - - - - [10:47:24] info:     wysiwygWidgets
+2026/07/17-10:47:26.680 UTC - INFO - - - - - [10:47:26] info: config-overrides: webpack config (1.93 s)
+2026/07/17-10:47:26.680 UTC - INFO - - - - - [10:47:26] info: Building components cache
+2026/07/17-10:47:47.102 UTC - INFO - - - - - [10:47:47] info: Component cache creation completed
+2026/07/17-10:47:47.956 UTC - INFO - - - - - Creating an optimized production build...
+2026/07/17-10:47:49.354 UTC - INFO - - - - - Browserslist: browsers data (caniuse-lite) is 11 months old. Please run:
+2026/07/17-10:47:49.354 UTC - INFO - - - - -   npx update-browserslist-db@latest
+2026/07/17-10:47:49.355 UTC - INFO - - - - -   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2026/07/17-10:50:45.209 UTC - INFO - - - - - [10:50:45] warn: image/cmdOpen24.svg is included in multiple bundles. image/cmdOpen24.svg is included in foldersBundle
+2026/07/17-10:50:45.210 UTC - INFO - - - - - [10:50:45] warn: image/cmdSettings24.svg is included in multiple bundles. image/cmdSettings24.svg is included in gatewayPageBundle
+2026/07/17-10:50:45.210 UTC - INFO - - - - - [10:50:45] warn: image/cmdPrint24.svg is included in multiple bundles. image/cmdPrint24.svg is included in foldersBundle
+2026/07/17-10:50:45.210 UTC - INFO - - - - - [10:50:45] warn: image/cmdExport16.svg is included in multiple bundles. image/cmdExport16.svg is included in foldersBundle
+2026/07/17-10:52:10.499 UTC - INFO - - - - - [10:52:10] info: Peak Memory: 3835 MB  Avg Memory: 3835 MB
+2026/07/17-10:52:10.522 UTC - INFO - - - - - Compiled with warnings.
+2026/07/17-10:52:10.522 UTC - INFO - - - - - Critical dependency: the request of a dependency is an expression
+2026/07/17-10:52:10.523 UTC - INFO - - - - - Search for the keywords to learn more about each warning.
+2026/07/17-10:52:10.523 UTC - INFO - - - - - To ignore, add // eslint-disable-next-line to the line before.
+2026/07/17-10:52:10.523 UTC - INFO - - - - - File sizes after gzip:
+2026/07/17-10:52:10.556 UTC - INFO - - - - - The project was built assuming it is hosted at ./.
+2026/07/17-10:52:10.556 UTC - INFO - - - - - You can control this with the homepage field in your package.json.
+2026/07/17-10:52:10.558 UTC - INFO - - - - - The out\site folder is ready to be deployed.
+2026/07/17-10:52:10.559 UTC - INFO - - - - - Find out more about deployment here:
+2026/07/17-10:52:10.559 UTC - INFO - - - - -   https://cra.link/deployment
+2026/07/17-10:52:13.271 UTC - INFO - - - - - Build complete (294.413s)
+2026/07/17-10:52:13.272 UTC - INFO - - - - - Zipping up the siteDev
+2026/07/17-10:52:36.765 UTC - INFO - - - - - siteDev zipping process is finished and the zip file is ready (23.493s)
+2026/07/17-10:52:36.765 UTC - INFO - - - - - Uploading siteDev.zip to FileRepository
+2026/07/17-10:52:36.766 UTC - INFO - - - - - Generating JWT for - READONLY
+2026/07/17-10:52:51.038 UTC - INFO - - - - - Uploaded siteDev.zip to FileRepository successfully (14.272s)
+2026/07/17-10:52:51.155 UTC - INFO - - - - - Updating /config/commandsViewModel.json on http://TC-DEV-TC:9090/filerepo/fileio/v1/files
+2026/07/17-10:52:51.160 UTC - INFO - - - - - Updating /config/typeIconsRegistry.json on http://TC-DEV-TC:9090/filerepo/fileio/v1/files
+2026/07/17-10:52:51.161 UTC - INFO - - - - - Updating /config/workspace.json on http://TC-DEV-TC:9090/filerepo/fileio/v1/files
+2026/07/17-10:52:51.165 UTC - INFO - - - - - Updating /config/states.json on http://TC-DEV-TC:9090/filerepo/fileio/v1/files
+2026/07/17-10:52:51.167 UTC - INFO - - - - - Updating /config/indicators.json on http://TC-DEV-TC:9090/filerepo/fileio/v1/files
+2026/07/17-10:52:51.225 UTC - INFO - - - - - Updating /.darsi/buildTimeStamp.json on http://TC-DEV-TC:9090/filerepo/fileio/v1/files

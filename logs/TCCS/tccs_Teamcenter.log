@@ -1,0 +1,30 @@
+2026/07/30-06:18:48.345 UTC - INFO  -- 0EDC03AAE - - - [Startup] JVM and TCCS version information
+	JVM launching location: D:\PLM\Java\jdk
+	Current JVM version: 17.0.3
+	Input JVM arguments: [-Xmx768M, --add-opens=java.base/sun.security.provider=ALL-UNNAMED, -Djava.library.path=D:\PLM\Siemens\Teamcenter2506\tc_root\tccs/lib, -Dsun.net.client.defaultConnectTimeout=90000, -Dsun.net.client.defaultReadTimeout=90000]
+	Input program arguments: []
+	Starting TCCS with the following software components:
+		TcCommService   Version: 2506   Build Date: 20250822
+		FMSClientCache   Version: 2506   Build Date: 20250822
+		TcProxyClient   Version: 2506   Build Date: 20250822
+		TcServerProxy   Version: 2506   Build Date: 20250822
+		TcModelEventManager   Version: 2506   Build Date: 20250822
+2026/07/30-06:18:48.359 UTC - INFO  -- 0EDC03AAE - - - [Startup] TCCS is launched!
+2026/07/30-06:18:48.361 UTC - INFO  -- 0EDC03AAE - - - [startup] Attempting to read personal configuration from : C:\Users\IDC-ADMIN\Siemens\cfg\tccs\Teamcenter
+
+2026/07/30-06:18:48.431 UTC - INFO  -- 0EDC03AAE - - - [Startup] TCCS process lock obtained.
+2026/07/30-06:18:48.432 UTC - INFO  -- 0EDC03AAE - - - [Startup] TCCS Configuration found in C:\Users\IDC-ADMIN\Siemens\cfg\tccs\Teamcenter
+2026/07/30-06:18:48.780 UTC - INFO  -- 0EDC03AAE - - - Initializing TcProxyClient...
+2026/07/30-06:18:49.922 UTC - INFO  -- 0EDC03AAE - - - TcModelEventManager is pending on FCCCache initialization.
+2026/07/30-06:18:49.927 UTC - INFO  -- 0EDC03AAE - - - TcServerProxy is pending on FCCCache initialization.
+2026/07/30-06:18:50.459 UTC - INFO  -- 0EDC03AAE - - - TcModelEventManager is pending on FCCCache initialization.
+2026/07/30-06:18:50.460 UTC - INFO  -- 0EDC03AAE - - - TcServerProxy is pending on FCCCache initialization.
+2026/07/30-06:18:50.795 UTC - INFO  -- 0EDC03AAE - - - FCC published Cache initialization result: true
+2026/07/30-06:18:50.966 UTC - INFO  -- 0EDC03AAE - - - [TcMEM] TcMEM Pipe Acceptor starting TcMEM........
+2026/07/30-06:18:50.966 UTC - INFO  -- 0EDC03AAE - - - [TcMEM] Server pipe '\\.\pipe\Teamcenter_TcMEM' open.
+2026/07/30-06:18:50.987 UTC - INFO  -- 09C9E4689 - - 046C3DB05R001 - [TcMEM] Client with id=tc-dev-tc.07528.01 shared server id=infodba.tc-dev-tc.SharedSession.http://10.30.1.250:7001/tc has been registered successfully
+2026/07/30-06:18:51.007 UTC - INFO  -- 0EDC03AAE - - - TSP Pipe Proxy Acceptor starting TSP........
+2026/07/30-06:18:51.008 UTC - INFO  -- 0EDC03AAE - - - TSP Server pipe '\\.\pipe\Teamcenter_TSP' open.
+2026/07/30-06:18:51.049 UTC - INFO  -- 0EDC03AAE - - - TCCS generates this ServerID when launching TCTP tcserver: TctpTcServer_IDC-ADMIN_TcEnv1_EmptyDiscr
+2026/07/30-06:18:53.565 UTC - INFO  -- 0EDC03AAE - - - Environment variable TC_DATA resolved to D:\PLM\Siemens\Teamcenter2506\TC_DATA
+2026/07/30-06:18:53.581 UTC - INFO  -- 0EDC03AAE - - - The process launched by Server Manager has this process ID: 12828

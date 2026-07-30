@@ -1,0 +1,39 @@
+2025/10/12-05:29:36.391 UTC - INFO - - - - - Active Workspace DARSI version: 7.3.3
+2025/10/12-05:29:36.520 UTC - INFO - Waiting for vault to be ready; timeout is 3 minute(s)...
+Warning: Ignoring extra certs from `@CHANGE_ME_NODE_EXTRA_CA_CERTS@`, load failed: error:80000002:system library::No such file or directory
+2025/10/12-05:29:36.996 UTC - INFO - Vault is ready.
+2025/10/12-05:29:38.436 UTC - ERROR - Failed to read secret at path secret/data/Teamcenter/Msf: Status 404
+2025/10/12-05:29:38.436 UTC - INFO - Retrying after 5 second(s)...
+2025/10/12-05:29:43.447 UTC - ERROR - Failed to read secret at path secret/data/Teamcenter/Msf: Status 404
+2025/10/12-05:29:43.447 UTC - INFO - Retrying after 5 second(s)...
+2025/10/12-05:29:48.465 UTC - ERROR - Failed to read secret at path secret/data/Teamcenter/Msf: Status 404
+2025/10/12-05:29:48.465 UTC - INFO - Retrying after 5 second(s)...
+2025/10/12-05:29:53.475 UTC - ERROR - Failed to read secret at path secret/data/Teamcenter/Msf: Status 404
+2025/10/12-05:29:53.475 UTC - INFO - Retrying after 5 second(s)...
+2025/10/12-05:29:58.492 UTC - ERROR - Failed to read secret at path secret/data/Teamcenter/Msf: Status 404
+2025/10/12-05:29:58.493 UTC - INFO - Retrying after 5 second(s)...
+2025/10/12-05:30:03.517 UTC - ERROR - Failed to read secret at path secret/data/Teamcenter/Msf: Status 404
+2025/10/12-05:30:03.518 UTC - INFO - Retrying after 5 second(s)...
+2025/10/12-05:30:08.528 UTC - ERROR - Failed to read secret at path secret/data/Teamcenter/Msf: Status 404
+2025/10/12-05:30:08.528 UTC - ERROR - - - - - Error reading validator key from the vault: Status 404
+2025/10/12-05:30:08.529 UTC - ERROR - - - - - Error initializing Vault Client: Status 404. Defaulting to non-vault values.
+2025/10/12-05:30:22.539 UTC - INFO - - - - - adding /build/reset route
+2025/10/12-05:30:22.539 UTC - INFO - - - - - adding /build/start route
+2025/10/12-05:30:22.540 UTC - INFO - - - - - adding /build/status route
+2025/10/12-05:30:22.540 UTC - INFO - - - - - adding /build/log route
+2025/10/12-05:30:22.540 UTC - INFO - - - - - adding /build/lmd route
+2025/10/12-05:30:22.540 UTC - INFO - - - - - polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2025/10/12-05:30:22.541 UTC - INFO - - - - - /build routes complete
+2025/10/12-05:30:26.754 UTC - INFO - - - - - Using file server http://TC-DEV-TC:9090/filerepo
+2025/10/12-05:30:26.755 UTC - INFO - - - - - Listening on port 53721
+2025/10/12-05:30:26.757 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2025/10/12-05:30:26.762 UTC - INFO - - - - - Registering with Eureka http://TC-DEV-TC:8787/eureka/v2/apps
+2025/10/12-05:30:26.771 UTC - INFO - - - - - Eureka Client Registration - Registered with Eureka /eureka/v2/apps/afx-darsi/fe80::c7d3:3bd2:4e2a:a157:53721
+2025/10/12-05:30:26.775 UTC - INFO - - - - - FileRepo service started successfully
+2025/10/12-05:30:26.777 UTC - INFO - - - - - Generating JWT for - READONLY
+2025/10/12-05:30:26.815 UTC - INFO - - - - - Generating JWT for - READONLY
+2025/10/12-05:30:26.830 UTC - INFO - - - - - Downloading darsi_files.zip from fileRepo artifactory to D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\darsi\darsi_files.zip
+2025/10/12-05:30:26.848 UTC - WARN - - - - - 1: Error downloading file http://TC-DEV-TC:9090/filerepo/fileio/v1/file/darsi/darsi_files.zip : 404
+2025/10/12-05:30:26.849 UTC - ERROR - - - - - Unable to download darsi_files.zip from fileRepo artifactory
+2025/10/12-06:11:23.793 UTC - WARN - - - - - read ECONNRESET
+2025/10/12-06:11:23.793 UTC - WARN - - - - - read ECONNRESET

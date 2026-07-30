@@ -1,0 +1,2 @@
+[0ed8:0001][2026-07-30T07:06:34] Warning: Failed to get value SOFTWARE\Microsoft\VisualStudio\18.7\ExtensionManager/ExtensionsAutoUpdated: Object reference not set to an instance of an object.
+[0ed8:0001][2026-07-30T07:06:34] No update since last run. Skipping current operation.

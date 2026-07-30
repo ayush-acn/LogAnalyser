@@ -1,0 +1,16 @@
+preferences_manager -u=infodba -pf=D:\PLM\Siemens\Teamcenter2506\tc_root\security\config1_infodba.pwf -g=dba -mode=import -scope=SITE -action=OVERRIDE -context=Teamcenter -file=D:\PLM\Siemens\Teamcenter2506\tc_data\TcPreference_1784788867525.xml 
+
+*******************************************************************************************************
+************************** Utility preferences_manager in 'import' mode *******************************
+*******************************************************************************************************
+Chosen action mode = OVERRIDE
+Importing the XML preference file 'D:\PLM\Siemens\Teamcenter2506\tc_data\TcPreference_1784788867525.xml'...
+
+A total of 0 preferences has been imported successfully!
+
+------------------------------------------------------
+All requested preferences have been imported.
+------------------------------------------------------
+
+The import operation has succeeded.
+

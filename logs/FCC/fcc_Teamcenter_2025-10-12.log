@@ -1,0 +1,32 @@
+2025/10/12-09:27:27.899 UTC - EVENT -- 0B826E86D - - - FMS Client Cache 2506.20250822 starting, featuring:
+  TcCommService  2506.20250822
+  TcProxyClient  2506.20250822
+  FMS Utilities  2506.20250822
+  FSCJavaClientProxy  2506.20250822
+2025/10/12-09:27:27.951 UTC - EVENT -- 0B826E86D - - - Property 'filewarmer.properties' undefined: FileWarmer disabled.
+2025/10/12-09:27:28.243 UTC - EVENT -- 0B826E86D - - - Server pipe '\\.\pipe\FMSClientPipe' open.
+2025/10/12-09:27:28.678 UTC - EVENT -- 0B826E86D - - - The segment cache parameters in effect are:
+  28672 512-byte file pages in fms.mf
+  6144 512-byte hash blocks in fms.hsh
+  10688 16KB segments in fms.seg
+  11 (max) extent files fms*.ext
+  256 MB per extent file
+2025/10/12-09:27:28.679 UTC - EVENT -- 0B826E86D - - - Cache initialization complete.
+2025/10/12-09:27:28.682 UTC - EVENT -- 0B826E86D - - - FCC successfully published the Cache Initialization success to TCCS.
+2025/10/12-09:28:15.650 UTC - EVENT -- 0B826E86D - 000000000000027e68eb3b42bdaf53d0 - 08CF6487CR010 - MD5 hash from http://TC-DEV-TC:4544/tc/fms/-1112583216/mygroup/FSC_TCDEVTC_tcdevtcIDCADMIN is now a22ba490786f4e33734207385141a8ce.
+2025/10/12-17:09:07.782 UTC - EVENT -- 006BEA560 - - - FMS Client Cache 2506.20250822 starting, featuring:
+  TcCommService  2506.20250822
+  TcProxyClient  2506.20250822
+  FMS Utilities  2506.20250822
+  FSCJavaClientProxy  2506.20250822
+2025/10/12-17:09:07.805 UTC - EVENT -- 006BEA560 - - - Property 'filewarmer.properties' undefined: FileWarmer disabled.
+2025/10/12-17:09:07.904 UTC - EVENT -- 006BEA560 - - - Server pipe '\\.\pipe\FMSClientPipe' open.
+2025/10/12-17:09:08.059 UTC - EVENT -- 006BEA560 - - - The segment cache parameters in effect are:
+  28672 512-byte file pages in fms.mf
+  6144 512-byte hash blocks in fms.hsh
+  10688 16KB segments in fms.seg
+  11 (max) extent files fms*.ext
+  256 MB per extent file
+2025/10/12-17:09:08.059 UTC - EVENT -- 006BEA560 - - - Cache initialization complete.
+2025/10/12-17:09:08.064 UTC - EVENT -- 006BEA560 - - - FCC successfully published the Cache Initialization success to TCCS.
+2025/10/12-18:37:16.929 UTC - EVENT -- 006BEA560 - 000000000000009268ebe0a9bdaf53d0 - 096D6B7FAR1943 - MD5 hash from http://TC-DEV-TC:4544/tc/fms/-1112583216/mygroup/FSC_TCDEVTC_tcdevtcIDCADMIN changed to a22ba490786f4e33734207385141a8ce.

@@ -1,0 +1,190 @@
+2026/07/23-07:12:39.414 UTC - INFO  - - 0D4874810 - - - Release Version     : V2506.0003.2025090600
+2026/07/23-07:12:39.417 UTC - INFO  - - 0D4874810 - - - Home Directory      : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Scheduler\bin\\..
+2026/07/23-07:12:39.418 UTC - INFO  - - 0D4874810 - - - Log files Directory : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Logs\Dispatcher
+2026/07/23-07:12:39.419 UTC - INFO  - - 0D4874810 - - - Java Version        : 17.0.3
+2026/07/23-07:12:39.420 UTC - INFO  - - 0D4874810 - - - Start Time          : Jul 23, 2026 07:12:39
+2026/07/23-07:12:39.430 UTC - INFO  - - 0D4874810 - - - Scheduler URL rmi://localhost:2001
+2026/07/23-07:12:41.409 UTC - INFO  - - 0D4874810 - - - 
+2026/07/23-07:12:41.412 UTC - INFO  - - 0D4874810 - - - Scheduler is ready to accept tasks.
+2026/07/23-07:12:56.738 UTC - INFO  -  
+2026/07/23-07:12:56.738 UTC - INFO  -  Following module connected to the scheduler:
+2026/07/23-07:12:56.739 UTC - INFO  -  --------------------------------------------
+2026/07/23-07:12:56.739 UTC - INFO  -  HostName   : tc-dev-tc
+2026/07/23-07:12:56.740 UTC - INFO  -  HostAddress: 10.30.1.250
+2026/07/23-07:12:56.740 UTC - INFO  -  ModuleName : Module_e025832e_4d66dca7_tc-dev-tc
+2026/07/23-07:12:56.741 UTC - INFO  -  ModuleURL  : rmi://10.30.1.250:1999
+2026/07/23-07:12:56.741 UTC - INFO  -  
+2026/07/23-07:55:55.744 UTC - INFO  -  Scheduler Shut down!!!
+2026/07/23-07:56:05.733 UTC - INFO  - - 0EAF98B40 - - - Release Version     : V2506.0003.2025090600
+2026/07/23-07:56:05.737 UTC - INFO  - - 0EAF98B40 - - - Home Directory      : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Scheduler\bin\\..
+2026/07/23-07:56:05.739 UTC - INFO  - - 0EAF98B40 - - - Log files Directory : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Logs\Dispatcher
+2026/07/23-07:56:05.739 UTC - INFO  - - 0EAF98B40 - - - Java Version        : 17.0.3
+2026/07/23-07:56:05.740 UTC - INFO  - - 0EAF98B40 - - - Start Time          : Jul 23, 2026 07:56:05
+2026/07/23-07:56:05.780 UTC - INFO  - - 0EAF98B40 - - - Scheduler URL rmi://localhost:2001
+2026/07/23-07:56:07.747 UTC - INFO  - - 0EAF98B40 - - - 
+2026/07/23-07:56:07.749 UTC - INFO  - - 0EAF98B40 - - - Scheduler is ready to accept tasks.
+2026/07/23-07:56:10.616 UTC - INFO  -  
+2026/07/23-07:56:10.616 UTC - INFO  -  Following module connected to the scheduler:
+2026/07/23-07:56:10.617 UTC - INFO  -  --------------------------------------------
+2026/07/23-07:56:10.617 UTC - INFO  -  HostName   : tc-dev-tc
+2026/07/23-07:56:10.618 UTC - INFO  -  HostAddress: 10.30.1.250
+2026/07/23-07:56:10.618 UTC - INFO  -  ModuleName : Module_e025832e_4d66dca7_tc-dev-tc
+2026/07/23-07:56:10.618 UTC - INFO  -  ModuleURL  : rmi://10.30.1.250:1999
+2026/07/23-07:56:10.619 UTC - INFO  -  
+2026/07/23-15:30:44.026 UTC - INFO  -  Scheduler Shut down!!!
+2026/07/24-04:27:48.322 UTC - INFO  - - 0D4FD5271 - - - Release Version     : V2506.0003.2025090600
+2026/07/24-04:27:48.353 UTC - INFO  - - 0D4FD5271 - - - Home Directory      : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Scheduler\bin\\..
+2026/07/24-04:27:48.353 UTC - INFO  - - 0D4FD5271 - - - Log files Directory : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Logs\Dispatcher
+2026/07/24-04:27:48.353 UTC - INFO  - - 0D4FD5271 - - - Java Version        : 17.0.3
+2026/07/24-04:27:48.353 UTC - INFO  - - 0D4FD5271 - - - Start Time          : Jul 24, 2026 04:27:48
+2026/07/24-04:27:48.369 UTC - INFO  - - 0D4FD5271 - - - Scheduler URL rmi://localhost:2001
+2026/07/24-04:27:55.194 UTC - INFO  - - 0D4FD5271 - - - 
+2026/07/24-04:27:55.196 UTC - INFO  - - 0D4FD5271 - - - Scheduler is ready to accept tasks.
+2026/07/24-04:28:22.736 UTC - INFO  -  
+2026/07/24-04:28:22.737 UTC - INFO  -  Following module connected to the scheduler:
+2026/07/24-04:28:22.737 UTC - INFO  -  --------------------------------------------
+2026/07/24-04:28:22.738 UTC - INFO  -  HostName   : tc-dev-tc
+2026/07/24-04:28:22.739 UTC - INFO  -  HostAddress: 10.30.1.250
+2026/07/24-04:28:22.739 UTC - INFO  -  ModuleName : Module_e025832e_4d66dca7_tc-dev-tc
+2026/07/24-04:28:22.740 UTC - INFO  -  ModuleURL  : rmi://10.30.1.250:1999
+2026/07/24-04:28:22.740 UTC - INFO  -  
+2026/07/24-15:30:37.855 UTC - INFO  -  Scheduler Shut down!!!
+2026/07/27-09:49:44.536 UTC - INFO  - - 0A2FFE11E - - - Release Version     : V2506.0003.2025090600
+2026/07/27-09:49:44.551 UTC - INFO  - - 0A2FFE11E - - - Home Directory      : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Scheduler\bin\\..
+2026/07/27-09:49:44.551 UTC - INFO  - - 0A2FFE11E - - - Log files Directory : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Logs\Dispatcher
+2026/07/27-09:49:44.551 UTC - INFO  - - 0A2FFE11E - - - Java Version        : 17.0.3
+2026/07/27-09:49:44.551 UTC - INFO  - - 0A2FFE11E - - - Start Time          : Jul 27, 2026 09:49:44
+2026/07/27-09:49:44.851 UTC - INFO  - - 0A2FFE11E - - - Scheduler URL rmi://localhost:2001
+2026/07/27-09:49:49.633 UTC - INFO  - - 0A2FFE11E - - - 
+2026/07/27-09:49:49.635 UTC - INFO  - - 0A2FFE11E - - - Scheduler is ready to accept tasks.
+2026/07/27-09:50:18.898 UTC - INFO  -  
+2026/07/27-09:50:18.899 UTC - INFO  -  Following module connected to the scheduler:
+2026/07/27-09:50:18.900 UTC - INFO  -  --------------------------------------------
+2026/07/27-09:50:18.901 UTC - INFO  -  HostName   : tc-dev-tc
+2026/07/27-09:50:18.901 UTC - INFO  -  HostAddress: 10.30.1.250
+2026/07/27-09:50:18.902 UTC - INFO  -  ModuleName : Module_e025832e_4d66dca7_tc-dev-tc
+2026/07/27-09:50:18.902 UTC - INFO  -  ModuleURL  : rmi://10.30.1.250:1999
+2026/07/27-09:50:18.903 UTC - INFO  -  
+2026/07/27-11:45:07.593 UTC - WARN  -  Module Module_e025832e_4d66dca7_tc-dev-tc is not alive. Removing it from scheduler list
+2026/07/27-11:45:07.595 UTC - WARN  -  RemoteException in submitToModule call removes the scheduler module from the list
+2026/07/27-11:45:10.828 UTC - INFO  -  Scheduler Shut down!!!
+2026/07/27-11:45:27.045 UTC - INFO  - - 0B601817B - - - Release Version     : V2506.0003.2025090600
+2026/07/27-11:45:27.049 UTC - INFO  - - 0B601817B - - - Home Directory      : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Scheduler\bin\\..
+2026/07/27-11:45:27.050 UTC - INFO  - - 0B601817B - - - Log files Directory : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Logs\Dispatcher
+2026/07/27-11:45:27.050 UTC - INFO  - - 0B601817B - - - Java Version        : 17.0.3
+2026/07/27-11:45:27.051 UTC - INFO  - - 0B601817B - - - Start Time          : Jul 27, 2026 11:45:27
+2026/07/27-11:45:27.060 UTC - INFO  - - 0B601817B - - - Scheduler URL rmi://localhost:2001
+2026/07/27-11:45:28.013 UTC - INFO  - - 0B601817B - - - 
+2026/07/27-11:45:28.015 UTC - INFO  - - 0B601817B - - - Scheduler is ready to accept tasks.
+2026/07/27-11:45:37.466 UTC - INFO  -  
+2026/07/27-11:45:37.466 UTC - INFO  -  Following module connected to the scheduler:
+2026/07/27-11:45:37.466 UTC - INFO  -  --------------------------------------------
+2026/07/27-11:45:37.466 UTC - INFO  -  HostName   : tc-dev-tc
+2026/07/27-11:45:37.466 UTC - INFO  -  HostAddress: 10.30.1.250
+2026/07/27-11:45:37.466 UTC - INFO  -  ModuleName : Module_e025832e_4d66dca7_tc-dev-tc
+2026/07/27-11:45:37.466 UTC - INFO  -  ModuleURL  : rmi://10.30.1.250:1999
+2026/07/27-11:45:37.466 UTC - INFO  -  
+2026/07/27-15:30:42.619 UTC - INFO  -  Scheduler Shut down!!!
+2026/07/28-04:52:56.229 UTC - INFO  - - 0A00D8F8B - - - Release Version     : V2506.0003.2025090600
+2026/07/28-04:52:56.244 UTC - INFO  - - 0A00D8F8B - - - Home Directory      : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Scheduler\bin\\..
+2026/07/28-04:52:56.244 UTC - INFO  - - 0A00D8F8B - - - Log files Directory : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Logs\Dispatcher
+2026/07/28-04:52:56.244 UTC - INFO  - - 0A00D8F8B - - - Java Version        : 17.0.3
+2026/07/28-04:52:56.244 UTC - INFO  - - 0A00D8F8B - - - Start Time          : Jul 28, 2026 04:52:56
+2026/07/28-04:52:56.260 UTC - INFO  - - 0A00D8F8B - - - Scheduler URL rmi://localhost:2001
+2026/07/28-04:53:05.346 UTC - INFO  - - 0A00D8F8B - - - 
+2026/07/28-04:53:05.348 UTC - INFO  - - 0A00D8F8B - - - Scheduler is ready to accept tasks.
+2026/07/28-04:53:35.605 UTC - INFO  -  
+2026/07/28-04:53:35.605 UTC - INFO  -  Following module connected to the scheduler:
+2026/07/28-04:53:35.606 UTC - INFO  -  --------------------------------------------
+2026/07/28-04:53:35.606 UTC - INFO  -  HostName   : tc-dev-tc
+2026/07/28-04:53:35.607 UTC - INFO  -  HostAddress: 10.30.1.250
+2026/07/28-04:53:35.607 UTC - INFO  -  ModuleName : Module_e025832e_4d66dca7_tc-dev-tc
+2026/07/28-04:53:35.608 UTC - INFO  -  ModuleURL  : rmi://10.30.1.250:1999
+2026/07/28-04:53:35.608 UTC - INFO  -  
+2026/07/28-15:30:39.470 UTC - INFO  -  Scheduler Shut down!!!
+2026/07/28-15:36:08.268 UTC - INFO  - - 03200736B - - - Release Version     : V2506.0003.2025090600
+2026/07/28-15:36:08.305 UTC - INFO  - - 03200736B - - - Home Directory      : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Scheduler\bin\\..
+2026/07/28-15:36:08.312 UTC - INFO  - - 03200736B - - - Log files Directory : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Logs\Dispatcher
+2026/07/28-15:36:08.313 UTC - INFO  - - 03200736B - - - Java Version        : 17.0.3
+2026/07/28-15:36:08.315 UTC - INFO  - - 03200736B - - - Start Time          : Jul 28, 2026 15:36:08
+2026/07/28-15:36:08.339 UTC - INFO  - - 03200736B - - - Scheduler URL rmi://localhost:2001
+2026/07/28-15:36:12.809 UTC - INFO  - - 03200736B - - - 
+2026/07/28-15:36:12.819 UTC - INFO  - - 03200736B - - - Scheduler is ready to accept tasks.
+2026/07/28-15:36:42.627 UTC - INFO  -  
+2026/07/28-15:36:42.627 UTC - INFO  -  Following module connected to the scheduler:
+2026/07/28-15:36:42.628 UTC - INFO  -  --------------------------------------------
+2026/07/28-15:36:42.628 UTC - INFO  -  HostName   : tc-dev-tc
+2026/07/28-15:36:42.630 UTC - INFO  -  HostAddress: 10.30.1.250
+2026/07/28-15:36:42.630 UTC - INFO  -  ModuleName : Module_e025832e_4d66dca7_tc-dev-tc
+2026/07/28-15:36:42.630 UTC - INFO  -  ModuleURL  : rmi://10.30.1.250:1999
+2026/07/28-15:36:42.631 UTC - INFO  -  
+2026/07/28-21:30:39.853 UTC - INFO  -  Scheduler Shut down!!!
+2026/07/29-04:22:47.932 UTC - INFO  - - 0DF86B143 - - - Release Version     : V2506.0003.2025090600
+2026/07/29-04:22:47.947 UTC - INFO  - - 0DF86B143 - - - Home Directory      : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Scheduler\bin\\..
+2026/07/29-04:22:47.947 UTC - INFO  - - 0DF86B143 - - - Log files Directory : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Logs\Dispatcher
+2026/07/29-04:22:47.947 UTC - INFO  - - 0DF86B143 - - - Java Version        : 17.0.3
+2026/07/29-04:22:47.947 UTC - INFO  - - 0DF86B143 - - - Start Time          : Jul 29, 2026 04:22:47
+2026/07/29-04:22:47.963 UTC - INFO  - - 0DF86B143 - - - Scheduler URL rmi://localhost:2001
+2026/07/29-04:22:56.099 UTC - INFO  - - 0DF86B143 - - - 
+2026/07/29-04:22:56.101 UTC - INFO  - - 0DF86B143 - - - Scheduler is ready to accept tasks.
+2026/07/29-04:22:57.585 UTC - INFO  -  
+2026/07/29-04:22:57.586 UTC - INFO  -  Following module connected to the scheduler:
+2026/07/29-04:22:57.586 UTC - INFO  -  --------------------------------------------
+2026/07/29-04:22:57.587 UTC - INFO  -  HostName   : tc-dev-tc
+2026/07/29-04:22:57.587 UTC - INFO  -  HostAddress: 10.30.1.250
+2026/07/29-04:22:57.587 UTC - INFO  -  ModuleName : Module_e025832e_4d66dca7_tc-dev-tc
+2026/07/29-04:22:57.588 UTC - INFO  -  ModuleURL  : rmi://10.30.1.250:1999
+2026/07/29-04:22:57.588 UTC - INFO  -  
+2026/07/29-04:24:36.989 UTC - WARN  -  Module Module_e025832e_4d66dca7_tc-dev-tc is not alive. Removing it from scheduler list
+2026/07/29-04:24:36.991 UTC - WARN  -  RemoteException in submitToModule call removes the scheduler module from the list
+2026/07/29-04:24:40.434 UTC - INFO  -  Scheduler Shut down!!!
+2026/07/29-04:43:17.836 UTC - INFO  - - 0FD640B7F - - - Release Version     : V2506.0003.2025090600
+2026/07/29-04:43:17.841 UTC - INFO  - - 0FD640B7F - - - Home Directory      : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Scheduler\bin\\..
+2026/07/29-04:43:17.842 UTC - INFO  - - 0FD640B7F - - - Log files Directory : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Logs\Dispatcher
+2026/07/29-04:43:17.843 UTC - INFO  - - 0FD640B7F - - - Java Version        : 17.0.3
+2026/07/29-04:43:17.844 UTC - INFO  - - 0FD640B7F - - - Start Time          : Jul 29, 2026 04:43:17
+2026/07/29-04:43:17.856 UTC - INFO  - - 0FD640B7F - - - Scheduler URL rmi://localhost:2001
+2026/07/29-04:43:25.258 UTC - INFO  - - 0FD640B7F - - - 
+2026/07/29-04:43:25.262 UTC - INFO  - - 0FD640B7F - - - Scheduler is ready to accept tasks.
+2026/07/29-04:43:25.570 UTC - INFO  -  
+2026/07/29-04:43:25.570 UTC - INFO  -  Following module connected to the scheduler:
+2026/07/29-04:43:25.571 UTC - INFO  -  --------------------------------------------
+2026/07/29-04:43:25.571 UTC - INFO  -  HostName   : tc-dev-tc
+2026/07/29-04:43:25.572 UTC - INFO  -  HostAddress: 10.30.1.250
+2026/07/29-04:43:25.572 UTC - INFO  -  ModuleName : Module_e025832e_4d66dca7_tc-dev-tc
+2026/07/29-04:43:25.573 UTC - INFO  -  ModuleURL  : rmi://10.30.1.250:1999
+2026/07/29-04:43:25.573 UTC - INFO  -  
+2026/07/29-15:30:37.813 UTC - INFO  -  Scheduler Shut down!!!
+2026/07/29-16:06:10.297 UTC - INFO  - - 067FBB946 - - - Release Version     : V2506.0003.2025090600
+2026/07/29-16:06:10.303 UTC - INFO  - - 067FBB946 - - - Home Directory      : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Scheduler\bin\\..
+2026/07/29-16:06:10.305 UTC - INFO  - - 067FBB946 - - - Log files Directory : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Logs\Dispatcher
+2026/07/29-16:06:10.307 UTC - INFO  - - 067FBB946 - - - Java Version        : 17.0.3
+2026/07/29-16:06:10.308 UTC - INFO  - - 067FBB946 - - - Start Time          : Jul 29, 2026 16:06:10
+2026/07/29-16:06:10.365 UTC - INFO  - - 067FBB946 - - - Scheduler URL rmi://localhost:2001
+2026/07/29-16:06:15.980 UTC - INFO  - - 067FBB946 - - - 
+2026/07/29-16:06:15.983 UTC - INFO  - - 067FBB946 - - - Scheduler is ready to accept tasks.
+2026/07/29-16:06:16.060 UTC - INFO  -  
+2026/07/29-16:06:16.060 UTC - INFO  -  Following module connected to the scheduler:
+2026/07/29-16:06:16.061 UTC - INFO  -  --------------------------------------------
+2026/07/29-16:06:16.061 UTC - INFO  -  HostName   : tc-dev-tc
+2026/07/29-16:06:16.062 UTC - INFO  -  HostAddress: 10.30.1.250
+2026/07/29-16:06:16.062 UTC - INFO  -  ModuleName : Module_e025832e_4d66dca7_tc-dev-tc
+2026/07/29-16:06:16.062 UTC - INFO  -  ModuleURL  : rmi://10.30.1.250:1999
+2026/07/29-16:06:16.063 UTC - INFO  -  
+2026/07/29-16:34:12.656 UTC - INFO  -  Scheduler Shut down!!!
+2026/07/30-05:36:57.307 UTC - INFO  - - 0F33D5E6A - - - Release Version     : V2506.0003.2025090600
+2026/07/30-05:36:57.323 UTC - INFO  - - 0F33D5E6A - - - Home Directory      : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Scheduler\bin\\..
+2026/07/30-05:36:57.323 UTC - INFO  - - 0F33D5E6A - - - Log files Directory : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Logs\Dispatcher
+2026/07/30-05:36:57.323 UTC - INFO  - - 0F33D5E6A - - - Java Version        : 17.0.3
+2026/07/30-05:36:57.323 UTC - INFO  - - 0F33D5E6A - - - Start Time          : Jul 30, 2026 05:36:57
+2026/07/30-05:36:57.354 UTC - INFO  - - 0F33D5E6A - - - Scheduler URL rmi://localhost:2001
+2026/07/30-05:37:03.456 UTC - INFO  - - 0F33D5E6A - - - 
+2026/07/30-05:37:03.465 UTC - INFO  - - 0F33D5E6A - - - Scheduler is ready to accept tasks.
+2026/07/30-05:37:03.625 UTC - INFO  -  
+2026/07/30-05:37:03.625 UTC - INFO  -  Following module connected to the scheduler:
+2026/07/30-05:37:03.626 UTC - INFO  -  --------------------------------------------
+2026/07/30-05:37:03.626 UTC - INFO  -  HostName   : tc-dev-tc
+2026/07/30-05:37:03.626 UTC - INFO  -  HostAddress: 10.30.1.250
+2026/07/30-05:37:03.627 UTC - INFO  -  ModuleName : Module_e025832e_4d66dca7_tc-dev-tc
+2026/07/30-05:37:03.627 UTC - INFO  -  ModuleURL  : rmi://10.30.1.250:1999
+2026/07/30-05:37:03.627 UTC - INFO  -  

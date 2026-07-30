@@ -1,0 +1,319 @@
+2026/07/23-07:12:24.457 UTC - INFO  - - 0A01C0226 - - - Release Version     : V2506.0003.2025090600
+2026/07/23-07:12:24.461 UTC - INFO  - - 0A01C0226 - - - Home Directory      : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Module\bin\\..
+2026/07/23-07:12:24.462 UTC - INFO  - - 0A01C0226 - - - Log files Directory : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Logs\Dispatcher
+2026/07/23-07:12:24.462 UTC - INFO  - - 0A01C0226 - - - Java Version        : 17.0.3
+2026/07/23-07:12:24.463 UTC - INFO  - - 0A01C0226 - - - Start Time          : Jul 23, 2026 07:12:24
+2026/07/23-07:12:24.464 UTC - INFO  - - 0A01C0226 - - - Module Name         : Module_e025832e_4d66dca7_tc-dev-tc
+2026/07/23-07:12:24.465 UTC - INFO  - - 0A01C0226 - - - Module Host Name    : tc-dev-tc
+2026/07/23-07:12:24.466 UTC - INFO  - - 0A01C0226 - - - Module URL          : rmi://10.30.1.250:1999
+2026/07/23-07:12:24.466 UTC - INFO  - - 0A01C0226 - - - Module Log FileName : Module_e025832e_4d66dca7_tc-dev-tc.log
+2026/07/23-07:12:24.467 UTC - INFO  - - 0A01C0226 - - - 
+2026/07/23-07:12:24.467 UTC - INFO  - - 0A01C0226 - - - Translators Available
+2026/07/23-07:12:24.467 UTC - INFO  - - 0A01C0226 - - - --------------------------------------------
+2026/07/23-07:12:24.468 UTC - INFO  - - 0A01C0226 - - - Provider: SIEMENS   Service: tozipfile
+2026/07/23-07:12:24.468 UTC - INFO  - - 0A01C0226 - - - --------------------------------------------
+2026/07/23-07:12:25.673 UTC - ERROR - - 0A01C0226 - - - Problem: Scheduler lookup failed. Number of Tries 1
+2026/07/23-07:12:25.674 UTC - ERROR - - 0A01C0226 - - - Resolution: 
+2026/07/23-07:12:25.674 UTC - ERROR - - 0A01C0226 - - - 1. Check if the port specified for the scheduler in [Scheduler installation]/conf/transscheduler.properties is same as that specified in the[Module installation]/conf/transmodule.properties file.
+2026/07/23-07:12:25.674 UTC - ERROR - - 0A01C0226 - - - 2. Check if the Scheduler is down or if the scheduler port is blocked.
+2026/07/23-07:12:25.675 UTC - ERROR - - 0A01C0226 - - - Restart the scheduler if it is not running. Wait for modules to connect.
+2026/07/23-07:12:25.676 UTC - INFO  - - 0A01C0226 - - - Admin email not configured for message:
+  Module on host tc-dev-tc is trying to connect to the Scheduler with 
+  URL: rmi://TC-DEV-TC:2001.
+  The Scheduler is not responding. ReTrying...
+2026/07/23-07:12:25.679 UTC - INFO  - - 0A01C0226 - - - Module is ready for the tasks.
+
+2026/07/23-07:12:26.681 UTC - ERROR -  Problem: Scheduler lookup failed. Number of Tries 2
+2026/07/23-07:12:26.682 UTC - ERROR -  Resolution: 
+2026/07/23-07:12:26.683 UTC - ERROR -  1. Check if the port specified for the scheduler in [Scheduler installation]/conf/transscheduler.properties is same as that specified in the[Module installation]/conf/transmodule.properties file.
+2026/07/23-07:12:26.683 UTC - ERROR -  2. Check if the Scheduler is down or if the scheduler port is blocked.
+2026/07/23-07:12:26.683 UTC - ERROR -  Restart the scheduler if it is not running. Wait for modules to connect.
+2026/07/23-07:12:56.790 UTC - INFO  -  Connected to Scheduler at rmi://TC-DEV-TC:2001
+2026/07/23-07:55:50.952 UTC - INFO  -  Module Shutting down. Stopped running tasks.
+
+2026/07/23-07:56:10.412 UTC - INFO  - - 0643035BB - - - Release Version     : V2506.0003.2025090600
+2026/07/23-07:56:10.415 UTC - INFO  - - 0643035BB - - - Home Directory      : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Module\bin\\..
+2026/07/23-07:56:10.416 UTC - INFO  - - 0643035BB - - - Log files Directory : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Logs\Dispatcher
+2026/07/23-07:56:10.416 UTC - INFO  - - 0643035BB - - - Java Version        : 17.0.3
+2026/07/23-07:56:10.417 UTC - INFO  - - 0643035BB - - - Start Time          : Jul 23, 2026 07:56:10
+2026/07/23-07:56:10.417 UTC - INFO  - - 0643035BB - - - Module Name         : Module_e025832e_4d66dca7_tc-dev-tc
+2026/07/23-07:56:10.418 UTC - INFO  - - 0643035BB - - - Module Host Name    : tc-dev-tc
+2026/07/23-07:56:10.419 UTC - INFO  - - 0643035BB - - - Module URL          : rmi://10.30.1.250:1999
+2026/07/23-07:56:10.420 UTC - INFO  - - 0643035BB - - - Module Log FileName : Module_e025832e_4d66dca7_tc-dev-tc.log
+2026/07/23-07:56:10.420 UTC - INFO  - - 0643035BB - - - 
+2026/07/23-07:56:10.421 UTC - INFO  - - 0643035BB - - - Translators Available
+2026/07/23-07:56:10.421 UTC - INFO  - - 0643035BB - - - --------------------------------------------
+2026/07/23-07:56:10.422 UTC - INFO  - - 0643035BB - - - Provider: SIEMENS   Service: tozipfile
+2026/07/23-07:56:10.422 UTC - INFO  - - 0643035BB - - - --------------------------------------------
+2026/07/23-07:56:10.680 UTC - INFO  - - 0643035BB - - - Connected to Scheduler at rmi://TC-DEV-TC:2001
+2026/07/23-07:56:10.683 UTC - INFO  - - 0643035BB - - - Module is ready for the tasks.
+
+2026/07/23-15:30:44.024 UTC - INFO  -  Module Shutting down. Stopped running tasks.
+
+2026/07/24-04:27:48.212 UTC - INFO  - - 0C16F652E - - - Release Version     : V2506.0003.2025090600
+2026/07/24-04:27:48.228 UTC - INFO  - - 0C16F652E - - - Home Directory      : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Module\bin\\..
+2026/07/24-04:27:48.228 UTC - INFO  - - 0C16F652E - - - Log files Directory : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Logs\Dispatcher
+2026/07/24-04:27:48.228 UTC - INFO  - - 0C16F652E - - - Java Version        : 17.0.3
+2026/07/24-04:27:48.228 UTC - INFO  - - 0C16F652E - - - Start Time          : Jul 24, 2026 04:27:48
+2026/07/24-04:27:48.228 UTC - INFO  - - 0C16F652E - - - Module Name         : Module_e025832e_4d66dca7_tc-dev-tc
+2026/07/24-04:27:48.228 UTC - INFO  - - 0C16F652E - - - Module Host Name    : tc-dev-tc
+2026/07/24-04:27:48.228 UTC - INFO  - - 0C16F652E - - - Module URL          : rmi://10.30.1.250:1999
+2026/07/24-04:27:48.228 UTC - INFO  - - 0C16F652E - - - Module Log FileName : Module_e025832e_4d66dca7_tc-dev-tc.log
+2026/07/24-04:27:48.228 UTC - INFO  - - 0C16F652E - - - 
+2026/07/24-04:27:48.228 UTC - INFO  - - 0C16F652E - - - Translators Available
+2026/07/24-04:27:48.228 UTC - INFO  - - 0C16F652E - - - --------------------------------------------
+2026/07/24-04:27:48.228 UTC - INFO  - - 0C16F652E - - - Provider: SIEMENS   Service: tozipfile
+2026/07/24-04:27:48.228 UTC - INFO  - - 0C16F652E - - - --------------------------------------------
+2026/07/24-04:27:52.007 UTC - ERROR - - 0C16F652E - - - Problem: Scheduler lookup failed. Number of Tries 1
+2026/07/24-04:27:52.007 UTC - ERROR - - 0C16F652E - - - Resolution: 
+2026/07/24-04:27:52.008 UTC - ERROR - - 0C16F652E - - - 1. Check if the port specified for the scheduler in [Scheduler installation]/conf/transscheduler.properties is same as that specified in the[Module installation]/conf/transmodule.properties file.
+2026/07/24-04:27:52.008 UTC - ERROR - - 0C16F652E - - - 2. Check if the Scheduler is down or if the scheduler port is blocked.
+2026/07/24-04:27:52.009 UTC - ERROR - - 0C16F652E - - - Restart the scheduler if it is not running. Wait for modules to connect.
+2026/07/24-04:27:52.010 UTC - INFO  - - 0C16F652E - - - Admin email not configured for message:
+  Module on host tc-dev-tc is trying to connect to the Scheduler with 
+  URL: rmi://TC-DEV-TC:2001.
+  The Scheduler is not responding. ReTrying...
+2026/07/24-04:27:52.013 UTC - INFO  - - 0C16F652E - - - Module is ready for the tasks.
+
+2026/07/24-04:27:52.093 UTC - ERROR -  Problem: Scheduler lookup failed. Number of Tries 2
+2026/07/24-04:27:52.097 UTC - ERROR -  Resolution: 
+2026/07/24-04:27:52.097 UTC - ERROR -  1. Check if the port specified for the scheduler in [Scheduler installation]/conf/transscheduler.properties is same as that specified in the[Module installation]/conf/transmodule.properties file.
+2026/07/24-04:27:52.098 UTC - ERROR -  2. Check if the Scheduler is down or if the scheduler port is blocked.
+2026/07/24-04:27:52.099 UTC - ERROR -  Restart the scheduler if it is not running. Wait for modules to connect.
+2026/07/24-04:28:22.793 UTC - INFO  -  Connected to Scheduler at rmi://TC-DEV-TC:2001
+2026/07/24-15:30:37.856 UTC - INFO  -  Module Shutting down. Stopped running tasks.
+
+2026/07/27-09:49:45.011 UTC - INFO  - - 0AF6CCF82 - - - Release Version     : V2506.0003.2025090600
+2026/07/27-09:49:45.024 UTC - INFO  - - 0AF6CCF82 - - - Home Directory      : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Module\bin\\..
+2026/07/27-09:49:45.027 UTC - INFO  - - 0AF6CCF82 - - - Log files Directory : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Logs\Dispatcher
+2026/07/27-09:49:45.028 UTC - INFO  - - 0AF6CCF82 - - - Java Version        : 17.0.3
+2026/07/27-09:49:45.028 UTC - INFO  - - 0AF6CCF82 - - - Start Time          : Jul 27, 2026 09:49:45
+2026/07/27-09:49:45.029 UTC - INFO  - - 0AF6CCF82 - - - Module Name         : Module_e025832e_4d66dca7_tc-dev-tc
+2026/07/27-09:49:45.029 UTC - INFO  - - 0AF6CCF82 - - - Module Host Name    : tc-dev-tc
+2026/07/27-09:49:45.031 UTC - INFO  - - 0AF6CCF82 - - - Module URL          : rmi://10.30.1.250:1999
+2026/07/27-09:49:45.032 UTC - INFO  - - 0AF6CCF82 - - - Module Log FileName : Module_e025832e_4d66dca7_tc-dev-tc.log
+2026/07/27-09:49:45.032 UTC - INFO  - - 0AF6CCF82 - - - 
+2026/07/27-09:49:45.033 UTC - INFO  - - 0AF6CCF82 - - - Translators Available
+2026/07/27-09:49:45.034 UTC - INFO  - - 0AF6CCF82 - - - --------------------------------------------
+2026/07/27-09:49:45.034 UTC - INFO  - - 0AF6CCF82 - - - Provider: SIEMENS   Service: tozipfile
+2026/07/27-09:49:45.034 UTC - INFO  - - 0AF6CCF82 - - - --------------------------------------------
+2026/07/27-09:49:47.715 UTC - ERROR - - 0AF6CCF82 - - - Problem: Scheduler lookup failed. Number of Tries 1
+2026/07/27-09:49:47.716 UTC - ERROR - - 0AF6CCF82 - - - Resolution: 
+2026/07/27-09:49:47.716 UTC - ERROR - - 0AF6CCF82 - - - 1. Check if the port specified for the scheduler in [Scheduler installation]/conf/transscheduler.properties is same as that specified in the[Module installation]/conf/transmodule.properties file.
+2026/07/27-09:49:47.716 UTC - ERROR - - 0AF6CCF82 - - - 2. Check if the Scheduler is down or if the scheduler port is blocked.
+2026/07/27-09:49:47.717 UTC - ERROR - - 0AF6CCF82 - - - Restart the scheduler if it is not running. Wait for modules to connect.
+2026/07/27-09:49:47.718 UTC - INFO  - - 0AF6CCF82 - - - Admin email not configured for message:
+  Module on host tc-dev-tc is trying to connect to the Scheduler with 
+  URL: rmi://TC-DEV-TC:2001.
+  The Scheduler is not responding. ReTrying...
+2026/07/27-09:49:47.725 UTC - INFO  - - 0AF6CCF82 - - - Module is ready for the tasks.
+
+2026/07/27-09:50:18.939 UTC - INFO  -  Connected to Scheduler at rmi://TC-DEV-TC:2001
+2026/07/27-11:45:02.220 UTC - INFO  -  Module Shutting down. Stopped running tasks.
+
+2026/07/27-11:45:37.257 UTC - INFO  - - 012E6A6F3 - - - Release Version     : V2506.0003.2025090600
+2026/07/27-11:45:37.260 UTC - INFO  - - 012E6A6F3 - - - Home Directory      : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Module\bin\\..
+2026/07/27-11:45:37.261 UTC - INFO  - - 012E6A6F3 - - - Log files Directory : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Logs\Dispatcher
+2026/07/27-11:45:37.261 UTC - INFO  - - 012E6A6F3 - - - Java Version        : 17.0.3
+2026/07/27-11:45:37.261 UTC - INFO  - - 012E6A6F3 - - - Start Time          : Jul 27, 2026 11:45:37
+2026/07/27-11:45:37.262 UTC - INFO  - - 012E6A6F3 - - - Module Name         : Module_e025832e_4d66dca7_tc-dev-tc
+2026/07/27-11:45:37.262 UTC - INFO  - - 012E6A6F3 - - - Module Host Name    : tc-dev-tc
+2026/07/27-11:45:37.264 UTC - INFO  - - 012E6A6F3 - - - Module URL          : rmi://10.30.1.250:1999
+2026/07/27-11:45:37.264 UTC - INFO  - - 012E6A6F3 - - - Module Log FileName : Module_e025832e_4d66dca7_tc-dev-tc.log
+2026/07/27-11:45:37.264 UTC - INFO  - - 012E6A6F3 - - - 
+2026/07/27-11:45:37.265 UTC - INFO  - - 012E6A6F3 - - - Translators Available
+2026/07/27-11:45:37.265 UTC - INFO  - - 012E6A6F3 - - - --------------------------------------------
+2026/07/27-11:45:37.265 UTC - INFO  - - 012E6A6F3 - - - Provider: SIEMENS   Service: plmxml_import_export
+2026/07/27-11:45:37.266 UTC - INFO  - - 012E6A6F3 - - - Provider: SIEMENS   Service: store_and_forward
+2026/07/27-11:45:37.266 UTC - INFO  - - 012E6A6F3 - - - Provider: SIEMENS   Service: tozipfile
+2026/07/27-11:45:37.266 UTC - INFO  - - 012E6A6F3 - - - Provider: SIEMENS   Service: asyncservice
+2026/07/27-11:45:37.266 UTC - INFO  - - 012E6A6F3 - - - --------------------------------------------
+2026/07/27-11:45:37.500 UTC - INFO  - - 012E6A6F3 - - - Connected to Scheduler at rmi://TC-DEV-TC:2001
+2026/07/27-11:45:37.503 UTC - INFO  - - 012E6A6F3 - - - Module is ready for the tasks.
+
+2026/07/27-15:30:42.619 UTC - INFO  -  Module Shutting down. Stopped running tasks.
+
+2026/07/28-04:52:57.112 UTC - INFO  - - 0C97F0CFE - - - Release Version     : V2506.0003.2025090600
+2026/07/28-04:52:57.112 UTC - INFO  - - 0C97F0CFE - - - Home Directory      : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Module\bin\\..
+2026/07/28-04:52:57.112 UTC - INFO  - - 0C97F0CFE - - - Log files Directory : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Logs\Dispatcher
+2026/07/28-04:52:57.112 UTC - INFO  - - 0C97F0CFE - - - Java Version        : 17.0.3
+2026/07/28-04:52:57.112 UTC - INFO  - - 0C97F0CFE - - - Start Time          : Jul 28, 2026 04:52:57
+2026/07/28-04:52:57.112 UTC - INFO  - - 0C97F0CFE - - - Module Name         : Module_e025832e_4d66dca7_tc-dev-tc
+2026/07/28-04:52:57.127 UTC - INFO  - - 0C97F0CFE - - - Module Host Name    : tc-dev-tc
+2026/07/28-04:52:57.127 UTC - INFO  - - 0C97F0CFE - - - Module URL          : rmi://10.30.1.250:1999
+2026/07/28-04:52:57.127 UTC - INFO  - - 0C97F0CFE - - - Module Log FileName : Module_e025832e_4d66dca7_tc-dev-tc.log
+2026/07/28-04:52:57.127 UTC - INFO  - - 0C97F0CFE - - - 
+2026/07/28-04:52:57.127 UTC - INFO  - - 0C97F0CFE - - - Translators Available
+2026/07/28-04:52:57.127 UTC - INFO  - - 0C97F0CFE - - - --------------------------------------------
+2026/07/28-04:52:57.127 UTC - INFO  - - 0C97F0CFE - - - Provider: SIEMENS   Service: plmxml_import_export
+2026/07/28-04:52:57.127 UTC - INFO  - - 0C97F0CFE - - - Provider: SIEMENS   Service: store_and_forward
+2026/07/28-04:52:57.127 UTC - INFO  - - 0C97F0CFE - - - Provider: SIEMENS   Service: tozipfile
+2026/07/28-04:52:57.127 UTC - INFO  - - 0C97F0CFE - - - Provider: SIEMENS   Service: asyncservice
+2026/07/28-04:52:57.127 UTC - INFO  - - 0C97F0CFE - - - --------------------------------------------
+2026/07/28-04:53:03.591 UTC - ERROR - - 0C97F0CFE - - - Problem: Scheduler lookup failed. Number of Tries 1
+2026/07/28-04:53:03.591 UTC - ERROR - - 0C97F0CFE - - - Resolution: 
+2026/07/28-04:53:03.591 UTC - ERROR - - 0C97F0CFE - - - 1. Check if the port specified for the scheduler in [Scheduler installation]/conf/transscheduler.properties is same as that specified in the[Module installation]/conf/transmodule.properties file.
+2026/07/28-04:53:03.591 UTC - ERROR - - 0C97F0CFE - - - 2. Check if the Scheduler is down or if the scheduler port is blocked.
+2026/07/28-04:53:03.591 UTC - ERROR - - 0C97F0CFE - - - Restart the scheduler if it is not running. Wait for modules to connect.
+2026/07/28-04:53:03.591 UTC - INFO  - - 0C97F0CFE - - - Admin email not configured for message:
+  Module on host tc-dev-tc is trying to connect to the Scheduler with 
+  URL: rmi://TC-DEV-TC:2001.
+  The Scheduler is not responding. ReTrying...
+2026/07/28-04:53:03.591 UTC - INFO  - - 0C97F0CFE - - - Module is ready for the tasks.
+
+2026/07/28-04:53:03.602 UTC - ERROR -  Problem: Scheduler lookup failed. Number of Tries 2
+2026/07/28-04:53:03.607 UTC - ERROR -  Resolution: 
+2026/07/28-04:53:03.608 UTC - ERROR -  1. Check if the port specified for the scheduler in [Scheduler installation]/conf/transscheduler.properties is same as that specified in the[Module installation]/conf/transmodule.properties file.
+2026/07/28-04:53:03.609 UTC - ERROR -  2. Check if the Scheduler is down or if the scheduler port is blocked.
+2026/07/28-04:53:03.609 UTC - ERROR -  Restart the scheduler if it is not running. Wait for modules to connect.
+2026/07/28-04:53:35.657 UTC - INFO  -  Connected to Scheduler at rmi://TC-DEV-TC:2001
+2026/07/28-15:30:44.471 UTC - INFO  -  Module Shutting down. Stopped running tasks.
+
+2026/07/28-15:36:06.142 UTC - INFO  - - 03B4A14BE - - - Release Version     : V2506.0003.2025090600
+2026/07/28-15:36:06.155 UTC - INFO  - - 03B4A14BE - - - Home Directory      : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Module\bin\\..
+2026/07/28-15:36:06.162 UTC - INFO  - - 03B4A14BE - - - Log files Directory : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Logs\Dispatcher
+2026/07/28-15:36:06.164 UTC - INFO  - - 03B4A14BE - - - Java Version        : 17.0.3
+2026/07/28-15:36:06.165 UTC - INFO  - - 03B4A14BE - - - Start Time          : Jul 28, 2026 15:36:06
+2026/07/28-15:36:06.166 UTC - INFO  - - 03B4A14BE - - - Module Name         : Module_e025832e_4d66dca7_tc-dev-tc
+2026/07/28-15:36:06.166 UTC - INFO  - - 03B4A14BE - - - Module Host Name    : tc-dev-tc
+2026/07/28-15:36:06.173 UTC - INFO  - - 03B4A14BE - - - Module URL          : rmi://10.30.1.250:1999
+2026/07/28-15:36:06.175 UTC - INFO  - - 03B4A14BE - - - Module Log FileName : Module_e025832e_4d66dca7_tc-dev-tc.log
+2026/07/28-15:36:06.175 UTC - INFO  - - 03B4A14BE - - - 
+2026/07/28-15:36:06.176 UTC - INFO  - - 03B4A14BE - - - Translators Available
+2026/07/28-15:36:06.179 UTC - INFO  - - 03B4A14BE - - - --------------------------------------------
+2026/07/28-15:36:06.180 UTC - INFO  - - 03B4A14BE - - - Provider: SIEMENS   Service: plmxml_import_export
+2026/07/28-15:36:06.181 UTC - INFO  - - 03B4A14BE - - - Provider: SIEMENS   Service: store_and_forward
+2026/07/28-15:36:06.181 UTC - INFO  - - 03B4A14BE - - - Provider: SIEMENS   Service: tozipfile
+2026/07/28-15:36:06.182 UTC - INFO  - - 03B4A14BE - - - Provider: SIEMENS   Service: asyncservice
+2026/07/28-15:36:06.182 UTC - INFO  - - 03B4A14BE - - - --------------------------------------------
+2026/07/28-15:36:09.899 UTC - ERROR - - 03B4A14BE - - - Problem: Scheduler lookup failed. Number of Tries 1
+2026/07/28-15:36:09.900 UTC - ERROR - - 03B4A14BE - - - Resolution: 
+2026/07/28-15:36:09.900 UTC - ERROR - - 03B4A14BE - - - 1. Check if the port specified for the scheduler in [Scheduler installation]/conf/transscheduler.properties is same as that specified in the[Module installation]/conf/transmodule.properties file.
+2026/07/28-15:36:09.901 UTC - ERROR - - 03B4A14BE - - - 2. Check if the Scheduler is down or if the scheduler port is blocked.
+2026/07/28-15:36:09.901 UTC - ERROR - - 03B4A14BE - - - Restart the scheduler if it is not running. Wait for modules to connect.
+2026/07/28-15:36:09.902 UTC - INFO  - - 03B4A14BE - - - Admin email not configured for message:
+  Module on host tc-dev-tc is trying to connect to the Scheduler with 
+  URL: rmi://TC-DEV-TC:2001.
+  The Scheduler is not responding. ReTrying...
+2026/07/28-15:36:09.905 UTC - INFO  - - 03B4A14BE - - - Module is ready for the tasks.
+
+2026/07/28-15:36:42.671 UTC - INFO  -  Connected to Scheduler at rmi://TC-DEV-TC:2001
+2026/07/28-21:30:39.853 UTC - INFO  -  Module Shutting down. Stopped running tasks.
+
+2026/07/29-04:22:50.311 UTC - INFO  - - 0B3779F22 - - - Release Version     : V2506.0003.2025090600
+2026/07/29-04:22:50.329 UTC - INFO  - - 0B3779F22 - - - Home Directory      : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Module\bin\\..
+2026/07/29-04:22:50.329 UTC - INFO  - - 0B3779F22 - - - Log files Directory : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Logs\Dispatcher
+2026/07/29-04:22:50.329 UTC - INFO  - - 0B3779F22 - - - Java Version        : 17.0.3
+2026/07/29-04:22:50.329 UTC - INFO  - - 0B3779F22 - - - Start Time          : Jul 29, 2026 04:22:50
+2026/07/29-04:22:50.329 UTC - INFO  - - 0B3779F22 - - - Module Name         : Module_e025832e_4d66dca7_tc-dev-tc
+2026/07/29-04:22:50.342 UTC - INFO  - - 0B3779F22 - - - Module Host Name    : tc-dev-tc
+2026/07/29-04:22:50.342 UTC - INFO  - - 0B3779F22 - - - Module URL          : rmi://10.30.1.250:1999
+2026/07/29-04:22:50.342 UTC - INFO  - - 0B3779F22 - - - Module Log FileName : Module_e025832e_4d66dca7_tc-dev-tc.log
+2026/07/29-04:22:50.342 UTC - INFO  - - 0B3779F22 - - - 
+2026/07/29-04:22:50.342 UTC - INFO  - - 0B3779F22 - - - Translators Available
+2026/07/29-04:22:50.342 UTC - INFO  - - 0B3779F22 - - - --------------------------------------------
+2026/07/29-04:22:50.342 UTC - INFO  - - 0B3779F22 - - - Provider: SIEMENS   Service: plmxml_import_export
+2026/07/29-04:22:50.342 UTC - INFO  - - 0B3779F22 - - - Provider: SIEMENS   Service: store_and_forward
+2026/07/29-04:22:50.342 UTC - INFO  - - 0B3779F22 - - - Provider: SIEMENS   Service: tozipfile
+2026/07/29-04:22:50.342 UTC - INFO  - - 0B3779F22 - - - Provider: SIEMENS   Service: asyncservice
+2026/07/29-04:22:50.342 UTC - INFO  - - 0B3779F22 - - - --------------------------------------------
+2026/07/29-04:22:53.049 UTC - ERROR - - 0B3779F22 - - - Problem: Scheduler lookup failed. Number of Tries 1
+2026/07/29-04:22:53.050 UTC - ERROR - - 0B3779F22 - - - Resolution: 
+2026/07/29-04:22:53.050 UTC - ERROR - - 0B3779F22 - - - 1. Check if the port specified for the scheduler in [Scheduler installation]/conf/transscheduler.properties is same as that specified in the[Module installation]/conf/transmodule.properties file.
+2026/07/29-04:22:53.051 UTC - ERROR - - 0B3779F22 - - - 2. Check if the Scheduler is down or if the scheduler port is blocked.
+2026/07/29-04:22:53.051 UTC - ERROR - - 0B3779F22 - - - Restart the scheduler if it is not running. Wait for modules to connect.
+2026/07/29-04:22:53.052 UTC - INFO  - - 0B3779F22 - - - Admin email not configured for message:
+  Module on host tc-dev-tc is trying to connect to the Scheduler with 
+  URL: rmi://TC-DEV-TC:2001.
+  The Scheduler is not responding. ReTrying...
+2026/07/29-04:22:53.054 UTC - INFO  - - 0B3779F22 - - - Module is ready for the tasks.
+
+2026/07/29-04:22:57.721 UTC - INFO  -  Connected to Scheduler at rmi://TC-DEV-TC:2001
+2026/07/29-04:24:35.423 UTC - INFO  -  Module Shutting down. Stopped running tasks.
+
+2026/07/29-04:43:17.580 UTC - INFO  - - 0D7EB24CD - - - Release Version     : V2506.0003.2025090600
+2026/07/29-04:43:17.593 UTC - INFO  - - 0D7EB24CD - - - Home Directory      : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Module\bin\\..
+2026/07/29-04:43:17.594 UTC - INFO  - - 0D7EB24CD - - - Log files Directory : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Logs\Dispatcher
+2026/07/29-04:43:17.595 UTC - INFO  - - 0D7EB24CD - - - Java Version        : 17.0.3
+2026/07/29-04:43:17.596 UTC - INFO  - - 0D7EB24CD - - - Start Time          : Jul 29, 2026 04:43:17
+2026/07/29-04:43:17.596 UTC - INFO  - - 0D7EB24CD - - - Module Name         : Module_e025832e_4d66dca7_tc-dev-tc
+2026/07/29-04:43:17.597 UTC - INFO  - - 0D7EB24CD - - - Module Host Name    : tc-dev-tc
+2026/07/29-04:43:17.599 UTC - INFO  - - 0D7EB24CD - - - Module URL          : rmi://10.30.1.250:1999
+2026/07/29-04:43:17.600 UTC - INFO  - - 0D7EB24CD - - - Module Log FileName : Module_e025832e_4d66dca7_tc-dev-tc.log
+2026/07/29-04:43:17.601 UTC - INFO  - - 0D7EB24CD - - - 
+2026/07/29-04:43:17.601 UTC - INFO  - - 0D7EB24CD - - - Translators Available
+2026/07/29-04:43:17.601 UTC - INFO  - - 0D7EB24CD - - - --------------------------------------------
+2026/07/29-04:43:17.602 UTC - INFO  - - 0D7EB24CD - - - Provider: SIEMENS   Service: plmxml_import_export
+2026/07/29-04:43:17.603 UTC - INFO  - - 0D7EB24CD - - - Provider: SIEMENS   Service: store_and_forward
+2026/07/29-04:43:17.603 UTC - INFO  - - 0D7EB24CD - - - Provider: SIEMENS   Service: tozipfile
+2026/07/29-04:43:17.603 UTC - INFO  - - 0D7EB24CD - - - Provider: SIEMENS   Service: asyncservice
+2026/07/29-04:43:17.604 UTC - INFO  - - 0D7EB24CD - - - --------------------------------------------
+2026/07/29-04:43:22.880 UTC - ERROR - - 0D7EB24CD - - - Problem: Scheduler lookup failed. Number of Tries 1
+2026/07/29-04:43:22.881 UTC - ERROR - - 0D7EB24CD - - - Resolution: 
+2026/07/29-04:43:22.881 UTC - ERROR - - 0D7EB24CD - - - 1. Check if the port specified for the scheduler in [Scheduler installation]/conf/transscheduler.properties is same as that specified in the[Module installation]/conf/transmodule.properties file.
+2026/07/29-04:43:22.882 UTC - ERROR - - 0D7EB24CD - - - 2. Check if the Scheduler is down or if the scheduler port is blocked.
+2026/07/29-04:43:22.882 UTC - ERROR - - 0D7EB24CD - - - Restart the scheduler if it is not running. Wait for modules to connect.
+2026/07/29-04:43:22.883 UTC - INFO  - - 0D7EB24CD - - - Admin email not configured for message:
+  Module on host tc-dev-tc is trying to connect to the Scheduler with 
+  URL: rmi://TC-DEV-TC:2001.
+  The Scheduler is not responding. ReTrying...
+2026/07/29-04:43:22.887 UTC - INFO  - - 0D7EB24CD - - - Module is ready for the tasks.
+
+2026/07/29-04:43:26.242 UTC - INFO  -  Connected to Scheduler at rmi://TC-DEV-TC:2001
+2026/07/29-15:30:42.827 UTC - INFO  -  Module Shutting down. Stopped running tasks.
+
+2026/07/29-16:06:11.394 UTC - INFO  - - 0386BDD6B - - - Release Version     : V2506.0003.2025090600
+2026/07/29-16:06:11.406 UTC - INFO  - - 0386BDD6B - - - Home Directory      : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Module\bin\\..
+2026/07/29-16:06:11.406 UTC - INFO  - - 0386BDD6B - - - Log files Directory : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Logs\Dispatcher
+2026/07/29-16:06:11.407 UTC - INFO  - - 0386BDD6B - - - Java Version        : 17.0.3
+2026/07/29-16:06:11.408 UTC - INFO  - - 0386BDD6B - - - Start Time          : Jul 29, 2026 16:06:11
+2026/07/29-16:06:11.408 UTC - INFO  - - 0386BDD6B - - - Module Name         : Module_e025832e_4d66dca7_tc-dev-tc
+2026/07/29-16:06:11.409 UTC - INFO  - - 0386BDD6B - - - Module Host Name    : tc-dev-tc
+2026/07/29-16:06:11.411 UTC - INFO  - - 0386BDD6B - - - Module URL          : rmi://10.30.1.250:1999
+2026/07/29-16:06:11.413 UTC - INFO  - - 0386BDD6B - - - Module Log FileName : Module_e025832e_4d66dca7_tc-dev-tc.log
+2026/07/29-16:06:11.414 UTC - INFO  - - 0386BDD6B - - - 
+2026/07/29-16:06:11.423 UTC - INFO  - - 0386BDD6B - - - Translators Available
+2026/07/29-16:06:11.448 UTC - INFO  - - 0386BDD6B - - - --------------------------------------------
+2026/07/29-16:06:11.454 UTC - INFO  - - 0386BDD6B - - - Provider: SIEMENS   Service: plmxml_import_export
+2026/07/29-16:06:11.454 UTC - INFO  - - 0386BDD6B - - - Provider: SIEMENS   Service: store_and_forward
+2026/07/29-16:06:11.455 UTC - INFO  - - 0386BDD6B - - - Provider: SIEMENS   Service: tozipfile
+2026/07/29-16:06:11.455 UTC - INFO  - - 0386BDD6B - - - Provider: SIEMENS   Service: asyncservice
+2026/07/29-16:06:11.456 UTC - INFO  - - 0386BDD6B - - - --------------------------------------------
+2026/07/29-16:06:13.884 UTC - INFO  - - 0386BDD6B - - - Admin email not configured for message:
+  Module on host tc-dev-tc is trying to connect to the Scheduler with 
+  URL: rmi://TC-DEV-TC:2001.
+  The Scheduler is not responding. ReTrying...
+2026/07/29-16:06:13.887 UTC - INFO  - - 0386BDD6B - - - Module is ready for the tasks.
+
+2026/07/29-16:06:16.355 UTC - INFO  -  Connected to Scheduler at rmi://TC-DEV-TC:2001
+2026/07/29-16:34:12.688 UTC - INFO  -  Module Shutting down. Stopped running tasks.
+
+2026/07/30-05:36:57.751 UTC - INFO  - - 06681720C - - - Release Version     : V2506.0003.2025090600
+2026/07/30-05:36:57.755 UTC - INFO  - - 06681720C - - - Home Directory      : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Module\bin\\..
+2026/07/30-05:36:57.756 UTC - INFO  - - 06681720C - - - Log files Directory : D:\PLM\Siemens\Teamcenter2506\Dispatcher\Logs\Dispatcher
+2026/07/30-05:36:57.756 UTC - INFO  - - 06681720C - - - Java Version        : 17.0.3
+2026/07/30-05:36:57.757 UTC - INFO  - - 06681720C - - - Start Time          : Jul 30, 2026 05:36:57
+2026/07/30-05:36:57.757 UTC - INFO  - - 06681720C - - - Module Name         : Module_e025832e_4d66dca7_tc-dev-tc
+2026/07/30-05:36:57.758 UTC - INFO  - - 06681720C - - - Module Host Name    : tc-dev-tc
+2026/07/30-05:36:57.759 UTC - INFO  - - 06681720C - - - Module URL          : rmi://10.30.1.250:1999
+2026/07/30-05:36:57.760 UTC - INFO  - - 06681720C - - - Module Log FileName : Module_e025832e_4d66dca7_tc-dev-tc.log
+2026/07/30-05:36:57.760 UTC - INFO  - - 06681720C - - - 
+2026/07/30-05:36:57.761 UTC - INFO  - - 06681720C - - - Translators Available
+2026/07/30-05:36:57.761 UTC - INFO  - - 06681720C - - - --------------------------------------------
+2026/07/30-05:36:57.762 UTC - INFO  - - 06681720C - - - Provider: SIEMENS   Service: plmxml_import_export
+2026/07/30-05:36:57.762 UTC - INFO  - - 06681720C - - - Provider: SIEMENS   Service: store_and_forward
+2026/07/30-05:36:57.762 UTC - INFO  - - 06681720C - - - Provider: SIEMENS   Service: tozipfile
+2026/07/30-05:36:57.763 UTC - INFO  - - 06681720C - - - Provider: SIEMENS   Service: asyncservice
+2026/07/30-05:36:57.763 UTC - INFO  - - 06681720C - - - --------------------------------------------
+2026/07/30-05:37:00.922 UTC - ERROR - - 06681720C - - - Problem: Scheduler lookup failed. Number of Tries 1
+2026/07/30-05:37:00.922 UTC - ERROR - - 06681720C - - - Resolution: 
+2026/07/30-05:37:00.923 UTC - ERROR - - 06681720C - - - 1. Check if the port specified for the scheduler in [Scheduler installation]/conf/transscheduler.properties is same as that specified in the[Module installation]/conf/transmodule.properties file.
+2026/07/30-05:37:00.923 UTC - ERROR - - 06681720C - - - 2. Check if the Scheduler is down or if the scheduler port is blocked.
+2026/07/30-05:37:00.924 UTC - ERROR - - 06681720C - - - Restart the scheduler if it is not running. Wait for modules to connect.
+2026/07/30-05:37:00.924 UTC - INFO  - - 06681720C - - - Admin email not configured for message:
+  Module on host tc-dev-tc is trying to connect to the Scheduler with 
+  URL: rmi://TC-DEV-TC:2001.
+  The Scheduler is not responding. ReTrying...
+2026/07/30-05:37:00.929 UTC - INFO  - - 06681720C - - - Module is ready for the tasks.
+
+2026/07/30-05:37:03.959 UTC - INFO  -  Connected to Scheduler at rmi://TC-DEV-TC:2001

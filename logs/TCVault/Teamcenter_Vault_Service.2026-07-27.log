@@ -1,0 +1,9 @@
+[2026-07-27 09:49:37] [info]  [ 4268] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2026-07-27 09:49:37] [info]  [ 4268] Running 'Teamcenter_Vault_Service' Service...
+[2026-07-27 09:49:37] [info]  [ 5540] Starting service...
+[2026-07-27 09:49:38] [info]  [ 5540] Service started in 328 ms.
+[2026-07-27 15:30:37] [info]  [14800] Console SHUTDOWN event signaled
+[2026-07-27 15:30:37] [info]  [14800] Stopping service...
+[2026-07-27 15:30:41] [info]  [14800] Service stop thread completed.
+[2026-07-27 15:30:41] [info]  [ 4268] Run service finished.
+[2026-07-27 15:30:41] [info]  [ 4268] Commons Daemon procrun finished

@@ -1,0 +1,125 @@
+2026/07/23-06:42:42.000 UTC - INFO  - Teamcenter.libsyss                       - 03C08DA3C - - - *** D:\PLM\Siemens\Teamcenter2506\tc_root\logs\find_lovuid33bcde14.syslog
+2026/07/23-06:42:42.000 UTC - INFO  - Teamcenter.libsyss                       - 03C08DA3C - - - *** system log created by IDC-ADMIN on Thu Jul 23 06:42:42 2026 Coordinated Universal Time
+2026/07/23-06:42:42.000 UTC - INFO  - Teamcenter.libsyss                       - 03C08DA3C - - - Node Name    :- tc-dev-tc
+2026/07/23-06:42:42.000 UTC - INFO  - Teamcenter.libsyss                       - 03C08DA3C - - - Machine type :- x64 Level 6 Revision 05507
+2026/07/23-06:42:42.000 UTC - INFO  - Teamcenter.libsyss                       - 03C08DA3C - - - OS User      :- IDC-ADMIN 
+2026/07/23-06:42:42.000 UTC - INFO  - Teamcenter.libsyss                       - 03C08DA3C - - - OS           :- Windows NT 10.0 Windows Server 2019 Datacenter (Build 17763) 
+2026/07/23-06:42:42.000 UTC - INFO  - Teamcenter.libsyss                       - 03C08DA3C - - - # Processors :- 8
+2026/07/23-06:42:42.000 UTC - INFO  - Teamcenter.libsyss                       - 03C08DA3C - - - Memory       :- 64723Mb
+2026/07/23-06:42:42.000 UTC - INFO  - Teamcenter.libsyss                       - 03C08DA3C - - - Total Swap   :- 73939Mb
+2026/07/23-06:42:42.000 UTC - INFO  - Teamcenter.libsyss                       - 03C08DA3C - - - Free  Swap   :- 60651Mb
+2026/07/23-06:42:42.000 UTC - INFO  - Teamcenter.libsyss                       - 03C08DA3C - - - Machine supports 4G address space
+2026/07/23-06:42:42.000 UTC - INFO  - Teamcenter.libsyss                       - 03C08DA3C - - - Running customer environment
+2026/07/23-06:42:42.554 UTC - INFO  - Root                                     - 03C08DA3C - - - logger properties file found at D:\PLM\Siemens\Teamcenter2506\tc_data\logger.properties
+2026/07/23-06:42:42.571 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - TC_VERSION_STRING=V2506.0003.2025090600 at E:/udu/tc25060003_1011105wn/src/foundation/pom/sss/sss_utils.cxx(448)
+2026/07/23-06:42:42.571 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - TcCrypto initialized to DOMESTIC mode at E:/udu/tc25060003_1011105wn/src/foundation/pom/fss/fss_init.cxx(130)
+2026/07/23-06:42:42.571 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - OpenSSL Version: OpenSSL 3.0.16 11 Feb 2025 at E:/udu/tc25060003_1011105wn/src/foundation/pom/fss/fss_init.cxx(327)
+2026/07/23-06:42:42.571 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - OpenSSL Provider loaded: "default" at E:/udu/tc25060003_1011105wn/src/foundation/pom/fss/fss_init.cxx(331)
+2026/07/23-06:42:42.573 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - OpenSSL Supported Ciphers: AES-256-CCM AES-128-OFB AES-128-ECB ARIA-256-CBC AES-256-GCM ARIA-128-GCM SM4-ECB AES-192-CFB ARIA-256-ECB CAMELLIA-128-CBC AES-128-WRAP DES3-WRAP CAMELLIA-128-CTR SM4-OFB CAMELLIA-192-CFB ARIA-256-CCM AES-128-XTS ARIA-256-GCM AES-128-CFB AES-128-GCM AES-256-CBC DES-EDE3-CBC CAMELLIA-256-CFB CAMELLIA-128-CFB CAMELLIA-192-ECB AES-256-WRAP AES-192-CCM ARIA-192-ECB AES-256-OFB CAMELLIA-192-CTR AES-256-CFB AES-128-CCM AES-192-GCM AES-128-WRAP-PAD ARIA-128-CTR AES-256-ECB ARIA-128-OFB ARIA-256-CFB ARIA-192-GCM CAMELLIA-128-ECB CAMELLIA-192-CBC AES-192-CBC ARIA-192-CBC AES-192-ECB ARIA-128-CFB ARIA-256-CTR SM4-CBC AES-256-WRAP-PAD AES-192-WRAP SM4-CTR CAMELLIA-192-OFB AES-128-CBC CAMELLIA-256-OFB CAMELLIA-256-CBC SM4-CFB ARIA-128-CBC CAMELLIA-128-OFB ARIA-192-CCM ARIA-256-OFB CAMELLIA-256-CTR DES-EDE-ECB AES-192-OFB ARIA-192-CTR CAMELLIA-256-ECB ARIA-128-ECB ARIA-192-CFB ARIA-192-OFB ARIA-128-CCM AES-256-XTS AES-192-WRAP-PAD NULL AES-128-CBC-CTS AES-192-CBC-CTS AES-256-CBC-CTS AES-256-CFB1 AES-192-CFB1 AES-128-CFB1 AES-256-CFB8 AES-192-CFB8 AES-128-CFB8 AES-256-CTR AES-192-CTR AES-128-CTR AES-256-OCB AES-192-OCB AES-128-OCB AES-128-SIV AES-192-SIV AES-256-SIV AES-256-WRAP-INV AES-192-WRAP-INV AES-128-WRAP-INV AES-256-WRAP-PAD-INV AES-192-WRAP-PAD-INV AES-128-WRAP-PAD-INV ARIA-256-CFB1 ARIA-192-CFB1 ARIA-128-CFB1 ARIA-256-CFB8 ARIA-192-CFB8 ARIA-128-CFB8 CAMELLIA-128-CBC-CTS CAMELLIA-192-CBC-CTS CAMELLIA-256-CBC-CTS CAMELLIA-256-CFB1 CAMELLIA-192-CFB1 CAMELLIA-128-CFB1 CAMELLIA-256-CFB8 CAMELLIA-192-CFB8 CAMELLIA-128-CFB8 DES-EDE3-ECB DES-EDE3-OFB DES-EDE3-CFB DES-EDE3-CFB8 DES-EDE3-CFB1 DES-EDE-CBC DES-EDE-OFB DES-EDE-CFB ChaCha20 ChaCha20-Poly1305 at E:/udu/tc25060003_1011105wn/src/foundation/pom/fss/fss_init.cxx(336)
+2026/07/23-06:42:42.574 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - OpenSSL Supported Digests: SHA3-512 SM3 BLAKE2S-256 SHA3-256 SHA3-224 SHA2-384 SHA2-512 SHA2-512/224 SHAKE-256 SHA2-256 SHA1 SHA3-384 SHAKE-128 MD5-SHA1 RIPEMD-160 MD5 SHA2-224 BLAKE2B-512 SHA2-512/256 NULL KECCAK-KMAC-128 KECCAK-KMAC-256 at E:/udu/tc25060003_1011105wn/src/foundation/pom/fss/fss_init.cxx(340)
+2026/07/23-06:42:42.574 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - OpenSSL Supported MACs: BLAKE2BMAC BLAKE2SMAC CMAC GMAC HMAC KMAC-128 KMAC-256 SIPHASH POLY1305 at E:/udu/tc25060003_1011105wn/src/foundation/pom/fss/fss_init.cxx(345)
+2026/07/23-06:42:42.574 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - OpenSSL Supported KDFs: HKDF TLS13-KDF SSKDF PBKDF2 PKCS12KDF SSHKDF X963KDF TLS1-PRF KBKDF X942KDF-ASN1 SCRYPT KRB5KDF at E:/udu/tc25060003_1011105wn/src/foundation/pom/fss/fss_init.cxx(350)
+2026/07/23-06:42:42.574 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - OpenSSL Supported Key Exchange List: DH X25519 X448 HKDF TLS1-PRF SCRYPT ECDH at E:/udu/tc25060003_1011105wn/src/foundation/pom/fss/fss_init.cxx(355)
+2026/07/23-06:42:42.574 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - OpenSSL Supported Signature Algorithms: RSA DSA ED25519 ED448 SM2 CMAC HMAC SIPHASH POLY1305 ECDSA at E:/udu/tc25060003_1011105wn/src/foundation/pom/fss/fss_init.cxx(360)
+2026/07/23-06:42:42.574 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - OpenSSL Supported Asymmetric Cipher Algorithms: RSA SM2 at E:/udu/tc25060003_1011105wn/src/foundation/pom/fss/fss_init.cxx(364)
+2026/07/23-06:42:42.575 UTC - INFO  - Teamcenter.FoundationBase                - 03C08DA3C - - - Default encryption configuration. at E:/udu/tc25060003_1011105wn/src/foundation/base/CryptoHandler.cxx(138)
+2026/07/23-06:42:42.578 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM V10.0.1.0 at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_init.cxx(490)
+2026/07/23-06:42:42.578 UTC - INFO  -                                          - 03C08DA3C - - - Compiled:  -D__OCI  -D__ODBC at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_init.cxx(500)
+2026/07/23-06:42:42.000 UTC - INFO  - Teamcenter.libsyss                       - 03C08DA3C - - - Session is running in codeset 1252 17
+2026/07/23-06:42:42.580 UTC - INFO  - Teamcenter.FoundationBase                - 03C08DA3C - - - VCL::Log registered with Vaultconnector.
+2026/07/23-06:42:42.580 UTC - INFO  - Teamcenter.FoundationBase                - 03C08DA3C - - - ***** VCL::VaultKVClient::readSecret *****
+2026/07/23-06:42:42.636 UTC - INFO  - Teamcenter.FoundationBase                - 03C08DA3C - - - **** VCL::VaultKVClient::doReadSecret ****
+2026/07/23-06:42:42.638 UTC - INFO  - Teamcenter.FoundationBase                - 03C08DA3C - - - *** VCL::Initiate close() ***
+2026/07/23-06:42:42.695 UTC - INFO  - Teamcenter.FoundationBase                - 03C08DA3C - - - *** VCL::Close done.***
+Unicode support enabled.
+Encoding=al32utf8.
+Defaulted NLS_LANG based upon TEXT encoding.
+  Oracle env: NLS_LANG=american_america.al32utf8.
+  Oracle env: NLS_SORT=BINARY.
+**** Connected to 'ORCL' as 'admin'
+DBMS Version Information:
+ DBMS VERSION:: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+ DBMS VERSION:: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.31.0.0.0
+
+2026/07/23-06:42:42.986 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM_Parameter contents: Parameter = 'Value' (Status): at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5675)
+2026/07/23-06:42:42.986 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM_ALS_FEATURE                = 'true' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/23-06:42:42.986 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM_INTERNAL_WHO_CLOSED_POM    = '2026/07/22 12:21:02 IDC-ADMIN/infodba 000014d8:00001348 WORKGROUP\TC-DEV-TC logs\business_model_updater14d8dfb5.syslog' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/23-06:42:42.986 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM_INTERNAL_WHO_LOCKED_SCHEMA = '2026/07/16 11:18:32 IDC-ADMIN/otto 000022b4:00001508 WORKGROUP\TC-DEV-TC logs\install-add_attr22b449e7.syslog' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/23-06:42:42.986 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - ORACLE:: Setting _b_tree_bitmap_plans to false at E:/udu/tc25060003_1011105wn/src/foundation/pom/eim/eim_trans_util.cxx(1700)
+2026/07/23-06:42:42.986 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - The TC_USAGE_TRACE env variable is set but the TC_USAGE_STRING to specify what to look for is not set, so nothing will be found. at E:/udu/tc25060003_1011105wn/src/foundation/pom/eim/log/TcUsage.cxx(136)
+2026/07/23-06:42:42.996 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - Database Installation Identifier: "TEAMCENTER V2506.0003.2025090600" info=00000001 at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_schemas.cxx(2878)
+2026/07/23-06:42:42.996 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - LOADING SCHEMA FILE: D:\PLM\Siemens\Teamcenter2506\tc_data\pom_schema_tcdatabase.cenusuieu4d5.us-east-1.rds.amazonaws.com_ORCL at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_schemas.cxx(3138)
+2026/07/23-06:42:43.064 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - Database Schema Cache Information: at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_io.cxx(915)
+E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_io.cxx2026/07/23-06:42:43.069 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - Caching non-overridden class storage mode information. at E:/udu/tc25060003_1011105wn/src/foundation/pom/dms/dms_class_storage_mode.cxx(1207)
+2026/07/23-06:42:43.075 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - Loaded schema has 1783 classes (101 versionable) and 6154 distinct attributes. at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_schemas.cxx(3282)
+2026/07/23-06:42:43.075 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POMExternalTransactions are disabled. at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_external_transaction.cxx(393)
+POMUtilityTransactions are enabled.
+2026/07/23-06:42:43.078 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - Caching non-overridden class storage mode information. at E:/udu/tc25060003_1011105wn/src/foundation/pom/dms/dms_class_storage_mode.cxx(1207)
+DBCS AL32UTF8 via DB-TEXT mapping
+2026/07/23-06:42:43.000 UTC - INFO  - Teamcenter.libsyss                       - 03C08DA3C - - - NEW LOCKING MODE
+2026/07/23-06:42:43.091 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM V10.0.1.0  startup finished. at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_init.cxx(698)
+2026/07/23-06:42:43.000 UTC - INFO  - Teamcenter.libsyss                       - 03C08DA3C - - - Session is running in codeset 1252 17
+2026/07/23-06:42:43.092 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - Schema Loaded. at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_schemas.cxx(2493)
+2026/07/23-06:42:43.103 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - Caching non-overridden class storage mode information. at E:/udu/tc25060003_1011105wn/src/foundation/pom/dms/dms_class_storage_mode.cxx(1207)
+DBCS AL32UTF8 via DB-TEXT mapping
+2026/07/23-06:42:43.113 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM V10.0.1.0  startup finished. at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_init.cxx(698)
+2026/07/23-06:42:43.114 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - REV: Versionable class found in schema.
+2026/07/23-06:42:43.116 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM_Parameter contents: Parameter = 'Value' (Status): at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5675)
+2026/07/23-06:42:43.116 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM_ALS_FEATURE                = 'true' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/23-06:42:43.116 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM_INTERNAL_WHO_CLOSED_POM    = '2026/07/22 12:21:02 IDC-ADMIN/infodba 000014d8:00001348 WORKGROUP\TC-DEV-TC logs\business_model_updater14d8dfb5.syslog' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/23-06:42:43.116 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM_INTERNAL_WHO_LOCKED_SCHEMA = '2026/07/16 11:18:32 IDC-ADMIN/otto 000022b4:00001508 WORKGROUP\TC-DEV-TC logs\install-add_attr22b449e7.syslog' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/23-06:42:43.117 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM_Parameter contents: Parameter = 'Value' (Status): at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5675)
+2026/07/23-06:42:43.117 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM_ALS_FEATURE                = 'true' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/23-06:42:43.117 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM_INTERNAL_WHO_CLOSED_POM    = '2026/07/22 12:21:02 IDC-ADMIN/infodba 000014d8:00001348 WORKGROUP\TC-DEV-TC logs\business_model_updater14d8dfb5.syslog' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/23-06:42:43.117 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM_INTERNAL_WHO_LOCKED_SCHEMA = '2026/07/16 11:18:32 IDC-ADMIN/otto 000022b4:00001508 WORKGROUP\TC-DEV-TC logs\install-add_attr22b449e7.syslog' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/23-06:42:43.120 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM_Parameter contents: Parameter = 'Value' (Status): at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5675)
+2026/07/23-06:42:43.120 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM_ALS_FEATURE                = 'true' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/23-06:42:43.120 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM_INTERNAL_WHO_CLOSED_POM    = '2026/07/22 12:21:02 IDC-ADMIN/infodba 000014d8:00001348 WORKGROUP\TC-DEV-TC logs\business_model_updater14d8dfb5.syslog' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/23-06:42:43.120 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM_INTERNAL_WHO_LOCKED_SCHEMA = '2026/07/16 11:18:32 IDC-ADMIN/otto 000022b4:00001508 WORKGROUP\TC-DEV-TC logs\install-add_attr22b449e7.syslog' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/23-06:42:43.000 UTC - INFO  - Teamcenter.libsyss                       - 03C08DA3C - - - CRLF checking OFF
+2026/07/23-06:42:43.155 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM_Parameter contents: Parameter = 'Value' (Status): at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5675)
+2026/07/23-06:42:43.155 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM_ALS_FEATURE                = 'true' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/23-06:42:43.155 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM_INTERNAL_WHO_CLOSED_POM    = '2026/07/22 12:21:02 IDC-ADMIN/infodba 000014d8:00001348 WORKGROUP\TC-DEV-TC logs\business_model_updater14d8dfb5.syslog' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/23-06:42:43.155 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM_INTERNAL_WHO_LOCKED_SCHEMA = '2026/07/16 11:18:32 IDC-ADMIN/otto 000022b4:00001508 WORKGROUP\TC-DEV-TC logs\install-add_attr22b449e7.syslog' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/23-06:42:43.168 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM ROW LOCKING MODE = Enhanced. at E:/udu/tc25060003_1011105wn/src/foundation/pom/dms/dms_util.cxx(3745)
+2026/07/23-06:42:43.182 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM_login: "infodba" infodba / dba has logged in at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_start.cxx(1257)
+2026/07/23-06:42:43.214 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - Among [0] calls for POM_refresh_instances we have [0] misses and [0] new loads at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_most_interface_funs.cxx(6233)
+2026/07/23-06:42:43.236 UTC - INFO  - Teamcenter.POM                           - 03C08DA3C - - - POM shutdown complete. at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_init.cxx(377)
+2026/07/23-06:42:43.238 UTC - INFO  - Teamcenter.MonitorDebug.mld              - 03C08DA3C - - - Journal Summary
+START JOURNALLED_TIMES v0
+Journalling says: Total session time 0.661000s, of which 0.005000s was outside journalled calls.
+@* Total time inside POM calls 0.656000s, includes 0.128659s waiting for the database
+@* Total CPU time 0.391000s.
+@*
+@*   Time spent in this function,  or those it calls, top-level functions listed first, then nested ones
+@*      %     total    total     DB     call   average 
+@*   elapsed elapsed    cpu     trips  counts   time
+@* -------------------------------------------------------------------
+START JOURNALLED_TIMES_IN_TOP_LEVEL_FUNCTIONS                       v0
+@*       82   0.536    0.36       39      2     0.268    POM_init_module
+@*       15   0.096    0.031      34      1     0.096    POM_start
+@*      3.7   0.024    0          20      1     0.024    POM_stop
+@*        0   0        0           0      1     0        POM_is_user_sa
+@*        0   0        0           0      1     0        POM_attr_id_of_attr
+@*        0   0        0           0      1     0        POM_dbname_of_att
+@*        0   0        0           0      1     0        POM_class_id_of_class
+@*     0.76   0.005    0           0      8     0.000625 Time outside journalling (total gap time)
+END JOURNALLED_TIMES_IN_TOP_LEVEL_FUNCTIONS
+START JOURNALLED_TIMES_IN_ALL_FUNCTIONS
+@*     0.91   0.006    0          11     11     0.000545 EIM_exec_sql_chunked_bind
+@*     0.76   0.005    0           4      3     0.00167  load_uid_table_atts
+@*      0.3   0.002    0           2      3     0.000667 EIM_PM_id_of_process
+@*      0.3   0.002    0           2      2     0.001    load_vla_attribute
+@*      0.3   0.002    0           2      3     0.000667 load_non_uid_table_atts
+@*     0.15   0.001    0           1      1     0.001    EIM_PM_remove_processes
+@*     0.15   0.001    0           0      2     0.0005   process_vla_report
+@*     0.15   0.001    0           0      2     0.0005   process_vla_report - process_vla_rows
+@*     0.15   0.001    0           1      1     0.001    EIM_PM_am_i_still_alive
+@*        0   0        0           0      1     0        POM_cache_for_session
+@*        0   0        0           0      3     0        SelectVersions
+@*        0   0        0           1      1     0        check_read_consistent
+END JOURNALLED_TIMES_IN_ALL_FUNCTIONS
+END JOURNALLED_TIMES
+2026/07/23-06:42:43.000 UTC - INFO  - Teamcenter.libsyss                       - 03C08DA3C - - - POM enquiries statistics:  created 1, undone 0, deleted 0, queried 2
+@@@ End of session Thu Jul 23 06:42:43 2026 Coordinated Universal Time

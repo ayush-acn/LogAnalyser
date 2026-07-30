@@ -1,0 +1,59 @@
+[2026-07-22 04:25:05] [info]  [ 4012] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2026-07-22 04:25:05] [info]  [ 4012] Running 'Teamcenter_Vault_Service' Service...
+[2026-07-22 04:25:05] [info]  [ 4532] Starting service...
+[2026-07-22 04:25:05] [info]  [ 4532] Service started in 15 ms.
+[2026-07-22 09:37:06] [info]  [ 8852] Console SHUTDOWN event signaled
+[2026-07-22 09:37:06] [info]  [ 8852] Stopping service...
+[2026-07-22 09:37:06] [info]  [ 4012] Run service finished.
+[2026-07-22 09:37:06] [info]  [ 4012] Commons Daemon procrun finished
+[2026-07-22 09:37:29] [info]  [ 4072] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2026-07-22 09:37:29] [info]  [ 4072] Running 'Teamcenter_Vault_Service' Service...
+[2026-07-22 09:37:29] [info]  [ 4572] Starting service...
+[2026-07-22 09:37:29] [info]  [ 4572] Service started in 0 ms.
+[2026-07-22 10:34:19] [info]  [ 5840] Stopping service...
+[2026-07-22 10:34:22] [info]  [ 5840] Service stop thread completed.
+[2026-07-22 10:34:22] [info]  [ 4072] Run service finished.
+[2026-07-22 10:34:22] [info]  [ 4072] Commons Daemon procrun finished
+[2026-07-22 12:12:35] [info]  [12404] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2026-07-22 12:12:35] [info]  [12404] Running 'Teamcenter_Vault_Service' Service...
+[2026-07-22 12:12:35] [info]  [10976] Starting service...
+[2026-07-22 12:12:35] [info]  [10976] Service started in 37 ms.
+[2026-07-22 12:53:54] [info]  [10328] Stopping service...
+[2026-07-22 12:53:55] [info]  [10328] Service stop thread completed.
+[2026-07-22 12:53:55] [info]  [12404] Run service finished.
+[2026-07-22 12:53:55] [info]  [12404] Commons Daemon procrun finished
+[2026-07-22 12:54:19] [info]  [12880] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2026-07-22 12:54:19] [info]  [12880] Service Teamcenter_Vault_Service name Teamcenter Vault Service
+[2026-07-22 12:54:19] [error] [12880] The specified service already exists.
+[2026-07-22 12:54:19] [error] [12880] Failed installing 'Teamcenter_Vault_Service' service
+[2026-07-22 12:54:19] [error] [12880] The specified service already exists.
+[2026-07-22 12:54:19] [error] [12880] Commons Daemon procrun failed with exit value: 8 (Failed to install service)
+[2026-07-22 12:54:19] [error] [12880] The specified service already exists.
+[2026-07-22 12:54:19] [info]  [ 5152] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2026-07-22 12:54:19] [info]  [ 5152] Updating service...
+[2026-07-22 12:54:19] [info]  [ 5152] Service 'Teamcenter_Vault_Service' updated
+[2026-07-22 12:54:19] [info]  [ 5152] Update service finished.
+[2026-07-22 12:54:19] [info]  [ 5152] Commons Daemon procrun finished
+[2026-07-22 12:54:19] [info]  [  408] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2026-07-22 12:54:19] [info]  [  408] Updating service...
+[2026-07-22 12:54:19] [info]  [  408] Service 'Teamcenter_Vault_Service' updated
+[2026-07-22 12:54:19] [info]  [  408] Update service finished.
+[2026-07-22 12:54:19] [info]  [  408] Commons Daemon procrun finished
+[2026-07-22 12:54:19] [info]  [ 8620] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2026-07-22 12:54:19] [info]  [ 8620] Updating service...
+[2026-07-22 12:54:19] [info]  [ 8620] Service 'Teamcenter_Vault_Service' updated
+[2026-07-22 12:54:19] [info]  [ 8620] Update service finished.
+[2026-07-22 12:54:19] [info]  [ 8620] Commons Daemon procrun finished
+[2026-07-22 12:54:19] [info]  [ 5264] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2026-07-22 12:54:19] [info]  [ 5264] Starting service 'Teamcenter_Vault_Service' ...
+[2026-07-22 12:54:19] [info]  [ 3372] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2026-07-22 12:54:19] [info]  [ 3372] Running 'Teamcenter_Vault_Service' Service...
+[2026-07-22 12:54:19] [info]  [ 4640] Starting service...
+[2026-07-22 12:54:19] [info]  [ 4640] Service started in 14 ms.
+[2026-07-22 12:54:20] [info]  [ 5264] Service 'Teamcenter_Vault_Service' started
+[2026-07-22 12:54:20] [info]  [ 5264] Start service finished.
+[2026-07-22 12:54:20] [info]  [ 5264] Commons Daemon procrun finished
+[2026-07-22 15:30:38] [info]  [12432] Console SHUTDOWN event signaled
+[2026-07-22 15:30:38] [info]  [12432] Stopping service...
+[2026-07-22 15:30:38] [info]  [ 3372] Run service finished.
+[2026-07-22 15:30:38] [info]  [ 3372] Commons Daemon procrun finished

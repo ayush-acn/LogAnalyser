@@ -1,0 +1,9 @@
+[7/23/2026, 5:35:22] === Logging started: 2026/07/23 05:35:22 ===
+[7/23/2026, 5:35:22] Executable: C:\Users\IDC-ADMIN\AppData\Local\Temp\68c97ab887af4a5c845ab3fcbb1ec2b0\vs_setup_bootstrapper.exe v18.8.12021.73
+[7/23/2026, 5:35:22] --- logging level: standard ---
+[7/23/2026, 5:35:22] Directory 'C:\Users\IDC-ADMIN\AppData\Local\Temp\d28dc07bf5de4a08974aad0a52959449' has been selected for file extraction
+[7/23/2026, 5:35:22] Extracting files to: C:\Users\IDC-ADMIN\AppData\Local\Temp\d28dc07bf5de4a08974aad0a52959449
+[7/23/2026, 5:35:24] Extraction took 1.235 seconds
+[7/23/2026, 5:35:24] The entire Box execution exiting with result code: 0x0
+[7/23/2026, 5:35:24] Launched extracted application exiting with result code: 0x0
+[7/23/2026, 5:35:24] === Logging stopped: 2026/07/23 05:35:24 ===

@@ -1,0 +1,226 @@
+2026/07/22-04:25:39.250 UTC - INFO - - - - - Active Workspace DARSI version: 7.3.3
+2026/07/22-04:25:39.278 UTC - INFO - Waiting for vault to be ready; timeout is 3 minute(s)...
+Warning: Ignoring extra certs from `@CHANGE_ME_NODE_EXTRA_CA_CERTS@`, load failed: error:80000002:system library::No such file or directory
+2026/07/22-04:25:39.719 UTC - ERROR - Health check failed: 
+2026/07/22-04:25:45.399 UTC - ERROR - Health check failed: 
+2026/07/22-04:25:51.044 UTC - ERROR - Health check failed: 
+2026/07/22-04:26:07.620 UTC - INFO - Vault is ready.
+2026/07/22-04:26:09.334 UTC - INFO - - - - - Public key successfully read from vault
+2026/07/22-04:26:11.527 UTC - INFO - - - - - adding /build/reset route
+2026/07/22-04:26:11.529 UTC - INFO - - - - - adding /build/start route
+2026/07/22-04:26:11.529 UTC - INFO - - - - - adding /build/status route
+2026/07/22-04:26:11.529 UTC - INFO - - - - - adding /build/log route
+2026/07/22-04:26:11.530 UTC - INFO - - - - - adding /build/lmd route
+2026/07/22-04:26:11.530 UTC - INFO - - - - - polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:11.530 UTC - INFO - - - - - /build routes complete
+2026/07/22-04:26:12.427 UTC - INFO - - - - - Using file server http://TC-DEV-TC:9090/filerepo
+2026/07/22-04:26:12.427 UTC - INFO - - - - - Listening on port 49900
+2026/07/22-04:26:12.433 UTC - INFO - - - - - Registering with Eureka http://TC-DEV-TC:8787/eureka/v2/apps
+2026/07/22-04:26:12.457 UTC - INFO - - - - - Eureka Client Registration - Registered with Eureka /eureka/v2/apps/afx-darsi/10.30.1.250:49900
+2026/07/22-04:26:12.531 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:12.542 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:13.554 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:13.561 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:14.562 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:14.568 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:15.570 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:15.629 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:16.644 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:16.674 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:17.674 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:17.681 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:18.682 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:18.687 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:19.688 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:19.692 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:20.694 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:20.700 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:21.702 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:21.709 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:22.709 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:22.713 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:23.719 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:23.723 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:24.723 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:24.727 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:25.728 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:25.733 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:26.733 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:26.737 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:27.737 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:27.740 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:28.742 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:28.745 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:29.746 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:29.751 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:30.752 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:30.755 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:31.756 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:31.760 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:32.761 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:32.765 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:33.765 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:33.769 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:34.769 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:34.772 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:35.772 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:35.775 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:36.776 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:36.779 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:37.780 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:37.783 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:38.784 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:38.787 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:39.789 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:39.793 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:40.793 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:40.798 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:41.798 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:41.801 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:42.803 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:42.808 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:43.808 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:43.812 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:44.812 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:44.815 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:45.816 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:45.820 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:46.822 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:46.825 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:47.827 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:47.831 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:48.832 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:48.835 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:49.836 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:49.840 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:50.842 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:50.845 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:51.846 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:51.850 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:52.850 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:52.853 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:53.854 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:53.858 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:54.862 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:54.866 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:55.866 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:55.870 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:56.870 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:56.873 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:57.874 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:57.877 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:58.878 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:58.882 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:26:59.883 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:26:59.886 UTC - INFO - - - - - FileRepo server is not running, because of error undefined. Retrying...
+2026/07/22-04:27:00.887 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/22-04:27:00.899 UTC - INFO - - - - - FileRepo service started successfully
+2026/07/22-04:27:00.938 UTC - INFO - - - - - Generating JWT for - READONLY
+2026/07/22-04:27:01.230 UTC - INFO - - - - - Generating JWT for - READONLY
+2026/07/22-04:27:01.239 UTC - INFO - - - - - Downloading darsi_files.zip from fileRepo artifactory to D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_files.zip
+2026/07/22-04:27:03.290 UTC - INFO - - - - - Downloaded darsi_files.zip from fileRepo artifactory
+2026/07/22-04:27:03.291 UTC - INFO - - - - - Clean existing darsi_repo folder
+2026/07/22-04:27:53.531 UTC - INFO - - - - - Unzipping D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_files.zip to D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_repo
+2026/07/22-04:41:32.506 UTC - INFO - - - - - Removing D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_files.zip
+2026/07/22-04:41:32.538 UTC - INFO - - - - - D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_files.zip unzipped (819.006s)
+2026/07/22-04:41:32.538 UTC - INFO - - - - - Listing contents of /viewmodel on http://TC-DEV-TC:9090/filerepo/fileio/v1/files/list
+2026/07/22-04:41:32.661 UTC - INFO - - - - - There are no deltas in /viewmodel
+2026/07/22-04:41:32.661 UTC - INFO - - - - - Listing contents of /html on http://TC-DEV-TC:9090/filerepo/fileio/v1/files/list
+2026/07/22-04:41:32.699 UTC - INFO - - - - - There are no deltas in /html
+2026/07/22-04:41:32.699 UTC - INFO - - - - - Listing contents of /image on http://TC-DEV-TC:9090/filerepo/fileio/v1/files/list
+2026/07/22-04:41:34.261 UTC - INFO - - - - - There are no deltas in /image
+2026/07/22-04:41:34.284 UTC - INFO - - - - - ready for build
+2026/07/22-04:41:34.289 UTC - INFO - Waiting for vault to be ready; timeout is 3 minute(s)...
+2026/07/22-04:41:34.304 UTC - INFO - Vault is ready.
+2026/07/22-04:41:34.368 UTC - INFO - - - - - Public key successfully read from vault
+2026/07/22-04:41:34.369 UTC - WARN - - - - - verifyAuthorizedUser: JsonWebTokenError: jwt must be provided
+2026/07/22-04:41:34.369 UTC - INFO - - - - - build start/reset route request from undefined @ 1784695294285
+2026/07/22-04:41:34.386 UTC - INFO - - - - - Generating JWT for - READONLY
+2026/07/22-04:41:34.398 UTC - INFO - - - - - Cleaning out folder to clear cache in directory D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_repo
+2026/07/22-04:41:34.400 UTC - INFO - - - - - Clean complete (0.001s)
+2026/07/22-04:41:34.400 UTC - INFO - - - - - Executing npm run build in directory D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_repo
+2026/07/22-04:41:34.401 UTC - INFO - - - - - Executing D:\PLM\Siemens\Teamcenter2506\tc_root\microservices\darsi\darsi_repo\node_modules\@swf\react-scripts/scripts/build.js 
+2026/07/22-04:42:09.923 UTC - INFO - - - - - [04:42:09] info: config-overrides: generated paths (321 ms)
+2026/07/22-04:42:11.115 UTC - INFO - - - - - [04:42:11] info: PRE_BUILD_CHECKS: 55205 MB available / 67868 MB total
+2026/07/22-04:42:11.116 UTC - INFO - - - - - [04:42:11] info: Default SOURCE_MAP_QUALITY is set to 'MEDIUM'. For faster build timing and HMR set the SOURCE_MAP_QUALITY to 'LOW'.
+2026/07/22-04:42:11.116 UTC - INFO - - - - - [04:42:11] info: Building site: all
+2026/07/22-04:42:11.118 UTC - INFO - - - - - [04:42:11] info:   Included kits:
+2026/07/22-04:42:11.118 UTC - INFO - - - - - [04:42:11] info:     2d-viewer
+2026/07/22-04:42:11.118 UTC - INFO - - - - - [04:42:11] info:     accessmanager
+2026/07/22-04:42:11.118 UTC - INFO - - - - - [04:42:11] info:     afx
+2026/07/22-04:42:11.118 UTC - INFO - - - - - [04:42:11] info:     afx-charts
+2026/07/22-04:42:11.118 UTC - INFO - - - - - [04:42:11] info:     afx-echarts
+2026/07/22-04:42:11.118 UTC - INFO - - - - - [04:42:11] info:     afx-source-editor
+2026/07/22-04:42:11.118 UTC - INFO - - - - - [04:42:11] info:     afx-vis-viewer
+2026/07/22-04:42:11.118 UTC - INFO - - - - - [04:42:11] info:     change
+2026/07/22-04:42:11.118 UTC - INFO - - - - - [04:42:11] info:     chat
+2026/07/22-04:42:11.118 UTC - INFO - - - - - [04:42:11] info:     commonframe
+2026/07/22-04:42:11.118 UTC - INFO - - - - - [04:42:11] info:     composites
+2026/07/22-04:42:11.119 UTC - INFO - - - - - [04:42:11] info:     datadiscoveryservices
+2026/07/22-04:42:11.119 UTC - INFO - - - - - [04:42:11] info:     docmgmt
+2026/07/22-04:42:11.119 UTC - INFO - - - - - [04:42:11] info:     elements
+2026/07/22-04:42:11.119 UTC - INFO - - - - - [04:42:11] info:     engine
+2026/07/22-04:42:11.119 UTC - INFO - - - - - [04:42:11] info:     essentials
+2026/07/22-04:42:11.119 UTC - INFO - - - - - [04:42:11] info:     graphComponent
+2026/07/22-04:42:11.119 UTC - INFO - - - - - [04:42:11] info:     graphing
+2026/07/22-04:42:11.119 UTC - INFO - - - - - [04:42:11] info:     hosted-vis
+2026/07/22-04:42:11.119 UTC - INFO - - - - - [04:42:11] info:     jitViewCompilerKit
+2026/07/22-04:42:11.119 UTC - INFO - - - - - [04:42:11] info:     massupdate
+2026/07/22-04:42:11.119 UTC - INFO - - - - - [04:42:11] info:     occmgmt
+2026/07/22-04:42:11.119 UTC - INFO - - - - - [04:42:11] info:     pagecomponents
+2026/07/22-04:42:11.119 UTC - INFO - - - - - [04:42:11] info:     projmgmt
+2026/07/22-04:42:11.119 UTC - INFO - - - - - [04:42:11] info:     ps
+2026/07/22-04:42:11.119 UTC - INFO - - - - - [04:42:11] info:     pvwKit
+2026/07/22-04:42:11.119 UTC - INFO - - - - - [04:42:11] info:     relations
+2026/07/22-04:42:11.119 UTC - INFO - - - - - [04:42:11] info:     reports
+2026/07/22-04:42:11.119 UTC - INFO - - - - - [04:42:11] info:     search
+2026/07/22-04:42:11.119 UTC - INFO - - - - - [04:42:11] info:     searchcore
+2026/07/22-04:42:11.120 UTC - INFO - - - - - [04:42:11] info:     security
+2026/07/22-04:42:11.120 UTC - INFO - - - - - [04:42:11] info:     structurecompare
+2026/07/22-04:42:11.120 UTC - INFO - - - - - [04:42:11] info:     structureviewer
+2026/07/22-04:42:11.120 UTC - INFO - - - - - [04:42:11] info:     subscription
+2026/07/22-04:42:11.120 UTC - INFO - - - - - [04:42:11] info:     table
+2026/07/22-04:42:11.120 UTC - INFO - - - - - [04:42:11] info:     tc-aw-framework
+2026/07/22-04:42:11.120 UTC - INFO - - - - - [04:42:11] info:     tc-aw-solution
+2026/07/22-04:42:11.120 UTC - INFO - - - - - [04:42:11] info:     uibuilder
+2026/07/22-04:42:11.120 UTC - INFO - - - - - [04:42:11] info:     uibuilderframework
+2026/07/22-04:42:11.120 UTC - INFO - - - - - [04:42:11] info:     usermanagement
+2026/07/22-04:42:11.120 UTC - INFO - - - - - [04:42:11] info:     vieweradmin
+2026/07/22-04:42:11.120 UTC - INFO - - - - - [04:42:11] info:     workflow
+2026/07/22-04:42:11.120 UTC - INFO - - - - - [04:42:11] info:     wysiwygWidgets
+2026/07/22-04:42:18.193 UTC - INFO - - - - - [04:42:18] info: config-overrides: webpack config (7.08 s)
+2026/07/22-04:42:18.194 UTC - INFO - - - - - [04:42:18] info: Building components cache
+2026/07/22-04:42:39.986 UTC - INFO - - - - - [04:42:39] info: Component cache creation completed
+2026/07/22-04:42:43.951 UTC - INFO - - - - - Creating an optimized production build...
+2026/07/22-04:42:48.482 UTC - INFO - - - - - Browserslist: browsers data (caniuse-lite) is 11 months old. Please run:
+2026/07/22-04:42:48.482 UTC - INFO - - - - -   npx update-browserslist-db@latest
+2026/07/22-04:42:48.482 UTC - INFO - - - - -   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+2026/07/22-04:46:14.580 UTC - INFO - - - - - [04:46:14] warn: image/cmdOpen24.svg is included in multiple bundles. image/cmdOpen24.svg is included in foldersBundle
+2026/07/22-04:46:14.580 UTC - INFO - - - - - [04:46:14] warn: image/cmdSettings24.svg is included in multiple bundles. image/cmdSettings24.svg is included in gatewayPageBundle
+2026/07/22-04:46:14.581 UTC - INFO - - - - - [04:46:14] warn: image/cmdPrint24.svg is included in multiple bundles. image/cmdPrint24.svg is included in foldersBundle
+2026/07/22-04:46:14.581 UTC - INFO - - - - - [04:46:14] warn: image/cmdExport16.svg is included in multiple bundles. image/cmdExport16.svg is included in foldersBundle
+2026/07/22-04:47:48.231 UTC - INFO - - - - - [04:47:48] info: Peak Memory: 3790 MB  Avg Memory: 3089 MB
+2026/07/22-04:47:48.255 UTC - INFO - - - - - Compiled with warnings.
+2026/07/22-04:47:48.255 UTC - INFO - - - - - Critical dependency: the request of a dependency is an expression
+2026/07/22-04:47:48.255 UTC - INFO - - - - - Search for the keywords to learn more about each warning.
+2026/07/22-04:47:48.256 UTC - INFO - - - - - To ignore, add // eslint-disable-next-line to the line before.
+2026/07/22-04:47:48.256 UTC - INFO - - - - - File sizes after gzip:
+2026/07/22-04:47:48.283 UTC - INFO - - - - - The project was built assuming it is hosted at ./.
+2026/07/22-04:47:48.283 UTC - INFO - - - - - You can control this with the homepage field in your package.json.
+2026/07/22-04:47:48.283 UTC - INFO - - - - - The out\site folder is ready to be deployed.
+2026/07/22-04:47:48.283 UTC - INFO - - - - - Find out more about deployment here:
+2026/07/22-04:47:48.284 UTC - INFO - - - - -   https://cra.link/deployment
+2026/07/22-04:47:49.730 UTC - INFO - - - - - Build complete (375.33s)
+2026/07/22-04:47:49.730 UTC - INFO - - - - - Zipping up the siteDev
+2026/07/22-04:48:14.855 UTC - INFO - - - - - siteDev zipping process is finished and the zip file is ready (25.123s)
+2026/07/22-04:48:14.855 UTC - INFO - - - - - Uploading siteDev.zip to FileRepository
+2026/07/22-04:48:14.860 UTC - INFO - - - - - Generating JWT for - READONLY
+2026/07/22-04:48:31.368 UTC - INFO - - - - - Uploaded siteDev.zip to FileRepository successfully (16.513s)
+2026/07/22-04:48:31.494 UTC - INFO - - - - - Updating /config/commandsViewModel.json on http://TC-DEV-TC:9090/filerepo/fileio/v1/files
+2026/07/22-04:48:31.502 UTC - INFO - - - - - Updating /config/indicators.json on http://TC-DEV-TC:9090/filerepo/fileio/v1/files
+2026/07/22-04:48:31.507 UTC - INFO - - - - - Updating /config/states.json on http://TC-DEV-TC:9090/filerepo/fileio/v1/files
+2026/07/22-04:48:31.509 UTC - INFO - - - - - Updating /config/typeIconsRegistry.json on http://TC-DEV-TC:9090/filerepo/fileio/v1/files
+2026/07/22-04:48:31.511 UTC - INFO - - - - - Updating /config/workspace.json on http://TC-DEV-TC:9090/filerepo/fileio/v1/files
+2026/07/22-04:48:31.584 UTC - INFO - - - - - Updating /.darsi/buildTimeStamp.json on http://TC-DEV-TC:9090/filerepo/fileio/v1/files
+2026/07/22-09:37:16.941 UTC - WARN - - - - - [object Object]
+2026/07/22-09:37:16.942 UTC - ERROR - - - - - Eureka heartbeat - An error in the request occured. undefined will retry in 30000 ms

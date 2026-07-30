@@ -1,0 +1,311 @@
+2026-07-23 06:32:12 INFO  - DeploymentStatusRestServiceInvoker - 
+--------------------------------------------------------------------------------------------------------------------------------------------
+Updating the 'in-progress' status of environment 'Env_dev_01' during execution of the deploy script '20260723062438' on machine 'TC-DEV-TC'.
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Updating Component Status :
+
++------------------------------------------------------------------------------------+---------------------+
+| Name                                                                               | Deployment Status   |
++------------------------------------------------------------------------------------+---------------------+
+| Corporate Server(name=fnd0_corporateserver,Machine=TC-DEV-TC)                      | Update In Progress  |
+| Rich client four-tier(name=fnd0_4tierrichclient,Machine=TC-DEV-TC)                 | Update In Progress  |
+| Dispatcher Module(name=fnd0_dispatcherModule,Machine=TC-DEV-TC)                    | Install In Progress |
+| Teamcenter Secrets Manager (by HashiCorp.)(name=fnd0_vault,Machine=TC-DEV-TC)      | Update In Progress  |
+| Dispatcher Client (4-tier)(name=fnd0_dispatcherclient,Machine=TC-DEV-TC)           | Install In Progress |
+| Dispatcher Scheduler(name=fnd0_dispatcherScheduler,Machine=TC-DEV-TC)              | Install In Progress |
+| Indexing Engine(name=aws2_indexingengine,Machine=TC-DEV-TC)                        | Update In Progress  |
+| Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC) | Update In Progress  |
++------------------------------------------------------------------------------------+---------------------+
+
+Updating Application Status :
+
++-------------------------------------------------------------------------------------+---------------------+
+| Name                                                                                | Deployment Status   |
++-------------------------------------------------------------------------------------+---------------------+
+| Dispatcher (Internal Name: dispatcher)                                              | Install In Progress |
+| Dispatcher Client (Internal Name: dispatcher_client)                                | Install In Progress |
+| Active Workspace Dispatcher Internal (Internal Name: aw_dispatcher_internal)        | Install In Progress |
+| Dispatcher Client for Rich Client (Internal Name: rac_ets)                          | Install In Progress |
+| fgc0cm4g.displayName (Internal Name: fgc0cm4g)                                      | Installed           |
+| Advanced PLM Services for Applications (Internal Name: appmodel)                    | Installed           |
+| Teamcenter Read Expression Manager Service (Internal Name: dbdamreadexprmgrservice) | Installed           |
+| Advanced PLM Services core Template (Internal Name: aps0apscore)                    | Installed           |
+| Dispatcher Internal (Internal Name: dispatcher_internal)                            | Install In Progress |
+| Active Workspace Base (Internal Name: aws2_client)                                  | Installed           |
+| Advanced PLM Services for Partitioning (Internal Name: partition)                   | Installed           |
+| Teamcenter Foundation (Internal Name: fnd0_foundation)                              | Installed           |
+| Change and Schedule Management Interface (Internal Name: csi)                       | Installed           |
++-------------------------------------------------------------------------------------+---------------------+
+
+Updating Component Feature Status :
+
++---------------------------------------------------------------------------------------------------------------------+---------------------+
+| Name                                                                                                                | Deployment Status   |
++---------------------------------------------------------------------------------------------------------------------+---------------------+
+| Advanced PLM Services for Partitioning (Internal Name: partition) - Rich client four-tier(Machine=TC-DEV-TC)        | Installed           |
+| Change and Schedule Management Interface (Internal Name: csi) - Rich client four-tier(Machine=TC-DEV-TC)            | Installed           |
+| fgc0cm4g.displayName (Internal Name: fgc0cm4g) - Rich client four-tier(Machine=TC-DEV-TC)                           | Installed           |
+| Advanced PLM Services core Template (Internal Name: aps0apscore) - Rich client four-tier(Machine=TC-DEV-TC)         | Installed           |
+| Active Workspace Dispatcher Internal (Internal Name: aw_dispatcher_internal) - Dispatcher Module(Machine=TC-DEV-TC) | Install In Progress |
+| Advanced PLM Services for Applications (Internal Name: appmodel) - Rich client four-tier(Machine=TC-DEV-TC)         | Installed           |
+| Dispatcher Client for Rich Client (Internal Name: rac_ets) - Rich client four-tier(Machine=TC-DEV-TC)               | Install In Progress |
+| Dispatcher Internal (Internal Name: dispatcher_internal) - Dispatcher Module(Machine=TC-DEV-TC)                     | Install In Progress |
++---------------------------------------------------------------------------------------------------------------------+---------------------+
+
+Updating Software Status :
+
++----------------------+--------------------+
+| Name                 | Deployment Status  |
++----------------------+--------------------+
+| Teamcenter 2506.0003 | Update In Progress |
+| Teamcenter 2506      | Update In Progress |
++----------------------+--------------------+
+
+Updating Environment Status :
+
++------------+--------------------+
+| Name       | Deployment Status  |
++------------+--------------------+
+| Env_dev_01 | Update In Progress |
++------------+--------------------+
+
+Updating Component Status :
+
++------------------------------------------------------------------------------------+---------------------+
+| Name                                                                               | Deployment Status   |
++------------------------------------------------------------------------------------+---------------------+
+| Corporate Server(name=fnd0_corporateserver,Machine=TC-DEV-TC)                      | Update In Progress  |
+| Rich client four-tier(name=fnd0_4tierrichclient,Machine=TC-DEV-TC)                 | Update In Progress  |
+| Dispatcher Module(name=fnd0_dispatcherModule,Machine=TC-DEV-TC)                    | Install In Progress |
+| Teamcenter Secrets Manager (by HashiCorp.)(name=fnd0_vault,Machine=TC-DEV-TC)      | Update In Progress  |
+| Dispatcher Client (4-tier)(name=fnd0_dispatcherclient,Machine=TC-DEV-TC)           | Install In Progress |
+| Dispatcher Scheduler(name=fnd0_dispatcherScheduler,Machine=TC-DEV-TC)              | Install In Progress |
+| Indexing Engine(name=aws2_indexingengine,Machine=TC-DEV-TC)                        | Update In Progress  |
+| Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC) | Update In Progress  |
++------------------------------------------------------------------------------------+---------------------+
+
+Updating Application Status :
+
++-------------------------------------------------------------------------------------+---------------------+
+| Name                                                                                | Deployment Status   |
++-------------------------------------------------------------------------------------+---------------------+
+| Dispatcher (Internal Name: dispatcher)                                              | Install In Progress |
+| Teamcenter Read Expression Manager Service (Internal Name: dbdamreadexprmgrservice) | Installed           |
+| Dispatcher Client (Internal Name: dispatcher_client)                                | Install In Progress |
+| Dispatcher Internal (Internal Name: dispatcher_internal)                            | Install In Progress |
+| Active Workspace Dispatcher Internal (Internal Name: aw_dispatcher_internal)        | Install In Progress |
+| Active Workspace Base (Internal Name: aws2_client)                                  | Installed           |
+| Teamcenter Foundation (Internal Name: fnd0_foundation)                              | Installed           |
++-------------------------------------------------------------------------------------+---------------------+
+
+Updating Component Feature Status :
+
++---------------------------------------------------------------------------------------------------------------------+---------------------+
+| Name                                                                                                                | Deployment Status   |
++---------------------------------------------------------------------------------------------------------------------+---------------------+
+| Advanced PLM Services for Partitioning (Internal Name: partition) - Rich client four-tier(Machine=TC-DEV-TC)        | Installed           |
+| Change and Schedule Management Interface (Internal Name: csi) - Rich client four-tier(Machine=TC-DEV-TC)            | Installed           |
+| fgc0cm4g.displayName (Internal Name: fgc0cm4g) - Rich client four-tier(Machine=TC-DEV-TC)                           | Installed           |
+| Advanced PLM Services core Template (Internal Name: aps0apscore) - Rich client four-tier(Machine=TC-DEV-TC)         | Installed           |
+| Active Workspace Dispatcher Internal (Internal Name: aw_dispatcher_internal) - Dispatcher Module(Machine=TC-DEV-TC) | Install In Progress |
+| Advanced PLM Services for Applications (Internal Name: appmodel) - Rich client four-tier(Machine=TC-DEV-TC)         | Installed           |
+| Dispatcher Client for Rich Client (Internal Name: rac_ets) - Rich client four-tier(Machine=TC-DEV-TC)               | Install In Progress |
+| Dispatcher Internal (Internal Name: dispatcher_internal) - Dispatcher Module(Machine=TC-DEV-TC)                     | Install In Progress |
++---------------------------------------------------------------------------------------------------------------------+---------------------+
+
+Updating Software Status :
+
++-------------+--------------------+
+| Name        | Deployment Status  |
++-------------+--------------------+
+| acndemo 1.0 | Update In Progress |
++-------------+--------------------+
+
+Updating Environment Status :
+
++------------+--------------------+
+| Name       | Deployment Status  |
++------------+--------------------+
+| Env_dev_01 | Update In Progress |
++------------+--------------------+
+
+2026-07-23 06:32:12 INFO  - DeploymentStatusRestServiceInvoker - REST call for updating deployment status to In Progress completed..
+2026-07-23 07:24:29 INFO  - DeploymentStatusRestServiceInvoker - REST call processing for post deployment status update completed, processing response...
+2026-07-23 07:24:29 INFO  - DeploymentStatusRestServiceInvoker - 
+------------------------------------------------------------------------------------------------------------------------------------------------
+Updating the 'post-deployment' status of environment 'Env_dev_01' during execution of the deploy script '20260723062438' on machine 'TC-DEV-TC'.
+------------------------------------------------------------------------------------------------------------------------------------------------
+Updating the deployment status to complete for each feature per component.
+
+The deployment status of 'Change and Schedule Management Interface' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Assembly BOM' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Data Discovery Services' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Active Workspace Base' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Active Content' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Design BOM Alignment Automation' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'fgc0cm4g.displayName' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Translation Service Database Module' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Change Management for Active Workspace' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Change Management Realization Interface' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Active Workspace User Management' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Advanced PLM Services core Template' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Active Architect Core' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Product Configurator' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Configured Search Framework' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Advanced PLM Services for Applications' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Classification Interface' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Design BOM Alignment Automation Foundation' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Build Conditions' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Reporting' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'TC XML Import and Export' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Authorization Active Workspace' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Subscription' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Advanced PLM Services for Partitioning' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'acndemo' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Document Management' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Access Manager Active Workspace' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Change Management' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Active Admin Core' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Product Configurator Support for Structure Manager' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Presentation Layer - Next Generation Classification Foundation' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Visualization Extension' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Advanced PLM Services for Realization' for the component 'Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'fgc0cm4g.displayName' for the component 'Rich client four-tier(name=fnd0_4tierrichclient,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Advanced PLM Services for Applications' for the component 'Rich client four-tier(name=fnd0_4tierrichclient,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Advanced PLM Services core Template' for the component 'Rich client four-tier(name=fnd0_4tierrichclient,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Change and Schedule Management Interface' for the component 'Rich client four-tier(name=fnd0_4tierrichclient,Machine=TC-DEV-TC)' is already completed.
+The deployment status of 'Advanced PLM Services for Partitioning' for the component 'Rich client four-tier(name=fnd0_4tierrichclient,Machine=TC-DEV-TC)' is already completed.
+
+Updating successful deployment status of Component Features :
+
++---------------------------------------------------------------------------------------------------------------------+-------------------+
+| Name                                                                                                                | Deployment Status |
++---------------------------------------------------------------------------------------------------------------------+-------------------+
+| Active Workspace Dispatcher Internal (Internal Name: aw_dispatcher_internal) - Dispatcher Module(Machine=TC-DEV-TC) | Installed         |
+| Active Workspace Dispatcher Internal (Internal Name: aw_dispatcher_internal)                                        | Installed         |
+| Dispatcher Client for Rich Client (Internal Name: rac_ets) - Rich client four-tier(Machine=TC-DEV-TC)               | Installed         |
+| Dispatcher Client for Rich Client (Internal Name: rac_ets)                                                          | Installed         |
+| Dispatcher Internal (Internal Name: dispatcher_internal) - Dispatcher Module(Machine=TC-DEV-TC)                     | Installed         |
++---------------------------------------------------------------------------------------------------------------------+-------------------+
+
+Updating deployment status to complete for each component in the request.
+
+Component 'Active Workspace Client Builder' not found in the post execution status map; hence, the status change request will not be triggered.
+Component 'Active Workspace Gateway' not found in the post execution status map; hence, the status change request will not be triggered.
+Component 'Indexer' not found in the post execution status map; hence, the status change request will not be triggered.
+Component 'Visualization Pool Assigner' not found in the post execution status map; hence, the status change request will not be triggered.
+Component 'Visualization Server Manager' not found in the post execution status map; hence, the status change request will not be triggered.
+Component 'FSC' not found in the post execution status map; hence, the status change request will not be triggered.
+Component 'FSC Group' not found in the post execution status map; hence, the status change request will not be triggered.
+Component 'FSC Keys' not found in the post execution status map; hence, the status change request will not be triggered.
+Component 'HTTPS Config' not found in the post execution status map; hence, the status change request will not be triggered.
+Component 'Teamcenter Web Tier (Java EE)' not found in the post execution status map; hence, the status change request will not be triggered.
+Component 'Microservice Node' not found in the post execution status map; hence, the status change request will not be triggered.
+Component 'Server Manager' not found in the post execution status map; hence, the status change request will not be triggered.
+Component 'Teamcenter Client Communication System' not found in the post execution status map; hence, the status change request will not be triggered.
+
+Updating successful deployment status of components :
+
++------------------------------------------------------------------------------------+-------------------+
+| Name                                                                               | Deployment Status |
++------------------------------------------------------------------------------------+-------------------+
+| Corporate Server(name=fnd0_corporateserver,Machine=TC-DEV-TC)                      | Updated           |
+| Rich client four-tier(name=fnd0_4tierrichclient,Machine=TC-DEV-TC)                 | Updated           |
+| Dispatcher Module(name=fnd0_dispatcherModule,Machine=TC-DEV-TC)                    | Installed         |
+| Dispatcher Client (4-tier)(name=fnd0_dispatcherclient,Machine=TC-DEV-TC)           | Installed         |
+| Teamcenter Secrets Manager (by HashiCorp.)(name=fnd0_vault,Machine=TC-DEV-TC)      | Updated           |
+| Dispatcher Scheduler(name=fnd0_dispatcherScheduler,Machine=TC-DEV-TC)              | Installed         |
+| Indexing Engine(name=aws2_indexingengine,Machine=TC-DEV-TC)                        | Updated           |
+| Business Modeler IDE Standalone(name=fnd0_bmideclientstandalone,Machine=TC-DEV-TC) | Updated           |
++------------------------------------------------------------------------------------+-------------------+
+
+Updating deployment status to complete for each application in the request.
+
+The deployment status of application 'Change Management for Active Workspace' is already completed.
+The deployment status of application 'Active Admin Core' is already completed.
+The deployment status of application 'Security' is already completed.
+The deployment status of application 'Active Content Structure FTSI' is already completed.
+The deployment status of application 'Visualization Extension' is already completed.
+The deployment status of application 'Teamcenter Microservice Framework' is already completed.
+The deployment status of application 'hostedvis.displayName' is already completed.
+The deployment status of application 'Workflow' is already completed.
+The deployment status of application 'Change and Schedule Management Interface' is already completed.
+The deployment status of application 'TC XML Import and Export' is already completed.
+The deployment status of application 'Build Conditions' is already completed.
+The deployment status of application 'Active Workspace Visualization 2D Viewer' is already completed.
+The deployment status of application 'Classification Interface' is already completed.
+The deployment status of application 'Translation Service Database Module' is already completed.
+The deployment status of application 'Access Manager Active Workspace' is already completed.
+The deployment status of application 'Active Workspace Dispatcher Internal' is already completed.
+The deployment status of application 'Microservice Parameter Store' is already completed.
+The deployment status of application 'Dispatcher Client for Rich Client' is already completed.
+The deployment status of application 'fgc0cm4g.displayName' is already completed.
+The deployment status of application 'Active Workspace User Management' is already completed.
+The deployment status of application 'Configured Search Framework' is already completed.
+The deployment status of application 'File Repository Service' is already completed.
+The deployment status of application 'Subscription' is already completed.
+The deployment status of application 'Structure Viewer' is already completed.
+The deployment status of application 'Document Management' is already completed.
+The deployment status of application 'Active Content' is already completed.
+The deployment status of application 'Teamcenter Read Expression Manager Service' is already completed.
+The deployment status of application 'Active Architect Core' is already completed.
+The deployment status of application 'Active Workspace Base' is already completed.
+The deployment status of application 'Viewer Administration' is already completed.
+The deployment status of application 'Teamcenter Foundation' is already completed.
+The deployment status of application 'Change Management' is already completed.
+The deployment status of application 'Teamcenter GraphQL Service' is already completed.
+The deployment status of application 'Relations Component' is already completed.
+The deployment status of application 'Viewer Administration' is already completed.
+The deployment status of application 'Project Assignment' is already completed.
+The deployment status of application 'Presentation Layer - Next Generation Classification Foundation' is already completed.
+The deployment status of application 'Reporting' is already completed.
+The deployment status of application 'Search' is already completed.
+The deployment status of application 'Advanced PLM Services for Applications' is already completed.
+The deployment status of application 'Advanced PLM Services for Realization' is already completed.
+The deployment status of application 'Microservice Web Tier Support' is already completed.
+The deployment status of application 'PS Component' is already completed.
+The deployment status of application 'Change Management Realization Interface' is already completed.
+The deployment status of application 'Authorization Active Workspace' is already completed.
+The deployment status of application 'Data Discovery Services' is already completed.
+The deployment status of application 'Advanced PLM Services core Template' is already completed.
+The deployment status of application 'Advanced PLM Services for Partitioning' is already completed.
+The deployment status of application 'XRT Editor' is already completed.
+The deployment status of application 'Declarative Artifact Service' is already completed.
+The deployment status of application 'acndemo' is already completed.
+
+Updating successful deployment status of applications :
+
++----------------------------------------------------------+-------------------+
+| Name                                                     | Deployment Status |
++----------------------------------------------------------+-------------------+
+| Dispatcher (Internal Name: dispatcher)                   | Installed         |
+| Dispatcher Internal (Internal Name: dispatcher_internal) | Installed         |
+| Dispatcher Client (Internal Name: dispatcher_client)     | Installed         |
++----------------------------------------------------------+-------------------+
+
+Updating deployment status to complete for each software in the request.
+
+
+Updating successful deployment status of software :
+
++----------------------+-------------------+
+| Name                 | Deployment Status |
++----------------------+-------------------+
+| Teamcenter 2506.0003 | Updated           |
+| Teamcenter 2506      | Updated           |
+| acndemo 1.0          | Updated           |
++----------------------+-------------------+
+
+Updating successful deployment status of environment :
+
++------------+-------------------+
+| Name       | Deployment Status |
++------------+-------------------+
+| Env_dev_01 | Updated           |
++------------+-------------------+
+
+----------------------------------------------------------------------------------------------------------
+Deployment status update of 'Env_dev_01' for the deploy script execution on machine 'TC-DEV-TC' completed.
+----------------------------------------------------------------------------------------------------------
+

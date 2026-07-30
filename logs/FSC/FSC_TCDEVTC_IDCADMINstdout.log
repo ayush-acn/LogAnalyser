@@ -1,0 +1,49 @@
+2026/07/30-05:36:56,010 UTC MLD Log init: com.teamcenter.mld version P2312.2023081000 (20230809)
+log.properties found at D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fsc\log.properties
+OS name is Windows Server 2019
+JVM vendor is Azul Systems, Inc.
+Data model is 64
+2026/07/30-05:37:00.460 UTC - INFO  - - 0566F7EAA - - - FMSServerCache starting...
+2026/07/30-05:37:00.468 UTC - INFO  - - 0566F7EAA - - - FMSServerCache version: 2506, build date: 20250822
+2026/07/30-05:37:00.469 UTC - INFO  - - 0566F7EAA - - - FMSUtil version: 2506, build date: 20250822
+2026/07/30-05:37:00.472 UTC - INFO  - - 0566F7EAA - - - FSCJavaClientProxy version: 2506, build date: 20250822
+2026/07/30-05:37:00.472 UTC - INFO  - - 0566F7EAA - - - java.vm.version: 17.0.3+7-LTS
+2026/07/30-05:37:00.472 UTC - INFO  - - 0566F7EAA - - - java.vm.vendor: Azul Systems, Inc.
+2026/07/30-05:37:00.473 UTC - INFO  - - 0566F7EAA - - - java.vm.info: mixed mode, sharing
+2026/07/30-05:37:00.473 UTC - INFO  - - 0566F7EAA - - - java.io.tmpdir: C:\Users\IDC-ADMIN\AppData\Local\Temp\
+2026/07/30-05:37:00.473 UTC - INFO  - - 0566F7EAA - - - java.library.path: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fsc/lib
+2026/07/30-05:37:00.474 UTC - INFO  - - 0566F7EAA - - - file.encoding: Cp1252
+2026/07/30-05:37:00.522 UTC - INFO  - - 0566F7EAA - - - line.separator: CRLF
+2026/07/30-05:37:00.522 UTC - INFO  - - 0566F7EAA - - - user.name: IDC-ADMIN
+2026/07/30-05:37:00.522 UTC - INFO  - - 0566F7EAA - - - user.home: C:\Users\IDC-ADMIN
+2026/07/30-05:37:00.522 UTC - INFO  - - 0566F7EAA - - - user.dir: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fsc
+2026/07/30-05:37:00.522 UTC - WARN  - - 0566F7EAA - - - Environment variable FSC_CONFIG_PATH is not set, will default to FMS_HOME.
+Properties from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fsc/fsc.FSC_TCDEVTC_IDCADMIN.properties:
+  com.teamcenter.fms.servercache.keystore.ssl.certificate.epassword=************************
+  com.teamcenter.fms.servercache.keystore.epassword=********************************************
+  com.teamcenter.fms.signing.keystore.epassword=************************
+  com.teamcenter.fms.servercache.keystore.file=keystore
+  com.teamcenter.fms.signing.keystore.file=$FSC_CONFIG_PATH/fsc_config/symmetric_key_keystore.jceks
+  com.teamcenter.fms.signing.tickets.alias=-1625470186
+  com.teamcenter.fms.signing.-1625470186.epassword=************************
+2026/07/30-05:37:06.096 UTC - WARN  - - 0566F7EAA - - -  VCL::Retrying ... 
+2026/07/30-05:37:13.296 UTC - WARN  - - 0566F7EAA - - -  VCL::Retrying ... 
+2026/07/30-05:37:20.656 UTC - WARN  - - 0566F7EAA - - -  VCL::Retrying ... 
+2026/07/30-05:37:28.055 UTC - WARN  - - 0566F7EAA - - -  VCL::Retrying ... 
+2026/07/30-05:37:35.422 UTC - WARN  - - 0566F7EAA - - -  VCL::Retrying ... 
+2026/07/30-05:37:41.078 UTC - WARN  - - 0566F7EAA - - -  VCL::Received error code - 503
+2026/07/30-05:37:41.079 UTC - WARN  - - 0566F7EAA - - -  VCL::Retrying ... 
+2026/07/30-05:37:54.276 UTC - WARN  - - 0566F7EAA - - - There was an issue retrieving the key alias password from the vault. Continuing processing using the properties file.
+2026/07/30-05:37:54.474 UTC - INFO  - - 0566F7EAA - - - Located configuration for FSC: 'FSC_TCDEVTC_IDCADMIN'
+2026/07/30-05:37:54.492 UTC - INFO  - - 0566F7EAA - - - volume 00096a58c2bc9f1d4b16(D:\PLM\Siemens\Teamcenter2506\volumes\DefaultVolume) write/read/content verified.
+2026/07/30-05:37:54.498 UTC - INFO  - - 0566F7EAA - - - transientvolume 1de6883d579a126ce293cfcaa6fe609d(c:\temp\transientVolume) write/read/content verified.
+2026/07/30-05:37:54.657 UTC - WARN  - - 0566F7EAA - - - The fscadmin command 'filestoredetail' can be run from any fscadmin client. 'fscadminpolicies' in the fmsmaster configuration can be used to prevent this.
+2026/07/30-05:37:54.657 UTC - WARN  - - 0566F7EAA - - - The fscadmin command 'cachedetail' can be run from any fscadmin client. 'fscadminpolicies' in the fmsmaster configuration can be used to prevent this.
+2026/07/30-05:37:54.699 UTC - INFO  - - 0566F7EAA - - - Read Fast Cache initialized at: C:\Users\IDC-ADMIN\FSCCache/FSC_TCDEVTC_IDCADMIN/read
+2026/07/30-05:37:54.703 UTC - INFO  - - 0566F7EAA - - - Read Fast Cache parameter values: mfp=512,ms=623,hp=32,me=0,memb=16
+2026/07/30-05:37:54.715 UTC - INFO  - - 0566F7EAA - - - Write Fast Cache initialized at: C:\Users\IDC-ADMIN\FSCCache/FSC_TCDEVTC_IDCADMIN/write
+2026/07/30-05:37:54.715 UTC - INFO  - - 0566F7EAA - - - Write Fast Cache parameter values: mfp=512,ms=623,hp=32,me=0,memb=16
+2026/07/30-05:37:54.739 UTC - INFO  - - 0566F7EAA - - - Whole File Cache disabled at: C:\Users\IDC-ADMIN\FSCCache
+2026/07/30-05:37:54.739 UTC - INFO  - - 0566F7EAA - - - Whole File Cache parameter values: filespersubdir=0,maxfileage=(3650/30),percentfree=30,purgewait=(0/30),purgecycle=(240/30),partitions=(1/0)
+2026/07/30-05:37:54.858 UTC - INFO  - - 0566F7EAA - - - LogLevel set to WARN
+2026/07/30-05:37:57.848 UTC - INFO  - - 0566F7EAA - - - Server Initialization successful, server is started.

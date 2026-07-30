@@ -1,0 +1,1276 @@
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Total]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Failed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Warnings]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  Total,   Passed,   Failed,   Warnings]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [23]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [23]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [0]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [0]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  23,   23,   0,   0]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Check No]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Title]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Description]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Result]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Analysis]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  Check No,   Title,   Description,   Result,   Analysis]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [1]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [ Validate if the path mentioned at "Teamcenter Installation Path" field for "Dispatcher Scheduler" exists or not 
+
+Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 2
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 3
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 4
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [ This diagnostic checks if the value of the path for "Teamcenter Installation Path" field of "Dispatcher Scheduler" component exists on the target machine.]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Not Applicable]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  1,   Validate if the path mentioned at "Teamcenter Installation Path" field for ,   This diagnostic checks if the value of the path for "Teamcenter ,   Passed,   Not Applicable]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   "Dispatcher Scheduler" exists or not ,   Installation Path" field of "Dispatcher Scheduler" component exists on the ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,   target machine. ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [2]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [ Validate if the path mentioned at "Dispatcher Root Directory" field for "Dispatcher Module" component matches the platform format 
+
+Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 2
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 3
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 4
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [ This diagnostic checks if the value of the path for "Dispatcher Root Directory" field of "Dispatcher Module" component matches the format of the platform.]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Not Applicable]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  2,   Validate if the path mentioned at "Dispatcher Root Directory" field for ,   This diagnostic checks if the value of the path for "Dispatcher Root ,   Passed,   Not Applicable]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   "Dispatcher Module" component matches the platform format ,   Directory" field of "Dispatcher Module" component matches the format of the ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,   platform. ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [3]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Validate write access permission is granted at the Teamcenter Installation Path field of "Dispatcher Scheduler" component.
+
+Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 2
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 3
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 4
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [This diagnostic checks if the user is granted write access on the path specified at the Teamcenter Installation Path field of "Dispatcher Scheduler" component.]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Not Applicable]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  3,   Validate write access permission is granted at the Teamcenter Installation ,   This diagnostic checks if the user is granted write access on the path ,   Passed,   Not Applicable]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Path field of "Dispatcher Scheduler" component. ,   specified at the Teamcenter Installation Path field of "Dispatcher ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,   Scheduler" component. ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [4]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [ Validate write access permission is granted at the "Dispatcher Log Directory" field of "Dispatcher Scheduler" component.
+
+Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 2
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 3
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 4
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [ This diagnostic checks if the user is granted write access on the path specified at the "Dispatcher Log Directory" field of "Dispatcher Scheduler" component.]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Not Applicable]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  4,   Validate write access permission is granted at the "Dispatcher Log ,   This diagnostic checks if the user is granted write access on the path ,   Passed,   Not Applicable]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Directory" field of "Dispatcher Scheduler" component. ,   specified at the "Dispatcher Log Directory" field of "Dispatcher Scheduler" ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,   component. ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [5]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Validate write access permission is granted at the "Corporate Server" field of "Teamcenter Data Path" component.
+
+Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 2
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 3
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 4
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [This diagnostic checks if the user is granted write access on the path specified at the "Corporate Server" field of "Teamcenter Data Path" component.]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Not Applicable]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  5,   Validate write access permission is granted at the "Corporate Server" field ,   This diagnostic checks if the user is granted write access on the path ,   Passed,   Not Applicable]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   of "Teamcenter Data Path" component. ,   specified at the "Corporate Server" field of "Teamcenter Data Path" ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,   component. ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [6]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Database user existence check
+
+Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 2
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 3
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [This utility checks that the value for the user entered in the "User" field for "Oracle" on the component "Database Server" exists if "Database Instance and Database User already exists" option is selected for a deployment.]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 4
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Not Applicable]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  6,   Database user existence check,   This utility checks that the value for the user entered in the "User" field ,   Passed,   Not Applicable]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,   for "Oracle" on the component "Database Server" exists if "Database ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root,   Instance and Database User already exists" option is selected for a ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,   deployment. ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [7]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Validate write access permission is granted at the Teamcenter Installation Path field of "Dispatcher Module" component.
+
+Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 2
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 3
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 4
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [This diagnostic checks if the user is granted write access on the path specified at the Teamcenter Installation Path field of "Dispatcher Module" component.]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Not Applicable]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  7,   Validate write access permission is granted at the Teamcenter Installation ,   This diagnostic checks if the user is granted write access on the path ,   Passed,   Not Applicable]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Path field of "Dispatcher Module" component. ,   specified at the Teamcenter Installation Path field of "Dispatcher Module" ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,   component. ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [8]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Validate Licensing Server component.
+
+Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 2
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 3
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [This diagnostic validates that the "Licensing Server" is valid and reachable."]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Not Applicable]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  8,   Validate Licensing Server component.,   This diagnostic validates that the "Licensing Server" is valid and ,   Passed,   Not Applicable]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,   reachable." ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [9]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [ Validate if the path mentioned at "Teamcenter Installation Path" field for "Dispatcher Module" exists or not 
+
+Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 2
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 3
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 4
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [ This diagnostic checks if the value of the path for "Teamcenter Installation Path" field of "Dispatcher Module" component exists on the target machine.]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Not Applicable]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  9,   Validate if the path mentioned at "Teamcenter Installation Path" field for ,   This diagnostic checks if the value of the path for "Teamcenter ,   Passed,   Not Applicable]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   "Dispatcher Module" exists or not ,   Installation Path" field of "Dispatcher Module" component exists on the ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,   target machine. ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [10]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [ Validate the path mentioned at "Dispatcher Log Directory" field for "Dispatcher Scheduler" component exists or not 
+
+Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 2
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 3
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 4
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [ This diagnostic checks if the value of the path for "Dispatcher Log Directory" field of "Dispatcher Scheduler" component exists on the target machine.]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Not Applicable]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  10,   Validate the path mentioned at "Dispatcher Log Directory" field for ,   This diagnostic checks if the value of the path for "Dispatcher Log ,   Passed,   Not Applicable]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   "Dispatcher Scheduler" component exists or not ,   Directory" field of "Dispatcher Scheduler" component exists on the target ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,   machine. ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [11]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Validate write access permission is granted at the "Corporate Server" field of "Administrative Password Directory" component.
+
+Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 2
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 3
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 4
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [This diagnostic checks if the user is granted write access on the path specified at the "Corporate Server" field of "Administrative Password Directory" component.]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Not Applicable]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  11,   Validate write access permission is granted at the "Corporate Server" field ,   This diagnostic checks if the user is granted write access on the path ,   Passed,   Not Applicable]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   of "Administrative Password Directory" component. ,   specified at the "Corporate Server" field of "Administrative Password ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,   Directory" component. ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [12]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : ["Validate operating system credentials for the Dispatcher Client (4-tier) component."
+
+Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 2
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 3
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 4
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : ["This diagnostic validates the operating system credentials specified by the Dispatcher Client (4-tier) component."]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Not Applicable]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  12,   "Validate operating system credentials for the Dispatcher Client (4-tier) ,   "This diagnostic validates the operating system credentials specified by ,   Passed,   Not Applicable]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   component." ,   the Dispatcher Client (4-tier) component." ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [13]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : ["Validate operating system credentials for the Dispatcher Module component."
+
+Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 2
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 3
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : ["This diagnostic validates the operating system credentials specified by the Dispatcher Module component."]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Not Applicable]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  13,   "Validate operating system credentials for the Dispatcher Module component.",   "This diagnostic validates the operating system credentials specified by ,   Passed,   Not Applicable]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,   the Dispatcher Module component." ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [14]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Validate that JRE64_HOME environment variable is set.
+
+Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 2
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 3
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [This diagnostic validates that the JRE64_HOME environment variable is set in the environment, which get populated in tem_init.bat]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Not Applicable]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  14,   Validate that JRE64_HOME environment variable is set.,   This diagnostic validates that the JRE64_HOME environment variable is set ,   Passed,   Not Applicable]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,   in the environment, which get populated in tem_init.bat ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [15]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [ Validate if the path mentioned at "Teamcenter Installation Path" field for "Dispatcher Client" exists or not 
+
+Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 2
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 3
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 4
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [ This diagnostic checks if the value of the path for "Teamcenter Installation Path" field of "Dispatcher Client" component exists on the target machine.]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Not Applicable]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  15,   Validate if the path mentioned at "Teamcenter Installation Path" field for ,   This diagnostic checks if the value of the path for "Teamcenter ,   Passed,   Not Applicable]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   "Dispatcher Client" exists or not ,   Installation Path" field of "Dispatcher Client" component exists on the ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,   target machine. ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [16]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [ Validate write access permission is granted at the "Staging Directory" field of "Dispatcher Module" component.
+
+Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 2
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 3
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 4
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [ This diagnostic checks if the user is granted write access on the path specified at the "Staging Directory" field of "Dispatcher Module" component.]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Not Applicable]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  16,   Validate write access permission is granted at the "Staging Directory" ,   This diagnostic checks if the user is granted write access on the path ,   Passed,   Not Applicable]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   field of "Dispatcher Module" component. ,   specified at the "Staging Directory" field of "Dispatcher Module" ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,   component. ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [17]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Database connectivity check
+
+Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 2
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 3
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [This diagnostic checks if the database is reachable.]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Not Applicable]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  17,   Database connectivity check,   This diagnostic checks if the database is reachable.,   Passed,   Not Applicable]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [18]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : ["Validate operating system credentials for the Dispatcher Scheduler component."
+
+Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 2
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 3
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 4
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : ["This diagnostic validates the operating system credentials specified by the Dispatcher Scheduler component."]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Not Applicable]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  18,   "Validate operating system credentials for the Dispatcher Scheduler ,   "This diagnostic validates the operating system credentials specified by ,   Passed,   Not Applicable]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   component." ,   the Dispatcher Scheduler component." ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [19]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Validate write access permission is granted at the "Corporate Server" field of "Teamcenter Installation Path" component.
+
+Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 2
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 3
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 4
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [This diagnostic checks if the user is granted write access on the path specified at the "Corporate Server" field of "Teamcenter Installation Path" component.]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Not Applicable]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  19,   Validate write access permission is granted at the "Corporate Server" field ,   This diagnostic checks if the user is granted write access on the path ,   Passed,   Not Applicable]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   of "Teamcenter Installation Path" component. ,   specified at the "Corporate Server" field of "Teamcenter Installation Path" ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,   component. ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [20]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Validate Java version for FOSS Repository.
+
+Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 2
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 3
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [This diagnostic validates that the Java version is supported by deployment.]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Not Applicable]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  20,   Validate Java version for FOSS Repository.,   This diagnostic validates that the Java version is supported by deployment.,   Passed,   Not Applicable]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [21]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Validate port "2001" is free for use by the "Dispatcher Scheduler".
+
+Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 2
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 3
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [This diagnostic validates that the port is valid as specified by the "Dispatcher Scheduler" component "Port" parameter. This validation will also check that the port is not being used by any other process or service.]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Not Applicable]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  21,   Validate port "2001" is free for use by the "Dispatcher Scheduler".,   This diagnostic validates that the port is valid as specified by the ,   Passed,   Not Applicable]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,   "Dispatcher Scheduler" component "Port" parameter. This validation will ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root,   also check that the port is not being used by any other process or service. ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [22]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Validate write access permission is granted at the Teamcenter Installation Path field of "Dispatcher Client" component.
+
+Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 2
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 3
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 4
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [This diagnostic checks if the user is granted write access on the path specified at the Teamcenter Installation Path field of "Dispatcher Client" component.]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Not Applicable]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  22,   Validate write access permission is granted at the Teamcenter Installation ,   This diagnostic checks if the user is granted write access on the path ,   Passed,   Not Applicable]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Path field of "Dispatcher Client" component. ,   specified at the Teamcenter Installation Path field of "Dispatcher Client" ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,   component. ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [23]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [ Validate the path mentioned at "Staging Directory" field for "Dispatcher Module" component exists or not 
+
+Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root]
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 2
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 3
+2026-07-23 06:33:01 INFO  - TableFormatter - Updating rowSpan to 4
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [ This diagnostic checks if the value of the path for "Staging Directory" field of "Dispatcher Module" component exists on the target machine.]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Passed]
+2026-07-23 06:33:01 INFO  - TableFormatter - Processing Row Content : [Not Applicable]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [  23,   Validate the path mentioned at "Staging Directory" field for "Dispatcher ,   This diagnostic checks if the value of the path for "Staging Directory" ,   Passed,   Not Applicable]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Module" component exists or not ,   field of "Dispatcher Module" component exists on the target machine. ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,  ,  ,  ,  ]]
+2026-07-23 06:33:01 INFO  - TableFormatter - Building row with content : [ ,   Installation Path: D:\PLM\Siemens\Teamcenter2506\tc_root,  ,  ,  ]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [Serial no]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [Artifact Guid]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [Artifact Type]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [Owning Package/Component]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  Serial no,   Artifact Guid,   Artifact Type,   Owning Package/Component]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [1]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [AC98DE452A2837C08CD17D82CB731211]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_tpcArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_corporateserver]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  1,   AC98DE452A2837C08CD17D82CB731211,   fnd0_tpcArtifact,   fnd0_corporateserver]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [2]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [A0CF69C3A0BC61770EB81BD22667EA52]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_vcredistArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_corporateserver]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  2,   A0CF69C3A0BC61770EB81BD22667EA52,   fnd0_vcredistArtifact,   fnd0_corporateserver]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [3]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [H3WW9UHUKYLLFUR2JS4ECV22PK6HLXGB]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_foundation]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  3,   H3WW9UHUKYLLFUR2JS4ECV22PK6HLXGB,   fnd0_dataModelArtifact,   fnd0_foundation]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [4]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [O100EDZ51U70C7YXSIXXJLOTCJADI1RQ]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_foundation_internal_server_artifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_foundation]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  4,   O100EDZ51U70C7YXSIXXJLOTCJADI1RQ,   fnd0_foundation_internal_server_artifact,   fnd0_foundation]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [5]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [VHPE4S7HRBF3U9GK4NLGPYYX2E1NBFWQ]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_vaultArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_vault]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  5,   VHPE4S7HRBF3U9GK4NLGPYYX2E1NBFWQ,   fnd0_vaultArtifact,   fnd0_vault]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [6]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [F198327D035C27E82A2E7C67A1971BA7]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aws2_indexingEngineArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aws2_indexingengine]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  6,   F198327D035C27E82A2E7C67A1971BA7,   aws2_indexingEngineArtifact,   aws2_indexingengine]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [7]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [9P7MDJMQB5J2OU4497EC3H7KI27NVOMY]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dbArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_foundation]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  7,   9P7MDJMQB5J2OU4497EC3H7KI27NVOMY,   fnd0_dbArtifact,   fnd0_foundation]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [8]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [FMBVN8NSKJF0GKQ8MIES2KMQ8XR33WFB]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dbdrevcfgaccArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_foundation]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  8,   FMBVN8NSKJF0GKQ8MIES2KMQ8XR33WFB,   fnd0_dbdrevcfgaccArtifact,   fnd0_foundation]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [9]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [EUQAKN2QHFX4CE7S2065S1KUQ0KO8QAO]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [dbdamreadexprmgrservice]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  9,   EUQAKN2QHFX4CE7S2065S1KUQ0KO8QAO,   fnd0_dataModelArtifact,   dbdamreadexprmgrservice]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [10]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [A02D373E84664909BE1C0DB884C53CE0]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_logForwarderArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_corporateserver]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  10,   A02D373E84664909BE1C0DB884C53CE0,   fnd0_logForwarderArtifact,   fnd0_corporateserver]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [11]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [8JB2ZUORPXT4SKSMOGZ1242FEQYJ1K2T]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_foundation_internal_server_artifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_corporateserver]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  11,   8JB2ZUORPXT4SKSMOGZ1242FEQYJ1K2T,   fnd0_foundation_internal_server_artifact,   fnd0_corporateserver]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [12]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [9C511DD51E13E0CB9DC4687B1A3348BE]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_foundation]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  12,   9C511DD51E13E0CB9DC4687B1A3348BE,   fnd0_serverArtifact,   fnd0_foundation]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [13]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [3219D403331D48D7A65BE1D8527D9106]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_logForwarderArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_foundation]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  13,   3219D403331D48D7A65BE1D8527D9106,   fnd0_logForwarderArtifact,   fnd0_foundation]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [14]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [B021413FCA884F4CA074016F279FCEE8]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [srh0apsconfiguredsearch]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  14,   B021413FCA884F4CA074016F279FCEE8,   fnd0_dataModelArtifact,   srh0apsconfiguredsearch]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [15]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [34B1DB0D5D1D4E7DBE6B901A894C86A7]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [srh0apsconfiguredsearch]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  15,   34B1DB0D5D1D4E7DBE6B901A894C86A7,   fnd0_serverArtifact,   srh0apsconfiguredsearch]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [16]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [BF1DC0AB2E00C422EC2DB63F3B960562]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [bcs0buildconditions]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  16,   BF1DC0AB2E00C422EC2DB63F3B960562,   fnd0_dataModelArtifact,   bcs0buildconditions]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [17]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [2A966AEFF2C74C128C8833807C929063]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [bcs0buildconditions]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  17,   2A966AEFF2C74C128C8833807C929063,   fnd0_serverArtifact,   bcs0buildconditions]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [18]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [EF6284519D32B8DADCF0F05213AF807B]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aws2_client]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  18,   EF6284519D32B8DADCF0F05213AF807B,   fnd0_dataModelArtifact,   aws2_client]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [19]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [24E2685325021872095B1249CDE5B49B]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aws2_client]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  19,   24E2685325021872095B1249CDE5B49B,   fnd0_serverArtifact,   aws2_client]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [20]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [ZPC043M7168CM2OMZ43180FSBCEFIYFE]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aws2_indexingEngineArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aws2_client]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  20,   ZPC043M7168CM2OMZ43180FSBCEFIYFE,   aws2_indexingEngineArtifact,   aws2_client]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [21]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [2F8C053E894B18CB92A5A95EB73BB7EE]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [dds0datadiscovery]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  21,   2F8C053E894B18CB92A5A95EB73BB7EE,   fnd0_dataModelArtifact,   dds0datadiscovery]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [22]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [4F13B55A414C4B89831FDCBC6DD31F6B]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [dds0datadiscovery]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  22,   4F13B55A414C4B89831FDCBC6DD31F6B,   fnd0_serverArtifact,   dds0datadiscovery]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [23]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [841B43626F01810EE89A04FF22C744D4]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [rb0reportingaw]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  23,   841B43626F01810EE89A04FF22C744D4,   fnd0_dataModelArtifact,   rb0reportingaw]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [24]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [W1Y3MTWBH1DS5MCX0BJKS1Y0R1KJCUJY]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [rb0reportingaw]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  24,   W1Y3MTWBH1DS5MCX0BJKS1Y0R1KJCUJY,   fnd0_serverArtifact,   rb0reportingaw]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [25]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [E5F45EFFA34DA47F2CD8E4F150F81C11]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aut0authorizationaws]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  25,   E5F45EFFA34DA47F2CD8E4F150F81C11,   fnd0_dataModelArtifact,   aut0authorizationaws]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [26]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [6ZP7BHSD5WYX5ARPYQOLUEE9TWR8TKW3]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aut0authorizationaws]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  26,   6ZP7BHSD5WYX5ARPYQOLUEE9TWR8TKW3,   fnd0_serverArtifact,   aut0authorizationaws]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [27]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [C48D31DEEAB44695153AEBF6FF96864D]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aps0apscore]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  27,   C48D31DEEAB44695153AEBF6FF96864D,   fnd0_dataModelArtifact,   aps0apscore]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [28]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [307887BF21720CDB88169FCF80F23B46]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aps0apscore]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  28,   307887BF21720CDB88169FCF80F23B46,   fnd0_serverArtifact,   aps0apscore]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [29]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [F48016E4FBF7F866155FC83B3845DC6F]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [appmodel]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  29,   F48016E4FBF7F866155FC83B3845DC6F,   fnd0_dataModelArtifact,   appmodel]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [30]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [EB5010A3CE0C4aed9F2277C2B74EF131]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [appmodel]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  30,   EB5010A3CE0C4aed9F2277C2B74EF131,   fnd0_serverArtifact,   appmodel]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [31]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [9D98D83C2FCB4C1CEA454CA42EF79665]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [realization]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  31,   9D98D83C2FCB4C1CEA454CA42EF79665,   fnd0_dataModelArtifact,   realization]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [32]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [36883178D8994930A95F6944244573F0]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [realization]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  32,   36883178D8994930A95F6944244573F0,   fnd0_serverArtifact,   realization]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [33]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [711003675C5174C1FEB859208E69F692]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aa1activearchitectcore]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  33,   711003675C5174C1FEB859208E69F692,   fnd0_dataModelArtifact,   aa1activearchitectcore]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [34]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [06FC936550C5741026DBA9A4D923D44F]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [tie0aw]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  34,   06FC936550C5741026DBA9A4D923D44F,   fnd0_dataModelArtifact,   tie0aw]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [35]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [LJPE5UVA613GD2HLIUDA7S7DZBUUYSG9]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [tie0aw]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  35,   LJPE5UVA613GD2HLIUDA7S7DZBUUYSG9,   fnd0_serverArtifact,   tie0aw]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [36]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [A66DA1DA1116896B8F028F7DDDC8E491]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [adm1admconsolecore]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  36,   A66DA1DA1116896B8F028F7DDDC8E491,   fnd0_dataModelArtifact,   adm1admconsolecore]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [37]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [04A9489F7F5D51E0B521903B748C87B3]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [um0usermanagement]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  37,   04A9489F7F5D51E0B521903B748C87B3,   fnd0_dataModelArtifact,   um0usermanagement]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [38]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [EAC1322926B2432183084D0F09AFEA28]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [um0usermanagement]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  38,   EAC1322926B2432183084D0F09AFEA28,   fnd0_serverArtifact,   um0usermanagement]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [39]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [7F3FE95ADA658AA457AB15EF5B75B3FA]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [dma1docmgmtaw]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  39,   7F3FE95ADA658AA457AB15EF5B75B3FA,   fnd0_dataModelArtifact,   dma1docmgmtaw]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [40]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [RRABEZPGL2KTSB9K4WIZIZAJQWIZU6S6]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [dma1docmgmtaw]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  40,   RRABEZPGL2KTSB9K4WIZIZAJQWIZU6S6,   fnd0_serverArtifact,   dma1docmgmtaw]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [41]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [8BF58CB036C8E3E53C5C38E9D7E471F8]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [partition]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  41,   8BF58CB036C8E3E53C5C38E9D7E471F8,   fnd0_dataModelArtifact,   partition]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [42]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [7AE6140A833847a58E6D156664AB2ED6]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [partition]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  42,   7AE6140A833847a58E6D156664AB2ED6,   fnd0_serverArtifact,   partition]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [43]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [3D85937EC9CEAB8E204FD099E8BD873B]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [classification]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  43,   3D85937EC9CEAB8E204FD099E8BD873B,   fnd0_dataModelArtifact,   classification]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [44]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [48SG3KAX35JYETJ6ZEKABXICZKKPM25A]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [classification]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  44,   48SG3KAX35JYETJ6ZEKABXICZKKPM25A,   fnd0_serverArtifact,   classification]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [45]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [DA3F5D4113BC31CC36A257EAB0669DDA]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [cla0classification]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  45,   DA3F5D4113BC31CC36A257EAB0669DDA,   fnd0_dataModelArtifact,   cla0classification]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [46]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [VNJ05PMAHVBUK6BZZF4OFS4GWLWA12Z9]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [cla0classification]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  46,   VNJ05PMAHVBUK6BZZF4OFS4GWLWA12Z9,   fnd0_serverArtifact,   cla0classification]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [47]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [6FE48291523DB8DCDAF0F05213AF8B70]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [sub0subscription]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  47,   6FE48291523DB8DCDAF0F05213AF8B70,   fnd0_dataModelArtifact,   sub0subscription]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [48]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [DB8DCDA6FE48291523F0F0507B8FA312]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [sub0subscription]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  48,   DB8DCDA6FE48291523F0F0507B8FA312,   fnd0_serverArtifact,   sub0subscription]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [49]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [301F12B06B3EAAB18DC0C2B9444F3B20]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [translationservice]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  49,   301F12B06B3EAAB18DC0C2B9444F3B20,   fnd0_dataModelArtifact,   translationservice]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [50]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [8D08685325021872095B1249CDE5B49B]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_foundation]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  50,   8D08685325021872095B1249CDE5B49B,   fnd0_dataArtifact,   fnd0_foundation]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [51]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [F346B00762F74C7092BA8EF01FDADD45]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aws2_client]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  51,   F346B00762F74C7092BA8EF01FDADD45,   fnd0_dataArtifact,   aws2_client]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [52]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [6843B1A2375D41D4B7A6E434CC29F55D]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [microproxy]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  52,   6843B1A2375D41D4B7A6E434CC29F55D,   fnd0_dataArtifact,   microproxy]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [53]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [FMBVN8NSKJF8GKQ3MIES2KMQ8XR76WFB]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dbdrevcfgaccArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_corporateserver]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  53,   FMBVN8NSKJF8GKQ3MIES2KMQ8XR76WFB,   fnd0_dbdrevcfgaccArtifact,   fnd0_corporateserver]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [54]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [90C7E167F200EE7DAB5FDF1BABCE193B]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_bmideClientArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aws2_client]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  54,   90C7E167F200EE7DAB5FDF1BABCE193B,   fnd0_bmideClientArtifact,   aws2_client]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [55]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [B5400043A525403BBA8004220A508FB3]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_richClientArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aps0apscore]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  55,   B5400043A525403BBA8004220A508FB3,   fnd0_richClientArtifact,   aps0apscore]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [56]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [0B0888D6D9955ACA4F9B6B51C3EF2063]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [-]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  56,   0B0888D6D9955ACA4F9B6B51C3EF2063,   fnd0_dataModelArtifact,   -]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [57]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [6BD9DB8932074D4BB29F2E7A12244342]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [-]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  57,   6BD9DB8932074D4BB29F2E7A12244342,   fnd0_serverArtifact,   -]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [58]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [2448846B5A3447DCB22346863B018486]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_richClientArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [appmodel]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  58,   2448846B5A3447DCB22346863B018486,   fnd0_richClientArtifact,   appmodel]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [59]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [E9B8A3F6B7B53AE540DCC54C13B3C201]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [cm]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  59,   E9B8A3F6B7B53AE540DCC54C13B3C201,   fnd0_dataModelArtifact,   cm]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [60]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [01BA0C24064341C0079FE9A560C1B935]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [-]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  60,   01BA0C24064341C0079FE9A560C1B935,   fnd0_dataModelArtifact,   -]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [61]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [C6A5177C2E4123136C1695F21145FE8D]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [-]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  61,   C6A5177C2E4123136C1695F21145FE8D,   fnd0_serverArtifact,   -]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [62]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [0B017305DDED4A79B2C532F73CC747B1]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_richClientArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [partition]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  62,   0B017305DDED4A79B2C532F73CC747B1,   fnd0_richClientArtifact,   partition]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [63]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [9CE32351B76D4991AEF8134C36F20D04]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [-]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  63,   9CE32351B76D4991AEF8134C36F20D04,   fnd0_dataModelArtifact,   -]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [64]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [FERQ7UQCVH53HA9ME4BY99DCVDAX5ZJH]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [-]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  64,   FERQ7UQCVH53HA9ME4BY99DCVDAX5ZJH,   fnd0_serverArtifact,   -]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [65]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [0F47FD6920230AC9CFDB79C9AC941ADA]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [activeworkspacebom]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  65,   0F47FD6920230AC9CFDB79C9AC941ADA,   fnd0_dataModelArtifact,   activeworkspacebom]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [66]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [61QW5SNSWG3PQS38UCD2DKQQAOD9EIAL]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [activeworkspacebom]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  66,   61QW5SNSWG3PQS38UCD2DKQQAOD9EIAL,   fnd0_serverArtifact,   activeworkspacebom]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [67]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [0B0DC7DC61DA9CDCFFDFE1696DE713DC]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [-]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  67,   0B0DC7DC61DA9CDCFFDFE1696DE713DC,   fnd0_dataModelArtifact,   -]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [68]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [726CF4F2AE4A4C47A7007ADEC8F5C755]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [-]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  68,   726CF4F2AE4A4C47A7007ADEC8F5C755,   fnd0_serverArtifact,   -]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [69]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [B180F80BA3F3A9BA244F0914AD5CAC46]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [-]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  69,   B180F80BA3F3A9BA244F0914AD5CAC46,   fnd0_dataModelArtifact,   -]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [70]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [3D67B80E635143A18D9647C867E9E63C]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [-]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  70,   3D67B80E635143A18D9647C867E9E63C,   fnd0_serverArtifact,   -]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [71]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [M8ZH92D8A9BD69713GS86BG27627MV18]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_webview2Artifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_4tierrichclient]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  71,   M8ZH92D8A9BD69713GS86BG27627MV18,   fnd0_webview2Artifact,   fnd0_4tierrichclient]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [72]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [050C602E296911E089088DF4DED72085]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_bmideStandaloneArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_bmideclientstandalone]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  72,   050C602E296911E089088DF4DED72085,   fnd0_bmideStandaloneArtifact,   fnd0_bmideclientstandalone]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [73]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [90YMJWHPN63CLJHR8CEHLSUTKO3HQO6Y]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_4TierRichclientArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_4tierrichclient]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  73,   90YMJWHPN63CLJHR8CEHLSUTKO3HQO6Y,   fnd0_4TierRichclientArtifact,   fnd0_4tierrichclient]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [74]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [D18192F4475ADEA11EC85F454C6ABA31]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [csi]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  74,   D18192F4475ADEA11EC85F454C6ABA31,   fnd0_dataModelArtifact,   csi]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [75]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [115EA2D072AE11E19424D3DD4724019B]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [csi]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  75,   115EA2D072AE11E19424D3DD4724019B,   fnd0_serverArtifact,   csi]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [76]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [DBE156187A721C3B7619E70E214C40F7]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fgc0cm4g]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  76,   DBE156187A721C3B7619E70E214C40F7,   fnd0_dataModelArtifact,   fgc0cm4g]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [77]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [4DMLCF1AZC0XHSGMETEKZSEGICAGFBIT]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fgc0cm4g]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  77,   4DMLCF1AZC0XHSGMETEKZSEGICAGFBIT,   fnd0_serverArtifact,   fgc0cm4g]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [78]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [66EC974DAA963608425C39677E3DF69E]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [rzc0rlzcm]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  78,   66EC974DAA963608425C39677E3DF69E,   fnd0_dataModelArtifact,   rzc0rlzcm]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [79]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [P71GJXKJG8XKTWTK26P4GMW1JMVSDW4E]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [rzc0rlzcm]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  79,   P71GJXKJG8XKTWTK26P4GMW1JMVSDW4E,   fnd0_serverArtifact,   rzc0rlzcm]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [80]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [B75C673EA57FD9D5EBEF544DE7F07F4E]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [Cm1cmaws]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  80,   B75C673EA57FD9D5EBEF544DE7F07F4E,   fnd0_dataModelArtifact,   Cm1cmaws]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [81]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [EAC1322926B2432183084D0F09AFEA25]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [Cm1cmaws]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  81,   EAC1322926B2432183084D0F09AFEA25,   fnd0_serverArtifact,   Cm1cmaws]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [82]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [1F2AD473B3C558A24A97D1430FB77F63]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [awv0activeworkspacevis]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  82,   1F2AD473B3C558A24A97D1430FB77F63,   fnd0_dataModelArtifact,   awv0activeworkspacevis]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [83]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [E4C71E408B9683B7BE8ADE2B8D763CFC]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [awv0activeworkspacevis]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  83,   E4C71E408B9683B7BE8ADE2B8D763CFC,   fnd0_serverArtifact,   awv0activeworkspacevis]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [84]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [HM1V5MT6EST294YATNMGR98786AN9O57]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [vieweradministration]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  84,   HM1V5MT6EST294YATNMGR98786AN9O57,   fnd0_serverArtifact,   vieweradministration]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [85]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [A2D02FED729F207E5299982608D51ADE]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [am0accessmanageraw]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  85,   A2D02FED729F207E5299982608D51ADE,   fnd0_dataModelArtifact,   am0accessmanageraw]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [86]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [3D024DB1BD4F46E79C91B42955B240B9]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [am0accessmanageraw]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  86,   3D024DB1BD4F46E79C91B42955B240B9,   fnd0_serverArtifact,   am0accessmanageraw]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [87]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [90C2A1C96F6A61FAB397AF88ABE4AA91]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_richClientArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_4tierrichclient]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  87,   90C2A1C96F6A61FAB397AF88ABE4AA91,   fnd0_richClientArtifact,   fnd0_4tierrichclient]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [88]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [6O6A3KQKM1Q1ZU9D14NJPY6OGAPG9XKU]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataShareManagerArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_4tierrichclient]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  88,   6O6A3KQKM1Q1ZU9D14NJPY6OGAPG9XKU,   fnd0_dataShareManagerArtifact,   fnd0_4tierrichclient]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [89]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [42791A48DCBDD23FF08668F5847C96CC]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_jtutilsArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_4tierrichclient]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  89,   42791A48DCBDD23FF08668F5847C96CC,   fnd0_jtutilsArtifact,   fnd0_4tierrichclient]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [90]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [F01A3D4D74CF415F958DFDCEAE3DBF51]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_acrobatInstallArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_4tierrichclient]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  90,   F01A3D4D74CF415F958DFDCEAE3DBF51,   fnd0_acrobatInstallArtifact,   fnd0_4tierrichclient]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [91]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [EBB13202744A11E1B1B240504824019B]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_richClientArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [csi]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  91,   EBB13202744A11E1B1B240504824019B,   fnd0_richClientArtifact,   csi]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [92]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [FE901K33O4374MH7JGJAFMJ8LD0Y81O6]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_richClientArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fgc0cm4g]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  92,   FE901K33O4374MH7JGJAFMJ8LD0Y81O6,   fnd0_richClientArtifact,   fgc0cm4g]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [93]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [IUUPJGTLM19VO4YSMXA5APZ4WLD4R01H]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_ofcLiveArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_4tierrichclient]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  93,   IUUPJGTLM19VO4YSMXA5APZ4WLD4R01H,   fnd0_ofcLiveArtifact,   fnd0_4tierrichclient]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [94]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [Q04T524P06628QNP05FOF0O786G3DCPO]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_adminDataArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [vieweradministration]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  94,   Q04T524P06628QNP05FOF0O786G3DCPO,   fnd0_adminDataArtifact,   vieweradministration]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [95]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [3QCX3RRUKV8KUUZ80AA54V4WWVXIVR3I]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_adminDataArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_corporateserver]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  95,   3QCX3RRUKV8KUUZ80AA54V4WWVXIVR3I,   fnd0_adminDataArtifact,   fnd0_corporateserver]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [96]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [MI877HR09LJEE7PAUI38YHLHWH8HQM58]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_corporateserver]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  96,   MI877HR09LJEE7PAUI38YHLHWH8HQM58,   fnd0_serverArtifact,   fnd0_corporateserver]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [97]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [R39JFRQNIL28WXLD0212MFFSKMCCEFVM]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_corporateserver]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  97,   R39JFRQNIL28WXLD0212MFFSKMCCEFVM,   fnd0_dataModelArtifact,   fnd0_corporateserver]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [98]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [82529A01319EF0747CA28A29B8F86431]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [a4acndemo]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  98,   82529A01319EF0747CA28A29B8F86431,   fnd0_dataModelArtifact,   a4acndemo]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [99]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [FAXB26Q80VRJMFSM1MQWFHOSSBDXR2MH]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dbArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_corporateserver]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  99,   FAXB26Q80VRJMFSM1MQWFHOSSBDXR2MH,   fnd0_dbArtifact,   fnd0_corporateserver]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [100]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [9UBBFTOEI58B1WNIX00WKENUJK5K1Q5L]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_bmideClientArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_bmideclientstandalone]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  100,   9UBBFTOEI58B1WNIX00WKENUJK5K1Q5L,   fnd0_bmideClientArtifact,   fnd0_bmideclientstandalone]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [101]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [A909338A1CB411DB8AF6B622A1EF5492]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_bmideTemplatesArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_bmideclientstandalone]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  101,   A909338A1CB411DB8AF6B622A1EF5492,   fnd0_bmideTemplatesArtifact,   fnd0_bmideclientstandalone]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [102]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [AC98DE452A2837C08CD17D82CB7312E8]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_jdkArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_bmideclientstandalone]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  102,   AC98DE452A2837C08CD17D82CB7312E8,   fnd0_jdkArtifact,   fnd0_bmideclientstandalone]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [103]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [C1JNLG5HW57QZDPWGXOEEEUZI97CKWXF]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aws2_solrCloudArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aws2_indexingengine]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  103,   C1JNLG5HW57QZDPWGXOEEEUZI97CKWXF,   aws2_solrCloudArtifact,   aws2_indexingengine]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [104]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [RPOWMX41JQIV7LB3ASW6T7AX2WOPDFK7]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_translatorArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dispatcherModule]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  104,   RPOWMX41JQIV7LB3ASW6T7AX2WOPDFK7,   fnd0_translatorArtifact,   fnd0_dispatcherModule]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [105]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [S7A3RZJWK7KCHOHPUQM54RA6CSSMIWE2]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dispatcherModuleArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dispatcherModule]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  105,   S7A3RZJWK7KCHOHPUQM54RA6CSSMIWE2,   fnd0_dispatcherModuleArtifact,   fnd0_dispatcherModule]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [106]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [A0CF69C3A0BC61770EB81BD22667EA52]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_vcredistArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_corporateserver]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  106,   A0CF69C3A0BC61770EB81BD22667EA52,   fnd0_vcredistArtifact,   fnd0_corporateserver]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [107]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [C1F107F376D71271DE7B88D14CDC01AB]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dispatcherCommonArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dispatcherScheduler]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  107,   C1F107F376D71271DE7B88D14CDC01AB,   fnd0_dispatcherCommonArtifact,   fnd0_dispatcherScheduler]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [108]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [AC98DE452A2837C08CD17D82CB731211]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_tpcArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_corporateserver]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  108,   AC98DE452A2837C08CD17D82CB731211,   fnd0_tpcArtifact,   fnd0_corporateserver]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [109]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [AC98DE452A2837C08CD17D82CB731211]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_tpcArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_corporateserver]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  109,   AC98DE452A2837C08CD17D82CB731211,   fnd0_tpcArtifact,   fnd0_corporateserver]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [110]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [90C2A1C96F6A61FAB397AF88ABE4AA91]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_richClientArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_4tierrichclient]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  110,   90C2A1C96F6A61FAB397AF88ABE4AA91,   fnd0_richClientArtifact,   fnd0_4tierrichclient]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [111]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [90YMJWHPN63CLJHR8CEHLSUTKO3HQO6Y]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_4TierRichclientArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_4tierrichclient]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  111,   90YMJWHPN63CLJHR8CEHLSUTKO3HQO6Y,   fnd0_4TierRichclientArtifact,   fnd0_4tierrichclient]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [112]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [6O6A3KQKM1Q1ZU9D14NJPY6OGAPG9XKU]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataShareManagerArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_4tierrichclient]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  112,   6O6A3KQKM1Q1ZU9D14NJPY6OGAPG9XKU,   fnd0_dataShareManagerArtifact,   fnd0_4tierrichclient]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [113]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [42791A48DCBDD23FF08668F5847C96CC]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_jtutilsArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_4tierrichclient]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  113,   42791A48DCBDD23FF08668F5847C96CC,   fnd0_jtutilsArtifact,   fnd0_4tierrichclient]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [114]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [A0CF69C3A0BC61770EB81BD22667EA52]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_vcredistArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_corporateserver]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  114,   A0CF69C3A0BC61770EB81BD22667EA52,   fnd0_vcredistArtifact,   fnd0_corporateserver]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [115]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [IUUPJGTLM19VO4YSMXA5APZ4WLD4R01H]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_ofcLiveArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_4tierrichclient]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  115,   IUUPJGTLM19VO4YSMXA5APZ4WLD4R01H,   fnd0_ofcLiveArtifact,   fnd0_4tierrichclient]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [116]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [F01A3D4D74CF415F958DFDCEAE3DBF51]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_acrobatInstallArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_4tierrichclient]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  116,   F01A3D4D74CF415F958DFDCEAE3DBF51,   fnd0_acrobatInstallArtifact,   fnd0_4tierrichclient]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [117]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [M8ZH92D8A9BD69713GS86BG27627MV18]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_webview2Artifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_4tierrichclient]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  117,   M8ZH92D8A9BD69713GS86BG27627MV18,   fnd0_webview2Artifact,   fnd0_4tierrichclient]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [118]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [F7E1F20242324CB398F9FF141E7CC162]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dispatcherModuleArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [dispatcher_internal]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  118,   F7E1F20242324CB398F9FF141E7CC162,   fnd0_dispatcherModuleArtifact,   dispatcher_internal]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [119]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [9F9E2A3A869C442DA11309276B3D665B]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_translatorArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [dispatcher_internal]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  119,   9F9E2A3A869C442DA11309276B3D665B,   fnd0_translatorArtifact,   dispatcher_internal]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [120]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [USG0WY1R0434F7G6Y133HSUXZ5FJMV56]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dispatcherCommonArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [dispatcher_internal]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  120,   USG0WY1R0434F7G6Y133HSUXZ5FJMV56,   fnd0_dispatcherCommonArtifact,   dispatcher_internal]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [121]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [F7C1G24ER2327BC398F9CC141E7XX162]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dispatcherModuleArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aw_dispatcher_internal]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  121,   F7C1G24ER2327BC398F9CC141E7XX162,   fnd0_dispatcherModuleArtifact,   aw_dispatcher_internal]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [122]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [87108F1A9573415FA676430E196EB3A9]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dispatcherCommonArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aw_dispatcher_internal]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  122,   87108F1A9573415FA676430E196EB3A9,   fnd0_dispatcherCommonArtifact,   aw_dispatcher_internal]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [123]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [2H50NDPLT8PJKJAUBSZ3QN0O5XI1ODAW]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dispatcherClientArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dispatcherclient]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  123,   2H50NDPLT8PJKJAUBSZ3QN0O5XI1ODAW,   fnd0_dispatcherClientArtifact,   fnd0_dispatcherclient]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [124]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [AC98DE452A2837C08CD17D82CB731211]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_tpcArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_corporateserver]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  124,   AC98DE452A2837C08CD17D82CB731211,   fnd0_tpcArtifact,   fnd0_corporateserver]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [125]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [AC98DE452A2837C08CD17D82CB731211]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_tpcArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_corporateserver]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  125,   AC98DE452A2837C08CD17D82CB731211,   fnd0_tpcArtifact,   fnd0_corporateserver]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [126]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [MI877HR09LJEE7PAUI38YHLHWH8HQM58]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_corporateserver]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  126,   MI877HR09LJEE7PAUI38YHLHWH8HQM58,   fnd0_serverArtifact,   fnd0_corporateserver]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [127]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [R39JFRQNIL28WXLD0212MFFSKMCCEFVM]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_corporateserver]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  127,   R39JFRQNIL28WXLD0212MFFSKMCCEFVM,   fnd0_dataModelArtifact,   fnd0_corporateserver]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [128]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [FAXB26Q80VRJMFSM1MQWFHOSSBDXR2MH]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dbArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_corporateserver]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  128,   FAXB26Q80VRJMFSM1MQWFHOSSBDXR2MH,   fnd0_dbArtifact,   fnd0_corporateserver]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [129]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [A0CF69C3A0BC61770EB81BD22667EA52]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_vcredistArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_corporateserver]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  129,   A0CF69C3A0BC61770EB81BD22667EA52,   fnd0_vcredistArtifact,   fnd0_corporateserver]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [130]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [CX0446ARG97PHJAAMX0VE1KK5NJ25A44]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dispatcherSchedulerArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dispatcherScheduler]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  130,   CX0446ARG97PHJAAMX0VE1KK5NJ25A44,   fnd0_dispatcherSchedulerArtifact,   fnd0_dispatcherScheduler]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [131]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [A0CF69C3A0BC61770EB81BD22667EA52]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_vcredistArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_corporateserver]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  131,   A0CF69C3A0BC61770EB81BD22667EA52,   fnd0_vcredistArtifact,   fnd0_corporateserver]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [132]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [C1F107F376D71271DE7B88D14CDC01AB]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dispatcherCommonArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dispatcherScheduler]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  132,   C1F107F376D71271DE7B88D14CDC01AB,   fnd0_dispatcherCommonArtifact,   fnd0_dispatcherScheduler]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [133]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [AC98DE452A2837C08CD17D82CB731211]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_tpcArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_corporateserver]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  133,   AC98DE452A2837C08CD17D82CB731211,   fnd0_tpcArtifact,   fnd0_corporateserver]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [134]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [56VW6HKTQOQTZNFV4KBB51OQDU2YA3RY]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dispatcherClientArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [dispatcher_client]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  134,   56VW6HKTQOQTZNFV4KBB51OQDU2YA3RY,   fnd0_dispatcherClientArtifact,   dispatcher_client]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [135]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [NHJCP67SYMPNVV2VMC5CNG4WBMOZXSIC]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [dispatcher_client]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  135,   NHJCP67SYMPNVV2VMC5CNG4WBMOZXSIC,   fnd0_dataModelArtifact,   dispatcher_client]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [136]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [04ED96BFEA724507A3B38CEC84E6ED65]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dispatcherSchedulerArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [dispatcher]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  136,   04ED96BFEA724507A3B38CEC84E6ED65,   fnd0_dispatcherSchedulerArtifact,   dispatcher]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [137]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [120FA937FB3D51B2BAE8F3DFA238D89C]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dispatcherSchedulerArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [dispatcher_internal]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  137,   120FA937FB3D51B2BAE8F3DFA238D89C,   fnd0_dispatcherSchedulerArtifact,   dispatcher_internal]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [138]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [USG0WY1R0434F7G6Y133HSUXZ5FJMV56]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dispatcherCommonArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [dispatcher_internal]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  138,   USG0WY1R0434F7G6Y133HSUXZ5FJMV56,   fnd0_dispatcherCommonArtifact,   dispatcher_internal]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [139]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [87108F1A9573415FA676430E196EB3A9]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dispatcherCommonArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aw_dispatcher_internal]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  139,   87108F1A9573415FA676430E196EB3A9,   fnd0_dispatcherCommonArtifact,   aw_dispatcher_internal]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [140]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [9UBBFTOEI58B1WNIX00WKENUJK5K1Q5L]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_bmideClientArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_bmideclientstandalone]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  140,   9UBBFTOEI58B1WNIX00WKENUJK5K1Q5L,   fnd0_bmideClientArtifact,   fnd0_bmideclientstandalone]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [141]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [A909338A1CB411DB8AF6B622A1EF5492]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_bmideTemplatesArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_bmideclientstandalone]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  141,   A909338A1CB411DB8AF6B622A1EF5492,   fnd0_bmideTemplatesArtifact,   fnd0_bmideclientstandalone]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [142]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [050C602E296911E089088DF4DED72085]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_bmideStandaloneArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_bmideclientstandalone]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  142,   050C602E296911E089088DF4DED72085,   fnd0_bmideStandaloneArtifact,   fnd0_bmideclientstandalone]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [143]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [AC98DE452A2837C08CD17D82CB7312E8]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_jdkArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_bmideclientstandalone]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  143,   AC98DE452A2837C08CD17D82CB7312E8,   fnd0_jdkArtifact,   fnd0_bmideclientstandalone]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [144]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [VHPE4S7HRBF3U9GK4NLGPYYX2E1NBFWQ]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_vaultArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_vault]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  144,   VHPE4S7HRBF3U9GK4NLGPYYX2E1NBFWQ,   fnd0_vaultArtifact,   fnd0_vault]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [145]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [F198327D035C27E82A2E7C67A1971BA7]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aws2_indexingEngineArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aws2_indexingengine]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  145,   F198327D035C27E82A2E7C67A1971BA7,   aws2_indexingEngineArtifact,   aws2_indexingengine]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [146]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [C1JNLG5HW57QZDPWGXOEEEUZI97CKWXF]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aws2_solrCloudArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aws2_indexingengine]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  146,   C1JNLG5HW57QZDPWGXOEEEUZI97CKWXF,   aws2_solrCloudArtifact,   aws2_indexingengine]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [147]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [H3WW9UHUKYLLFUR2JS4ECV22PK6HLXGB]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_foundation]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  147,   H3WW9UHUKYLLFUR2JS4ECV22PK6HLXGB,   fnd0_dataModelArtifact,   fnd0_foundation]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [148]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [9C511DD51E13E0CB9DC4687B1A3348BE]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_serverArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_foundation]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  148,   9C511DD51E13E0CB9DC4687B1A3348BE,   fnd0_serverArtifact,   fnd0_foundation]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [149]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [O100EDZ51U70C7YXSIXXJLOTCJADI1RQ]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_foundation_internal_server_artifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_foundation]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  149,   O100EDZ51U70C7YXSIXXJLOTCJADI1RQ,   fnd0_foundation_internal_server_artifact,   fnd0_foundation]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [150]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [8D08685325021872095B1249CDE5B49B]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_foundation]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  150,   8D08685325021872095B1249CDE5B49B,   fnd0_dataArtifact,   fnd0_foundation]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [151]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [EF6284519D32B8DADCF0F05213AF807B]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aws2_client]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  151,   EF6284519D32B8DADCF0F05213AF807B,   fnd0_dataModelArtifact,   aws2_client]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [152]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [F346B00762F74C7092BA8EF01FDADD45]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [aws2_client]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  152,   F346B00762F74C7092BA8EF01FDADD45,   fnd0_dataArtifact,   aws2_client]]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [153]
+2026-07-23 07:16:34 INFO  - TableFormatter - Updating rowSpan to 1
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [EUQAKN2QHFX4CE7S2065S1KUQ0KO8QAO]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [fnd0_dataModelArtifact]
+2026-07-23 07:16:34 INFO  - TableFormatter - Processing Row Content : [dbdamreadexprmgrservice]
+2026-07-23 07:16:34 INFO  - TableFormatter - Building row with content : [  153,   EUQAKN2QHFX4CE7S2065S1KUQ0KO8QAO,   fnd0_dataModelArtifact,   dbdamreadexprmgrservice]]

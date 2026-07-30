@@ -1,0 +1,43 @@
+[2026-07-23 04:57:37] [info]  [ 4056] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2026-07-23 04:57:37] [info]  [ 4056] Running 'Teamcenter_Vault_Service' Service...
+[2026-07-23 04:57:37] [info]  [ 4556] Starting service...
+[2026-07-23 04:57:37] [info]  [ 4556] Service started in 15 ms.
+[2026-07-23 07:09:15] [info]  [ 9636] Stopping service...
+[2026-07-23 07:09:16] [info]  [ 9636] Service stop thread completed.
+[2026-07-23 07:09:16] [info]  [ 4056] Run service finished.
+[2026-07-23 07:09:16] [info]  [ 4056] Commons Daemon procrun finished
+[2026-07-23 07:09:41] [info]  [10900] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2026-07-23 07:09:41] [info]  [10900] Service Teamcenter_Vault_Service name Teamcenter Vault Service
+[2026-07-23 07:09:41] [error] [10900] The specified service already exists.
+[2026-07-23 07:09:41] [error] [10900] Failed installing 'Teamcenter_Vault_Service' service
+[2026-07-23 07:09:41] [error] [10900] The specified service already exists.
+[2026-07-23 07:09:41] [error] [10900] Commons Daemon procrun failed with exit value: 8 (Failed to install service)
+[2026-07-23 07:09:41] [error] [10900] The specified service already exists.
+[2026-07-23 07:09:41] [info]  [ 7432] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2026-07-23 07:09:41] [info]  [ 7432] Updating service...
+[2026-07-23 07:09:41] [info]  [ 7432] Service 'Teamcenter_Vault_Service' updated
+[2026-07-23 07:09:41] [info]  [ 7432] Update service finished.
+[2026-07-23 07:09:41] [info]  [ 7432] Commons Daemon procrun finished
+[2026-07-23 07:09:41] [info]  [12488] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2026-07-23 07:09:41] [info]  [12488] Updating service...
+[2026-07-23 07:09:41] [info]  [12488] Service 'Teamcenter_Vault_Service' updated
+[2026-07-23 07:09:41] [info]  [12488] Update service finished.
+[2026-07-23 07:09:41] [info]  [12488] Commons Daemon procrun finished
+[2026-07-23 07:09:41] [info]  [10588] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2026-07-23 07:09:41] [info]  [10588] Updating service...
+[2026-07-23 07:09:41] [info]  [10588] Service 'Teamcenter_Vault_Service' updated
+[2026-07-23 07:09:41] [info]  [10588] Update service finished.
+[2026-07-23 07:09:41] [info]  [10588] Commons Daemon procrun finished
+[2026-07-23 07:09:41] [info]  [12520] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2026-07-23 07:09:41] [info]  [12520] Starting service 'Teamcenter_Vault_Service' ...
+[2026-07-23 07:09:41] [info]  [10784] Commons Daemon procrun (1.0.15.0 64-bit) started
+[2026-07-23 07:09:42] [info]  [10784] Running 'Teamcenter_Vault_Service' Service...
+[2026-07-23 07:09:42] [info]  [ 2024] Starting service...
+[2026-07-23 07:09:42] [info]  [ 2024] Service started in 29 ms.
+[2026-07-23 07:09:43] [info]  [12520] Service 'Teamcenter_Vault_Service' started
+[2026-07-23 07:09:43] [info]  [12520] Start service finished.
+[2026-07-23 07:09:43] [info]  [12520] Commons Daemon procrun finished
+[2026-07-23 15:30:44] [info]  [14092] Console SHUTDOWN event signaled
+[2026-07-23 15:30:44] [info]  [14092] Stopping service...
+[2026-07-23 15:30:44] [info]  [10784] Run service finished.
+[2026-07-23 15:30:44] [info]  [10784] Commons Daemon procrun finished

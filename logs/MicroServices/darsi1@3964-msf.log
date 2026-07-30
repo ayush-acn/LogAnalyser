@@ -1,0 +1,31 @@
+2026/07/07-15:40:06.819 UTC - INFO - - - - - Active Workspace DARSI version: 7.3.3
+2026/07/07-15:40:06.849 UTC - INFO - Waiting for vault to be ready; timeout is 3 minute(s)...
+Warning: Ignoring extra certs from `@CHANGE_ME_NODE_EXTRA_CA_CERTS@`, load failed: error:80000002:system library::No such file or directory
+2026/07/07-15:40:11.927 UTC - ERROR - Health check failed: 
+2026/07/07-15:40:18.726 UTC - ERROR - Health check failed: 
+2026/07/07-15:40:25.272 UTC - ERROR - Health check failed: 
+2026/07/07-15:40:31.726 UTC - ERROR - Health check failed: 
+2026/07/07-15:40:38.325 UTC - ERROR - Health check failed: 
+2026/07/07-15:40:44.626 UTC - ERROR - Health check failed: 
+2026/07/07-15:40:59.887 UTC - INFO - Vault is ready.
+2026/07/07-15:41:01.334 UTC - INFO - - - - - Public key successfully read from vault
+2026/07/07-15:41:46.789 UTC - INFO - - - - - adding /build/reset route
+2026/07/07-15:41:46.790 UTC - INFO - - - - - adding /build/start route
+2026/07/07-15:41:46.791 UTC - INFO - - - - - adding /build/status route
+2026/07/07-15:41:46.792 UTC - INFO - - - - - adding /build/log route
+2026/07/07-15:41:46.792 UTC - INFO - - - - - adding /build/lmd route
+2026/07/07-15:41:46.793 UTC - INFO - - - - - polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/07-15:41:46.793 UTC - INFO - - - - - /build routes complete
+2026/07/07-15:41:55.285 UTC - INFO - - - - - Using file server http://TC-DEV-TC:9090/filerepo
+2026/07/07-15:41:55.285 UTC - INFO - - - - - Listening on port 49978
+2026/07/07-15:41:55.287 UTC - INFO - - - - - Polling FileRepo service http://TC-DEV-TC:9090/filerepo/fileio/Ping
+2026/07/07-15:41:55.293 UTC - INFO - - - - - Registering with Eureka http://TC-DEV-TC:8787/eureka/v2/apps
+2026/07/07-15:41:55.353 UTC - INFO - - - - - Eureka Client Registration - Registered with Eureka /eureka/v2/apps/afx-darsi/fe80::9381:ebe9:184:a81a:49978
+2026/07/07-15:41:55.381 UTC - INFO - - - - - FileRepo service started successfully
+2026/07/07-15:41:55.409 UTC - INFO - - - - - Generating JWT for - READONLY
+2026/07/07-15:41:55.759 UTC - INFO - - - - - Generating JWT for - READONLY
+2026/07/07-15:41:55.772 UTC - INFO - - - - - Downloading darsi_files.zip from fileRepo artifactory to D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\darsi\darsi_files.zip
+2026/07/07-15:41:55.791 UTC - WARN - - - - - 1: Error downloading file http://TC-DEV-TC:9090/filerepo/fileio/v1/file/darsi/darsi_files.zip : 404
+2026/07/07-15:41:55.793 UTC - ERROR - - - - - Unable to download darsi_files.zip from fileRepo artifactory
+2026/07/07-16:34:45.311 UTC - WARN - - - - - read ECONNRESET
+2026/07/07-16:34:45.312 UTC - WARN - - - - - read ECONNRESET

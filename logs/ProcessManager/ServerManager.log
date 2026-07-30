@@ -1,0 +1,1274 @@
+2025/10/12-05:28:34.393 UTC - INFO  - - 0115FD9F3 - - - Starting Service Mananger.
+2025/10/12-05:28:34.402 UTC - INFO  - - 0115FD9F3 - - - Journaling is enabled for ServerManager
+2025/10/12-05:28:34.416 UTC - INFO  - - 0115FD9F3 - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2025/10/12-05:28:34.566 UTC - INFO  - - 0115FD9F3 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2025/10/12-05:28:34.603 UTC - INFO  - - 0115FD9F3 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2025/10/12-05:28:34.616 UTC - INFO  - - 0115FD9F3 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2025/10/12-05:28:34.630 UTC - INFO  - - 0115FD9F3 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2025/10/12-05:28:34.632 UTC - INFO  - - 0115FD9F3 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2025/10/12-05:28:34.645 UTC - INFO  - - 0115FD9F3 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2025/10/12-05:28:34.659 UTC - INFO  - - 0115FD9F3 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2025/10/12-05:28:49.708 UTC - INFO  - - 0115FD9F3 - - - Started tcgql1@7764
+2025/10/12-05:28:49.743 UTC - INFO  - - 0115FD9F3 - - - Started microserviceparameterstore1@7764
+2025/10/12-05:28:49.790 UTC - INFO  - - 0115FD9F3 - - - Started gateway1@7764
+2025/10/12-05:28:49.851 UTC - INFO  - - 0115FD9F3 - - - Started service_dispatcher1@7764
+2025/10/12-05:28:49.906 UTC - INFO  - - 0115FD9F3 - - - Started darsi1@7764
+2025/10/12-05:28:50.027 UTC - INFO  - - 0115FD9F3 - - - Started eureka1@7764
+2025/10/12-05:28:50.182 UTC - INFO  - - 0115FD9F3 - - - Started file-repo1@7764
+2025/10/12-06:11:23.018 UTC - INFO  -  Processing shutdown request...
+2025/10/12-06:11:23.019 UTC - INFO  -  Shutting down pool...
+2025/10/12-06:11:23.022 UTC - INFO  -  Terminating server: eureka1@7764
+2025/10/12-06:11:23.022 UTC - INFO  -  Terminating server: tcgql1@7764
+2025/10/12-06:11:23.023 UTC - INFO  -  Terminating server: gateway1@7764
+2025/10/12-06:11:23.024 UTC - INFO  -  Terminating server: service_dispatcher1@7764
+2025/10/12-06:11:23.025 UTC - INFO  -  Terminating server: darsi1@7764
+2025/10/12-06:11:23.025 UTC - INFO  -  Terminating server: microserviceparameterstore1@7764
+2025/10/12-06:11:23.026 UTC - INFO  -  Terminating server: file-repo1@7764
+2025/10/12-06:11:23.884 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2025/10/12-06:11:33.045 UTC - INFO  - - 0B3601E9B - - - Starting Service Mananger.
+2025/10/12-06:11:33.054 UTC - INFO  - - 0B3601E9B - - - Journaling is enabled for ServerManager
+2025/10/12-06:11:33.070 UTC - INFO  - - 0B3601E9B - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2025/10/12-06:11:33.277 UTC - INFO  - - 0B3601E9B - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2025/10/12-06:11:33.314 UTC - INFO  - - 0B3601E9B - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2025/10/12-06:11:33.329 UTC - INFO  - - 0B3601E9B - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2025/10/12-06:11:33.344 UTC - INFO  - - 0B3601E9B - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2025/10/12-06:11:33.359 UTC - INFO  - - 0B3601E9B - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2025/10/12-06:11:33.371 UTC - INFO  - - 0B3601E9B - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2025/10/12-06:11:33.386 UTC - INFO  - - 0B3601E9B - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2025/10/12-06:11:48.433 UTC - INFO  - - 0B3601E9B - - - Started gateway1@10060
+2025/10/12-06:11:48.474 UTC - INFO  - - 0B3601E9B - - - Started service_dispatcher1@10060
+2025/10/12-06:11:48.549 UTC - INFO  - - 0B3601E9B - - - Started file-repo1@10060
+2025/10/12-06:11:48.622 UTC - INFO  - - 0B3601E9B - - - Started tcgql1@10060
+2025/10/12-06:11:48.727 UTC - INFO  - - 0B3601E9B - - - Started eureka1@10060
+2025/10/12-06:11:48.788 UTC - INFO  - - 0B3601E9B - - - Started darsi1@10060
+2025/10/12-06:11:48.878 UTC - INFO  - - 0B3601E9B - - - Started microserviceparameterstore1@10060
+2025/10/12-16:45:46.449 UTC - INFO  -  Processing shutdown request...
+2025/10/12-16:45:46.450 UTC - INFO  -  Shutting down pool...
+2025/10/12-16:45:46.454 UTC - INFO  -  Terminating server: gateway1@10060
+2025/10/12-16:45:46.454 UTC - INFO  -  Terminating server: eureka1@10060
+2025/10/12-16:45:46.454 UTC - INFO  -  Terminating server: file-repo1@10060
+2025/10/12-16:45:46.456 UTC - INFO  -  Terminating server: microserviceparameterstore1@10060
+2025/10/12-16:45:46.456 UTC - INFO  -  Terminating server: tcgql1@10060
+2025/10/12-16:45:46.456 UTC - INFO  -  Terminating server: service_dispatcher1@10060
+2025/10/12-16:45:46.457 UTC - INFO  -  Terminating server: darsi1@10060
+2025/10/12-16:45:48.178 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2025/10/12-16:45:54.240 UTC - INFO  - - 01387A8D7 - - - Starting Service Mananger.
+2025/10/12-16:45:54.248 UTC - INFO  - - 01387A8D7 - - - Journaling is enabled for ServerManager
+2025/10/12-16:45:54.263 UTC - INFO  - - 01387A8D7 - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2025/10/12-16:45:54.412 UTC - INFO  - - 01387A8D7 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2025/10/12-16:45:54.446 UTC - INFO  - - 01387A8D7 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2025/10/12-16:45:54.463 UTC - INFO  - - 01387A8D7 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2025/10/12-16:45:54.480 UTC - INFO  - - 01387A8D7 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2025/10/12-16:45:54.499 UTC - INFO  - - 01387A8D7 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2025/10/12-16:45:54.515 UTC - INFO  - - 01387A8D7 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2025/10/12-16:45:54.533 UTC - INFO  - - 01387A8D7 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2025/10/12-16:46:09.593 UTC - INFO  - - 01387A8D7 - - - Started darsi1@5180
+2025/10/12-16:46:09.641 UTC - INFO  - - 01387A8D7 - - - Started service_dispatcher1@5180
+2025/10/12-16:46:09.722 UTC - INFO  - - 01387A8D7 - - - Started eureka1@5180
+2025/10/12-16:46:09.750 UTC - INFO  - - 01387A8D7 - - - Started tcgql1@5180
+2025/10/12-16:46:09.857 UTC - INFO  - - 01387A8D7 - - - Started microserviceparameterstore1@5180
+2025/10/12-16:46:10.008 UTC - INFO  - - 01387A8D7 - - - Started file-repo1@5180
+2025/10/12-16:46:10.101 UTC - INFO  - - 01387A8D7 - - - Started gateway1@5180
+2025/10/12-21:53:45.676 UTC - INFO  -  Processing shutdown request...
+2025/10/12-21:53:45.678 UTC - INFO  -  Shutting down pool...
+2025/10/12-21:53:45.697 UTC - INFO  -  Terminating server: microserviceparameterstore1@5180
+2025/10/12-21:53:45.697 UTC - INFO  -  Terminating server: tcgql1@5180
+2025/10/12-21:53:45.699 UTC - INFO  -  Terminating server: gateway1@5180
+2025/10/12-21:53:45.700 UTC - INFO  -  Terminating server: darsi1@5180
+2025/10/12-21:53:45.701 UTC - INFO  -  Terminating server: service_dispatcher1@5180
+2025/10/12-21:53:46.650 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2025/10/12-21:54:37.486 UTC - INFO  - - 07696F5CC - - - Starting Service Mananger.
+2025/10/12-21:54:37.501 UTC - INFO  - - 07696F5CC - - - Journaling is enabled for ServerManager
+2025/10/12-21:54:37.502 UTC - INFO  - - 07696F5CC - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2025/10/12-21:54:38.015 UTC - INFO  - - 07696F5CC - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2025/10/12-21:54:38.058 UTC - INFO  - - 07696F5CC - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2025/10/12-21:54:38.065 UTC - INFO  - - 07696F5CC - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2025/10/12-21:54:38.073 UTC - INFO  - - 07696F5CC - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2025/10/12-21:54:38.079 UTC - INFO  - - 07696F5CC - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2025/10/12-21:54:38.092 UTC - INFO  - - 07696F5CC - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2025/10/12-21:54:38.170 UTC - INFO  - - 07696F5CC - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2025/10/12-21:54:54.303 UTC - INFO  - - 07696F5CC - - - Started darsi1@3808
+2025/10/12-21:54:54.623 UTC - INFO  - - 07696F5CC - - - Started microserviceparameterstore1@3808
+2025/10/12-21:54:55.162 UTC - INFO  - - 07696F5CC - - - Started service_dispatcher1@3808
+2025/10/12-21:54:56.807 UTC - INFO  - - 07696F5CC - - - Started tcgql1@3808
+2025/10/12-21:54:59.636 UTC - INFO  - - 07696F5CC - - - Started gateway1@3808
+2025/10/12-21:55:00.040 UTC - INFO  - - 07696F5CC - - - Started file-repo1@3808
+2025/10/12-21:55:00.964 UTC - INFO  - - 07696F5CC - - - Started eureka1@3808
+2025/10/14-11:47:24.673 UTC - INFO  -  Processing shutdown request...
+2025/10/14-11:47:24.675 UTC - INFO  -  Shutting down pool...
+2025/10/14-11:47:24.711 UTC - INFO  -  Terminating server: gateway1@3808
+2025/10/14-11:47:24.715 UTC - INFO  -  Terminating server: darsi1@3808
+2025/10/14-11:47:24.715 UTC - INFO  -  Terminating server: eureka1@3808
+2025/10/14-11:47:24.719 UTC - INFO  -  Terminating server: service_dispatcher1@3808
+2025/10/14-11:47:24.721 UTC - INFO  -  Terminating server: file-repo1@3808
+2025/10/14-11:47:24.721 UTC - INFO  -  Terminating server: microserviceparameterstore1@3808
+2025/10/14-11:47:24.722 UTC - INFO  -  Terminating server: tcgql1@3808
+2025/10/14-11:47:26.253 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2025/10/21-11:25:24.024 UTC - INFO  - - 0023BF2C9 - - - Starting Service Mananger.
+2025/10/21-11:25:24.075 UTC - INFO  - - 0023BF2C9 - - - Journaling is enabled for ServerManager
+2025/10/21-11:25:24.078 UTC - INFO  - - 0023BF2C9 - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2025/10/21-11:25:24.944 UTC - INFO  - - 0023BF2C9 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2025/10/21-11:25:24.986 UTC - INFO  - - 0023BF2C9 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2025/10/21-11:25:24.992 UTC - INFO  - - 0023BF2C9 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2025/10/21-11:25:24.999 UTC - INFO  - - 0023BF2C9 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2025/10/21-11:25:25.006 UTC - INFO  - - 0023BF2C9 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2025/10/21-11:25:25.012 UTC - INFO  - - 0023BF2C9 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2025/10/21-11:25:25.019 UTC - INFO  - - 0023BF2C9 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2025/10/21-11:25:42.890 UTC - INFO  - - 0023BF2C9 - - - Started gateway1@3604
+2025/10/21-11:25:43.783 UTC - INFO  - - 0023BF2C9 - - - Started eureka1@3604
+2025/10/21-11:25:43.932 UTC - INFO  - - 0023BF2C9 - - - Started darsi1@3604
+2025/10/21-11:25:44.207 UTC - INFO  - - 0023BF2C9 - - - Started service_dispatcher1@3604
+2025/10/21-11:25:45.059 UTC - INFO  - - 0023BF2C9 - - - Started tcgql1@3604
+2025/10/21-11:25:45.520 UTC - INFO  - - 0023BF2C9 - - - Started file-repo1@3604
+2025/10/21-11:25:45.608 UTC - INFO  - - 0023BF2C9 - - - Started microserviceparameterstore1@3604
+2025/10/24-05:41:47.590 UTC - INFO  -  Processing shutdown request...
+2025/10/24-05:41:47.592 UTC - INFO  -  Shutting down pool...
+2025/10/24-05:41:47.634 UTC - INFO  -  Terminating server: darsi1@3604
+2025/10/24-05:41:47.636 UTC - INFO  -  Terminating server: tcgql1@3604
+2025/10/24-05:41:47.636 UTC - INFO  -  Terminating server: microserviceparameterstore1@3604
+2025/10/24-05:41:47.640 UTC - INFO  -  Terminating server: gateway1@3604
+2025/10/24-05:41:47.736 UTC - INFO  -  Terminating server: service_dispatcher1@3604
+2025/10/24-05:41:48.736 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2025/10/24-05:42:40.086 UTC - INFO  - - 0597B902E - - - Starting Service Mananger.
+2025/10/24-05:42:40.098 UTC - INFO  - - 0597B902E - - - Journaling is enabled for ServerManager
+2025/10/24-05:42:40.099 UTC - INFO  - - 0597B902E - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2025/10/24-05:42:40.470 UTC - INFO  - - 0597B902E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2025/10/24-05:42:40.512 UTC - INFO  - - 0597B902E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2025/10/24-05:42:40.517 UTC - INFO  - - 0597B902E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2025/10/24-05:42:40.522 UTC - INFO  - - 0597B902E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2025/10/24-05:42:40.527 UTC - INFO  - - 0597B902E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2025/10/24-05:42:40.532 UTC - INFO  - - 0597B902E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2025/10/24-05:42:40.537 UTC - INFO  - - 0597B902E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2025/10/24-05:42:58.863 UTC - INFO  - - 0597B902E - - - Started gateway1@3844
+2025/10/24-05:42:59.540 UTC - INFO  - - 0597B902E - - - Started file-repo1@3844
+2025/10/24-05:43:01.597 UTC - INFO  - - 0597B902E - - - Started service_dispatcher1@3844
+2025/10/24-05:43:03.284 UTC - INFO  - - 0597B902E - - - Started microserviceparameterstore1@3844
+2025/10/24-05:43:06.117 UTC - INFO  - - 0597B902E - - - Started tcgql1@3844
+2025/10/24-05:43:07.365 UTC - INFO  - - 0597B902E - - - Started eureka1@3844
+2025/10/24-05:43:08.419 UTC - INFO  - - 0597B902E - - - Started darsi1@3844
+2025/10/27-04:41:29.441 UTC - INFO  -  Processing shutdown request...
+2025/10/27-04:41:29.447 UTC - INFO  -  Shutting down pool...
+2025/10/27-04:41:29.491 UTC - INFO  -  Terminating server: microserviceparameterstore1@3844
+2025/10/27-04:41:29.495 UTC - INFO  -  Terminating server: tcgql1@3844
+2025/10/27-04:41:29.498 UTC - INFO  -  Terminating server: gateway1@3844
+2025/10/27-04:41:29.506 UTC - INFO  -  Terminating server: eureka1@3844
+2025/10/27-04:41:29.508 UTC - INFO  -  Terminating server: file-repo1@3844
+2025/10/27-04:41:29.511 UTC - INFO  -  Terminating server: service_dispatcher1@3844
+2025/10/27-04:41:29.512 UTC - INFO  -  Terminating server: darsi1@3844
+2025/10/27-04:41:32.548 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2025/10/27-09:43:00.195 UTC - INFO  - - 0252FFA9A - - - Starting Service Mananger.
+2025/10/27-09:43:00.292 UTC - INFO  - - 0252FFA9A - - - Journaling is enabled for ServerManager
+2025/10/27-09:43:00.294 UTC - INFO  - - 0252FFA9A - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2025/10/27-09:43:01.204 UTC - INFO  - - 0252FFA9A - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2025/10/27-09:43:01.807 UTC - INFO  - - 0252FFA9A - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2025/10/27-09:43:01.830 UTC - INFO  - - 0252FFA9A - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2025/10/27-09:43:01.849 UTC - INFO  - - 0252FFA9A - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2025/10/27-09:43:01.856 UTC - INFO  - - 0252FFA9A - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2025/10/27-09:43:01.861 UTC - INFO  - - 0252FFA9A - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2025/10/27-09:43:01.869 UTC - INFO  - - 0252FFA9A - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2025/10/27-09:43:17.843 UTC - INFO  - - 0252FFA9A - - - Started file-repo1@3732
+2025/10/27-09:43:19.099 UTC - INFO  - - 0252FFA9A - - - Started tcgql1@3732
+2025/10/27-09:43:19.965 UTC - INFO  - - 0252FFA9A - - - Started service_dispatcher1@3732
+2025/10/27-09:43:20.849 UTC - INFO  - - 0252FFA9A - - - Started microserviceparameterstore1@3732
+2025/10/27-09:43:21.189 UTC - INFO  - - 0252FFA9A - - - Started darsi1@3732
+2025/10/27-09:43:21.622 UTC - INFO  - - 0252FFA9A - - - Started eureka1@3732
+2025/10/27-09:43:21.993 UTC - INFO  - - 0252FFA9A - - - Started gateway1@3732
+2025/11/12-14:56:29.147 UTC - INFO  -  Processing shutdown request...
+2025/11/12-14:56:29.150 UTC - INFO  -  Shutting down pool...
+2025/11/12-14:56:29.166 UTC - INFO  -  Terminating server: tcgql1@3732
+2025/11/12-14:56:29.172 UTC - INFO  -  Terminating server: gateway1@3732
+2025/11/12-14:56:29.173 UTC - INFO  -  Terminating server: microserviceparameterstore1@3732
+2025/11/12-14:56:29.173 UTC - INFO  -  Terminating server: service_dispatcher1@3732
+2025/11/12-14:56:29.175 UTC - INFO  -  Terminating server: darsi1@3732
+2025/11/12-14:56:30.685 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2025/11/13-04:14:14.773 UTC - INFO  - - 0466C8152 - - - Starting Service Mananger.
+2025/11/13-04:14:14.784 UTC - INFO  - - 0466C8152 - - - Journaling is enabled for ServerManager
+2025/11/13-04:14:14.786 UTC - INFO  - - 0466C8152 - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2025/11/13-04:14:15.153 UTC - INFO  - - 0466C8152 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2025/11/13-04:14:15.190 UTC - INFO  - - 0466C8152 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2025/11/13-04:14:15.196 UTC - INFO  - - 0466C8152 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2025/11/13-04:14:15.199 UTC - INFO  - - 0466C8152 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2025/11/13-04:14:15.205 UTC - INFO  - - 0466C8152 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2025/11/13-04:14:15.210 UTC - INFO  - - 0466C8152 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2025/11/13-04:14:15.214 UTC - INFO  - - 0466C8152 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2025/11/13-04:14:31.680 UTC - INFO  - - 0466C8152 - - - Started darsi1@3996
+2025/11/13-04:14:31.803 UTC - INFO  - - 0466C8152 - - - Started service_dispatcher1@3996
+2025/11/13-04:14:32.462 UTC - INFO  - - 0466C8152 - - - Started microserviceparameterstore1@3996
+2025/11/13-04:14:33.531 UTC - INFO  - - 0466C8152 - - - Started gateway1@3996
+2025/11/13-04:14:34.101 UTC - INFO  - - 0466C8152 - - - Started file-repo1@3996
+2025/11/13-04:14:35.521 UTC - INFO  - - 0466C8152 - - - Started eureka1@3996
+2025/11/13-04:14:37.630 UTC - INFO  - - 0466C8152 - - - Started tcgql1@3996
+2025/11/14-05:11:35.577 UTC - INFO  -  Processing shutdown request...
+2025/11/14-05:11:35.581 UTC - INFO  -  Shutting down pool...
+2025/11/14-05:11:35.599 UTC - INFO  -  Terminating server: tcgql1@3996
+2025/11/14-05:11:35.602 UTC - INFO  -  Terminating server: gateway1@3996
+2025/11/14-05:11:35.602 UTC - INFO  -  Terminating server: microserviceparameterstore1@3996
+2025/11/14-05:11:35.603 UTC - INFO  -  Terminating server: service_dispatcher1@3996
+2025/11/14-05:11:35.603 UTC - INFO  -  Terminating server: darsi1@3996
+2025/11/14-05:11:36.430 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2025/11/14-07:13:53.017 UTC - INFO  - - 0E2538125 - - - Starting Service Mananger.
+2025/11/14-07:13:53.245 UTC - INFO  - - 0E2538125 - - - Journaling is enabled for ServerManager
+2025/11/14-07:13:53.248 UTC - INFO  - - 0E2538125 - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2025/11/14-07:13:54.064 UTC - INFO  - - 0E2538125 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2025/11/14-07:13:54.948 UTC - INFO  - - 0E2538125 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2025/11/14-07:13:54.964 UTC - INFO  - - 0E2538125 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2025/11/14-07:13:54.973 UTC - INFO  - - 0E2538125 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2025/11/14-07:13:55.036 UTC - INFO  - - 0E2538125 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2025/11/14-07:13:55.055 UTC - INFO  - - 0E2538125 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2025/11/14-07:13:55.081 UTC - INFO  - - 0E2538125 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2025/11/14-07:14:11.487 UTC - INFO  - - 0E2538125 - - - Started service_dispatcher1@4160
+2025/11/14-07:14:11.972 UTC - INFO  - - 0E2538125 - - - Started microserviceparameterstore1@4160
+2025/11/14-07:14:12.790 UTC - INFO  - - 0E2538125 - - - Started file-repo1@4160
+2025/11/14-07:14:13.317 UTC - INFO  - - 0E2538125 - - - Started tcgql1@4160
+2025/11/14-07:14:14.371 UTC - INFO  - - 0E2538125 - - - Started gateway1@4160
+2025/11/14-07:14:14.491 UTC - INFO  - - 0E2538125 - - - Started eureka1@4160
+2025/11/14-07:14:14.962 UTC - INFO  - - 0E2538125 - - - Started darsi1@4160
+2025/11/21-13:11:27.636 UTC - INFO  -  Processing shutdown request...
+2025/11/21-13:11:27.637 UTC - INFO  -  Shutting down pool...
+2025/11/21-13:11:27.659 UTC - INFO  -  Terminating server: microserviceparameterstore1@4160
+2025/11/21-13:11:27.658 UTC - INFO  -  Terminating server: darsi1@4160
+2025/11/21-13:11:27.661 UTC - INFO  -  Terminating server: tcgql1@4160
+2025/11/21-13:11:27.663 UTC - INFO  -  Terminating server: gateway1@4160
+2025/11/21-13:11:27.666 UTC - INFO  -  Terminating server: service_dispatcher1@4160
+2025/11/21-13:11:28.511 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2025/11/25-06:21:09.650 UTC - INFO  - - 00E90058C - - - Starting Service Mananger.
+2025/11/25-06:21:10.071 UTC - INFO  - - 00E90058C - - - Journaling is enabled for ServerManager
+2025/11/25-06:21:10.074 UTC - INFO  - - 00E90058C - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2025/11/25-06:21:11.084 UTC - INFO  - - 00E90058C - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2025/11/25-06:21:11.152 UTC - INFO  - - 00E90058C - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2025/11/25-06:21:11.160 UTC - INFO  - - 00E90058C - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2025/11/25-06:21:11.168 UTC - INFO  - - 00E90058C - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2025/11/25-06:21:11.224 UTC - INFO  - - 00E90058C - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2025/11/25-06:21:11.244 UTC - INFO  - - 00E90058C - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2025/11/25-06:21:11.256 UTC - INFO  - - 00E90058C - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2025/11/25-06:21:27.692 UTC - INFO  - - 00E90058C - - - Started tcgql1@3900
+2025/11/25-06:21:28.352 UTC - INFO  - - 00E90058C - - - Started service_dispatcher1@3900
+2025/11/25-06:21:28.737 UTC - INFO  - - 00E90058C - - - Started eureka1@3900
+2025/11/25-06:21:29.002 UTC - INFO  - - 00E90058C - - - Started gateway1@3900
+2025/11/25-06:21:29.193 UTC - INFO  - - 00E90058C - - - Started darsi1@3900
+2025/11/25-06:21:29.222 UTC - INFO  - - 00E90058C - - - Started microserviceparameterstore1@3900
+2025/11/25-06:21:29.976 UTC - INFO  - - 00E90058C - - - Started file-repo1@3900
+2025/12/18-14:03:25.640 UTC - INFO  -  Processing shutdown request...
+2025/12/18-14:03:25.643 UTC - INFO  -  Shutting down pool...
+2025/12/18-14:03:25.675 UTC - INFO  -  Terminating server: microserviceparameterstore1@3900
+2025/12/18-14:03:25.678 UTC - INFO  -  Terminating server: darsi1@3900
+2025/12/18-14:03:25.680 UTC - INFO  -  Terminating server: gateway1@3900
+2025/12/18-14:03:25.680 UTC - INFO  -  Terminating server: tcgql1@3900
+2025/12/18-14:03:25.682 UTC - INFO  -  Terminating server: service_dispatcher1@3900
+2026/07/07-15:21:41.912 UTC - INFO  - - 0BEDEF961 - - - Starting Service Mananger.
+2026/07/07-15:21:41.924 UTC - INFO  - - 0BEDEF961 - - - Journaling is enabled for ServerManager
+2026/07/07-15:21:41.943 UTC - INFO  - - 0BEDEF961 - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/07-15:21:42.228 UTC - INFO  - - 0BEDEF961 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/07-15:21:42.284 UTC - INFO  - - 0BEDEF961 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/07-15:21:42.314 UTC - INFO  - - 0BEDEF961 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/07-15:21:42.346 UTC - INFO  - - 0BEDEF961 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/07-15:21:42.351 UTC - INFO  - - 0BEDEF961 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/07-15:21:42.383 UTC - INFO  - - 0BEDEF961 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/07-15:21:42.410 UTC - INFO  - - 0BEDEF961 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/07-15:21:57.520 UTC - INFO  - - 0BEDEF961 - - - Started file-repo1@1532
+2026/07/07-15:21:57.601 UTC - INFO  - - 0BEDEF961 - - - Started tcgql1@1532
+2026/07/07-15:21:57.673 UTC - INFO  - - 0BEDEF961 - - - Started microserviceparameterstore1@1532
+2026/07/07-15:21:57.761 UTC - INFO  - - 0BEDEF961 - - - Started service_dispatcher1@1532
+2026/07/07-15:21:57.858 UTC - INFO  - - 0BEDEF961 - - - Started gateway1@1532
+2026/07/07-15:21:57.973 UTC - INFO  - - 0BEDEF961 - - - Started eureka1@1532
+2026/07/07-15:21:58.111 UTC - INFO  - - 0BEDEF961 - - - Started darsi1@1532
+2026/07/07-15:32:25.073 UTC - INFO  -  Processing shutdown request...
+2026/07/07-15:32:25.073 UTC - INFO  -  Shutting down pool...
+2026/07/07-15:32:25.094 UTC - INFO  -  Terminating server: tcgql1@1532
+2026/07/07-15:32:25.094 UTC - INFO  -  Terminating server: microserviceparameterstore1@1532
+2026/07/07-15:32:25.096 UTC - INFO  -  Terminating server: service_dispatcher1@1532
+2026/07/07-15:32:25.096 UTC - INFO  -  Terminating server: darsi1@1532
+2026/07/07-15:32:25.105 UTC - INFO  -  Terminating server: gateway1@1532
+2026/07/07-15:32:25.695 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/07-15:39:31.462 UTC - INFO  - - 04156FB52 - - - Starting Service Mananger.
+2026/07/07-15:39:31.479 UTC - INFO  - - 04156FB52 - - - Journaling is enabled for ServerManager
+2026/07/07-15:39:31.481 UTC - INFO  - - 04156FB52 - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/07-15:39:32.079 UTC - INFO  - - 04156FB52 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/07-15:39:32.175 UTC - INFO  - - 04156FB52 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/07-15:39:32.180 UTC - INFO  - - 04156FB52 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/07-15:39:32.185 UTC - INFO  - - 04156FB52 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/07-15:39:32.190 UTC - INFO  - - 04156FB52 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/07-15:39:32.195 UTC - INFO  - - 04156FB52 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/07-15:39:32.199 UTC - INFO  - - 04156FB52 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/07-15:39:47.778 UTC - INFO  - - 04156FB52 - - - Started gateway1@3964
+2026/07/07-15:39:48.102 UTC - INFO  - - 04156FB52 - - - Started tcgql1@3964
+2026/07/07-15:39:48.673 UTC - INFO  - - 04156FB52 - - - Started file-repo1@3964
+2026/07/07-15:39:48.986 UTC - INFO  - - 04156FB52 - - - Started service_dispatcher1@3964
+2026/07/07-15:39:48.989 UTC - INFO  - - 04156FB52 - - - Started darsi1@3964
+2026/07/07-15:39:48.992 UTC - INFO  - - 04156FB52 - - - Started microserviceparameterstore1@3964
+2026/07/07-15:39:48.995 UTC - INFO  - - 04156FB52 - - - Started eureka1@3964
+2026/07/07-16:34:44.388 UTC - INFO  -  Processing shutdown request...
+2026/07/07-16:34:44.390 UTC - INFO  -  Shutting down pool...
+2026/07/07-16:34:44.393 UTC - INFO  -  Terminating server: microserviceparameterstore1@3964
+2026/07/07-16:34:44.408 UTC - INFO  -  Terminating server: gateway1@3964
+2026/07/07-16:34:44.412 UTC - INFO  -  Terminating server: tcgql1@3964
+2026/07/07-16:34:44.413 UTC - INFO  -  Terminating server: eureka1@3964
+2026/07/07-16:34:44.414 UTC - INFO  -  Terminating server: file-repo1@3964
+2026/07/07-16:34:44.414 UTC - INFO  -  Terminating server: service_dispatcher1@3964
+2026/07/07-16:34:44.415 UTC - INFO  -  Terminating server: darsi1@3964
+2026/07/07-16:34:46.147 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/07-16:34:55.733 UTC - INFO  - - 00116914D - - - Starting Service Mananger.
+2026/07/07-16:34:55.742 UTC - INFO  - - 00116914D - - - Journaling is enabled for ServerManager
+2026/07/07-16:34:55.760 UTC - INFO  - - 00116914D - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/07-16:34:56.017 UTC - INFO  - - 00116914D - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/07-16:34:56.135 UTC - INFO  - - 00116914D - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/07-16:34:56.159 UTC - INFO  - - 00116914D - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/07-16:34:56.183 UTC - INFO  - - 00116914D - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/07-16:34:56.209 UTC - INFO  - - 00116914D - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/07-16:34:56.235 UTC - INFO  - - 00116914D - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/07-16:34:56.295 UTC - INFO  - - 00116914D - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/07-16:35:11.411 UTC - INFO  - - 00116914D - - - Started darsi1@6004
+2026/07/07-16:35:11.463 UTC - INFO  - - 00116914D - - - Started tcgql1@6004
+2026/07/07-16:35:11.551 UTC - INFO  - - 00116914D - - - Started service_dispatcher1@6004
+2026/07/07-16:35:11.627 UTC - INFO  - - 00116914D - - - Started microserviceparameterstore1@6004
+2026/07/07-16:35:11.780 UTC - INFO  - - 00116914D - - - Started gateway1@6004
+2026/07/07-16:35:11.856 UTC - INFO  - - 00116914D - - - Started file-repo1@6004
+2026/07/07-16:35:12.151 UTC - INFO  - - 00116914D - - - Started eureka1@6004
+2026/07/08-03:30:44.780 UTC - INFO  -  Processing shutdown request...
+2026/07/08-03:30:44.781 UTC - INFO  -  Shutting down pool...
+2026/07/08-03:30:44.821 UTC - INFO  -  Terminating server: eureka1@6004
+2026/07/08-03:30:44.823 UTC - INFO  -  Terminating server: gateway1@6004
+2026/07/08-03:30:44.823 UTC - INFO  -  Terminating server: tcgql1@6004
+2026/07/08-03:30:44.826 UTC - INFO  -  Terminating server: service_dispatcher1@6004
+2026/07/08-03:30:44.826 UTC - INFO  -  Terminating server: microserviceparameterstore1@6004
+2026/07/08-03:30:44.826 UTC - INFO  -  Terminating server: darsi1@6004
+2026/07/08-03:30:46.882 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/08-03:40:35.575 UTC - INFO  - - 0254CD1F6 - - - Starting Service Mananger.
+2026/07/08-03:40:35.603 UTC - INFO  - - 0254CD1F6 - - - Journaling is enabled for ServerManager
+2026/07/08-03:40:35.606 UTC - INFO  - - 0254CD1F6 - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/08-03:40:36.341 UTC - INFO  - - 0254CD1F6 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/08-03:40:36.399 UTC - INFO  - - 0254CD1F6 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/08-03:40:36.404 UTC - INFO  - - 0254CD1F6 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/08-03:40:36.410 UTC - INFO  - - 0254CD1F6 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/08-03:40:36.416 UTC - INFO  - - 0254CD1F6 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/08-03:40:36.423 UTC - INFO  - - 0254CD1F6 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/08-03:40:36.427 UTC - INFO  - - 0254CD1F6 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/08-03:40:51.658 UTC - INFO  - - 0254CD1F6 - - - Started tcgql1@4092
+2026/07/08-03:40:52.156 UTC - INFO  - - 0254CD1F6 - - - Started file-repo1@4092
+2026/07/08-03:40:52.335 UTC - INFO  - - 0254CD1F6 - - - Started eureka1@4092
+2026/07/08-03:40:53.053 UTC - INFO  - - 0254CD1F6 - - - Started gateway1@4092
+2026/07/08-03:40:53.498 UTC - INFO  - - 0254CD1F6 - - - Started service_dispatcher1@4092
+2026/07/08-03:40:53.991 UTC - INFO  - - 0254CD1F6 - - - Started microserviceparameterstore1@4092
+2026/07/08-03:40:54.314 UTC - INFO  - - 0254CD1F6 - - - Started darsi1@4092
+2026/07/08-04:25:31.532 UTC - INFO  -  Processing shutdown request...
+2026/07/08-04:25:31.535 UTC - INFO  -  Shutting down pool...
+2026/07/08-04:25:31.550 UTC - INFO  -  Terminating server: microserviceparameterstore1@4092
+2026/07/08-04:25:31.550 UTC - INFO  -  Terminating server: tcgql1@4092
+2026/07/08-04:25:31.551 UTC - INFO  -  Terminating server: gateway1@4092
+2026/07/08-04:25:31.555 UTC - INFO  -  Terminating server: darsi1@4092
+2026/07/08-04:25:31.555 UTC - INFO  -  Terminating server: service_dispatcher1@4092
+2026/07/08-04:25:32.270 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/08-04:26:07.526 UTC - INFO  - - 0D7D83E7D - - - Starting Service Mananger.
+2026/07/08-04:26:07.589 UTC - INFO  - - 0D7D83E7D - - - Journaling is enabled for ServerManager
+2026/07/08-04:26:07.589 UTC - INFO  - - 0D7D83E7D - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/08-04:26:08.336 UTC - INFO  - - 0D7D83E7D - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/08-04:26:08.399 UTC - INFO  - - 0D7D83E7D - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/08-04:26:08.399 UTC - INFO  - - 0D7D83E7D - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/08-04:26:08.399 UTC - INFO  - - 0D7D83E7D - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/08-04:26:08.430 UTC - INFO  - - 0D7D83E7D - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/08-04:26:08.430 UTC - INFO  - - 0D7D83E7D - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/08-04:26:08.445 UTC - INFO  - - 0D7D83E7D - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/08-04:26:24.331 UTC - INFO  - - 0D7D83E7D - - - Started darsi1@3992
+2026/07/08-04:26:24.720 UTC - INFO  - - 0D7D83E7D - - - Started service_dispatcher1@3992
+2026/07/08-04:26:24.932 UTC - INFO  - - 0D7D83E7D - - - Started gateway1@3992
+2026/07/08-04:26:24.957 UTC - INFO  - - 0D7D83E7D - - - Started microserviceparameterstore1@3992
+2026/07/08-04:26:25.061 UTC - INFO  - - 0D7D83E7D - - - Started file-repo1@3992
+2026/07/08-04:26:25.104 UTC - INFO  - - 0D7D83E7D - - - Started tcgql1@3992
+2026/07/08-04:26:25.162 UTC - INFO  - - 0D7D83E7D - - - Started eureka1@3992
+2026/07/08-14:10:31.020 UTC - INFO  -  Processing shutdown request...
+2026/07/08-14:10:31.020 UTC - INFO  -  Shutting down pool...
+2026/07/08-14:10:31.020 UTC - INFO  -  Terminating server: tcgql1@3992
+2026/07/08-14:10:31.020 UTC - INFO  -  Terminating server: gateway1@3992
+2026/07/08-14:10:31.030 UTC - INFO  -  Terminating server: eureka1@3992
+2026/07/08-14:10:31.030 UTC - INFO  -  Terminating server: service_dispatcher1@3992
+2026/07/08-14:10:31.031 UTC - INFO  -  Terminating server: darsi1@3992
+2026/07/08-14:10:31.032 UTC - INFO  -  Terminating server: file-repo1@3992
+2026/07/08-14:10:31.035 UTC - INFO  -  Terminating server: microserviceparameterstore1@3992
+2026/07/08-14:10:32.508 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/08-19:35:10.703 UTC - INFO  - - 0DB98458E - - - Starting Service Mananger.
+2026/07/08-19:35:10.733 UTC - INFO  - - 0DB98458E - - - Journaling is enabled for ServerManager
+2026/07/08-19:35:10.759 UTC - INFO  - - 0DB98458E - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/08-19:35:11.000 UTC - INFO  - - 0DB98458E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/08-19:35:11.062 UTC - INFO  - - 0DB98458E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/08-19:35:11.093 UTC - INFO  - - 0DB98458E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/08-19:35:11.157 UTC - INFO  - - 0DB98458E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/08-19:35:11.160 UTC - INFO  - - 0DB98458E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/08-19:35:11.227 UTC - INFO  - - 0DB98458E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/08-19:35:11.275 UTC - INFO  - - 0DB98458E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/08-19:35:26.354 UTC - INFO  - - 0DB98458E - - - Started darsi1@17168
+2026/07/08-19:35:26.479 UTC - INFO  - - 0DB98458E - - - Started tcgql1@17168
+2026/07/08-19:35:26.578 UTC - INFO  - - 0DB98458E - - - Started service_dispatcher1@17168
+2026/07/08-19:35:26.730 UTC - INFO  - - 0DB98458E - - - Started microserviceparameterstore1@17168
+2026/07/08-19:35:26.809 UTC - INFO  - - 0DB98458E - - - Started gateway1@17168
+2026/07/08-19:35:26.969 UTC - INFO  - - 0DB98458E - - - Started file-repo1@17168
+2026/07/08-19:35:27.080 UTC - INFO  - - 0DB98458E - - - Started eureka1@17168
+2026/07/08-20:45:35.379 UTC - INFO  -  Processing shutdown request...
+2026/07/08-20:45:35.380 UTC - INFO  -  Shutting down pool...
+2026/07/08-20:45:35.382 UTC - INFO  -  Terminating server: microserviceparameterstore1@17168
+2026/07/08-20:45:35.384 UTC - INFO  -  Terminating server: gateway1@17168
+2026/07/08-20:45:35.385 UTC - INFO  -  Terminating server: eureka1@17168
+2026/07/08-20:45:35.385 UTC - INFO  -  Terminating server: file-repo1@17168
+2026/07/08-20:45:35.385 UTC - INFO  -  Terminating server: darsi1@17168
+2026/07/08-20:45:35.385 UTC - INFO  -  Terminating server: service_dispatcher1@17168
+2026/07/08-20:45:35.386 UTC - INFO  -  Terminating server: tcgql1@17168
+2026/07/08-20:45:36.042 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/08-20:45:45.321 UTC - INFO  - - 0BF6FAD57 - - - Starting Service Mananger.
+2026/07/08-20:45:45.331 UTC - INFO  - - 0BF6FAD57 - - - Journaling is enabled for ServerManager
+2026/07/08-20:45:45.349 UTC - INFO  - - 0BF6FAD57 - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/08-20:45:45.572 UTC - INFO  - - 0BF6FAD57 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/08-20:45:45.618 UTC - INFO  - - 0BF6FAD57 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/08-20:45:45.647 UTC - INFO  - - 0BF6FAD57 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/08-20:45:45.670 UTC - INFO  - - 0BF6FAD57 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/08-20:45:45.695 UTC - INFO  - - 0BF6FAD57 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/08-20:45:45.715 UTC - INFO  - - 0BF6FAD57 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/08-20:45:45.737 UTC - INFO  - - 0BF6FAD57 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/08-20:46:00.807 UTC - INFO  - - 0BF6FAD57 - - - Started tcgql1@6112
+2026/07/08-20:46:00.861 UTC - INFO  - - 0BF6FAD57 - - - Started gateway1@6112
+2026/07/08-20:46:00.961 UTC - INFO  - - 0BF6FAD57 - - - Started microserviceparameterstore1@6112
+2026/07/08-20:46:01.070 UTC - INFO  - - 0BF6FAD57 - - - Started eureka1@6112
+2026/07/08-20:46:01.151 UTC - INFO  - - 0BF6FAD57 - - - Started service_dispatcher1@6112
+2026/07/08-20:46:01.229 UTC - INFO  - - 0BF6FAD57 - - - Started darsi1@6112
+2026/07/08-20:46:01.373 UTC - INFO  - - 0BF6FAD57 - - - Started file-repo1@6112
+2026/07/09-03:32:48.126 UTC - INFO  -  Processing shutdown request...
+2026/07/09-03:32:48.127 UTC - INFO  -  Shutting down pool...
+2026/07/09-03:32:48.142 UTC - INFO  -  Terminating server: service_dispatcher1@6112
+2026/07/09-03:32:48.142 UTC - INFO  -  Terminating server: microserviceparameterstore1@6112
+2026/07/09-03:32:48.144 UTC - INFO  -  Terminating server: darsi1@6112
+2026/07/09-03:32:48.147 UTC - INFO  -  Terminating server: tcgql1@6112
+2026/07/09-03:32:48.148 UTC - INFO  -  Terminating server: gateway1@6112
+2026/07/09-03:32:48.677 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/09-03:35:15.578 UTC - INFO  - - 032DB594A - - - Starting Service Mananger.
+2026/07/09-03:35:15.598 UTC - INFO  - - 032DB594A - - - Journaling is enabled for ServerManager
+2026/07/09-03:35:15.599 UTC - INFO  - - 032DB594A - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/09-03:35:16.059 UTC - INFO  - - 032DB594A - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/09-03:35:16.112 UTC - INFO  - - 032DB594A - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/09-03:35:16.117 UTC - INFO  - - 032DB594A - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/09-03:35:16.129 UTC - INFO  - - 032DB594A - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/09-03:35:16.135 UTC - INFO  - - 032DB594A - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/09-03:35:16.140 UTC - INFO  - - 032DB594A - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/09-03:35:16.144 UTC - INFO  - - 032DB594A - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/09-03:35:31.269 UTC - INFO  - - 032DB594A - - - Started darsi1@4248
+2026/07/09-03:35:31.269 UTC - INFO  - - 032DB594A - - - Started tcgql1@4248
+2026/07/09-03:35:31.268 UTC - INFO  - - 032DB594A - - - Started file-repo1@4248
+2026/07/09-03:35:31.272 UTC - INFO  - - 032DB594A - - - Started gateway1@4248
+2026/07/09-03:35:31.275 UTC - INFO  - - 032DB594A - - - Started eureka1@4248
+2026/07/09-03:35:31.280 UTC - INFO  - - 032DB594A - - - Started microserviceparameterstore1@4248
+2026/07/09-03:35:31.286 UTC - INFO  - - 032DB594A - - - Started service_dispatcher1@4248
+2026/07/09-03:39:22.505 UTC - INFO  -  Processing shutdown request...
+2026/07/09-03:39:22.505 UTC - INFO  -  Shutting down pool...
+2026/07/09-03:39:22.508 UTC - INFO  -  Terminating server: tcgql1@4248
+2026/07/09-03:39:22.510 UTC - INFO  -  Terminating server: microserviceparameterstore1@4248
+2026/07/09-03:39:22.516 UTC - INFO  -  Terminating server: gateway1@4248
+2026/07/09-03:39:22.517 UTC - INFO  -  Terminating server: darsi1@4248
+2026/07/09-03:39:22.518 UTC - INFO  -  Terminating server: service_dispatcher1@4248
+2026/07/09-03:39:22.820 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/09-03:40:22.267 UTC - INFO  - - 0F98A927B - - - Starting Service Mananger.
+2026/07/09-03:40:22.386 UTC - INFO  - - 0F98A927B - - - Journaling is enabled for ServerManager
+2026/07/09-03:40:22.404 UTC - INFO  - - 0F98A927B - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/09-03:40:22.785 UTC - INFO  - - 0F98A927B - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/09-03:40:22.828 UTC - INFO  - - 0F98A927B - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/09-03:40:22.833 UTC - INFO  - - 0F98A927B - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/09-03:40:22.842 UTC - INFO  - - 0F98A927B - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/09-03:40:22.850 UTC - INFO  - - 0F98A927B - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/09-03:40:22.855 UTC - INFO  - - 0F98A927B - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/09-03:40:22.860 UTC - INFO  - - 0F98A927B - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/09-03:40:37.953 UTC - INFO  - - 0F98A927B - - - Started darsi1@3384
+2026/07/09-03:40:38.032 UTC - INFO  - - 0F98A927B - - - Started microserviceparameterstore1@3384
+2026/07/09-03:40:38.190 UTC - INFO  - - 0F98A927B - - - Started gateway1@3384
+2026/07/09-03:40:38.323 UTC - INFO  - - 0F98A927B - - - Started file-repo1@3384
+2026/07/09-03:40:38.337 UTC - INFO  - - 0F98A927B - - - Started tcgql1@3384
+2026/07/09-03:40:38.368 UTC - INFO  - - 0F98A927B - - - Started service_dispatcher1@3384
+2026/07/09-03:40:38.373 UTC - INFO  - - 0F98A927B - - - Started eureka1@3384
+2026/07/11-10:31:37.141 UTC - INFO  -  Processing shutdown request...
+2026/07/11-10:31:37.143 UTC - INFO  -  Shutting down pool...
+2026/07/11-10:31:37.149 UTC - INFO  -  Terminating server: darsi1@3384
+2026/07/11-10:31:37.148 UTC - INFO  -  Terminating server: gateway1@3384
+2026/07/11-10:31:37.149 UTC - INFO  -  Terminating server: tcgql1@3384
+2026/07/11-10:31:37.184 UTC - INFO  -  Terminating server: service_dispatcher1@3384
+2026/07/11-10:31:37.184 UTC - INFO  -  Terminating server: microserviceparameterstore1@3384
+2026/07/11-10:31:37.778 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/13-03:37:48.739 UTC - INFO  - - 07BB96544 - - - Starting Service Mananger.
+2026/07/13-03:37:48.755 UTC - INFO  - - 07BB96544 - - - Journaling is enabled for ServerManager
+2026/07/13-03:37:48.757 UTC - INFO  - - 07BB96544 - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/13-03:37:49.105 UTC - INFO  - - 07BB96544 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/13-03:37:49.409 UTC - INFO  - - 07BB96544 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/13-03:37:49.414 UTC - INFO  - - 07BB96544 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/13-03:37:49.423 UTC - INFO  - - 07BB96544 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/13-03:37:49.450 UTC - INFO  - - 07BB96544 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/13-03:37:49.513 UTC - INFO  - - 07BB96544 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/13-03:37:49.559 UTC - INFO  - - 07BB96544 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/13-03:38:04.677 UTC - INFO  - - 07BB96544 - - - Started file-repo1@3752
+2026/07/13-03:38:04.677 UTC - INFO  - - 07BB96544 - - - Started service_dispatcher1@3752
+2026/07/13-03:38:04.677 UTC - INFO  - - 07BB96544 - - - Started darsi1@3752
+2026/07/13-03:38:04.677 UTC - INFO  - - 07BB96544 - - - Started eureka1@3752
+2026/07/13-03:38:04.677 UTC - INFO  - - 07BB96544 - - - Started tcgql1@3752
+2026/07/13-03:38:04.752 UTC - INFO  - - 07BB96544 - - - Started gateway1@3752
+2026/07/13-03:38:04.769 UTC - INFO  - - 07BB96544 - - - Started microserviceparameterstore1@3752
+2026/07/13-15:30:44.648 UTC - INFO  -  Processing shutdown request...
+2026/07/13-15:30:44.651 UTC - INFO  -  Shutting down pool...
+2026/07/13-15:30:44.663 UTC - INFO  -  Terminating server: microserviceparameterstore1@3752
+2026/07/13-15:30:44.670 UTC - INFO  -  Terminating server: gateway1@3752
+2026/07/13-15:30:44.670 UTC - INFO  -  Terminating server: tcgql1@3752
+2026/07/13-15:30:44.672 UTC - INFO  -  Terminating server: darsi1@3752
+2026/07/13-15:30:44.672 UTC - INFO  -  Terminating server: service_dispatcher1@3752
+2026/07/13-15:30:44.981 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/13-18:07:18.545 UTC - INFO  - - 04D9E2FAF - - - Starting Service Mananger.
+2026/07/13-18:07:18.578 UTC - INFO  - - 04D9E2FAF - - - Journaling is enabled for ServerManager
+2026/07/13-18:07:18.582 UTC - INFO  - - 04D9E2FAF - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/13-18:07:19.218 UTC - INFO  - - 04D9E2FAF - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/13-18:07:19.256 UTC - INFO  - - 04D9E2FAF - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/13-18:07:19.261 UTC - INFO  - - 04D9E2FAF - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/13-18:07:19.266 UTC - INFO  - - 04D9E2FAF - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/13-18:07:19.271 UTC - INFO  - - 04D9E2FAF - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/13-18:07:19.276 UTC - INFO  - - 04D9E2FAF - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/13-18:07:19.282 UTC - INFO  - - 04D9E2FAF - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/13-18:07:34.321 UTC - INFO  - - 04D9E2FAF - - - Started eureka1@3660
+2026/07/13-18:07:34.327 UTC - INFO  - - 04D9E2FAF - - - Started service_dispatcher1@3660
+2026/07/13-18:07:34.451 UTC - INFO  - - 04D9E2FAF - - - Started file-repo1@3660
+2026/07/13-18:07:34.555 UTC - INFO  - - 04D9E2FAF - - - Started gateway1@3660
+2026/07/13-18:07:34.570 UTC - INFO  - - 04D9E2FAF - - - Started microserviceparameterstore1@3660
+2026/07/13-18:07:34.581 UTC - INFO  - - 04D9E2FAF - - - Started darsi1@3660
+2026/07/13-18:07:34.596 UTC - INFO  - - 04D9E2FAF - - - Started tcgql1@3660
+2026/07/14-03:30:42.578 UTC - INFO  -  Processing shutdown request...
+2026/07/14-03:30:42.579 UTC - INFO  -  Shutting down pool...
+2026/07/14-03:30:42.585 UTC - INFO  -  Terminating server: darsi1@3660
+2026/07/14-03:30:42.586 UTC - INFO  -  Terminating server: gateway1@3660
+2026/07/14-03:30:42.586 UTC - INFO  -  Terminating server: service_dispatcher1@3660
+2026/07/14-03:30:42.588 UTC - INFO  -  Terminating server: microserviceparameterstore1@3660
+2026/07/14-03:30:42.588 UTC - INFO  -  Terminating server: tcgql1@3660
+2026/07/14-03:30:42.805 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/15-05:03:19.865 UTC - INFO  - - 0DCED94C7 - - - Starting Service Mananger.
+2026/07/15-05:03:19.881 UTC - INFO  - - 0DCED94C7 - - - Journaling is enabled for ServerManager
+2026/07/15-05:03:19.882 UTC - INFO  - - 0DCED94C7 - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/15-05:03:20.216 UTC - INFO  - - 0DCED94C7 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/15-05:03:20.252 UTC - INFO  - - 0DCED94C7 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/15-05:03:20.259 UTC - INFO  - - 0DCED94C7 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/15-05:03:20.266 UTC - INFO  - - 0DCED94C7 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/15-05:03:20.272 UTC - INFO  - - 0DCED94C7 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/15-05:03:20.277 UTC - INFO  - - 0DCED94C7 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/15-05:03:20.283 UTC - INFO  - - 0DCED94C7 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/15-05:03:35.409 UTC - INFO  - - 0DCED94C7 - - - Started darsi1@2484
+2026/07/15-05:03:35.435 UTC - INFO  - - 0DCED94C7 - - - Started gateway1@2484
+2026/07/15-05:03:35.466 UTC - INFO  - - 0DCED94C7 - - - Started tcgql1@2484
+2026/07/15-05:03:35.520 UTC - INFO  - - 0DCED94C7 - - - Started file-repo1@2484
+2026/07/15-05:03:35.656 UTC - INFO  - - 0DCED94C7 - - - Started eureka1@2484
+2026/07/15-05:03:35.725 UTC - INFO  - - 0DCED94C7 - - - Started service_dispatcher1@2484
+2026/07/15-05:03:35.824 UTC - INFO  - - 0DCED94C7 - - - Started microserviceparameterstore1@2484
+2026/07/15-05:48:52.056 UTC - INFO  -  Processing shutdown request...
+2026/07/15-05:48:52.057 UTC - INFO  -  Shutting down pool...
+2026/07/15-05:48:52.058 UTC - INFO  -  Terminating server: gateway1@2484
+2026/07/15-05:48:52.059 UTC - INFO  -  Terminating server: eureka1@2484
+2026/07/15-05:48:52.059 UTC - INFO  -  Terminating server: tcgql1@2484
+2026/07/15-05:48:52.059 UTC - INFO  -  Terminating server: darsi1@2484
+2026/07/15-05:48:52.059 UTC - INFO  -  Terminating server: microserviceparameterstore1@2484
+2026/07/15-05:48:52.060 UTC - INFO  -  Terminating server: file-repo1@2484
+2026/07/15-05:48:52.060 UTC - INFO  -  Terminating server: service_dispatcher1@2484
+2026/07/15-05:48:52.521 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/16-04:36:39.671 UTC - INFO  - - 02AA04906 - - - Starting Service Mananger.
+2026/07/16-04:36:39.686 UTC - INFO  - - 02AA04906 - - - Journaling is enabled for ServerManager
+2026/07/16-04:36:39.686 UTC - INFO  - - 02AA04906 - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/16-04:36:40.043 UTC - INFO  - - 02AA04906 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/16-04:36:40.077 UTC - ERROR - - 02AA04906 - - - Stack Trace: com.teamcenter.processmanager.ServerPoolManager com.fasterxml.jackson.core.JsonParseException: Unexpected character ('@' (code 64)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (FileInputStream); line: 14, column: 20]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:659)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2737)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextFieldName(UTF8StreamJsonParser.java:1126)
+	at com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer._deserializeContainerNoRecursion(JsonNodeDeserializer.java:440)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:84)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:20)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4716)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3056)
+	at com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:328)
+	at com.teamcenter.processmanager.ServerPoolManager.startServices(ServerPoolManager.java:295)
+	at com.teamcenter.processmanager.ServerPoolManager.finishInit(ServerPoolManager.java:258)
+	at com.teamcenter.processmanager.ServerManager.main(ServerManager.java:358)
+
+2026/07/16-04:36:40.080 UTC - ERROR - - 02AA04906 - - - Unexpected character ('@' (code 64)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (FileInputStream); line: 14, column: 20]:com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:333) com.teamcenter.processmanager.ServerPoolManager 
+2026/07/16-04:36:40.080 UTC - ERROR - - 02AA04906 - - - 
+Skipped file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json due to above error.
+:com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:334) com.teamcenter.processmanager.ServerPoolManager 
+2026/07/16-04:36:40.081 UTC - INFO  - - 02AA04906 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/16-04:36:40.092 UTC - INFO  - - 02AA04906 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/16-04:36:40.092 UTC - ERROR - - 02AA04906 - - - Stack Trace: com.teamcenter.processmanager.ServerPoolManager com.fasterxml.jackson.core.JsonParseException: Unexpected character ('@' (code 64)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (FileInputStream); line: 11, column: 19]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:659)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2737)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextFieldName(UTF8StreamJsonParser.java:1126)
+	at com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer._deserializeContainerNoRecursion(JsonNodeDeserializer.java:440)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:84)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:20)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4716)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3056)
+	at com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:328)
+	at com.teamcenter.processmanager.ServerPoolManager.startServices(ServerPoolManager.java:295)
+	at com.teamcenter.processmanager.ServerPoolManager.finishInit(ServerPoolManager.java:258)
+	at com.teamcenter.processmanager.ServerManager.main(ServerManager.java:358)
+
+2026/07/16-04:36:40.093 UTC - ERROR - - 02AA04906 - - - Unexpected character ('@' (code 64)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (FileInputStream); line: 11, column: 19]:com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:333) com.teamcenter.processmanager.ServerPoolManager 
+2026/07/16-04:36:40.094 UTC - ERROR - - 02AA04906 - - - 
+Skipped file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json due to above error.
+:com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:334) com.teamcenter.processmanager.ServerPoolManager 
+2026/07/16-04:36:40.094 UTC - INFO  - - 02AA04906 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/16-04:36:40.101 UTC - INFO  - - 02AA04906 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/16-04:36:40.102 UTC - ERROR - - 02AA04906 - - - Stack Trace: com.teamcenter.processmanager.ServerPoolManager com.fasterxml.jackson.core.JsonParseException: Unexpected character ('@' (code 64)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (FileInputStream); line: 24, column: 19]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:659)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2737)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextFieldName(UTF8StreamJsonParser.java:1126)
+	at com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer._deserializeContainerNoRecursion(JsonNodeDeserializer.java:440)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:84)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:20)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4716)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3056)
+	at com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:328)
+	at com.teamcenter.processmanager.ServerPoolManager.startServices(ServerPoolManager.java:295)
+	at com.teamcenter.processmanager.ServerPoolManager.finishInit(ServerPoolManager.java:258)
+	at com.teamcenter.processmanager.ServerManager.main(ServerManager.java:358)
+
+2026/07/16-04:36:40.104 UTC - ERROR - - 02AA04906 - - - Unexpected character ('@' (code 64)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (FileInputStream); line: 24, column: 19]:com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:333) com.teamcenter.processmanager.ServerPoolManager 
+2026/07/16-04:36:40.104 UTC - ERROR - - 02AA04906 - - - 
+Skipped file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json due to above error.
+:com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:334) com.teamcenter.processmanager.ServerPoolManager 
+2026/07/16-04:36:40.105 UTC - INFO  - - 02AA04906 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/16-04:36:40.110 UTC - INFO  - - 02AA04906 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/16-04:36:40.111 UTC - ERROR - - 02AA04906 - - - Stack Trace: com.teamcenter.processmanager.ServerPoolManager com.fasterxml.jackson.core.JsonParseException: Unexpected character ('@' (code 64)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (FileInputStream); line: 15, column: 20]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:659)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2737)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextFieldName(UTF8StreamJsonParser.java:1126)
+	at com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer._deserializeContainerNoRecursion(JsonNodeDeserializer.java:440)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:84)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:20)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4716)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3056)
+	at com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:328)
+	at com.teamcenter.processmanager.ServerPoolManager.startServices(ServerPoolManager.java:295)
+	at com.teamcenter.processmanager.ServerPoolManager.finishInit(ServerPoolManager.java:258)
+	at com.teamcenter.processmanager.ServerManager.main(ServerManager.java:358)
+
+2026/07/16-04:36:40.112 UTC - ERROR - - 02AA04906 - - - Unexpected character ('@' (code 64)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (FileInputStream); line: 15, column: 20]:com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:333) com.teamcenter.processmanager.ServerPoolManager 
+2026/07/16-04:36:40.113 UTC - ERROR - - 02AA04906 - - - 
+Skipped file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json due to above error.
+:com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:334) com.teamcenter.processmanager.ServerPoolManager 
+2026/07/16-04:36:55.191 UTC - INFO  - - 02AA04906 - - - Started gateway1@3396
+2026/07/16-04:36:55.197 UTC - INFO  - - 02AA04906 - - - Started service_dispatcher1@3396
+2026/07/16-04:36:55.213 UTC - INFO  - - 02AA04906 - - - Started eureka1@3396
+2026/07/16-04:43:40.937 UTC - INFO  -  Processing shutdown request...
+2026/07/16-04:43:40.938 UTC - INFO  -  Shutting down pool...
+2026/07/16-04:43:40.939 UTC - INFO  -  Terminating server: gateway1@3396
+2026/07/16-04:43:40.939 UTC - INFO  -  Terminating server: eureka1@3396
+2026/07/16-04:43:40.939 UTC - INFO  -  Terminating server: service_dispatcher1@3396
+2026/07/16-04:43:41.153 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/16-06:45:06.569 UTC - INFO  - - 08E65E5C4 - - - Starting Service Mananger.
+2026/07/16-06:45:06.584 UTC - INFO  - - 08E65E5C4 - - - Journaling is enabled for ServerManager
+2026/07/16-06:45:06.584 UTC - INFO  - - 08E65E5C4 - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/16-06:45:06.996 UTC - INFO  - - 08E65E5C4 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/16-06:45:07.021 UTC - ERROR - - 08E65E5C4 - - - Stack Trace: com.teamcenter.processmanager.ServerPoolManager com.fasterxml.jackson.core.JsonParseException: Unexpected character ('@' (code 64)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (FileInputStream); line: 14, column: 20]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:659)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2737)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextFieldName(UTF8StreamJsonParser.java:1126)
+	at com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer._deserializeContainerNoRecursion(JsonNodeDeserializer.java:440)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:84)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:20)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4716)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3056)
+	at com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:328)
+	at com.teamcenter.processmanager.ServerPoolManager.startServices(ServerPoolManager.java:295)
+	at com.teamcenter.processmanager.ServerPoolManager.finishInit(ServerPoolManager.java:258)
+	at com.teamcenter.processmanager.ServerManager.main(ServerManager.java:358)
+
+2026/07/16-06:45:07.024 UTC - ERROR - - 08E65E5C4 - - - Unexpected character ('@' (code 64)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (FileInputStream); line: 14, column: 20]:com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:333) com.teamcenter.processmanager.ServerPoolManager 
+2026/07/16-06:45:07.025 UTC - ERROR - - 08E65E5C4 - - - 
+Skipped file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json due to above error.
+:com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:334) com.teamcenter.processmanager.ServerPoolManager 
+2026/07/16-06:45:07.026 UTC - INFO  - - 08E65E5C4 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/16-06:45:07.040 UTC - INFO  - - 08E65E5C4 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/16-06:45:07.041 UTC - ERROR - - 08E65E5C4 - - - Stack Trace: com.teamcenter.processmanager.ServerPoolManager com.fasterxml.jackson.core.JsonParseException: Unexpected character ('@' (code 64)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (FileInputStream); line: 11, column: 19]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:659)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2737)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextFieldName(UTF8StreamJsonParser.java:1126)
+	at com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer._deserializeContainerNoRecursion(JsonNodeDeserializer.java:440)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:84)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:20)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4716)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3056)
+	at com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:328)
+	at com.teamcenter.processmanager.ServerPoolManager.startServices(ServerPoolManager.java:295)
+	at com.teamcenter.processmanager.ServerPoolManager.finishInit(ServerPoolManager.java:258)
+	at com.teamcenter.processmanager.ServerManager.main(ServerManager.java:358)
+
+2026/07/16-06:45:07.042 UTC - ERROR - - 08E65E5C4 - - - Unexpected character ('@' (code 64)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (FileInputStream); line: 11, column: 19]:com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:333) com.teamcenter.processmanager.ServerPoolManager 
+2026/07/16-06:45:07.043 UTC - ERROR - - 08E65E5C4 - - - 
+Skipped file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json due to above error.
+:com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:334) com.teamcenter.processmanager.ServerPoolManager 
+2026/07/16-06:45:07.043 UTC - INFO  - - 08E65E5C4 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/16-06:45:07.049 UTC - INFO  - - 08E65E5C4 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/16-06:45:07.053 UTC - ERROR - - 08E65E5C4 - - - Stack Trace: com.teamcenter.processmanager.ServerPoolManager com.fasterxml.jackson.core.JsonParseException: Unexpected character ('@' (code 64)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (FileInputStream); line: 24, column: 19]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:659)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2737)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextFieldName(UTF8StreamJsonParser.java:1126)
+	at com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer._deserializeContainerNoRecursion(JsonNodeDeserializer.java:440)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:84)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:20)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4716)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3056)
+	at com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:328)
+	at com.teamcenter.processmanager.ServerPoolManager.startServices(ServerPoolManager.java:295)
+	at com.teamcenter.processmanager.ServerPoolManager.finishInit(ServerPoolManager.java:258)
+	at com.teamcenter.processmanager.ServerManager.main(ServerManager.java:358)
+
+2026/07/16-06:45:07.059 UTC - ERROR - - 08E65E5C4 - - - Unexpected character ('@' (code 64)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (FileInputStream); line: 24, column: 19]:com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:333) com.teamcenter.processmanager.ServerPoolManager 
+2026/07/16-06:45:07.059 UTC - ERROR - - 08E65E5C4 - - - 
+Skipped file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json due to above error.
+:com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:334) com.teamcenter.processmanager.ServerPoolManager 
+2026/07/16-06:45:07.060 UTC - INFO  - - 08E65E5C4 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/16-06:45:07.066 UTC - INFO  - - 08E65E5C4 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/16-06:45:07.067 UTC - ERROR - - 08E65E5C4 - - - Stack Trace: com.teamcenter.processmanager.ServerPoolManager com.fasterxml.jackson.core.JsonParseException: Unexpected character ('@' (code 64)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (FileInputStream); line: 15, column: 20]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2391)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:735)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:659)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleUnexpectedValue(UTF8StreamJsonParser.java:2737)
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextFieldName(UTF8StreamJsonParser.java:1126)
+	at com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer._deserializeContainerNoRecursion(JsonNodeDeserializer.java:440)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:84)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:20)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4716)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3056)
+	at com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:328)
+	at com.teamcenter.processmanager.ServerPoolManager.startServices(ServerPoolManager.java:295)
+	at com.teamcenter.processmanager.ServerPoolManager.finishInit(ServerPoolManager.java:258)
+	at com.teamcenter.processmanager.ServerManager.main(ServerManager.java:358)
+
+2026/07/16-06:45:07.068 UTC - ERROR - - 08E65E5C4 - - - Unexpected character ('@' (code 64)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (FileInputStream); line: 15, column: 20]:com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:333) com.teamcenter.processmanager.ServerPoolManager 
+2026/07/16-06:45:07.068 UTC - ERROR - - 08E65E5C4 - - - 
+Skipped file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json due to above error.
+:com.teamcenter.processmanager.ServerPoolManager.loadServicesConfig(ServerPoolManager.java:334) com.teamcenter.processmanager.ServerPoolManager 
+2026/07/16-06:45:22.130 UTC - INFO  - - 08E65E5C4 - - - Started service_dispatcher1@4120
+2026/07/16-06:45:22.130 UTC - INFO  - - 08E65E5C4 - - - Started gateway1@4120
+2026/07/16-06:45:22.142 UTC - INFO  - - 08E65E5C4 - - - Started eureka1@4120
+2026/07/16-06:51:00.462 UTC - INFO  -  Processing shutdown request...
+2026/07/16-06:51:00.463 UTC - INFO  -  Shutting down pool...
+2026/07/16-06:51:00.464 UTC - INFO  -  Terminating server: service_dispatcher1@4120
+2026/07/16-06:51:00.472 UTC - INFO  -  Terminating server: gateway1@4120
+2026/07/16-06:51:00.472 UTC - INFO  -  Terminating server: eureka1@4120
+2026/07/16-06:51:00.674 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/16-13:42:22.833 UTC - INFO  - - 08B03683E - - - Starting Service Mananger.
+2026/07/16-13:42:22.842 UTC - INFO  - - 08B03683E - - - Journaling is enabled for ServerManager
+2026/07/16-13:42:22.884 UTC - INFO  - - 08B03683E - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/16-13:42:23.074 UTC - INFO  - - 08B03683E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/16-13:42:23.161 UTC - INFO  - - 08B03683E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/16-13:42:23.195 UTC - INFO  - - 08B03683E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/16-13:42:23.220 UTC - INFO  - - 08B03683E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/16-13:42:23.222 UTC - INFO  - - 08B03683E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/16-13:42:23.248 UTC - INFO  - - 08B03683E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/16-13:42:23.277 UTC - INFO  - - 08B03683E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/16-13:42:38.366 UTC - INFO  - - 08B03683E - - - Started file-repo1@10048
+2026/07/16-13:42:38.414 UTC - INFO  - - 08B03683E - - - Started microserviceparameterstore1@10048
+2026/07/16-13:42:38.517 UTC - INFO  - - 08B03683E - - - Started gateway1@10048
+2026/07/16-13:42:38.615 UTC - INFO  - - 08B03683E - - - Started eureka1@10048
+2026/07/16-13:42:38.684 UTC - INFO  - - 08B03683E - - - Started tcgql1@10048
+2026/07/16-13:42:38.865 UTC - INFO  - - 08B03683E - - - Started darsi1@10048
+2026/07/16-13:42:39.749 UTC - INFO  - - 08B03683E - - - Started service_dispatcher1@10048
+2026/07/16-13:56:26.463 UTC - INFO  -  Processing shutdown request...
+2026/07/16-13:56:26.464 UTC - INFO  -  Shutting down pool...
+2026/07/16-13:56:26.467 UTC - INFO  -  Terminating server: microserviceparameterstore1@10048
+2026/07/16-13:56:26.467 UTC - INFO  -  Terminating server: gateway1@10048
+2026/07/16-13:56:26.467 UTC - INFO  -  Terminating server: service_dispatcher1@10048
+2026/07/16-13:56:26.467 UTC - INFO  -  Terminating server: tcgql1@10048
+2026/07/16-13:56:26.468 UTC - INFO  -  Terminating server: darsi1@10048
+2026/07/16-13:56:26.468 UTC - INFO  -  Terminating server: eureka1@10048
+2026/07/16-13:56:26.471 UTC - INFO  -  Terminating server: file-repo1@10048
+2026/07/16-13:56:27.162 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/16-13:56:36.684 UTC - INFO  - - 0DA842327 - - - Starting Service Mananger.
+2026/07/16-13:56:36.693 UTC - INFO  - - 0DA842327 - - - Journaling is enabled for ServerManager
+2026/07/16-13:56:36.733 UTC - INFO  - - 0DA842327 - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/16-13:56:36.928 UTC - INFO  - - 0DA842327 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/16-13:56:37.002 UTC - INFO  - - 0DA842327 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/16-13:56:37.062 UTC - INFO  - - 0DA842327 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/16-13:56:37.096 UTC - INFO  - - 0DA842327 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/16-13:56:37.125 UTC - INFO  - - 0DA842327 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/16-13:56:37.150 UTC - INFO  - - 0DA842327 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/16-13:56:37.178 UTC - INFO  - - 0DA842327 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/16-13:56:52.246 UTC - INFO  - - 0DA842327 - - - Started eureka1@11340
+2026/07/16-13:56:52.363 UTC - INFO  - - 0DA842327 - - - Started service_dispatcher1@11340
+2026/07/16-13:56:52.434 UTC - INFO  - - 0DA842327 - - - Started microserviceparameterstore1@11340
+2026/07/16-13:56:52.641 UTC - INFO  - - 0DA842327 - - - Started file-repo1@11340
+2026/07/16-13:56:52.731 UTC - INFO  - - 0DA842327 - - - Started tcgql1@11340
+2026/07/16-13:56:52.986 UTC - INFO  - - 0DA842327 - - - Started darsi1@11340
+2026/07/16-13:56:53.126 UTC - INFO  - - 0DA842327 - - - Started gateway1@11340
+2026/07/16-15:30:43.506 UTC - INFO  -  Processing shutdown request...
+2026/07/16-15:30:43.509 UTC - INFO  -  Shutting down pool...
+2026/07/16-15:30:43.516 UTC - INFO  -  Terminating server: microserviceparameterstore1@11340
+2026/07/16-15:30:43.516 UTC - INFO  -  Terminating server: tcgql1@11340
+2026/07/16-15:30:43.516 UTC - INFO  -  Terminating server: service_dispatcher1@11340
+2026/07/16-15:30:43.532 UTC - INFO  -  Terminating server: gateway1@11340
+2026/07/16-15:30:43.537 UTC - INFO  -  Terminating server: darsi1@11340
+2026/07/16-15:30:43.804 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/17-03:56:33.997 UTC - INFO  - - 05CC4DA0F - - - Starting Service Mananger.
+2026/07/17-03:56:34.035 UTC - INFO  - - 05CC4DA0F - - - Journaling is enabled for ServerManager
+2026/07/17-03:56:34.037 UTC - INFO  - - 05CC4DA0F - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/17-03:56:34.772 UTC - INFO  - - 05CC4DA0F - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/17-03:56:34.821 UTC - INFO  - - 05CC4DA0F - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/17-03:56:34.828 UTC - INFO  - - 05CC4DA0F - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/17-03:56:34.832 UTC - INFO  - - 05CC4DA0F - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/17-03:56:34.846 UTC - INFO  - - 05CC4DA0F - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/17-03:56:34.855 UTC - INFO  - - 05CC4DA0F - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/17-03:56:34.861 UTC - INFO  - - 05CC4DA0F - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/17-03:56:49.886 UTC - INFO  - - 05CC4DA0F - - - Started darsi1@4004
+2026/07/17-03:56:49.889 UTC - INFO  - - 05CC4DA0F - - - Started service_dispatcher1@4004
+2026/07/17-03:56:49.895 UTC - INFO  - - 05CC4DA0F - - - Started eureka1@4004
+2026/07/17-03:56:49.904 UTC - INFO  - - 05CC4DA0F - - - Started gateway1@4004
+2026/07/17-03:56:49.942 UTC - INFO  - - 05CC4DA0F - - - Started file-repo1@4004
+2026/07/17-03:56:49.951 UTC - INFO  - - 05CC4DA0F - - - Started microserviceparameterstore1@4004
+2026/07/17-03:56:49.954 UTC - INFO  - - 05CC4DA0F - - - Started tcgql1@4004
+2026/07/17-08:35:37.693 UTC - INFO  -  Processing shutdown request...
+2026/07/17-08:35:37.693 UTC - INFO  -  Shutting down pool...
+2026/07/17-08:35:37.696 UTC - INFO  -  Terminating server: microserviceparameterstore1@4004
+2026/07/17-08:35:37.696 UTC - INFO  -  Terminating server: file-repo1@4004
+2026/07/17-08:35:37.697 UTC - INFO  -  Terminating server: eureka1@4004
+2026/07/17-08:35:37.697 UTC - INFO  -  Terminating server: darsi1@4004
+2026/07/17-08:35:37.696 UTC - INFO  -  Terminating server: tcgql1@4004
+2026/07/17-08:35:37.698 UTC - INFO  -  Terminating server: gateway1@4004
+2026/07/17-08:35:37.698 UTC - INFO  -  Terminating server: service_dispatcher1@4004
+2026/07/17-08:35:39.000 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/17-09:57:19.598 UTC - INFO  - - 0C8871BE9 - - - Starting Service Mananger.
+2026/07/17-09:57:19.608 UTC - INFO  - - 0C8871BE9 - - - Journaling is enabled for ServerManager
+2026/07/17-09:57:19.630 UTC - INFO  - - 0C8871BE9 - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/17-09:57:19.861 UTC - INFO  - - 0C8871BE9 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/17-09:57:19.915 UTC - INFO  - - 0C8871BE9 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/17-09:57:19.939 UTC - INFO  - - 0C8871BE9 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/17-09:57:19.969 UTC - INFO  - - 0C8871BE9 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/17-09:57:19.991 UTC - INFO  - - 0C8871BE9 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/17-09:57:20.031 UTC - INFO  - - 0C8871BE9 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/17-09:57:20.088 UTC - INFO  - - 0C8871BE9 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/17-09:57:35.149 UTC - INFO  - - 0C8871BE9 - - - Started service_dispatcher1@9624
+2026/07/17-09:57:35.179 UTC - INFO  - - 0C8871BE9 - - - Started tcgql1@9624
+2026/07/17-09:57:35.238 UTC - INFO  - - 0C8871BE9 - - - Started file-repo1@9624
+2026/07/17-09:57:35.336 UTC - INFO  - - 0C8871BE9 - - - Started eureka1@9624
+2026/07/17-09:57:35.407 UTC - INFO  - - 0C8871BE9 - - - Started darsi1@9624
+2026/07/17-09:57:35.474 UTC - INFO  - - 0C8871BE9 - - - Started microserviceparameterstore1@9624
+2026/07/17-09:57:35.600 UTC - INFO  - - 0C8871BE9 - - - Started gateway1@9624
+2026/07/17-15:30:43.892 UTC - INFO  -  Processing shutdown request...
+2026/07/17-15:30:43.894 UTC - INFO  -  Shutting down pool...
+2026/07/17-15:30:43.901 UTC - INFO  -  Terminating server: tcgql1@9624
+2026/07/17-15:30:43.903 UTC - INFO  -  Terminating server: microserviceparameterstore1@9624
+2026/07/17-15:30:43.905 UTC - INFO  -  Terminating server: darsi1@9624
+2026/07/17-15:30:43.930 UTC - INFO  -  Terminating server: gateway1@9624
+2026/07/17-15:30:43.930 UTC - INFO  -  Terminating server: service_dispatcher1@9624
+2026/07/17-15:30:44.243 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/20-04:51:36.575 UTC - INFO  - - 087CE589E - - - Starting Service Mananger.
+2026/07/20-04:51:36.592 UTC - INFO  - - 087CE589E - - - Journaling is enabled for ServerManager
+2026/07/20-04:51:36.593 UTC - INFO  - - 087CE589E - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/20-04:51:37.107 UTC - INFO  - - 087CE589E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/20-04:51:37.153 UTC - INFO  - - 087CE589E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/20-04:51:37.158 UTC - INFO  - - 087CE589E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/20-04:51:37.164 UTC - INFO  - - 087CE589E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/20-04:51:37.177 UTC - INFO  - - 087CE589E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/20-04:51:37.187 UTC - INFO  - - 087CE589E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/20-04:51:37.191 UTC - INFO  - - 087CE589E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/20-04:51:52.248 UTC - INFO  - - 087CE589E - - - Started file-repo1@3944
+2026/07/20-04:51:52.512 UTC - INFO  - - 087CE589E - - - Started gateway1@3944
+2026/07/20-04:51:52.571 UTC - INFO  - - 087CE589E - - - Started microserviceparameterstore1@3944
+2026/07/20-04:51:52.759 UTC - INFO  - - 087CE589E - - - Started darsi1@3944
+2026/07/20-04:51:52.797 UTC - INFO  - - 087CE589E - - - Started eureka1@3944
+2026/07/20-04:51:53.019 UTC - INFO  - - 087CE589E - - - Started tcgql1@3944
+2026/07/20-04:51:53.358 UTC - INFO  - - 087CE589E - - - Started service_dispatcher1@3944
+2026/07/20-15:30:46.639 UTC - INFO  -  Processing shutdown request...
+2026/07/20-15:30:46.645 UTC - INFO  -  Shutting down pool...
+2026/07/20-15:30:46.647 UTC - INFO  -  Terminating server: microserviceparameterstore1@3944
+2026/07/20-15:30:46.649 UTC - INFO  -  Terminating server: file-repo1@3944
+2026/07/20-15:30:46.652 UTC - INFO  -  Terminating server: tcgql1@3944
+2026/07/20-15:30:46.652 UTC - INFO  -  Terminating server: eureka1@3944
+2026/07/20-15:30:46.682 UTC - INFO  -  Terminating server: darsi1@3944
+2026/07/20-15:30:46.683 UTC - INFO  -  Terminating server: gateway1@3944
+2026/07/20-15:30:46.684 UTC - INFO  -  Terminating server: service_dispatcher1@3944
+2026/07/20-15:30:47.110 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/21-04:11:08.870 UTC - INFO  - - 0E7C01A41 - - - Starting Service Mananger.
+2026/07/21-04:11:08.881 UTC - INFO  - - 0E7C01A41 - - - Journaling is enabled for ServerManager
+2026/07/21-04:11:08.882 UTC - INFO  - - 0E7C01A41 - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/21-04:11:09.376 UTC - INFO  - - 0E7C01A41 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/21-04:11:09.423 UTC - INFO  - - 0E7C01A41 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/21-04:11:09.429 UTC - INFO  - - 0E7C01A41 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/21-04:11:09.434 UTC - INFO  - - 0E7C01A41 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/21-04:11:09.439 UTC - INFO  - - 0E7C01A41 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/21-04:11:09.451 UTC - INFO  - - 0E7C01A41 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/21-04:11:09.455 UTC - INFO  - - 0E7C01A41 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/21-04:11:24.575 UTC - INFO  - - 0E7C01A41 - - - Started darsi1@3916
+2026/07/21-04:11:24.575 UTC - INFO  - - 0E7C01A41 - - - Started tcgql1@3916
+2026/07/21-04:11:24.580 UTC - INFO  - - 0E7C01A41 - - - Started service_dispatcher1@3916
+2026/07/21-04:11:24.588 UTC - INFO  - - 0E7C01A41 - - - Started file-repo1@3916
+2026/07/21-04:11:24.612 UTC - INFO  - - 0E7C01A41 - - - Started eureka1@3916
+2026/07/21-04:11:24.629 UTC - INFO  - - 0E7C01A41 - - - Started microserviceparameterstore1@3916
+2026/07/21-04:11:24.646 UTC - INFO  - - 0E7C01A41 - - - Started gateway1@3916
+2026/07/21-05:54:12.269 UTC - INFO  -  Processing shutdown request...
+2026/07/21-05:54:12.272 UTC - INFO  -  Shutting down pool...
+2026/07/21-05:54:12.275 UTC - INFO  -  Terminating server: file-repo1@3916
+2026/07/21-05:54:12.277 UTC - INFO  -  Terminating server: microserviceparameterstore1@3916
+2026/07/21-05:54:12.277 UTC - INFO  -  Terminating server: eureka1@3916
+2026/07/21-05:54:12.276 UTC - INFO  -  Terminating server: service_dispatcher1@3916
+2026/07/21-05:54:12.278 UTC - INFO  -  Terminating server: darsi1@3916
+2026/07/21-05:54:12.279 UTC - INFO  -  Terminating server: tcgql1@3916
+2026/07/21-05:54:12.281 UTC - INFO  -  Terminating server: gateway1@3916
+2026/07/21-05:54:13.325 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/22-04:25:12.731 UTC - INFO  - - 062867CAD - - - Starting Service Mananger.
+2026/07/22-04:25:12.746 UTC - INFO  - - 062867CAD - - - Journaling is enabled for ServerManager
+2026/07/22-04:25:12.747 UTC - INFO  - - 062867CAD - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/22-04:25:13.557 UTC - INFO  - - 062867CAD - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/22-04:25:13.604 UTC - INFO  - - 062867CAD - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/22-04:25:13.612 UTC - INFO  - - 062867CAD - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/22-04:25:13.618 UTC - INFO  - - 062867CAD - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/22-04:25:13.624 UTC - INFO  - - 062867CAD - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/22-04:25:13.631 UTC - INFO  - - 062867CAD - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/22-04:25:13.635 UTC - INFO  - - 062867CAD - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/22-04:25:29.081 UTC - INFO  - - 062867CAD - - - Started eureka1@3932
+2026/07/22-04:25:29.459 UTC - INFO  - - 062867CAD - - - Started microserviceparameterstore1@3932
+2026/07/22-04:25:29.526 UTC - INFO  - - 062867CAD - - - Started gateway1@3932
+2026/07/22-04:25:29.782 UTC - INFO  - - 062867CAD - - - Started service_dispatcher1@3932
+2026/07/22-04:25:29.796 UTC - INFO  - - 062867CAD - - - Started tcgql1@3932
+2026/07/22-04:25:29.801 UTC - INFO  - - 062867CAD - - - Started darsi1@3932
+2026/07/22-04:25:29.808 UTC - INFO  - - 062867CAD - - - Started file-repo1@3932
+2026/07/22-09:37:08.124 UTC - INFO  -  Processing shutdown request...
+2026/07/22-09:37:08.135 UTC - INFO  -  Shutting down pool...
+2026/07/22-09:37:08.144 UTC - INFO  -  Terminating server: microserviceparameterstore1@3932
+2026/07/22-09:37:08.145 UTC - INFO  -  Terminating server: gateway1@3932
+2026/07/22-09:37:08.146 UTC - INFO  -  Terminating server: service_dispatcher1@3932
+2026/07/22-09:37:08.195 UTC - INFO  -  Terminating server: tcgql1@3932
+2026/07/22-09:37:08.197 UTC - INFO  -  Terminating server: eureka1@3932
+2026/07/22-09:37:08.198 UTC - INFO  -  Terminating server: darsi1@3932
+2026/07/22-09:37:08.198 UTC - INFO  -  Terminating server: file-repo1@3932
+2026/07/22-09:37:08.820 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/22-09:37:36.932 UTC - INFO  - - 073D89EFD - - - Starting Service Mananger.
+2026/07/22-09:37:36.943 UTC - INFO  - - 073D89EFD - - - Journaling is enabled for ServerManager
+2026/07/22-09:37:36.948 UTC - INFO  - - 073D89EFD - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/22-09:37:37.332 UTC - INFO  - - 073D89EFD - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/22-09:37:37.365 UTC - INFO  - - 073D89EFD - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/22-09:37:37.369 UTC - INFO  - - 073D89EFD - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/22-09:37:37.370 UTC - INFO  - - 073D89EFD - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/22-09:37:37.381 UTC - INFO  - - 073D89EFD - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/22-09:37:37.387 UTC - INFO  - - 073D89EFD - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/22-09:37:37.392 UTC - INFO  - - 073D89EFD - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/22-09:37:52.564 UTC - INFO  - - 073D89EFD - - - Started microserviceparameterstore1@4052
+2026/07/22-09:37:52.568 UTC - INFO  - - 073D89EFD - - - Started gateway1@4052
+2026/07/22-09:37:52.571 UTC - INFO  - - 073D89EFD - - - Started darsi1@4052
+2026/07/22-09:37:53.116 UTC - INFO  - - 073D89EFD - - - Started eureka1@4052
+2026/07/22-09:37:53.123 UTC - INFO  - - 073D89EFD - - - Started tcgql1@4052
+2026/07/22-09:37:53.135 UTC - INFO  - - 073D89EFD - - - Started file-repo1@4052
+2026/07/22-09:37:53.153 UTC - INFO  - - 073D89EFD - - - Started service_dispatcher1@4052
+2026/07/22-10:33:49.149 UTC - INFO  -  Processing shutdown request...
+2026/07/22-10:33:49.151 UTC - INFO  -  Shutting down pool...
+2026/07/22-10:33:49.155 UTC - INFO  -  Terminating server: service_dispatcher1@4052
+2026/07/22-10:33:49.155 UTC - INFO  -  Terminating server: microserviceparameterstore1@4052
+2026/07/22-10:33:49.155 UTC - INFO  -  Terminating server: gateway1@4052
+2026/07/22-10:33:49.155 UTC - INFO  -  Terminating server: eureka1@4052
+2026/07/22-10:33:49.155 UTC - INFO  -  Terminating server: tcgql1@4052
+2026/07/22-10:33:49.155 UTC - INFO  -  Terminating server: darsi1@4052
+2026/07/22-10:33:49.155 UTC - INFO  -  Terminating server: file-repo1@4052
+2026/07/22-10:33:50.191 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/22-13:07:46.847 UTC - INFO  - - 0104CAE03 - - - Starting Service Mananger.
+2026/07/22-13:07:46.862 UTC - INFO  - - 0104CAE03 - - - Journaling is enabled for ServerManager
+2026/07/22-13:07:46.894 UTC - INFO  - - 0104CAE03 - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/22-13:07:47.148 UTC - INFO  - - 0104CAE03 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/22-13:07:47.204 UTC - INFO  - - 0104CAE03 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/22-13:07:47.239 UTC - INFO  - - 0104CAE03 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/22-13:07:47.279 UTC - INFO  - - 0104CAE03 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/22-13:07:47.347 UTC - INFO  - - 0104CAE03 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/22-13:07:47.405 UTC - INFO  - - 0104CAE03 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/22-13:07:47.465 UTC - INFO  - - 0104CAE03 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/22-13:08:02.559 UTC - INFO  - - 0104CAE03 - - - Started eureka1@4864
+2026/07/22-13:08:02.630 UTC - INFO  - - 0104CAE03 - - - Started gateway1@4864
+2026/07/22-13:08:02.740 UTC - INFO  - - 0104CAE03 - - - Started tcgql1@4864
+2026/07/22-13:08:02.865 UTC - INFO  - - 0104CAE03 - - - Started file-repo1@4864
+2026/07/22-13:08:03.053 UTC - INFO  - - 0104CAE03 - - - Started service_dispatcher1@4864
+2026/07/22-13:08:03.511 UTC - INFO  - - 0104CAE03 - - - Started microserviceparameterstore1@4864
+2026/07/22-13:08:04.102 UTC - INFO  - - 0104CAE03 - - - Started darsi1@4864
+2026/07/22-15:30:43.323 UTC - INFO  -  Processing shutdown request...
+2026/07/22-15:30:43.327 UTC - INFO  -  Shutting down pool...
+2026/07/22-15:30:43.340 UTC - INFO  -  Terminating server: gateway1@4864
+2026/07/22-15:30:43.344 UTC - INFO  -  Terminating server: tcgql1@4864
+2026/07/22-15:30:43.344 UTC - INFO  -  Terminating server: darsi1@4864
+2026/07/22-15:30:43.350 UTC - INFO  -  Terminating server: microserviceparameterstore1@4864
+2026/07/22-15:30:43.352 UTC - INFO  -  Terminating server: service_dispatcher1@4864
+2026/07/22-15:30:43.742 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/23-04:57:47.304 UTC - INFO  - - 03D14F5D5 - - - Starting Service Mananger.
+2026/07/23-04:57:47.363 UTC - INFO  - - 03D14F5D5 - - - Journaling is enabled for ServerManager
+2026/07/23-04:57:47.363 UTC - INFO  - - 03D14F5D5 - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/23-04:57:47.793 UTC - INFO  - - 03D14F5D5 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/23-04:57:47.893 UTC - INFO  - - 03D14F5D5 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/23-04:57:47.899 UTC - INFO  - - 03D14F5D5 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/23-04:57:47.905 UTC - INFO  - - 03D14F5D5 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/23-04:57:47.910 UTC - INFO  - - 03D14F5D5 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/23-04:57:47.915 UTC - INFO  - - 03D14F5D5 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/23-04:57:47.919 UTC - INFO  - - 03D14F5D5 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/23-04:58:03.149 UTC - INFO  - - 03D14F5D5 - - - Started eureka1@3988
+2026/07/23-04:58:03.156 UTC - INFO  - - 03D14F5D5 - - - Started gateway1@3988
+2026/07/23-04:58:03.170 UTC - INFO  - - 03D14F5D5 - - - Started tcgql1@3988
+2026/07/23-04:58:03.186 UTC - INFO  - - 03D14F5D5 - - - Started file-repo1@3988
+2026/07/23-04:58:03.191 UTC - INFO  - - 03D14F5D5 - - - Started darsi1@3988
+2026/07/23-04:58:03.200 UTC - INFO  - - 03D14F5D5 - - - Started microserviceparameterstore1@3988
+2026/07/23-04:58:03.208 UTC - INFO  - - 03D14F5D5 - - - Started service_dispatcher1@3988
+2026/07/23-06:26:44.655 UTC - INFO  -  Processing shutdown request...
+2026/07/23-06:26:44.655 UTC - INFO  -  Shutting down pool...
+2026/07/23-06:26:44.661 UTC - INFO  -  Terminating server: darsi1@3988
+2026/07/23-06:26:44.661 UTC - INFO  -  Terminating server: gateway1@3988
+2026/07/23-06:26:44.661 UTC - INFO  -  Terminating server: tcgql1@3988
+2026/07/23-06:26:44.661 UTC - INFO  -  Terminating server: file-repo1@3988
+2026/07/23-06:26:44.662 UTC - INFO  -  Terminating server: microserviceparameterstore1@3988
+2026/07/23-06:26:44.662 UTC - INFO  -  Terminating server: service_dispatcher1@3988
+2026/07/23-06:26:44.662 UTC - INFO  -  Terminating server: eureka1@3988
+2026/07/23-06:26:46.630 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/23-07:45:36.118 UTC - INFO  - - 01AB4774E - - - Starting Service Mananger.
+2026/07/23-07:45:36.135 UTC - INFO  - - 01AB4774E - - - Journaling is enabled for ServerManager
+2026/07/23-07:45:36.172 UTC - INFO  - - 01AB4774E - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/23-07:45:36.446 UTC - INFO  - - 01AB4774E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/23-07:45:36.506 UTC - INFO  - - 01AB4774E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/23-07:45:36.534 UTC - INFO  - - 01AB4774E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/23-07:45:36.558 UTC - INFO  - - 01AB4774E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/23-07:45:36.586 UTC - INFO  - - 01AB4774E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/23-07:45:36.618 UTC - INFO  - - 01AB4774E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/23-07:45:36.640 UTC - INFO  - - 01AB4774E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/23-07:45:51.705 UTC - INFO  - - 01AB4774E - - - Started tcgql1@11740
+2026/07/23-07:45:51.765 UTC - INFO  - - 01AB4774E - - - Started darsi1@11740
+2026/07/23-07:45:51.858 UTC - INFO  - - 01AB4774E - - - Started gateway1@11740
+2026/07/23-07:45:51.934 UTC - INFO  - - 01AB4774E - - - Started microserviceparameterstore1@11740
+2026/07/23-07:45:52.013 UTC - INFO  - - 01AB4774E - - - Started eureka1@11740
+2026/07/23-07:45:52.242 UTC - INFO  - - 01AB4774E - - - Started service_dispatcher1@11740
+2026/07/23-07:45:52.536 UTC - INFO  - - 01AB4774E - - - Started file-repo1@11740
+2026/07/23-15:30:46.340 UTC - INFO  -  Processing shutdown request...
+2026/07/23-15:30:46.342 UTC - INFO  -  Shutting down pool...
+2026/07/23-15:30:46.362 UTC - INFO  -  Terminating server: service_dispatcher1@11740
+2026/07/23-15:30:46.363 UTC - INFO  -  Terminating server: darsi1@11740
+2026/07/23-15:30:46.362 UTC - INFO  -  Terminating server: tcgql1@11740
+2026/07/23-15:30:46.365 UTC - INFO  -  Terminating server: gateway1@11740
+2026/07/23-15:30:46.369 UTC - INFO  -  Terminating server: microserviceparameterstore1@11740
+2026/07/23-15:30:46.369 UTC - INFO  -  Terminating server: eureka1@11740
+2026/07/23-15:30:46.739 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/24-04:27:51.289 UTC - INFO  - - 0B8DC9DAB - - - Starting Service Mananger.
+2026/07/24-04:27:51.301 UTC - INFO  - - 0B8DC9DAB - - - Journaling is enabled for ServerManager
+2026/07/24-04:27:51.302 UTC - INFO  - - 0B8DC9DAB - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/24-04:27:52.177 UTC - INFO  - - 0B8DC9DAB - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/24-04:27:52.345 UTC - INFO  - - 0B8DC9DAB - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/24-04:27:52.392 UTC - INFO  - - 0B8DC9DAB - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/24-04:27:52.410 UTC - INFO  - - 0B8DC9DAB - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/24-04:27:52.437 UTC - INFO  - - 0B8DC9DAB - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/24-04:27:52.466 UTC - INFO  - - 0B8DC9DAB - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/24-04:27:52.485 UTC - INFO  - - 0B8DC9DAB - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/24-04:28:07.743 UTC - INFO  - - 0B8DC9DAB - - - Started file-repo1@4216
+2026/07/24-04:28:07.757 UTC - INFO  - - 0B8DC9DAB - - - Started service_dispatcher1@4216
+2026/07/24-04:28:07.972 UTC - INFO  - - 0B8DC9DAB - - - Started eureka1@4216
+2026/07/24-04:28:07.986 UTC - INFO  - - 0B8DC9DAB - - - Started tcgql1@4216
+2026/07/24-04:28:08.766 UTC - INFO  - - 0B8DC9DAB - - - Started darsi1@4216
+2026/07/24-04:28:08.795 UTC - INFO  - - 0B8DC9DAB - - - Started microserviceparameterstore1@4216
+2026/07/24-04:28:08.805 UTC - INFO  - - 0B8DC9DAB - - - Started gateway1@4216
+2026/07/24-15:30:43.130 UTC - INFO  -  Processing shutdown request...
+2026/07/24-15:30:43.130 UTC - INFO  -  Shutting down pool...
+2026/07/24-15:30:43.132 UTC - INFO  -  Terminating server: tcgql1@4216
+2026/07/24-15:30:43.138 UTC - INFO  -  Terminating server: service_dispatcher1@4216
+2026/07/24-15:30:43.140 UTC - INFO  -  Terminating server: darsi1@4216
+2026/07/24-15:30:43.182 UTC - INFO  -  Terminating server: microserviceparameterstore1@4216
+2026/07/24-15:30:43.186 UTC - INFO  -  Terminating server: gateway1@4216
+2026/07/24-15:30:43.187 UTC - INFO  -  Terminating server: eureka1@4216
+2026/07/24-15:30:43.188 UTC - INFO  -  Terminating server: file-repo1@4216
+2026/07/24-15:30:43.661 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/27-09:49:50.065 UTC - INFO  - - 0580D6856 - - - Starting Service Mananger.
+2026/07/27-09:49:50.101 UTC - INFO  - - 0580D6856 - - - Journaling is enabled for ServerManager
+2026/07/27-09:49:50.104 UTC - INFO  - - 0580D6856 - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/27-09:49:50.814 UTC - INFO  - - 0580D6856 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/27-09:49:50.880 UTC - INFO  - - 0580D6856 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/27-09:49:50.886 UTC - INFO  - - 0580D6856 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/27-09:49:50.890 UTC - INFO  - - 0580D6856 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/27-09:49:50.968 UTC - INFO  - - 0580D6856 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/27-09:49:51.011 UTC - INFO  - - 0580D6856 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/27-09:49:51.033 UTC - INFO  - - 0580D6856 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/27-09:50:06.183 UTC - INFO  - - 0580D6856 - - - Started gateway1@4160
+2026/07/27-09:50:06.195 UTC - INFO  - - 0580D6856 - - - Started service_dispatcher1@4160
+2026/07/27-09:50:06.200 UTC - INFO  - - 0580D6856 - - - Started microserviceparameterstore1@4160
+2026/07/27-09:50:06.207 UTC - INFO  - - 0580D6856 - - - Started darsi1@4160
+2026/07/27-09:50:06.220 UTC - INFO  - - 0580D6856 - - - Started eureka1@4160
+2026/07/27-09:50:06.231 UTC - INFO  - - 0580D6856 - - - Started tcgql1@4160
+2026/07/27-09:50:06.252 UTC - INFO  - - 0580D6856 - - - Started file-repo1@4160
+2026/07/27-15:30:42.998 UTC - INFO  -  Processing shutdown request...
+2026/07/27-15:30:42.998 UTC - INFO  -  Shutting down pool...
+2026/07/27-15:30:42.998 UTC - INFO  -  Terminating server: file-repo1@4160
+2026/07/27-15:30:42.998 UTC - INFO  -  Terminating server: tcgql1@4160
+2026/07/27-15:30:42.998 UTC - INFO  -  Terminating server: eureka1@4160
+2026/07/27-15:30:43.031 UTC - INFO  -  Terminating server: microserviceparameterstore1@4160
+2026/07/27-15:30:43.032 UTC - INFO  -  Terminating server: darsi1@4160
+2026/07/27-15:30:43.037 UTC - INFO  -  Terminating server: gateway1@4160
+2026/07/27-15:30:43.042 UTC - INFO  -  Terminating server: service_dispatcher1@4160
+2026/07/27-15:30:43.527 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/28-04:53:03.647 UTC - INFO  - - 0E641FE4E - - - Starting Service Mananger.
+2026/07/28-04:53:03.898 UTC - INFO  - - 0E641FE4E - - - Journaling is enabled for ServerManager
+2026/07/28-04:53:03.900 UTC - INFO  - - 0E641FE4E - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/28-04:53:04.968 UTC - INFO  - - 0E641FE4E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/28-04:53:05.030 UTC - INFO  - - 0E641FE4E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/28-04:53:05.036 UTC - INFO  - - 0E641FE4E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/28-04:53:05.046 UTC - INFO  - - 0E641FE4E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/28-04:53:05.059 UTC - INFO  - - 0E641FE4E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/28-04:53:05.067 UTC - INFO  - - 0E641FE4E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/28-04:53:05.071 UTC - INFO  - - 0E641FE4E - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/28-04:53:20.487 UTC - INFO  - - 0E641FE4E - - - Started service_dispatcher1@4204
+2026/07/28-04:53:20.491 UTC - INFO  - - 0E641FE4E - - - Started darsi1@4204
+2026/07/28-04:53:20.505 UTC - INFO  - - 0E641FE4E - - - Started eureka1@4204
+2026/07/28-04:53:20.510 UTC - INFO  - - 0E641FE4E - - - Started microserviceparameterstore1@4204
+2026/07/28-04:53:21.311 UTC - INFO  - - 0E641FE4E - - - Started file-repo1@4204
+2026/07/28-04:53:21.585 UTC - INFO  - - 0E641FE4E - - - Started gateway1@4204
+2026/07/28-04:53:21.588 UTC - INFO  - - 0E641FE4E - - - Started tcgql1@4204
+2026/07/28-15:30:46.069 UTC - INFO  -  Processing shutdown request...
+2026/07/28-15:30:46.070 UTC - INFO  -  Shutting down pool...
+2026/07/28-15:30:46.074 UTC - INFO  -  Terminating server: microserviceparameterstore1@4204
+2026/07/28-15:30:46.076 UTC - INFO  -  Terminating server: service_dispatcher1@4204
+2026/07/28-15:30:46.103 UTC - INFO  -  Terminating server: gateway1@4204
+2026/07/28-15:30:46.103 UTC - INFO  -  Terminating server: darsi1@4204
+2026/07/28-15:30:46.101 UTC - INFO  -  Terminating server: tcgql1@4204
+2026/07/28-15:30:46.502 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/28-15:36:14.184 UTC - INFO  - - 0065E4A0C - - - Starting Service Mananger.
+2026/07/28-15:36:14.217 UTC - INFO  - - 0065E4A0C - - - Journaling is enabled for ServerManager
+2026/07/28-15:36:14.218 UTC - INFO  - - 0065E4A0C - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/28-15:36:15.218 UTC - INFO  - - 0065E4A0C - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/28-15:36:15.263 UTC - INFO  - - 0065E4A0C - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/28-15:36:15.273 UTC - INFO  - - 0065E4A0C - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/28-15:36:15.277 UTC - INFO  - - 0065E4A0C - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/28-15:36:15.283 UTC - INFO  - - 0065E4A0C - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/28-15:36:15.289 UTC - INFO  - - 0065E4A0C - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/28-15:36:15.293 UTC - INFO  - - 0065E4A0C - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/28-15:36:30.344 UTC - INFO  - - 0065E4A0C - - - Started eureka1@4420
+2026/07/28-15:36:30.483 UTC - INFO  - - 0065E4A0C - - - Started service_dispatcher1@4420
+2026/07/28-15:36:30.499 UTC - INFO  - - 0065E4A0C - - - Started darsi1@4420
+2026/07/28-15:36:30.554 UTC - INFO  - - 0065E4A0C - - - Started microserviceparameterstore1@4420
+2026/07/28-15:36:30.725 UTC - INFO  - - 0065E4A0C - - - Started tcgql1@4420
+2026/07/28-15:36:30.753 UTC - INFO  - - 0065E4A0C - - - Started gateway1@4420
+2026/07/28-15:36:30.761 UTC - INFO  - - 0065E4A0C - - - Started file-repo1@4420
+2026/07/28-21:30:45.269 UTC - INFO  -  Processing shutdown request...
+2026/07/28-21:30:45.270 UTC - INFO  -  Shutting down pool...
+2026/07/28-21:30:45.278 UTC - INFO  -  Terminating server: service_dispatcher1@4420
+2026/07/28-21:30:45.280 UTC - INFO  -  Terminating server: microserviceparameterstore1@4420
+2026/07/28-21:30:45.291 UTC - INFO  -  Terminating server: gateway1@4420
+2026/07/28-21:30:45.292 UTC - INFO  -  Terminating server: tcgql1@4420
+2026/07/28-21:30:45.293 UTC - INFO  -  Terminating server: darsi1@4420
+2026/07/28-21:30:45.621 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/29-04:22:55.584 UTC - INFO  - - 07C4E6076 - - - Starting Service Mananger.
+2026/07/29-04:22:55.665 UTC - INFO  - - 07C4E6076 - - - Journaling is enabled for ServerManager
+2026/07/29-04:22:55.666 UTC - INFO  - - 07C4E6076 - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/29-04:22:56.454 UTC - INFO  - - 07C4E6076 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/29-04:22:56.656 UTC - INFO  - - 07C4E6076 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/29-04:22:56.692 UTC - INFO  - - 07C4E6076 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/29-04:22:56.697 UTC - INFO  - - 07C4E6076 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/29-04:22:56.710 UTC - INFO  - - 07C4E6076 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/29-04:22:56.739 UTC - INFO  - - 07C4E6076 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/29-04:22:56.743 UTC - INFO  - - 07C4E6076 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/29-04:23:12.818 UTC - INFO  - - 07C4E6076 - - - Started tcgql1@4248
+2026/07/29-04:23:13.272 UTC - INFO  - - 07C4E6076 - - - Started microserviceparameterstore1@4248
+2026/07/29-04:23:13.634 UTC - INFO  - - 07C4E6076 - - - Started service_dispatcher1@4248
+2026/07/29-04:23:14.383 UTC - INFO  - - 07C4E6076 - - - Started eureka1@4248
+2026/07/29-04:23:14.755 UTC - INFO  - - 07C4E6076 - - - Started darsi1@4248
+2026/07/29-04:23:15.301 UTC - INFO  - - 07C4E6076 - - - Started file-repo1@4248
+2026/07/29-04:23:15.321 UTC - INFO  - - 07C4E6076 - - - Started gateway1@4248
+2026/07/29-04:24:41.912 UTC - INFO  -  Processing shutdown request...
+2026/07/29-04:24:41.914 UTC - INFO  -  Shutting down pool...
+2026/07/29-04:24:41.916 UTC - INFO  -  Terminating server: gateway1@4248
+2026/07/29-04:24:41.937 UTC - INFO  -  Terminating server: darsi1@4248
+2026/07/29-04:24:41.938 UTC - INFO  -  Terminating server: service_dispatcher1@4248
+2026/07/29-04:24:41.938 UTC - INFO  -  Terminating server: tcgql1@4248
+2026/07/29-04:24:41.938 UTC - INFO  -  Terminating server: microserviceparameterstore1@4248
+2026/07/29-04:24:42.138 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/29-04:43:26.408 UTC - INFO  - - 060477792 - - - Starting Service Mananger.
+2026/07/29-04:43:26.447 UTC - INFO  - - 060477792 - - - Journaling is enabled for ServerManager
+2026/07/29-04:43:26.448 UTC - INFO  - - 060477792 - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/29-04:43:27.297 UTC - INFO  - - 060477792 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/29-04:43:27.337 UTC - INFO  - - 060477792 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/29-04:43:27.343 UTC - INFO  - - 060477792 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/29-04:43:27.346 UTC - INFO  - - 060477792 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/29-04:43:27.351 UTC - INFO  - - 060477792 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/29-04:43:27.357 UTC - INFO  - - 060477792 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/29-04:43:27.360 UTC - INFO  - - 060477792 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/29-04:43:43.121 UTC - INFO  - - 060477792 - - - Started service_dispatcher1@4340
+2026/07/29-04:43:43.985 UTC - INFO  - - 060477792 - - - Started file-repo1@4340
+2026/07/29-04:43:44.182 UTC - INFO  - - 060477792 - - - Started tcgql1@4340
+2026/07/29-04:43:44.822 UTC - INFO  - - 060477792 - - - Started gateway1@4340
+2026/07/29-04:43:44.962 UTC - INFO  - - 060477792 - - - Started eureka1@4340
+2026/07/29-04:43:44.982 UTC - INFO  - - 060477792 - - - Started darsi1@4340
+2026/07/29-04:43:44.988 UTC - INFO  - - 060477792 - - - Started microserviceparameterstore1@4340
+2026/07/29-15:30:47.888 UTC - INFO  -  Processing shutdown request...
+2026/07/29-15:30:47.890 UTC - INFO  -  Shutting down pool...
+2026/07/29-15:30:47.894 UTC - INFO  -  Terminating server: darsi1@4340
+2026/07/29-15:30:47.895 UTC - INFO  -  Terminating server: gateway1@4340
+2026/07/29-15:30:47.895 UTC - INFO  -  Terminating server: microserviceparameterstore1@4340
+2026/07/29-15:30:47.936 UTC - INFO  -  Terminating server: service_dispatcher1@4340
+2026/07/29-15:30:47.954 UTC - INFO  -  Terminating server: tcgql1@4340
+2026/07/29-15:30:48.492 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/29-16:06:14.628 UTC - INFO  - - 07FD7AE70 - - - Starting Service Mananger.
+2026/07/29-16:06:14.653 UTC - INFO  - - 07FD7AE70 - - - Journaling is enabled for ServerManager
+2026/07/29-16:06:14.653 UTC - INFO  - - 07FD7AE70 - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/29-16:06:15.207 UTC - INFO  - - 07FD7AE70 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/29-16:06:15.298 UTC - INFO  - - 07FD7AE70 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/29-16:06:15.307 UTC - INFO  - - 07FD7AE70 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/29-16:06:15.312 UTC - INFO  - - 07FD7AE70 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/29-16:06:15.319 UTC - INFO  - - 07FD7AE70 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/29-16:06:15.325 UTC - INFO  - - 07FD7AE70 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/29-16:06:15.330 UTC - INFO  - - 07FD7AE70 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/29-16:06:30.693 UTC - INFO  - - 07FD7AE70 - - - Started file-repo1@4444
+2026/07/29-16:06:30.946 UTC - INFO  - - 07FD7AE70 - - - Started tcgql1@4444
+2026/07/29-16:06:31.079 UTC - INFO  - - 07FD7AE70 - - - Started eureka1@4444
+2026/07/29-16:06:31.453 UTC - INFO  - - 07FD7AE70 - - - Started service_dispatcher1@4444
+2026/07/29-16:06:31.750 UTC - INFO  - - 07FD7AE70 - - - Started gateway1@4444
+2026/07/29-16:06:32.069 UTC - INFO  - - 07FD7AE70 - - - Started microserviceparameterstore1@4444
+2026/07/29-16:06:32.890 UTC - INFO  - - 07FD7AE70 - - - Started darsi1@4444
+2026/07/29-16:34:21.628 UTC - INFO  -  Processing shutdown request...
+2026/07/29-16:34:21.628 UTC - INFO  -  Shutting down pool...
+2026/07/29-16:34:21.638 UTC - INFO  -  Terminating server: gateway1@4444
+2026/07/29-16:34:21.639 UTC - INFO  -  Terminating server: service_dispatcher1@4444
+2026/07/29-16:34:21.644 UTC - INFO  -  Terminating server: tcgql1@4444
+2026/07/29-16:34:21.644 UTC - INFO  -  Terminating server: microserviceparameterstore1@4444
+2026/07/29-16:34:21.645 UTC - INFO  -  Terminating server: darsi1@4444
+2026/07/29-16:34:21.923 UTC - INFO  -  Server Pool Manager has been shutdown normally.
+2026/07/30-05:37:02.937 UTC - INFO  - - 0D4C96874 - - - Starting Service Mananger.
+2026/07/30-05:37:02.974 UTC - INFO  - - 0D4C96874 - - - Journaling is enabled for ServerManager
+2026/07/30-05:37:02.975 UTC - INFO  - - 0D4C96874 - - - Found pool configuration file: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\process_manager\serverPool.properties
+2026/07/30-05:37:04.016 UTC - INFO  - - 0D4C96874 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\darsi.json
+2026/07/30-05:37:04.108 UTC - INFO  - - 0D4C96874 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\eureka.json
+2026/07/30-05:37:04.116 UTC - INFO  - - 0D4C96874 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\file-repo.json
+2026/07/30-05:37:04.125 UTC - INFO  - - 0D4C96874 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\gateway.json
+2026/07/30-05:37:04.147 UTC - INFO  - - 0D4C96874 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\microserviceparameterstore.json
+2026/07/30-05:37:04.162 UTC - INFO  - - 0D4C96874 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\service_dispatcher.json
+2026/07/30-05:37:04.173 UTC - INFO  - - 0D4C96874 - - - Loading services configuration from D:\PLM\Siemens\Teamcenter2506\TC_ROOT\microservices\services_config\tcgql.json
+2026/07/30-05:37:19.379 UTC - INFO  - - 0D4C96874 - - - Started service_dispatcher1@4232
+2026/07/30-05:37:19.381 UTC - INFO  - - 0D4C96874 - - - Started tcgql1@4232
+2026/07/30-05:37:19.390 UTC - INFO  - - 0D4C96874 - - - Started gateway1@4232
+2026/07/30-05:37:19.398 UTC - INFO  - - 0D4C96874 - - - Started file-repo1@4232
+2026/07/30-05:37:19.407 UTC - INFO  - - 0D4C96874 - - - Started microserviceparameterstore1@4232
+2026/07/30-05:37:19.414 UTC - INFO  - - 0D4C96874 - - - Started eureka1@4232
+2026/07/30-05:37:19.418 UTC - INFO  - - 0D4C96874 - - - Started darsi1@4232
