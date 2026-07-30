@@ -1,0 +1,391 @@
+2026/07/08-05:52:36.000 UTC - INFO  - Teamcenter.libsyss                       - 067A89EA8 - - - *** C:\Users\IDC-ADMIN\Siemens\logs\Teamcenter\ServerManagers\TcCluster\PoolA\TcServer\tcserver.exe2cbcb256.syslog
+2026/07/08-05:52:36.000 UTC - INFO  - Teamcenter.libsyss                       - 067A89EA8 - - - *** system log created by IDC-ADMIN on Wed Jul  8 05:52:36 2026 Coordinated Universal Time
+2026/07/08-05:52:36.000 UTC - INFO  - Teamcenter.libsyss                       - 067A89EA8 - - - Node Name    :- tc-dev-tc
+2026/07/08-05:52:36.000 UTC - INFO  - Teamcenter.libsyss                       - 067A89EA8 - - - Machine type :- x64 Level 6 Revision 05507
+2026/07/08-05:52:36.000 UTC - INFO  - Teamcenter.libsyss                       - 067A89EA8 - - - OS User      :- IDC-ADMIN 
+2026/07/08-05:52:36.000 UTC - INFO  - Teamcenter.libsyss                       - 067A89EA8 - - - OS           :- Windows NT 10.0 Windows Server 2019 Datacenter (Build 17763) 
+2026/07/08-05:52:36.000 UTC - INFO  - Teamcenter.libsyss                       - 067A89EA8 - - - # Processors :- 4
+2026/07/08-05:52:36.000 UTC - INFO  - Teamcenter.libsyss                       - 067A89EA8 - - - Memory       :- 32297Mb
+2026/07/08-05:52:36.000 UTC - INFO  - Teamcenter.libsyss                       - 067A89EA8 - - - Total Swap   :- 37161Mb
+2026/07/08-05:52:36.000 UTC - INFO  - Teamcenter.libsyss                       - 067A89EA8 - - - Free  Swap   :- 18681Mb
+2026/07/08-05:52:36.000 UTC - INFO  - Teamcenter.libsyss                       - 067A89EA8 - - - Machine supports 4G address space
+2026/07/08-05:52:36.000 UTC - INFO  - Teamcenter.libsyss                       - 067A89EA8 - - - Running customer environment
+2026/07/08-05:52:36.490 UTC - INFO  - Root                                     - 067A89EA8 - - - logger properties file found at D:\PLM\Siemens\Teamcenter2506\tc_data\logger.properties
+2026/07/08-05:52:36.507 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - - - TC_VERSION_STRING=V2506.0003.2025090600 at E:/udu/tc25060003_1011105wn/src/foundation/pom/sss/sss_utils.cxx(448)
+2026/07/08-05:52:36.507 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - - - TcCrypto initialized to DOMESTIC mode at E:/udu/tc25060003_1011105wn/src/foundation/pom/fss/fss_init.cxx(130)
+2026/07/08-05:52:36.507 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - - - OpenSSL Version: OpenSSL 3.0.16 11 Feb 2025 at E:/udu/tc25060003_1011105wn/src/foundation/pom/fss/fss_init.cxx(327)
+2026/07/08-05:52:36.507 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - - - OpenSSL Provider loaded: "default" at E:/udu/tc25060003_1011105wn/src/foundation/pom/fss/fss_init.cxx(331)
+2026/07/08-05:52:36.509 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - - - OpenSSL Supported Ciphers: AES-256-CCM AES-128-OFB AES-128-ECB ARIA-256-CBC AES-256-GCM ARIA-128-GCM SM4-ECB AES-192-CFB ARIA-256-ECB CAMELLIA-128-CBC AES-128-WRAP DES3-WRAP CAMELLIA-128-CTR SM4-OFB CAMELLIA-192-CFB ARIA-256-CCM AES-128-XTS ARIA-256-GCM AES-128-CFB AES-128-GCM AES-256-CBC DES-EDE3-CBC CAMELLIA-256-CFB CAMELLIA-128-CFB CAMELLIA-192-ECB AES-256-WRAP AES-192-CCM ARIA-192-ECB AES-256-OFB CAMELLIA-192-CTR AES-256-CFB AES-128-CCM AES-192-GCM AES-128-WRAP-PAD ARIA-128-CTR AES-256-ECB ARIA-128-OFB ARIA-256-CFB ARIA-192-GCM CAMELLIA-128-ECB CAMELLIA-192-CBC AES-192-CBC ARIA-192-CBC AES-192-ECB ARIA-128-CFB ARIA-256-CTR SM4-CBC AES-256-WRAP-PAD AES-192-WRAP SM4-CTR CAMELLIA-192-OFB AES-128-CBC CAMELLIA-256-OFB CAMELLIA-256-CBC SM4-CFB ARIA-128-CBC CAMELLIA-128-OFB ARIA-192-CCM ARIA-256-OFB CAMELLIA-256-CTR DES-EDE-ECB AES-192-OFB ARIA-192-CTR CAMELLIA-256-ECB ARIA-128-ECB ARIA-192-CFB ARIA-192-OFB ARIA-128-CCM AES-256-XTS AES-192-WRAP-PAD NULL AES-128-CBC-CTS AES-192-CBC-CTS AES-256-CBC-CTS AES-256-CFB1 AES-192-CFB1 AES-128-CFB1 AES-256-CFB8 AES-192-CFB8 AES-128-CFB8 AES-256-CTR AES-192-CTR AES-128-CTR AES-256-OCB AES-192-OCB AES-128-OCB AES-128-SIV AES-192-SIV AES-256-SIV AES-256-WRAP-INV AES-192-WRAP-INV AES-128-WRAP-INV AES-256-WRAP-PAD-INV AES-192-WRAP-PAD-INV AES-128-WRAP-PAD-INV ARIA-256-CFB1 ARIA-192-CFB1 ARIA-128-CFB1 ARIA-256-CFB8 ARIA-192-CFB8 ARIA-128-CFB8 CAMELLIA-128-CBC-CTS CAMELLIA-192-CBC-CTS CAMELLIA-256-CBC-CTS CAMELLIA-256-CFB1 CAMELLIA-192-CFB1 CAMELLIA-128-CFB1 CAMELLIA-256-CFB8 CAMELLIA-192-CFB8 CAMELLIA-128-CFB8 DES-EDE3-ECB DES-EDE3-OFB DES-EDE3-CFB DES-EDE3-CFB8 DES-EDE3-CFB1 DES-EDE-CBC DES-EDE-OFB DES-EDE-CFB ChaCha20 ChaCha20-Poly1305 at E:/udu/tc25060003_1011105wn/src/foundation/pom/fss/fss_init.cxx(336)
+2026/07/08-05:52:36.510 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - - - OpenSSL Supported Digests: SHA3-512 SM3 BLAKE2S-256 SHA3-256 SHA3-224 SHA2-384 SHA2-512 SHA2-512/224 SHAKE-256 SHA2-256 SHA1 SHA3-384 SHAKE-128 MD5-SHA1 RIPEMD-160 MD5 SHA2-224 BLAKE2B-512 SHA2-512/256 NULL KECCAK-KMAC-128 KECCAK-KMAC-256 at E:/udu/tc25060003_1011105wn/src/foundation/pom/fss/fss_init.cxx(340)
+2026/07/08-05:52:36.510 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - - - OpenSSL Supported MACs: BLAKE2BMAC BLAKE2SMAC CMAC GMAC HMAC KMAC-128 KMAC-256 SIPHASH POLY1305 at E:/udu/tc25060003_1011105wn/src/foundation/pom/fss/fss_init.cxx(345)
+2026/07/08-05:52:36.510 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - - - OpenSSL Supported KDFs: HKDF TLS13-KDF SSKDF PBKDF2 PKCS12KDF SSHKDF X963KDF TLS1-PRF KBKDF X942KDF-ASN1 SCRYPT KRB5KDF at E:/udu/tc25060003_1011105wn/src/foundation/pom/fss/fss_init.cxx(350)
+2026/07/08-05:52:36.510 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - - - OpenSSL Supported Key Exchange List: DH X25519 X448 HKDF TLS1-PRF SCRYPT ECDH at E:/udu/tc25060003_1011105wn/src/foundation/pom/fss/fss_init.cxx(355)
+2026/07/08-05:52:36.510 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - - - OpenSSL Supported Signature Algorithms: RSA DSA ED25519 ED448 SM2 CMAC HMAC SIPHASH POLY1305 ECDSA at E:/udu/tc25060003_1011105wn/src/foundation/pom/fss/fss_init.cxx(360)
+2026/07/08-05:52:36.510 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - - - OpenSSL Supported Asymmetric Cipher Algorithms: RSA SM2 at E:/udu/tc25060003_1011105wn/src/foundation/pom/fss/fss_init.cxx(364)
+2026/07/08-05:52:36.511 UTC - INFO  - Teamcenter.CoreModelGeneral.tcinit       - 067A89EA8 - INITIALIZE.LOG_ENVIRONMENT - - Logging TC Environment variables: at E:/udu/tc25060003_1011105wn/src/core/tcinit/TC_Init_functions.cxx(2658)
+TC environment variables:
+    TC_AUTONOMY_KIT=0
+    TC_BIN=D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin
+    TC_BUILD_DATE=25060003
+    TC_CHARACTER_ENCODING_SET=UTF8
+    TC_DATA=D:\PLM\Siemens\Teamcenter2506\tc_data
+    TC_DATA_MODEL=D:\PLM\Siemens\Teamcenter2506\tc_data\model
+    TC_DB_CONNECT=admin:@ORCL
+    TC_DB_PLATFORM=ORACLE
+    TC_DB_SERVER=tcdatabase.cenusuieu4d5.us-east-1.rds.amazonaws.com
+    TC_DISABLE_FLASH=true
+    TC_DO_LEGACY_LOG_MESSAGE=false
+    TC_DS_HASH_ALGORITHMS=SHA256,SHA224,SHA386,SHA512
+    TC_EXIT_FOR_POOL=1
+    TC_HELP_FILE=D:\PLM\Siemens\Teamcenter2506\TC_ROOT\web\htdocs\tchelp\tchelp.hlp
+    TC_HTDOCS=D:\PLM\Siemens\Teamcenter2506\TC_ROOT\web\htdocs
+    TC_INCLUDE=D:\PLM\Siemens\Teamcenter2506\TC_ROOT\include
+    TC_INDEXING_ENGINE_PASSWORD_FILE=D:\PLM\Siemens\Teamcenter2506\TC_ROOT\security\solr_admin.pwf
+    TC_INDEXING_ENGINE_USER=solr_admin
+    TC_INSTALL_DIR=D:\PLM\Siemens\Teamcenter2506\TC_ROOT\install
+    TC_JRE_HOME=D:\PLM\Java\jdk
+    TC_language_default=en_US
+    TC_LIBRARY=D:\PLM\Siemens\Teamcenter2506\TC_ROOT\lib
+    TC_LOG=D:\PLM\Siemens\Teamcenter2506\tc_data\log_tcdatabase.cenusuieu4d5.us-east-1.rds.amazonaws.com_ORCL
+    TC_LOGGER_CONFIGURATION=D:\PLM\Siemens\Teamcenter2506\tc_data
+    TC_LOG_VOLUME_DIR=C:\Users\IDC-ADMIN\Siemens\logs\Teamcenter\ServerManagers\TcCluster\PoolA\
+    TC_MESSAGING_MUX_URL=http://TC-DEV-TC:8087
+    TC_MSG_ROOT=D:\PLM\Siemens\Teamcenter2506\TC_ROOT\lang\textserver
+    TC_NX_DEFAULT_PART=D:\PLM\Siemens\Teamcenter2506\tc_data\blank_english.prt
+    TC_PERL=D:\PLM\Siemens\Teamcenter2506\TC_ROOT\perl\bin\perl.exe
+    TC_PERL_BIN=D:\PLM\Siemens\Teamcenter2506\TC_ROOT\perl\bin
+    TC_PRINTER=lpr.exe
+    TC_ROOT=D:\PLM\Siemens\Teamcenter2506\TC_ROOT
+    TC_SHARED_MEMORY_DIR=C:\Users\IDC-ADMIN\AppData\Local\Temp
+    TC_TMP_DIR=C:\Users\IDC-ADMIN\AppData\Local\Temp
+    TC_TRACEBACK=OFF
+    TC_USER_TOOLS=D:\PLM\Siemens\Teamcenter2506\TC_ROOT\local\tools
+    TC_USE_KEYMANAGER=false
+    TC_USE_MGMT_CHANNEL=true
+    TC_USE_PREFS_SHARED_MEMORY=FALSE
+    TC_XML_ENCODING=UTF-8
+    SIEMENS_LOGGING_ROOT=C:\Users\IDC-ADMIN\Siemens\logs
+    FOSS_REPOSITORY_HOME=D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo
+    POM_SCHEMA=D:\PLM\Siemens\Teamcenter2506\tc_data\pom_schema_tcdatabase.cenusuieu4d5.us-east-1.rds.amazonaws.com_ORCL
+    POM_TRANSMIT_DIR=D:\PLM\Siemens\Teamcenter2506\tc_data\pom_transmit
+    ORACLE_SID=ORCL
+    ORA_NLS33=D:\PLM\Siemens\Teamcenter2506\TC_ROOT\nls\data
+    TNS_ADMIN=D:\PLM\Siemens\Teamcenter2506\tc_data
+    FMS_HOME=D:\PLM\Siemens\Teamcenter2506\TC_ROOT\tccs
+    POM_SCHEMA=D:\PLM\Siemens\Teamcenter2506\tc_data\pom_schema_tcdatabase.cenusuieu4d5.us-east-1.rds.amazonaws.com_ORCL
+    UGII_LICENSE_FILE=28000@52.168.151.85
+    UGII_UTF8_MODE=1
+    SPLM_LICENSE_SERVER=28000@52.168.151.85
+    XBMLANGPATH=D:\PLM\Siemens\Teamcenter2506\tc_data\bitmaps\%B
+    XFILESEARCHPATH=D:\PLM\Siemens\Teamcenter2506\tc_data\bitmaps\%N\;D:\PLM\Siemens\Teamcenter2506\tc_data\%N%S
+    XBMLANGPATH=D:\PLM\Siemens\Teamcenter2506\tc_data\bitmaps\%B
+    VAULT_TLS_ROOT=D:\PLM\Siemens\Teamcenter2506\TC_ROOT\tc_vault_tls
+    Path=D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin;D:\PLM\Java\jdk\bin\client;D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fsc\lib;D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fsc;D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\7zip\24.09.a;D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\cURL\tc_curl.15.20241221.00\libvc17;D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\gnu\2.0\bin;D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\InfoZIP\5.32;D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\MicrosoftNETCoreAppHost\6.0.2\lib;D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\Oracle\19.3.0.0.0\bin;D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\poco\1.13.2_2506.20250219.00\libvc17;D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\SALT\4.3.0\bin;D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\SALT\4.3.0\lib;D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\tao\2.2a.p8_v15\libvc17;D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\TcCrypto\6.0.16b\bin_x64_vc17_cpp20;D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\XMLTools\2.2.0_1\lib_x64_vc17_cpp20;D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\z3\4.12.6\bin;D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\Zip\2.0.0\libvc14;D:\PLM\Java\jdk\bin;D:\PLM\Java\jdk\bin\server;D:\PLM\Java\jdk\bin;D:\PLM\Java\jdk\jre\bin;D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin;C:\Windows\system32;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Amazon\cfn-bootstrap\;C:\Program Files\OpenSSL-Win64\bin;C:\Users\IDC-ADMIN\AppData\Local\Microsoft\WindowsApps;D:\PLM\Siemens\Teamcenter2506\tc_data\t2cmigration;D:\PLM\Siemens\Teamcenter2506\TC_ROOT\tccs\bin;D:\PLM\Siemens\Teamcenter2506\TC_ROOT\tccs\lib;D:\PLM\Siemens\Teamcenter2506\TC_ROOT\tccs
+    PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+2026/07/08-05:52:36.513 UTC - INFO  - Teamcenter.CoreModelGeneral.tcinit       - 067A89EA8 - INITIALIZE.LOG_ENVIRONMENT - - Logging libraries: at E:/udu/tc25060003_1011105wn/src/core/tcinit/TC_Init_functions.cxx(2706)
+=====================
+Versions of DLLs are:
+=====================
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\tcserver.exe 2506.0003(2025090600) 7ff613090000 1e000 7f847a21-4a58443e-7e232b80-226ae1f4-1=tcserver___2025090707030233 07-Sep-2025 1:33
+    C:\Windows\SYSTEM32\ntdll.dll                    10.0.17763.6292  7fff308d0000 1ee000 c1da634c-e3c8bf96-bbf210dd-6317d0fc-1 27-Apr-2026 7:7
+    C:\Windows\System32\KERNEL32.DLL                 10.0.17763.8276  7fff2dff0000 b3000 1133e469-1cec7a5d-e433b53f-30b553f3-1 27-Apr-2026 7:7
+    C:\Windows\System32\KERNELBASE.dll               10.0.17763.8276  7fff2d580000 29e000 3ead0744-833b9a06-f2a68612-46c5ee1a-1 27-Apr-2026 7:7
+    C:\Windows\System32\ucrtbase.dll                 10.0.17763.8641  7fff2cb60000 fa000 263ca8a1-1c0ab184-5eda18c4-cbde59d4-1 27-Apr-2026 7:7
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libsyss.dll tc_syss.2506.20250331.00 7fff19470000 29d000 74e02a25-4bd0af3b-1aadaa0-605b4b6a-1=libsyss___174344298164 31-Mar-2025 17:43
+    C:\Windows\System32\ADVAPI32.dll                 10.0.17763.1     7fff2ff00000 a9000 ddc96338-ffd09adc-5ddc842-1586ac24-1 12-Oct-2025 20:55
+    C:\Windows\System32\msvcrt.dll                   7.0.17763.8641   7fff30730000 9e000 c59e82b6-dc47ffaf-f375b69a-4abbac70-1 27-Apr-2026 7:7
+    C:\Windows\System32\sechost.dll                  10.0.17763.8276  7fff2e0b0000 a2000 789abd93-16e4c1ad-90917daf-a8931bfb-1 27-Apr-2026 7:7
+    C:\Windows\System32\RPCRT4.dll                   10.0.17763.8276  7fff2e1b0000 11a000 b1cedf04-bd6531d8-d3e743d7-ef848ff0-1 27-Apr-2026 7:7
+    C:\Windows\System32\bcrypt.dll                   10.0.17763.1     7fff2d550000 26000 bbf84910-99ef87c1-ac77bf60-a2a7c895-1 27-Apr-2026 7:7
+    C:\Windows\System32\USER32.dll                   10.0.17763.1     7fff2e390000 197000 2097c08b-c29a57b0-54aab2c9-efc50c85-1 27-Apr-2026 7:7
+    C:\Windows\System32\win32u.dll                   10.0.17763.8641  7fff2c920000 20000 46d0ae19-141f4a8e-944d90d1-dd40add8-1 27-Apr-2026 7:7
+    C:\Windows\System32\GDI32.dll                    10.0.17763.8510  7fff2fe70000 29000 55085299-f9a22cbb-b45ed82b-483c233b-1 27-Apr-2026 7:7
+    C:\Windows\System32\gdi32full.dll                10.0.17763.8641  7fff2d890000 1ac000 2e464dab-4121017b-36ebb4a2-daa57e2-1 27-Apr-2026 7:7
+    C:\Windows\System32\msvcp_win.dll                10.0.17763.8641  7fff2cc60000 a0000 fe556b7a-335f0b1e-72e0ee45-5d355bec-1 27-Apr-2026 7:7
+    C:\Windows\System32\ole32.dll                    10.0.17763.2213  7fff30240000 158000 9c18cbed-f85e4668-aa6178d4-2a14ac36-1 27-Apr-2026 7:7
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\poco\1.13.2_2506.20250219.00\libvc17\libpoco.dll tc_curl.2506.20250219.00 7fff181b0000 4fc000 dd71676c-4e60187c-a60aac81-c30af2a4-1=libpoco___173996154064 19-Feb-2025 10:39
+    C:\Windows\System32\combase.dll                  10.0.17763.2145  7fff303a0000 32b000 46952ee8-4b4198c7-cfba66b6-d5ed9526-1 27-Apr-2026 7:7
+    C:\Windows\System32\bcryptPrimitives.dll         10.0.17763.8641  7fff2da60000 82000 55d6fceb-8dbd2853-da7720b9-130c8d43-1 27-Apr-2026 7:7
+    C:\Windows\System32\OLEAUT32.dll                 10.0.17763.8641  7fff2fb00000 c4000 f557724b-d74475f0-87330b0c-2b567001-1 27-Apr-2026 7:7
+    C:\Windows\System32\WS2_32.dll                   10.0.17763.2028  7fff307d0000 6d000 dc63880-3743769c-19f3cd21-bd34c30d-1 27-Apr-2026 7:7
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libmld.dll 2506.0003(2025090600) 7fff14df0000 115000 1e0bb964-426d2356-4ac377ad-ac39edab-1=libmld___2025090704371320 06-Sep-2025 23:7
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libsa.dll 2506.0003(2025090600) 7fff12d10000 751000 b5c5d30c-4ed62a16-3f5714bc-db5a4810-1=libsa___2025090704550876 06-Sep-2025 23:25
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libss.dll 2506.0003(2025090600) 7fff15cc0000 33000 2ccc5345-4202212f-a52fa98d-d67e3ac-1=libss___2025090704573042 06-Sep-2025 23:27
+    C:\Windows\System32\SHELL32.dll                  10.0.10586       7fff2e5e0000 14f9000 8d3aad5e-5a20e172-f17676ac-98a7b28f-1 27-Apr-2026 7:7
+    C:\Windows\System32\cfgmgr32.dll                 10.0.17763.1     7fff2d500000 4a000 45f7473d-d1ec366f-6e1c59f7-b1d43042-1 15-Sep-2018 7:12
+    C:\Windows\System32\shcore.dll                   10.0.17763.1     7fff2e2d0000 a8000 c0983b9d-3d58ff1-51e6c2a0-8c3f59ac-1 27-Apr-2026 7:7
+    C:\Windows\System32\windows.storage.dll          10.0.17763.1     7fff2cdb0000 749000 a0d91270-f33b9246-947fe8c0-8bbc2caf-1 27-Apr-2026 7:7
+    C:\Windows\System32\profapi.dll                  10.0.17763.2989  7fff2c8d0000 23000 1cfc8073-fbb19b90-51b020c5-8280864-1 23-Nov-2022 5:7
+    C:\Windows\System32\powrprof.dll                 10.0.17763.1     7fff2c870000 5d000 15f6245-5a2de460-5b52f3d7-a2479aa1-1 15-Sep-2018 7:12
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libnls.dll 2506.0003(2025090600) 7fff22870000 10000 d143eb57-413390b5-66581090-af8f2594-1=libnls___2025090704375887 06-Sep-2025 23:8
+    C:\Windows\System32\shlwapi.dll                  10.0.10586       7fff30840000 56000 24a1421b-41463e72-1cd9bb1b-92d6448f-1 27-Apr-2026 7:7
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libtc.dll 2506.0003(2025090600) 7fff186b0000 3a0000 9237f5b1-48498864-7f03ed93-d2315af0-1=libtc___2025090704553146 06-Sep-2025 23:27
+    C:\Windows\System32\kernel.appcore.dll           10.0.17763.1     7fff2c850000 11000 aac9df75-1c9f8360-b806766e-d94ccd9f-1 15-Sep-2018 7:12
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libtcinit.dll 2506.0003(2025090600) 7fff15d00000 37000 6f6af62-4c39c1fb-ead97d98-9f4b361f-1=libtcinit___2025090704573618 06-Sep-2025 23:29
+    C:\Windows\System32\cryptsp.dll                  10.0.17763.8641  7fff2da40000 1b000 670a23f8-7fd4e411-d864bf16-e0d0b1e3-1 27-Apr-2026 7:7
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libtcsoadispatch.dll 2506.0003(2025090600) 7fff03e20000 cb000 4f6ccb3a-486f2f4e-600517a6-7692f42c-1=libtcsoadispatch___2025090706445852 07-Sep-2025 1:16
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libtcsoaserver.dll 2506.0003(2025090600) 7fff109e0000 8c000 afb5921f-4d16435f-9cd1d29e-9ead05df-1=libtcsoaserver___2025090704401944 06-Sep-2025 23:11
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libtccoresvc.dll 2506.0003(2025090600) 7fff12510000 58000 12af9722-4c47c5a7-f6aadfb4-1911ff06-1=libtccoresvc___2025090706475136 07-Sep-2025 1:18
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libtcsoaadministration.dll 2506.0003(2025090600) 7fff03d00000 11e000 20d2b3ef-41951c8c-665b9a82-12722764-1=libtcsoaadministration___2025090705230820 06-Sep-2025 23:56
+    C:\Windows\SYSTEM32\VCRUNTIME140_1.dll           14.51.36247.0    7fff1de30000 c000 9aea08d0-d5553bc4-8bb20b68-92ed9668-1=vcruntime140_1.amd64 27-May-2026 4:59
+    C:\Windows\SYSTEM32\VCRUNTIME140.dll             14.51.36247.0    7fff1de00000 2c000 372a71f2-d8e00351-56eadd3f-38f2b7aa-1=vcruntime140.amd64 27-May-2026 4:59
+    C:\Windows\SYSTEM32\MSVCP140.dll                 14.51.36247.0    7fff1d2c0000 9d000 81a826a7-36d16053-217adaa2-aa48aa00-1=msvcp140.amd64 27-May-2026 4:59
+    C:\Windows\SYSTEM32\MSWSOCK.dll                  10.0.17763.1     7fff2c000000 67000 dcdc0d8c-c7580aa2-e5adeb63-9c036677-1 12-Oct-2025 20:55
+    C:\Windows\SYSTEM32\IPHLPAPI.DLL                 10.0.17763.1     7fff2bcf0000 3d000 ec8fd22b-edd32a33-db82a452-b65617cc-1 27-Apr-2026 7:7
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libbase_utils.dll 2506.0003(2025090600) 7fff1a4e0000 8b000 2fea7a0c-40afdb35-a45cd6b6-5a799f95-1=libbase_utils___2025090704355920 06-Sep-2025 23:7
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\cURL\tc_curl.15.20241221.00\libvc17\libtccurl.dll tc_curl.15.20241221.00 7fff15ef0000 98000 37d91f09-4ec38138-21d70c9a-eac4e080-1=libtccurl___173485796664 22-Dec-2024 8:59
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libtclogging.dll 2506.0003(2025090600) 7fff14370000 2c000 3e15bdd-4362e7cb-b043c18b-e5d6e3d8-1=libtclogging___2025090704254807 06-Sep-2025 22:56
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\XMLTools\2.2.0_1\lib_x64_vc17_cpp20\xerces325_X_22.dll                  7fff17cd0000 2a9000 0-0-0-0-0 12-Sep-2024 10:25
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\TcCrypto\6.0.16b\bin_x64_vc17_cpp20\TcCrypto60.dll 6.0.16           7fff16870000 3b0000 66372a44-46d23d2b-20196b86-8da5b32b-1 22-Mar-2025 0:18
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\TcCrypto\6.0.16b\bin_x64_vc17_cpp20\TcCryptoUtil60.dll 6.0.0            7fff1e990000 12000 9abcae6-4914a57a-b40bf1a5-a0454d5c-1 22-Mar-2025 0:18
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\XMLTools\2.2.0_1\lib_x64_vc17_cpp20\icuuc72_X_22.dll 72, 1, 0, 0      7fff17f80000 22e000 3ff08bb3-41a52343-5bd73998-5eea1195-1 12-Sep-2024 10:25
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libcxpom.dll 2506.0003(2025090600) 7fff17bd0000 ff000 b0dd7b2-4c2ebe7b-26239e97-dc0a7f82-1=libcxpom___2025090704552767 06-Sep-2025 23:26
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libfclasses.dll 2506.0003(2025090600) 7fff19340000 122000 2daeb1c3-4954e135-4d07dfaf-9c9485f8-1=libfclasses___2025090704550837 06-Sep-2025 23:25
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libtccore.dll 2506.0003(2025090600) 7fff16cf0000 ed2000 8a01cd8e-487cdb50-19e2debd-bf8ca4e3-1=libtccore___2025090705020951 06-Sep-2025 23:32
+    C:\Windows\SYSTEM32\MPR.dll                      10.0.17763.1     7fff21f80000 1b000 8688c2cc-b4073ca5-7a5409c4-445a6332-1 21-Apr-2019 6:44
+    C:\Windows\SYSTEM32\VERSION.dll                  10.0.17763.1     7fff22fe0000 a000 7623dba3-99a248c7-c2238383-ec27d2d5-1 15-Sep-2018 7:12
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libpom.dll 2506.0003(2025090600) 7fff18a50000 8e8000 96bda441-4890274a-efec8a3-99f40e93-1=libpom___2025090704382061 06-Sep-2025 23:9
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libugmath.dll tc_syss.2506.20250331.00 7fff16620000 a3000 2f06a69c-42493e0c-2a116eb1-131a75f8-1=libugmath___174344299064 31-Mar-2025 17:43
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libtcsso.dll TcSS2506.20250626.00 7fff16c20000 c7000 a66247e5-414bdf1d-1a3668a4-fe49917e-1 26-Jun-2025 8:57
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libfoundationbase.dll 2506.0003(2025090600) 7fff1ad70000 29000 b2e58768-4b7c3b77-d1954b96-8e1d7387-1=libfoundationbase___2025090704380491 06-Sep-2025 23:8
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libtcsoacommon.dll 2506.0003(2025090600) 7fff15fe0000 312000 43715a62-4122a3e2-4c9970a7-9b862f3a-1=libtcsoacommon___2025090704254808 06-Sep-2025 22:58
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libtcsoaclientmngd.dll 2506.0003(2025090600) 7fff14f10000 c55000 1a01f44a-4f68aab0-670d6589-138e6325-1=libtcsoaclientmngd___2025090704374925 06-Sep-2025 23:9
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libtcsoaserverimpl.dll 2506.0003(2025090600) 7fff030f0000 c1000 960e3e44-4f9083f5-b4817493-b0e20058-1=libtcsoaserverimpl___2025090706090955 07-Sep-2025 0:40
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libtctp.dll 2506.0003(2025090600) 7fff15f90000 4a000 761382a3-42808331-7b853bbd-fecbaf3d-1=libtctp___2025090704360052 06-Sep-2025 23:7
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libtcxsd.dll 2506.0003(2025090600) 7fff13890000 4a000 310ef6f8-4c404350-ec6405af-a07ff894-1=libtcxsd___2025090704371456 06-Sep-2025 23:7
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libbob.dll 2506.0003(2025090600) 7ffefd550000 19e000 6077a710-49065fdd-c6facba7-df8b16fd-1=libbob___2025090704553906 06-Sep-2025 23:27
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libbom.dll 2506.0003(2025090600) 7ffefd8f0000 9c4000 77927049-4a274fd0-54f3838c-b819fc16-1=libbom___2025090704552300 06-Sep-2025 23:29
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libmeta.dll 2506.0003(2025090600) 7fff104e0000 a0000 4d19cd63-46ce7027-a7248898-e73b001c-1=libmeta___2025090704563596 06-Sep-2025 23:27
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libproperty.dll 2506.0003(2025090600) 7fff12810000 4f1000 30330df2-40bf555d-51543488-4150881a-1=libproperty___2025090704552991 06-Sep-2025 23:27
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libsharedcache.dll 2506.0003(2025090600) 7fff19d80000 30000 644f9ee0-474db64b-6efc88b4-2fa1c4db-1=libsharedcache___2025090704570896 06-Sep-2025 23:27
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libmetaframework.dll 2506.0003(2025090600) 7fff15d40000 155000 cfa14dda-4fa0ac71-8e0de99d-cc038dc5-1=libmetaframework___2025090704552930 06-Sep-2025 23:26
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libsub_mgr.dll 2506.0003(2025090600) 7ffefc3f0000 157000 7b0993ee-4be98364-a64f5b81-4e5fe0d6-1=libsub_mgr___2025090704564734 06-Sep-2025 23:28
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libtextsrv.dll 2506.0003(2025090600) 7fff19e20000 59000 6f42d96d-4ab610bf-65ddc4a2-38997fb5-1=libtextsrv___2025090704553343 06-Sep-2025 23:25
+    C:\Windows\SYSTEM32\MSVCP140_ATOMIC_WAIT.dll     14.51.36247.0    7fff1e970000 16000 3c2cb3b4-161de5bc-2fb276d9-80b5de6e-1=msvcp140_atomic_wait.amd64 27-May-2026 4:59
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\TcCrypto\6.0.16b\bin_x64_vc17_cpp20\TcCryptoStd60.dll 6.0.0            7fff1a4c0000 d000 436a6d26-4e0d0024-a490a2-20bebcaa-1 22-Mar-2025 0:18
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libtcsoacoreapi.dll 2506.0003(2025090600) 7fff16380000 26b000 55b469a6-4e8e6760-33ff998d-23259732-1=libtcsoacoreapi___2025090704472034 06-Sep-2025 23:20
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libtcsoacorenative.dll 2506.0003(2025090600) 7fff1a4d0000 10000 fc10f902-4790788a-4bbad090-6739653e-1=libtcsoacorenative___2025090704553190 06-Sep-2025 23:26
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\Oracle\19.3.0.0.0\bin\OCI.dll 19.3.0.0         7fff16790000 d1000 0-0-0-0-0 10-Jul-2019 16:39
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libkeymanagerclient.dll 2506.0003(2025090600) 7fff16360000 1d000 d58367f0-4a8303b9-94043b90-6c40cf4b-1=libkeymanagerclient___2025090704374873 06-Sep-2025 23:7
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libvaultconnector.dll 2506.0003(2025090600) 7fff16300000 5e000 4278a63e-4d3878a3-67f95c87-1f946b6b-1=libvaultconnector___2025090704254808 06-Sep-2025 22:56
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\TcMemCppBindingv17064.dll fms2506.20250822.00 7fff15ec0000 2f000 82a6786a-4ff97ab5-164fcc8d-5fdcffe0-1 22-Aug-2025 9:31
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\MicrosoftNETCoreAppHost\6.0.2\lib\nethost.dll 6.0.2 @Commit: 839cdfb0ecca5e0be3dbccd926e7651ef50fdf10 7fff165f0000 26000 92328eb0-4487f5d1-70c82a89-fba8d4aa-1 15-Jan-2022 1:11
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\XMLTools\2.2.0_1\lib_x64_vc17_cpp20\Xalan112_X_22.dll 1.12.0.0         180000000 233000 0-0-0-0-0 12-Sep-2024 10:25
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libsanitizer.dll 2506.0003(2025090600) 7fff1d270000 e000 b2f50086-4a5da78d-43745084-85207b80-1=libsanitizer___2025090704263192 06-Sep-2025 22:56
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\TcMemBindingv17064.dll fms2506.20250822.00 7fff15ea0000 11000 ff17c8e7-45c9964e-1c3a6599-556e4a87-1 22-Aug-2025 9:24
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\XMLTools\2.2.0_1\lib_x64_vc17_cpp20\icuin72_X_22.dll 72, 1, 0, 0      7fff10dd0000 2f3000 aed341df-47639d04-98420a98-cea91a48-1 12-Sep-2024 10:25
+    C:\Windows\SYSTEM32\ODBC32.dll                   10.0.17763.8276  7fff166d0000 bc000 65a31c00-8936b010-d45d13a-f67b931a-1 17-Apr-2026 5:13
+    C:\Windows\System32\CRYPT32.dll                  10.0.17763.1     7fff2c940000 216000 26b017c1-95e53905-af68be7e-a3449705-1 17-Apr-2026 5:13
+    C:\Windows\System32\MSASN1.dll                   10.0.17763.8641  7fff2c900000 12000 e88bebe4-9df9f596-83708249-6265b549-1 27-Apr-2026 7:7
+    C:\Windows\SYSTEM32\DPAPI.DLL                    10.0.17763.1     7fff2c640000 a000 a7ee03d1-5b33df0a-ede9634a-90ab7e8e-1 15-Sep-2018 7:12
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\XMLTools\2.2.0_1\lib_x64_vc17_cpp20\icudt72_X_22.dll 72, 1, 0, 0      2416a290000 1dd0000 0-0-0-0-0 12-Sep-2024 10:24
+    D:\PLM\Siemens\Teamcenter2506\TC_ROOT\fossrepo\artifacts\Teamcenter\wntx64\XMLTools\2.2.0_1\lib_x64_vc17_cpp20\XalanMessages112_X_22.dll 1.12.0.0         2416c060000 14000 9fa51565-4b821c12-945ecdb6-84054ac8-1=XalanMsgLib 12-Sep-2024 10:25
+    C:\Windows\SYSTEM32\SspiCli.dll                  10.0.17763.8641  7fff2c780000 30000 d1fea556-938c32ca-a76b9f5f-8a3232e9-1 27-Apr-2026 7:7
+    C:\Windows\System32\PSAPI.DLL                    10.0.17763.1     7fff2e380000 8000 2e9ba855-1eee9547-487c5613-ac056a95-1 15-Sep-2018 7:12
+
+2026/07/08-05:52:36.537 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.POM - - POM V10.0.1.0 at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_init.cxx(490)
+2026/07/08-05:52:36.537 UTC - INFO  -                                          - 067A89EA8 - INITIALIZE.POM - - Compiled:  -D__OCI  -D__ODBC at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_init.cxx(500)
+2026/07/08-05:52:36.000 UTC - INFO  - Teamcenter.libsyss                       - 067A89EA8 - - - Session is running in codeset 1252 17
+2026/07/08-05:52:36.539 UTC - INFO  - Teamcenter.FoundationBase                - 067A89EA8 - INITIALIZE.POM - - VCL::Log registered with Vaultconnector.
+2026/07/08-05:52:36.539 UTC - INFO  - Teamcenter.FoundationBase                - 067A89EA8 - INITIALIZE.POM - - ***** VCL::VaultKVClient::readSecret *****
+2026/07/08-05:52:36.634 UTC - INFO  - Teamcenter.FoundationBase                - 067A89EA8 - INITIALIZE.POM - - **** VCL::VaultKVClient::doReadSecret ****
+2026/07/08-05:52:36.635 UTC - INFO  - Teamcenter.FoundationBase                - 067A89EA8 - INITIALIZE.POM - - *** VCL::Initiate close() ***
+2026/07/08-05:52:36.717 UTC - INFO  - Teamcenter.FoundationBase                - 067A89EA8 - INITIALIZE.POM - - *** VCL::Close done.***
+Unicode support enabled.
+Encoding=al32utf8.
+Defaulted NLS_LANG based upon TEXT encoding.
+  Oracle env: NLS_LANG=american_america.al32utf8.
+  Oracle env: NLS_SORT=BINARY.
+**** Connected to 'ORCL' as 'admin'
+DBMS Version Information:
+ DBMS VERSION:: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+ DBMS VERSION:: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.31.0.0.0
+
+2026/07/08-05:52:36.882 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.POM - - POM_Parameter contents: Parameter = 'Value' (Status): at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5675)
+2026/07/08-05:52:36.882 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.POM - - POM_ALS_FEATURE                = 'true' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/08-05:52:36.882 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.POM - - POM_INTERNAL_WHO_CLOSED_POM    = '2026/07/07 13:57:46 IDC-ADMIN/infodba 00002b14:000021a8 WORKGROUP\TC-DEV-TC logs\bmide_schema2b14209f.syslog' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/08-05:52:36.882 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.POM - - POM_INTERNAL_WHO_LOCKED_SCHEMA = '2026/07/07 12:17:50 IDC-ADMIN/otto 00001f84:00000fd4 WORKGROUP\TC-DEV-TC logs\install-add_attr1f84c43d.syslog' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/08-05:52:36.882 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.POM - - ORACLE:: Setting _b_tree_bitmap_plans to false at E:/udu/tc25060003_1011105wn/src/foundation/pom/eim/eim_trans_util.cxx(1700)
+2026/07/08-05:52:36.882 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.POM - - The TC_USAGE_TRACE env variable is set but the TC_USAGE_STRING to specify what to look for is not set, so nothing will be found. at E:/udu/tc25060003_1011105wn/src/foundation/pom/eim/log/TcUsage.cxx(136)
+2026/07/08-05:52:36.890 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.POM - - Database Installation Identifier: "TEAMCENTER V2506.0003.2025090600" info=00000001 at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_schemas.cxx(2878)
+2026/07/08-05:52:36.890 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.POM - - LOADING SCHEMA FILE: D:\PLM\Siemens\Teamcenter2506\tc_data\pom_schema_tcdatabase.cenusuieu4d5.us-east-1.rds.amazonaws.com_ORCL at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_schemas.cxx(3138)
+2026/07/08-05:52:36.951 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.POM - - Database Schema Cache Information: at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_io.cxx(915)
+E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_io.cxx2026/07/08-05:52:36.954 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.POM - - Caching non-overridden class storage mode information. at E:/udu/tc25060003_1011105wn/src/foundation/pom/dms/dms_class_storage_mode.cxx(1207)
+2026/07/08-05:52:36.957 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.POM - - Loaded schema has 1660 classes (101 versionable) and 5993 distinct attributes. at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_schemas.cxx(3282)
+2026/07/08-05:52:36.957 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.POM - - POMExternalTransactions are disabled. at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_external_transaction.cxx(393)
+POMUtilityTransactions are enabled.
+2026/07/08-05:52:36.959 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.POM - - Caching non-overridden class storage mode information. at E:/udu/tc25060003_1011105wn/src/foundation/pom/dms/dms_class_storage_mode.cxx(1207)
+DBCS AL32UTF8 via DB-TEXT mapping
+2026/07/08-05:52:36.000 UTC - INFO  - Teamcenter.libsyss                       - 067A89EA8 - - - NEW LOCKING MODE
+2026/07/08-05:52:36.970 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.POM - - POM V10.0.1.0  startup finished. at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_init.cxx(698)
+DBCS AL32UTF8 via DB-TEXT mapping
+2026/07/08-05:52:36.978 UTC - INFO  - Teamcenter.TextServer.textsrv            - 067A89EA8 - INITIALIZE.TEXTSERVER - - Shared memory mutex lock name for application Text Server is "C:_Users_IDC-ADMIN_AppData_Local_Temp_V2506.0003.2025090600_2668722574_Textsrv_tc_text.xml.lck.mtx" at E:/udu/tc25060003_1011105wn/src/core/textsrv/textpool.cxx(65)
+2026/07/08-05:52:37.059 UTC - INFO  - Teamcenter.TextServer.textsrv            - 067A89EA8 - INITIALIZE.TEXTSERVER - - Shared memory mutex lock name for application Text Server is "C:_Users_IDC-ADMIN_AppData_Local_Temp_V2506.0003.2025090600_2668722574_Textsrv_emh_text.xml.lck.mtx" at E:/udu/tc25060003_1011105wn/src/core/textsrv/textpool.cxx(65)
+POM already initialised
+2026/07/08-05:52:37.059 UTC - INFO  - Teamcenter.CoreModelGeneral.Preferences  - 067A89EA8 - INITIALIZE.PREF - - Preference definitions and categories are cleared. at E:/udu/tc25060003_1011105wn/src/core/tc/TCPreferencesLRUCache.cxx(213)
+2026/07/08-05:52:37.059 UTC - INFO  - Teamcenter.CoreModelGeneral.Preferences  - 067A89EA8 - INITIALIZE.PREF - - Preference cache is cleared. at E:/udu/tc25060003_1011105wn/src/core/tc/TCPreferencesLRUCache.cxx(175)
+2026/07/08-05:52:37.059 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.PREF - - REV: Versionable class found in schema.
+2026/07/08-05:52:37.062 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.PREF - - POM_Parameter contents: Parameter = 'Value' (Status): at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5675)
+2026/07/08-05:52:37.062 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.PREF - - POM_ALS_FEATURE                = 'true' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/08-05:52:37.062 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.PREF - - POM_INTERNAL_WHO_CLOSED_POM    = '2026/07/07 13:57:46 IDC-ADMIN/infodba 00002b14:000021a8 WORKGROUP\TC-DEV-TC logs\bmide_schema2b14209f.syslog' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/08-05:52:37.062 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.PREF - - POM_INTERNAL_WHO_LOCKED_SCHEMA = '2026/07/07 12:17:50 IDC-ADMIN/otto 00001f84:00000fd4 WORKGROUP\TC-DEV-TC logs\install-add_attr1f84c43d.syslog' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/08-05:52:37.063 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.PREF - - POM_Parameter contents: Parameter = 'Value' (Status): at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5675)
+2026/07/08-05:52:37.063 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.PREF - - POM_ALS_FEATURE                = 'true' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/08-05:52:37.063 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.PREF - - POM_INTERNAL_WHO_CLOSED_POM    = '2026/07/07 13:57:46 IDC-ADMIN/infodba 00002b14:000021a8 WORKGROUP\TC-DEV-TC logs\bmide_schema2b14209f.syslog' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/08-05:52:37.063 UTC - INFO  - Teamcenter.POM                           - 067A89EA8 - INITIALIZE.PREF - - POM_INTERNAL_WHO_LOCKED_SCHEMA = '2026/07/07 12:17:50 IDC-ADMIN/otto 00001f84:00000fd4 WORKGROUP\TC-DEV-TC logs\install-add_attr1f84c43d.syslog' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/08-05:52:37.431 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 067A89EA8 - INITIALIZE.PRELOAD_TYPES - - library libae is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:37.433 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 067A89EA8 - INITIALIZE.PRELOAD_TYPES - - library libqry is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:37.438 UTC - INFO  - Teamcenter.MetaModel.sharedcache         - 067A89EA8 - INITIALIZE.PRELOAD_TYPES - - metadata dataset version [5] metadata DB change version  [5] at E:/udu/tc25060003_1011105wn/src/core/sharedcache/SharedMetadataCacheMgr.cxx(108)
+2026/07/08-05:52:37.438 UTC - INFO  - Teamcenter.MetaModel.sharedcache         - 067A89EA8 - INITIALIZE.PRELOAD_TYPES - - Shared memory mutex lock name for application Metadata is "AppData_Local_Temp_V2506.0003.2025090600_2668722574_Metadata_SharedMetadataMasterSegmentMgr.lck.mtx" at E:/udu/tc25060003_1011105wn/src/core/sharedcache/SharedMetadataMasterSegmentMgr.cxx(86)
+2026/07/08-05:52:37.438 UTC - INFO  - Teamcenter.MetaModel.sharedcache         - 067A89EA8 - INITIALIZE.PRELOAD_TYPES - - locking "Metadata-SharedMetadataMasterSegmentMgr" at E:/udu/tc25060003_1011105wn/src/core/sharedcache/SharedMetadataMasterSegmentMgr.cxx(104)
+2026/07/08-05:52:37.438 UTC - INFO  - Teamcenter.MetaModel.sharedcache         - 067A89EA8 - INITIALIZE.PRELOAD_TYPES - - Constructed SharedMetadataMasterSegmentMgr instance @ 000002416EBB6720, mapping from 000002416CE90000 through 000002416CE90004 at E:/udu/tc25060003_1011105wn/src/core/sharedcache/SharedMetadataMasterSegmentMgr.cxx(129)
+2026/07/08-05:52:37.439 UTC - INFO  - Teamcenter.MetaModel.sharedcache         - 067A89EA8 - INITIALIZE.PRELOAD_TYPES - - segmentPath [C:\Users\IDC-ADMIN\AppData\Local\Temp\V2506.0003.2025090600\2668722574\Metadata\Version5.mem] [exists] at E:/udu/tc25060003_1011105wn/src/core/sharedcache/SharedMetadataCacheMgr.cxx(269)
+2026/07/08-05:52:37.439 UTC - INFO  - Teamcenter.MetaModel.sharedcache         - 067A89EA8 - INITIALIZE.PRELOAD_TYPES - - Constructed SharedMetadataCacheSegmentMgr instance @ 000002416EBB6340 for version 5, mapping from 000002416EE60000 through 0000024177784D18 at E:/udu/tc25060003_1011105wn/src/core/sharedcache/SharedMetadataCacheSegmentMgr.cxx(72)
+2026/07/08-05:52:37.439 UTC - INFO  - Teamcenter.MetaModel.sharedcache         - 067A89EA8 - INITIALIZE.PRELOAD_TYPES - - Initialized SharedMetadataCacheMgr with SharedMetadataCacheSegmentMgr @ 000002416EBB6340 for version 5 in [C:\Users\IDC-ADMIN\AppData\Local\Temp\V2506.0003.2025090600\2668722574\Metadata] at E:/udu/tc25060003_1011105wn/src/core/sharedcache/SharedMetadataCacheMgr.cxx(308)
+2026/07/08-05:52:37.532 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 067A89EA8 - INITIALIZE.PRELOAD_TYPES - - library libconstants is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:37.532 UTC - INFO  - Teamcenter.MetaModel.sharedcache         - 067A89EA8 - INITIALIZE.PRELOAD_TYPES - - Using Shared memory, MetadataCache @ 000002416D1CB730 at E:/udu/tc25060003_1011105wn/src/core/sharedcache/MetadataCache.cxx(78)
+2026/07/08-05:52:37.533 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 067A89EA8 - INITIALIZE.PRELOAD_BMF - - library libbmf is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:37.533 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 067A89EA8 - INITIALIZE.PRELOAD_BMF - - library libextensionframework is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:38.132 UTC - INFO  - Teamcenter.SOA.tcserver_itk_main         - 067A89EA8 - - - Command Line Argument: D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\tcserver.exe
+2026/07/08-05:52:38.132 UTC - INFO  - Teamcenter.SOA.tcserver_itk_main         - 067A89EA8 - - - Command Line Argument: 
+2026/07/08-05:52:38.132 UTC - INFO  - Teamcenter.SOA.tcserver_itk_main         - 067A89EA8 - - - Command Line Argument: id=tcserver00128@PoolA@3908@tc-dev-tc
+2026/07/08-05:52:38.132 UTC - INFO  - Teamcenter.SOA.tcserver_itk_main         - 067A89EA8 - - - Command Line Argument: startUpTimeout=300
+2026/07/08-05:52:38.132 UTC - INFO  - Teamcenter.SOA.tcserver_itk_main         - 067A89EA8 - - - Command Line Argument: managerURL=http://tc-dev-tc:8083/PoolA
+2026/07/08-05:52:38.132 UTC - INFO  - Teamcenter.SOA.tcserver_itk_main         - 067A89EA8 - - - Command Line Argument: useTctp
+2026/07/08-05:52:38.133 UTC - INFO  - Teamcenter.SOA.Server                    - 067A89EA8 - - - xercesc_X_22_3_2 has been initialized.
+2026/07/08-05:52:38.133 UTC - INFO  - Teamcenter.Soa.Communication             - 067A89EA8 - - - ServerID: tcserver00128@PoolA@3908@tc-dev-tc
+2026/07/08-05:52:38.133 UTC - INFO  - Teamcenter.SOA.Server                    - 067A89EA8 - - - Using code page UTF-8 for local encoding of service request/response
+2026/07/08-05:52:38.000 UTC - INFO  - Teamcenter.libsyss                       - 067A89EA8 - - - Successfully loaded dynamic module D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libtcsoadispatch.dll
+2026/07/08-05:52:38.134 UTC - INFO  - Teamcenter.SOA.Tctp                      - 067A89EA8 - - - Found tctp configuration file: TctpConfig.xml
+2026/07/08-05:52:38.134 UTC - INFO  - Teamcenter.Organization.sa               - 067A89EA8 - - - The Transient Volume Root Directory at c:\temp\transientVolume already exists. at E:/udu/tc25060003_1011105wn/src/core/sa/filetickets.cxx(7284)
+2026/07/08-05:52:38.137 UTC - INFO  - Teamcenter.Organization.sa               - 067A89EA8 - - - Transient volume write access verified using file: c:\temp\transientVolume\tvrdtestfile_11452_1783489958 at E:/udu/tc25060003_1011105wn/src/core/sa/filetickets.cxx(7349)
+2026/07/08-05:52:38.137 UTC - INFO  - Teamcenter.Organization.sa               - 067A89EA8 - - - The FMS SiteID is -1626244722 at E:/udu/tc25060003_1011105wn/src/core/sa/filetickets.cxx(1330)
+2026/07/08-05:52:38.137 UTC - INFO  - Teamcenter.Organization.sa               - 067A89EA8 - - - The Transient Volume Install location is TC-DEV-TC at E:/udu/tc25060003_1011105wn/src/core/sa/filetickets.cxx(1271)
+2026/07/08-05:52:38.137 UTC - INFO  - Teamcenter.Organization.sa               - 067A89EA8 - - - The Four Tier Transient Volume ID is 6cfc390df20cae8f999dafa854bbadb8 at E:/udu/tc25060003_1011105wn/src/core/sa/filetickets.cxx(6256)
+2026/07/08-05:52:38.137 UTC - INFO  - Teamcenter.Organization.sa               - 067A89EA8 - - - The Transient Volume Root Directory is c:\temp\transientVolume at E:/udu/tc25060003_1011105wn/src/core/sa/filetickets.cxx(1597)
+2026/07/08-05:52:38.137 UTC - INFO  - Teamcenter.SOA.Server                    - 067A89EA8 - - - TCTP server is starting on: tcserver00128@PoolA@3908@tc-dev-tc
+2026/07/08-05:52:38.138 UTC - INFO  - Teamcenter.SOA.Server                    - 067A89EA8 - - - INITIALIZING timeout limit:      05:00 (300s)
+2026/07/08-05:52:38.138 UTC - INFO  - Teamcenter.SOA.Server                    - 067A89EA8 - - - EDIT IDLE timeout limit:      08:00:00 (28800s)
+2026/07/08-05:52:38.138 UTC - INFO  - Teamcenter.SOA.Server                    - 067A89EA8 - - - READ IDLE timeout limit:      08:00:00 (28800s)
+2026/07/08-05:52:38.138 UTC - INFO  - Teamcenter.SOA.Server                    - 067A89EA8 - - - STATELESS IDLE timeout limit: 08:00:00 (28800s)
+2026/07/08-05:52:38.138 UTC - INFO  - Teamcenter.SOA.Server                    - 067A89EA8 - - - QUERY timeout limit:          Infinite
+2026/07/08-05:52:38.138 UTC - INFO  - Teamcenter.SOA.Server                    - 067A89EA8 - - - LOGOUT timeout limit:         10 seconds
+2026/07/08-05:52:38.147 UTC - INFO  - Teamcenter.MLD.Monitoring                - 067A89EA8 - - - TcServer Monitoring Mode -> Off
+2026/07/08-05:52:38.148 UTC - INFO  - Teamcenter.SOA.Server                    - 067A89EA8 - - 0AFBD85E4R001 - Notify Server Manager: Teamcenter Server is ready.
+2026/07/08-05:52:38.174 UTC - INFO  - Teamcenter.Soa.Communication             - 067A89EA8 - - 0AFBD85E4R001 - Recv Manager Request: /TimeoutManagement/setTimeouts
+2026/07/08-05:52:38.174 UTC - INFO  - Teamcenter.SOA.Server                    - 067A89EA8 - - 0AFBD85E4R001 - STATELESS IDLE timeout limit:    30:00 (1800s)
+2026/07/08-05:52:41.359 UTC - INFO  - Teamcenter.Soa.Communication             - 0C579813F - - 05B2E4061R1625 - Service Request:  TcLoginService:authenticateWithLocale
+2026/07/08-05:52:41.000 UTC - INFO  - Teamcenter.libsyss                       - 0C579813F - - 05B2E4061R1625 - Successfully loaded dynamic module D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libtcsoaserverimpl.dll
+2026/07/08-05:52:41.361 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library libFnd0profiler is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:41.000 UTC - INFO  - Teamcenter.libsyss                       - 0C579813F - - 05B2E4061R1625 - Successfully loaded dynamic module D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libtccoresvc.dll
+2026/07/08-05:52:41.418 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 - POM_Parameter contents: Parameter = 'Value' (Status): at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5675)
+2026/07/08-05:52:41.418 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 - POM_ALS_FEATURE                = 'true' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/08-05:52:41.418 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 - POM_INTERNAL_WHO_CLOSED_POM    = '2026/07/07 13:57:46 IDC-ADMIN/infodba 00002b14:000021a8 WORKGROUP\TC-DEV-TC logs\bmide_schema2b14209f.syslog' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/08-05:52:41.418 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 - POM_INTERNAL_WHO_LOCKED_SCHEMA = '2026/07/07 12:17:50 IDC-ADMIN/otto 00001f84:00000fd4 WORKGROUP\TC-DEV-TC logs\install-add_attr1f84c43d.syslog' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/08-05:52:41.000 UTC - INFO  - Teamcenter.libsyss                       - 0C579813F - - 05B2E4061R1625 - CRLF checking OFF
+2026/07/08-05:52:41.455 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 - POM_Parameter contents: Parameter = 'Value' (Status): at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5675)
+2026/07/08-05:52:41.455 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 - POM_ALS_FEATURE                = 'true' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/08-05:52:41.455 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 - POM_INTERNAL_WHO_CLOSED_POM    = '2026/07/07 13:57:46 IDC-ADMIN/infodba 00002b14:000021a8 WORKGROUP\TC-DEV-TC logs\bmide_schema2b14209f.syslog' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/08-05:52:41.455 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 - POM_INTERNAL_WHO_LOCKED_SCHEMA = '2026/07/07 12:17:50 IDC-ADMIN/otto 00001f84:00000fd4 WORKGROUP\TC-DEV-TC logs\install-add_attr1f84c43d.syslog' (Cached) at E:/udu/tc25060003_1011105wn/src/foundation/pom/dds/dds_build_env.cxx(5808)
+2026/07/08-05:52:41.462 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 - POM ROW LOCKING MODE = Enhanced. at E:/udu/tc25060003_1011105wn/src/foundation/pom/dms/dms_util.cxx(3745)
+2026/07/08-05:52:41.473 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 - POM_login: "infodba" infodba / dba has logged in at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_start.cxx(1257)
+2026/07/08-05:52:41.505 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library libepm is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:41.508 UTC - INFO  - Teamcenter.Workflow.epm                  - 0C579813F - - 05B2E4061R1625 - createParticipantAccessors::Count of allParticipantSubClasses=2, count of existingParticipantSubclasses=2. at E:/udu/tc25060003_1011105wn/src/core/epm/epm_am_participant_accessor_callbacks.cxx(415)
+2026/07/08-05:52:41.508 UTC - INFO  - Teamcenter.Workflow.epm                  - 0C579813F - - 05B2E4061R1625 - createParticipantAccessors::Participant accessors are made available for all Participant sub-classes. at E:/udu/tc25060003_1011105wn/src/core/epm/epm_am_participant_accessor_callbacks.cxx(428)
+2026/07/08-05:52:41.540 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 - Enabling POM Fast Load. at E:/udu/tc25060003_1011105wn/src/foundation/pom/dms/DmsLoad.cxx(140)
+2026/07/08-05:52:41.540 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 - POM_load: Access checks disabled during install. at E:/udu/tc25060003_1011105wn/src/foundation/pom/am/AccessChecker.cxx(26)
+2026/07/08-05:52:41.541 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 - EIM_ROW_ALIGNMENT is not set. Requesting query results in column order (as previously, fastest). at E:/udu/tc25060003_1011105wn/src/foundation/pom/eim/query/OciQuery.cxx(33)
+2026/07/08-05:52:41.560 UTC - INFO  - Teamcenter.Organization.sa               - 0C579813F - - 05B2E4061R1625 - Attribute Level Security is enabled. at E:/udu/tc25060003_1011105wn/src/core/sa/als/AlsRuntimeCache.cxx(228)
+2026/07/08-05:52:41.561 UTC - INFO  - Teamcenter.Organization.sa               - 0C579813F - - 05B2E4061R1625 - No ACLs found with ALS rules defined. at E:/udu/tc25060003_1011105wn/src/core/sa/als/AlsRuntimeCache.cxx(239)
+
+*************** License Server Connection Error ***************
+
+Licensing error with server 28000@52.168.151.85
+  Message: License server machine is down or not responding.
+***************************************************************
+
+************** License Server/File Information **************
+
+ Server/File                      : 28000@52.168.151.85
+ License File Sold To / Install   : No Sold To / Install
+ License File Webkey Access Code  : No Webkey
+ License File Issuer              : No issuer
+ Flexera Daemon Version           : 0.0
+ Vendor Daemon Version            : No Version
+
+*************************************************************
+
+SALT_startLicensingSession: call count: 0
+2026/07/08-05:52:46.908 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library libdocmgt is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:46.922 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library librbf is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:46.000 UTC - INFO  - Teamcenter.libsyss                       - 0C579813F - - 05B2E4061R1625 - Successfully loaded dynamic module D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\librbf.dll
+2026/07/08-05:52:46.000 UTC - INFO  - Teamcenter.libsyss                       - 0C579813F - - 05B2E4061R1625 - Successfully loaded dynamic module D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libdocmgt.dll
+2026/07/08-05:52:46.923 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library libres is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:46.000 UTC - INFO  - Teamcenter.libsyss                       - 0C579813F - - 05B2E4061R1625 - POM_session_no_stub_reference called for WorkspaceObject:release_status_list
+2026/07/08-05:52:46.000 UTC - INFO  - Teamcenter.libsyss                       - 0C579813F - - 05B2E4061R1625 - Successfully loaded dynamic module D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libbom.dll
+2026/07/08-05:52:46.937 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library libfnd0booleansolve is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:46.938 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library libecm is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:46.939 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library libme is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:46.940 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library libmfg is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:46.000 UTC - INFO  - Teamcenter.libsyss                       - 0C579813F - - 05B2E4061R1625 - Successfully loaded dynamic module D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libme.dll
+2026/07/08-05:52:46.944 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library libmfgbvr is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:46.000 UTC - INFO  - Teamcenter.libsyss                       - 0C579813F - - 05B2E4061R1625 - Successfully loaded dynamic module D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libmfgbvr.dll
+2026/07/08-05:52:46.946 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library libqsearch is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:46.000 UTC - INFO  - Teamcenter.libsyss                       - 0C579813F - - 05B2E4061R1625 - Successfully loaded dynamic module D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libqsearch.dll
+2026/07/08-05:52:46.000 UTC - INFO  - Teamcenter.libsyss                       - 0C579813F - - 05B2E4061R1625 - Successfully loaded dynamic module D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libextensionframework.dll
+2026/07/08-05:52:46.952 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library libptn0partition is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:46.000 UTC - INFO  - Teamcenter.libsyss                       - 0C579813F - - 05B2E4061R1625 - Successfully loaded dynamic module D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libptn0partition.dll
+2026/07/08-05:52:46.963 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library libusage is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:46.000 UTC - INFO  - Teamcenter.libsyss                       - 0C579813F - - 05B2E4061R1625 - Successfully loaded dynamic module D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libusage.dll
+2026/07/08-05:52:46.967 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library libai is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:46.000 UTC - INFO  - Teamcenter.libsyss                       - 0C579813F - - 05B2E4061R1625 - Successfully loaded dynamic module D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libai.dll
+2026/07/08-05:52:47.034 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library libcollabctx is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:47.035 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library libcfm is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:47.040 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library libpublication is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:47.042 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library liblov is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:47.044 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library libtie is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:47.000 UTC - INFO  - Teamcenter.libsyss                       - 0C579813F - - 05B2E4061R1625 - Successfully loaded dynamic module D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libtie.dll
+2026/07/08-05:52:47.046 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library libvalidation is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:47.000 UTC - INFO  - Teamcenter.libsyss                       - 0C579813F - - 05B2E4061R1625 - Successfully loaded dynamic module D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libvalidation.dll
+2026/07/08-05:52:47.000 UTC - INFO  - Teamcenter.libsyss                       - 0C579813F - - 05B2E4061R1625 - Successfully loaded dynamic module D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libecm.dll
+2026/07/08-05:52:47.050 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library libgrm is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:47.053 UTC - INFO  - Teamcenter.LOV                           - 0C579813F - - 05B2E4061R1625 - Shared memory mutex lock name for application LOV is "C:_Users_IDC-ADMIN_AppData_Local_Temp_V2506.0003.2025090600_2668722574_LOV_Master.lck.mtx" at E:/udu/tc25060003_1011105wn/src/core/lov/SharedLOVDictionaryCacheImpl.cxx(122)
+2026/07/08-05:52:47.054 UTC - INFO  - Teamcenter.LOV                           - 0C579813F - - 05B2E4061R1625 - Attached to existing shared LOV Dictionary pool (000002417820FE30) version 1 at E:/udu/tc25060003_1011105wn/src/core/lov/SharedLOVDictionaryCacheMgr.cxx(262)
+2026/07/08-05:52:47.056 UTC - INFO  - Teamcenter.CoreModelGeneral.tc           - 0C579813F - - 05B2E4061R1625 - Started. at E:/udu/tc25060003_1011105wn/src/core/tc/infomanager.cxx(361)
+2026/07/08-05:52:47.057 UTC - INFO  - Teamcenter.CoreModelGeneral.tc           - 0C579813F - - 05B2E4061R1625 - Teamcenter version is: Teamcenter V2506.0003 at E:/udu/tc25060003_1011105wn/src/core/tc/infomanager.cxx(412)
+2026/07/08-05:52:47.057 UTC - INFO  - Teamcenter.CoreModelGeneral.tc           - 0C579813F - - 05B2E4061R1625 - Security Level = 1 at E:/udu/tc25060003_1011105wn/src/core/tc/infomanager.cxx(414)
+2026/07/08-05:52:47.057 UTC - INFO  - Teamcenter.CoreModelGeneral.tc           - 0C579813F - - 05B2E4061R1625 - NX library version V4.0.0.2025033100 at E:/udu/tc25060003_1011105wn/src/core/tc/infomanager.cxx(415)
+2026/07/08-05:52:47.058 UTC - INFO  - Teamcenter.CoreModelGeneral.tc           - 0C579813F - - 05B2E4061R1625 - EFFECTIVITY MODEL: V7 at E:/udu/tc25060003_1011105wn/src/core/tc/infomanager.cxx(429)
+2026/07/08-05:52:47.058 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 - Current POM environment information: at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_most_interface_funs2.cxx(3115)
+2026/07/08-05:52:47.058 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 -           Timeout:  Strategy 4001 Interval 5 at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_most_interface_funs2.cxx(3116)
+2026/07/08-05:52:47.058 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 -           Wildcards:  one "?" any "*" at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_most_interface_funs2.cxx(3125)
+2026/07/08-05:52:47.061 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 -        Transmit dir:  D:\PLM\Siemens\Teamcenter2506\tc_data\pom_transmit at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_most_interface_funs2.cxx(3126)
+2026/07/08-05:52:47.061 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 -            Rollback:  DISABLED at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_most_interface_funs2.cxx(3127)
+2026/07/08-05:52:47.061 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 -         DS checking:  DISABLED at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_most_interface_funs2.cxx(3128)
+2026/07/08-05:52:47.061 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 -   Argument checking:  ENABLED at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_most_interface_funs2.cxx(3129)
+2026/07/08-05:52:47.061 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 -         Journalling:  DISABLED at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_most_interface_funs2.cxx(3130)
+2026/07/08-05:52:47.061 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 -          Tracebacks:  DISABLED at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_most_interface_funs2.cxx(3131)
+2026/07/08-05:52:47.061 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 -         Logging SQL:  DISABLED at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_most_interface_funs2.cxx(3132)
+2026/07/08-05:52:47.061 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 -         Attr update:  ENABLED at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_most_interface_funs2.cxx(3133)
+2026/07/08-05:52:47.061 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 -         Import mode:  13004 at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_most_interface_funs2.cxx(3134)
+2026/07/08-05:52:47.061 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 -         Import user:  00000000 at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_most_interface_funs2.cxx(3135)
+2026/07/08-05:52:47.061 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 -        Import group:  00000000 at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_most_interface_funs2.cxx(3136)
+2026/07/08-05:52:47.061 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 -           API state:  ENABLED at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_most_interface_funs2.cxx(3137)
+2026/07/08-05:52:47.061 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 -    Uniqueness check:  DISABLED at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_most_interface_funs2.cxx(3138)
+2026/07/08-05:52:47.061 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 -  Set Attr callbacks:  DISABLED at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_most_interface_funs2.cxx(3139)
+2026/07/08-05:52:47.061 UTC - INFO  - Teamcenter.POM                           - 0C579813F - - 05B2E4061R1625 -   Timestamp updates:  DISABLED at E:/udu/tc25060003_1011105wn/src/foundation/pom/pom/pom_most_interface_funs2.cxx(3140)
+2026/07/08-05:52:47.061 UTC - INFO  - Teamcenter.FoundationBase                - 0C579813F - - 05B2E4061R1625 - Default encryption configuration. at E:/udu/tc25060003_1011105wn/src/foundation/base/CryptoHandler.cxx(138)
+2026/07/08-05:52:47.000 UTC - INFO  - Teamcenter.libsyss                       - 0C579813F - - 05B2E4061R1625 - Successfully loaded dynamic module D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libsa.dll
+2026/07/08-05:52:47.129 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library libFnd0audit_mgr is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:47.000 UTC - INFO  - Teamcenter.libsyss                       - 0C579813F - - 05B2E4061R1625 - Successfully loaded dynamic module D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libFnd0audit_mgr.dll
+2026/07/08-05:52:47.129 UTC - INFO  - Teamcenter.Organization.Fnd0audit_mgr    - 0C579813F - - 05B2E4061R1625 - Fnd0ObjectHistoryAuditing is false. at E:/udu/tc25060003_1011105wn/src/core/Fnd0audit_mgr/ObjectAuditHistory/AuditPropertySetHelper.cxx(47)
+2026/07/08-05:52:47.000 UTC - INFO  - Teamcenter.libsyss                       - 0C579813F - - 05B2E4061R1625 - POM_session_no_stub_reference called for Dataset:rev_chain_anchor
+2026/07/08-05:52:47.134 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library libform is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:47.136 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library libce is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:47.147 UTC - INFO  - Teamcenter.Metamodel.MetaFrameWork       - 0C579813F - - 05B2E4061R1625 - library libawp0aws2 is delay loaded at E:/udu/tc25060003_1011105wn/src/core/metaframework/BusinessObjectRegistryImpl.cxx(2641)
+2026/07/08-05:52:47.000 UTC - INFO  - Teamcenter.libsyss                       - 0C579813F - - 05B2E4061R1625 - Successfully loaded dynamic module D:\PLM\Siemens\Teamcenter2506\TC_ROOT\bin\libawp0aws2.dll
+2026/07/08-05:52:47.149 UTC - ERROR - Teamcenter.CoreModelGeneral.tc           - 0C579813F - - 05B2E4061R1625 - No teamcenter_admin license available at E:/udu/tc25060003_1011105wn/src/core/tc/check_license.cxx(2148)
+2026/07/08-05:52:47.152 UTC - ERROR - Teamcenter.CoreModelGeneral.tc           - 0C579813F - - 05B2E4061R1625 - -10004: error_-10004 UPS_CL_enter_module error -10004 for module teamcenter_admin: License Error, server not connected. at E:/udu/tc25060003_1011105wn/src/core/tc/check_license.cxx(4911)
+2026/07/08-05:52:47.152 UTC - ERROR - Teamcenter.CoreModelGeneral.tc           - 0C579813F - - 05B2E4061R1625 - 10: No write access. UPS_CL_enter_module teamcenter_admin returned error 10 (Named User): Error creating path from URL. at E:/udu/tc25060003_1011105wn/src/core/tc/check_license.cxx(644)
+2026/07/08-05:52:47.155 UTC - INFO  - Teamcenter.SOA.Server                    - 0C579813F - - 05B2E4061R1625 - Teamcenter server  digital signing of services disabled.
