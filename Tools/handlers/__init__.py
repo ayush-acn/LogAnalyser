@@ -1,10 +1,8 @@
 from Tools.handlers.base import FormatHandler, LogEntry
-from Tools.handlers.registry import detect_handler, get_handler, list_handlers
+from Tools.handlers.registry import detect_handler
 
 __all__ = [
     "FormatHandler",
     "LogEntry",
     "detect_handler",
-    "get_handler",
-    "list_handlers",
 ]

@@ -1,0 +1,871 @@
+{
+  "run_at": "2026-07-31 11:21:27.726647",
+  "logs_root": "C:\\Data\\Project\\ASBG\\LogAnalyser\\logs",
+  "list_logs_count": 177,
+  "rotation_groups": 106,
+  "handler_summary": {
+    "commons_daemon": {
+      "total_files": 27,
+      "tested": [
+        "Teamcenter_Vault_Service.2026-07-22.log",
+        "Teamcenter_Vault_Service.2026-07-23.log"
+      ],
+      "pass": 2,
+      "fail": 0
+    },
+    "deploymentcentre": {
+      "total_files": 6,
+      "tested": [
+        "software_scanner_2026-07-23_06_30_52.log",
+        "deployment_task_tracker_builder_2026-07-23_06_30_52.log"
+      ],
+      "pass": 2,
+      "fail": 0
+    },
+    "jul_pair": {
+      "total_files": 1,
+      "tested": [
+        "FSC_TCDEVTC_IDCADMINstderr.log"
+      ],
+      "pass": 1,
+      "fail": 0
+    },
+    "jvm_gc": {
+      "total_files": 2,
+      "tested": [
+        "solr_gc.log",
+        "solr_gc.log.0"
+      ],
+      "pass": 2,
+      "fail": 0
+    },
+    "pool": {
+      "total_files": 10,
+      "tested": [
+        "ServerManager-2024-03-30-1.log",
+        "ServerManager-2024-04-02-1.log"
+      ],
+      "pass": 2,
+      "fail": 0
+    },
+    "rac": {
+      "total_files": 7,
+      "tested": [
+        "IDC-ADMIN_TcRAC_20260723114056.log",
+        "IDC-ADMIN_TcRAC_20260727095619.log"
+      ],
+      "pass": 2,
+      "fail": 0
+    },
+    "raw": {
+      "total_files": 1,
+      "tested": [
+        "dc_tem_interoperability_Thread-tc_root_2026-07-23_06_30_52.log"
+      ],
+      "pass": 1,
+      "fail": 0
+    },
+    "tc_mld": {
+      "total_files": 112,
+      "tested": [
+        "TcFtsIndexer.log.1",
+        "ServerManager-2026-07-07-1.log"
+      ],
+      "pass": 2,
+      "fail": 0
+    },
+    "utility_banner": {
+      "total_files": 5,
+      "tested": [
+        "preferences_manager_202672364121.log",
+        "preferences_manager_202672364136.log"
+      ],
+      "pass": 2,
+      "fail": 0
+    },
+    "vs_bracket": {
+      "total_files": 5,
+      "tested": [
+        "dd_vs_setup_bootstrapper_decompression_log.txt",
+        "dd_updateconfiguration_20260730070633.log"
+      ],
+      "pass": 2,
+      "fail": 0
+    },
+    "web": {
+      "total_files": 1,
+      "tested": [
+        "TcWebTierLOG.txt"
+      ],
+      "pass": 1,
+      "fail": 0
+    }
+  },
+  "results": [
+    {
+      "path": "C:\\Data\\Project\\ASBG\\LogAnalyser\\logs\\TCVault\\Teamcenter_Vault_Service.2026-07-22.log",
+      "folder": "TCVault",
+      "name": "Teamcenter_Vault_Service.2026-07-22.log",
+      "size": 4345,
+      "handler": "commons_daemon",
+      "tools": {
+        "resolve_log_group": {
+          "ok": true,
+          "detail": "9 file(s) in rotation group"
+        },
+        "latest_logs": {
+          "ok": true,
+          "detail": "5 entries, last_ts=2026-07-28 21:30:40"
+        },
+        "latest_logs_page": {
+          "ok": true,
+          "detail": "3 entries (skip=2, n=3)"
+        },
+        "timed_logs": {
+          "ok": true,
+          "detail": "5 entries in 24h window ending 2026-07-28 21:30:40"
+        }
+      },
+      "rotation_count": 9,
+      "sample_entry": {
+        "log_type": "commons_daemon",
+        "timestamp": "2026-07-28 21:30:40",
+        "level": "info",
+        "message": "Commons Daemon procrun finished",
+        "raw": "[2026-07-28 21:30:40] [info]  [ 4488] Commons Daemon procrun finished",
+        "source": null,
+        "host": "4488",
+        "thread": null,
+        "details": null
+      }
+    },
+    {
+      "path": "C:\\Data\\Project\\ASBG\\LogAnalyser\\logs\\TCVault\\Teamcenter_Vault_Service.2026-07-23.log",
+      "folder": "TCVault",
+      "name": "Teamcenter_Vault_Service.2026-07-23.log",
+      "size": 3229,
+      "handler": "commons_daemon",
+      "tools": {
+        "resolve_log_group": {
+          "ok": true,
+          "detail": "9 file(s) in rotation group"
+        },
+        "latest_logs": {
+          "ok": true,
+          "detail": "5 entries, last_ts=2026-07-28 21:30:40"
+        },
+        "latest_logs_page": {
+          "ok": true,
+          "detail": "3 entries (skip=2, n=3)"
+        },
+        "timed_logs": {
+          "ok": true,
+          "detail": "5 entries in 24h window ending 2026-07-28 21:30:40"
+        }
+      },
+      "rotation_count": 9,
+      "sample_entry": {
+        "log_type": "commons_daemon",
+        "timestamp": "2026-07-28 21:30:40",
+        "level": "info",
+        "message": "Commons Daemon procrun finished",
+        "raw": "[2026-07-28 21:30:40] [info]  [ 4488] Commons Daemon procrun finished",
+        "source": null,
+        "host": "4488",
+        "thread": null,
+        "details": null
+      }
+    },
+    {
+      "path": "C:\\Data\\Project\\ASBG\\LogAnalyser\\logs\\DeploymentCentre\\software_scanner_2026-07-23_06_30_52.log",
+      "folder": "DeploymentCentre",
+      "name": "software_scanner_2026-07-23_06_30_52.log",
+      "size": 1182620,
+      "handler": "deploymentcentre",
+      "tools": {
+        "resolve_log_group": {
+          "ok": true,
+          "detail": "1 file(s) in rotation group"
+        },
+        "latest_logs": {
+          "ok": true,
+          "detail": "5 entries, last_ts=2026-07-23 07:24:27"
+        },
+        "latest_logs_page": {
+          "ok": true,
+          "detail": "3 entries (skip=2, n=3)"
+        },
+        "timed_logs": {
+          "ok": true,
+          "detail": "5 entries in 24h window ending 2026-07-23 07:24:27"
+        }
+      },
+      "rotation_count": 1,
+      "sample_entry": {
+        "log_type": "deploymentcentre",
+        "timestamp": "2026-07-23 07:24:27",
+        "level": "INFO",
+        "message": "Copying Media Manifest file from D:\\Software_Kit\\Tc2506.0003_wntx64\\wntx64 to D:\\PLM\\Siemens\\Teamcenter2506\\tc_root\\media_teamcenter_foundation.xml",
+        "raw": "2026-07-23 07:24:27 INFO  - DeploymentPrepTaskHandler - Copying Media Manifest file from D:\\Software_Kit\\Tc2506.0003_wntx64\\wntx64 to D:\\PLM\\Siemens\\Teamcenter2506\\tc_root\\media_teamcenter_foundation.xml",
+        "source": "DeploymentPrepTaskHandler",
+        "host": null,
+        "thread": null,
+        "details": null
+      }
+    },
+    {
+      "path": "C:\\Data\\Project\\ASBG\\LogAnalyser\\logs\\DeploymentCentre\\deployment_task_tracker_builder_2026-07-23_06_30_52.log",
+      "folder": "DeploymentCentre",
+      "name": "deployment_task_tracker_builder_2026-07-23_06_30_52.log",
+      "size": 290587,
+      "handler": "deploymentcentre",
+      "tools": {
+        "resolve_log_group": {
+          "ok": true,
+          "detail": "1 file(s) in rotation group"
+        },
+        "latest_logs": {
+          "ok": true,
+          "detail": "5 entries, last_ts=2026-07-23 07:24:28"
+        },
+        "latest_logs_page": {
+          "ok": true,
+          "detail": "3 entries (skip=2, n=3)"
+        },
+        "timed_logs": {
+          "ok": true,
+          "detail": "5 entries in 24h window ending 2026-07-23 07:24:28"
+        }
+      },
+      "rotation_count": 1,
+      "sample_entry": {
+        "log_type": "deploymentcentre",
+        "timestamp": "2026-07-23 07:24:28",
+        "level": "INFO",
+        "message": "Shutdown complete.",
+        "raw": "2026-07-23 07:24:28 INFO  - ExecutionTaskEventHandler - Shutdown complete.",
+        "source": "ExecutionTaskEventHandler",
+        "host": null,
+        "thread": null,
+        "details": null
+      }
+    },
+    {
+      "path": "C:\\Data\\Project\\ASBG\\LogAnalyser\\logs\\FSC\\FSC_TCDEVTC_IDCADMINstderr.log",
+      "folder": "FSC",
+      "name": "FSC_TCDEVTC_IDCADMINstderr.log",
+      "size": 702,
+      "handler": "jul_pair",
+      "tools": {
+        "resolve_log_group": {
+          "ok": true,
+          "detail": "1 file(s) in rotation group"
+        },
+        "latest_logs": {
+          "ok": true,
+          "detail": "5 entries, last_ts=2026-07-30 05:37:57"
+        },
+        "latest_logs_page": {
+          "ok": true,
+          "detail": "3 entries (skip=2, n=3)"
+        },
+        "timed_logs": {
+          "ok": true,
+          "detail": "3 entries in 24h window ending 2026-07-30 05:37:57"
+        }
+      },
+      "rotation_count": 1,
+      "sample_entry": {
+        "log_type": "jul_pair",
+        "timestamp": "2026-07-30 05:37:57",
+        "level": null,
+        "message": "org.glassfish.jersey.server.wadl.WadlFeature configure",
+        "raw": "Jul 30, 2026 5:37:57 AM org.glassfish.jersey.server.wadl.WadlFeature configure\nWARNING: JAXBContext implementation could not be found. WADL feature is disabled.",
+        "source": "org.glassfish.jersey.server.wadl.WadlFeature configure",
+        "host": null,
+        "thread": null,
+        "details": [
+          "WARNING: JAXBContext implementation could not be found. WADL feature is disabled."
+        ]
+      }
+    },
+    {
+      "path": "C:\\Data\\Project\\ASBG\\LogAnalyser\\logs\\Solr\\solr_gc.log",
+      "folder": "Solr",
+      "name": "solr_gc.log",
+      "size": 29856,
+      "handler": "jvm_gc",
+      "tools": {
+        "resolve_log_group": {
+          "ok": true,
+          "detail": "2 file(s) in rotation group"
+        },
+        "latest_logs": {
+          "ok": true,
+          "detail": "5 entries, last_ts=2026-07-30 05:37:17.811000"
+        },
+        "latest_logs_page": {
+          "ok": true,
+          "detail": "3 entries (skip=2, n=3)"
+        },
+        "timed_logs": {
+          "ok": true,
+          "detail": "5 entries in 24h window ending 2026-07-30 05:37:17.811000"
+        }
+      },
+      "rotation_count": 2,
+      "sample_entry": {
+        "log_type": "jvm_gc",
+        "timestamp": "2026-07-30 05:37:17.811000",
+        "level": null,
+        "message": "GC(20) User=0.09s Sys=0.05s Real=0.03s",
+        "raw": "[2026-07-30T05:37:17.811+0000][26.031s] GC(20) User=0.09s Sys=0.05s Real=0.03s",
+        "source": null,
+        "host": null,
+        "thread": null,
+        "details": [
+          "uptime=26.031s"
+        ]
+      }
+    },
+    {
+      "path": "C:\\Data\\Project\\ASBG\\LogAnalyser\\logs\\Solr\\solr_gc.log.0",
+      "folder": "Solr",
+      "name": "solr_gc.log.0",
+      "size": 20321,
+      "handler": "jvm_gc",
+      "tools": {
+        "resolve_log_group": {
+          "ok": true,
+          "detail": "2 file(s) in rotation group"
+        },
+        "latest_logs": {
+          "ok": true,
+          "detail": "5 entries, last_ts=2026-07-30 05:37:17.811000"
+        },
+        "latest_logs_page": {
+          "ok": true,
+          "detail": "3 entries (skip=2, n=3)"
+        },
+        "timed_logs": {
+          "ok": true,
+          "detail": "5 entries in 24h window ending 2026-07-30 05:37:17.811000"
+        }
+      },
+      "rotation_count": 2,
+      "sample_entry": {
+        "log_type": "jvm_gc",
+        "timestamp": "2026-07-30 05:37:17.811000",
+        "level": null,
+        "message": "GC(20) User=0.09s Sys=0.05s Real=0.03s",
+        "raw": "[2026-07-30T05:37:17.811+0000][26.031s] GC(20) User=0.09s Sys=0.05s Real=0.03s",
+        "source": null,
+        "host": null,
+        "thread": null,
+        "details": [
+          "uptime=26.031s"
+        ]
+      }
+    },
+    {
+      "path": "C:\\Data\\Project\\ASBG\\LogAnalyser\\logs\\LOGS_POOL_DUMP\\PoolServer2\\ServerManager-2024-03-30-1.log",
+      "folder": "LOGS_POOL_DUMP/PoolServer2",
+      "name": "ServerManager-2024-03-30-1.log",
+      "size": 10486577,
+      "handler": "pool",
+      "tools": {
+        "resolve_log_group": {
+          "ok": true,
+          "detail": "5 file(s) in rotation group"
+        },
+        "latest_logs": {
+          "ok": true,
+          "detail": "5 entries, last_ts=2024-07-17 09:03:43.199000"
+        },
+        "latest_logs_page": {
+          "ok": true,
+          "detail": "3 entries (skip=2, n=3)"
+        },
+        "timed_logs": {
+          "ok": true,
+          "detail": "5 entries in 24h window ending 2024-07-17 09:03:43.199000"
+        }
+      },
+      "rotation_count": 5,
+      "sample_entry": {
+        "log_type": "pool",
+        "timestamp": "2024-07-17 09:03:43.199000",
+        "level": "INFO",
+        "message": "TcServer tcserver00037@CADENAS_QA1_TcPoolB@3532@OITTOR56APCC150 published, tcserver.exe9e8fe29.syslog, TcServer Counts: Total: 10, Assigned: 2, Warm: 8",
+        "raw": "INFO  - 2024/07/17-09:03:43,199 UTC - OITTOR56APCC150 - OITTOR56APCC150.09992.tcserver00037.1          - TcServer tcserver00037@CADENAS_QA1_TcPoolB@3532@OITTOR56APCC150 published, tcserver.exe9e8fe29.syslog, TcServer Counts: Total: 10, Assigned: 2, Warm: 8",
+        "source": "OITTOR56APCC150.09992.tcserver00037.1",
+        "host": "OITTOR56APCC150",
+        "thread": null,
+        "details": null
+      }
+    },
+    {
+      "path": "C:\\Data\\Project\\ASBG\\LogAnalyser\\logs\\LOGS_POOL_DUMP\\PoolServer1\\ServerManager-2024-04-02-1.log",
+      "folder": "LOGS_POOL_DUMP/PoolServer1",
+      "name": "ServerManager-2024-04-02-1.log",
+      "size": 10485997,
+      "handler": "pool",
+      "tools": {
+        "resolve_log_group": {
+          "ok": true,
+          "detail": "4 file(s) in rotation group"
+        },
+        "latest_logs": {
+          "ok": true,
+          "detail": "5 entries, last_ts=2024-07-17 07:34:58.703000"
+        },
+        "latest_logs_page": {
+          "ok": true,
+          "detail": "3 entries (skip=2, n=3)"
+        },
+        "timed_logs": {
+          "ok": true,
+          "detail": "5 entries in 24h window ending 2024-07-17 07:34:58.703000"
+        }
+      },
+      "rotation_count": 4,
+      "sample_entry": {
+        "log_type": "pool",
+        "timestamp": "2024-07-17 07:34:58.703000",
+        "level": "INFO",
+        "message": "TcServer tcserver00040@CADENAS_QA1_TcPoolA@8132@OITTOR56APCC140 assigned to f05831d~DT0314593.SharedSession",
+        "raw": "INFO  - 2024/07/17-07:34:58,703 UTC - OITTOR56APCC140 - DT0314593.89512.01.Anonymous.00001             - TcServer tcserver00040@CADENAS_QA1_TcPoolA@8132@OITTOR56APCC140 assigned to f05831d~DT0314593.SharedSession",
+        "source": "DT0314593.89512.01.Anonymous.00001",
+        "host": "OITTOR56APCC140",
+        "thread": null,
+        "details": null
+      }
+    },
+    {
+      "path": "C:\\Data\\Project\\ASBG\\LogAnalyser\\logs\\RichClinet\\IDC-ADMIN_TcRAC_20260723114056.log",
+      "folder": "RichClinet",
+      "name": "IDC-ADMIN_TcRAC_20260723114056.log",
+      "size": 9908,
+      "handler": "rac",
+      "tools": {
+        "resolve_log_group": {
+          "ok": true,
+          "detail": "1 file(s) in rotation group"
+        },
+        "latest_logs": {
+          "ok": true,
+          "detail": "5 entries, last_ts=2026-07-23 11:54:37.965000"
+        },
+        "latest_logs_page": {
+          "ok": true,
+          "detail": "3 entries (skip=2, n=3)"
+        },
+        "timed_logs": {
+          "ok": true,
+          "detail": "5 entries in 24h window ending 2026-07-23 11:54:37.965000"
+        }
+      },
+      "rotation_count": 1,
+      "sample_entry": {
+        "log_type": "rac",
+        "timestamp": "2026-07-23 11:54:37.965000",
+        "level": "ERROR",
+        "message": "java.awt.IllegalComponentStateException java.awt.IllegalComponentStateException: Native resources unavailable",
+        "raw": "ERROR 2026-07-23 11:54:37,965 - java.awt.IllegalComponentStateException java.awt.IllegalComponentStateException: Native resources unavailable\n\tat java.desktop/sun.awt.windows.WWindowPeer.getScreenImOn(Native Method)\n\tat java.desktop/sun.awt.windows.WWindowPeer.updateGC(WWindowPeer.java:566)\n\tat java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)\n\tat java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:771)\n\tat java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)\n\tat java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)\n\tat java.base/java.security.AccessController.doPrivileged(AccessController.java:399)\n\tat java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)\n\tat java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)\n\tat java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)\n\tat java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)\n\tat java.base/java.security.AccessController.doPrivileged(AccessController.java:399)\n\tat java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)\n\tat java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)\n\tat java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)\n\tat java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)\n\tat java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)\n\tat java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)\n\tat java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)\n\tat java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)\n",
+        "source": null,
+        "host": null,
+        "thread": null,
+        "details": [
+          "\tat java.desktop/sun.awt.windows.WWindowPeer.getScreenImOn(Native Method)",
+          "\tat java.desktop/sun.awt.windows.WWindowPeer.updateGC(WWindowPeer.java:566)",
+          "\tat java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)",
+          "\tat java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:771)",
+          "\tat java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)",
+          "\tat java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)",
+          "\tat java.base/java.security.AccessController.doPrivileged(AccessController.java:399)",
+          "\tat java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)",
+          "\tat java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)",
+          "\tat java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)",
+          "\tat java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)",
+          "\tat java.base/java.security.AccessController.doPrivileged(AccessController.java:399)",
+          "\tat java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)",
+          "\tat java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)",
+          "\tat java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)",
+          "\tat java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)",
+          "\tat java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)",
+          "\tat java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)",
+          "\tat java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)",
+          "\tat java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)",
+          ""
+        ]
+      }
+    },
+    {
+      "path": "C:\\Data\\Project\\ASBG\\LogAnalyser\\logs\\RichClinet\\IDC-ADMIN_TcRAC_20260727095619.log",
+      "folder": "RichClinet",
+      "name": "IDC-ADMIN_TcRAC_20260727095619.log",
+      "size": 7960,
+      "handler": "rac",
+      "tools": {
+        "resolve_log_group": {
+          "ok": true,
+          "detail": "1 file(s) in rotation group"
+        },
+        "latest_logs": {
+          "ok": true,
+          "detail": "5 entries, last_ts=2026-07-27 10:14:54.180000"
+        },
+        "latest_logs_page": {
+          "ok": true,
+          "detail": "3 entries (skip=2, n=3)"
+        },
+        "timed_logs": {
+          "ok": true,
+          "detail": "5 entries in 24h window ending 2026-07-27 10:14:54.180000"
+        }
+      },
+      "rotation_count": 1,
+      "sample_entry": {
+        "log_type": "rac",
+        "timestamp": "2026-07-27 10:14:54.180000",
+        "level": "WARN",
+        "message": "isReplicafalse",
+        "raw": "WARN  2026-07-27 10:14:54,180 - isReplicafalse",
+        "source": null,
+        "host": null,
+        "thread": null,
+        "details": null
+      }
+    },
+    {
+      "path": "C:\\Data\\Project\\ASBG\\LogAnalyser\\logs\\DeploymentCentre\\dc_tem_interoperability_Thread-tc_root_2026-07-23_06_30_52.log",
+      "folder": "DeploymentCentre",
+      "name": "dc_tem_interoperability_Thread-tc_root_2026-07-23_06_30_52.log",
+      "size": 151358,
+      "handler": "raw",
+      "tools": {
+        "resolve_log_group": {
+          "ok": true,
+          "detail": "1 file(s) in rotation group"
+        },
+        "latest_logs": {
+          "ok": true,
+          "detail": "5 entries, last_ts=None"
+        },
+        "latest_logs_page": {
+          "ok": true,
+          "detail": "3 entries (skip=2, n=3)"
+        },
+        "timed_logs": {
+          "ok": true,
+          "detail": "skipped (no timestamp in latest entry)"
+        }
+      },
+      "rotation_count": 1,
+      "sample_entry": {
+        "log_type": "raw",
+        "timestamp": null,
+        "level": null,
+        "message": "Done",
+        "raw": "Done",
+        "source": null,
+        "host": null,
+        "thread": null,
+        "details": null
+      }
+    },
+    {
+      "path": "C:\\Data\\Project\\ASBG\\LogAnalyser\\logs\\Indexer\\TcFtsIndexer.log.1",
+      "folder": "Indexer",
+      "name": "TcFtsIndexer.log.1",
+      "size": 21062474,
+      "handler": "tc_mld",
+      "tools": {
+        "resolve_log_group": {
+          "ok": true,
+          "detail": "2 file(s) in rotation group"
+        },
+        "latest_logs": {
+          "ok": true,
+          "detail": "5 entries, last_ts=2026-07-30 07:46:47.868000"
+        },
+        "latest_logs_page": {
+          "ok": true,
+          "detail": "3 entries (skip=2, n=3)"
+        },
+        "timed_logs": {
+          "ok": true,
+          "detail": "5 entries in 24h window ending 2026-07-30 07:46:47.868000"
+        }
+      },
+      "rotation_count": 2,
+      "sample_entry": {
+        "log_type": "tc_mld",
+        "timestamp": "2026-07-30 07:46:47.868000",
+        "level": "INFO",
+        "message": "*************************",
+        "raw": "2026/07/30-07:46:47,868 UTC - INFO  - objdata -  -  - *************************",
+        "source": "objdata",
+        "host": null,
+        "thread": null,
+        "details": null
+      }
+    },
+    {
+      "path": "C:\\Data\\Project\\ASBG\\LogAnalyser\\logs\\ServerManager\\ServerManager-2026-07-07-1.log",
+      "folder": "ServerManager",
+      "name": "ServerManager-2026-07-07-1.log",
+      "size": 10485875,
+      "handler": "tc_mld",
+      "tools": {
+        "resolve_log_group": {
+          "ok": true,
+          "detail": "2 file(s) in rotation group"
+        },
+        "latest_logs": {
+          "ok": true,
+          "detail": "5 entries, last_ts=2026-07-30 07:22:00.712000"
+        },
+        "latest_logs_page": {
+          "ok": true,
+          "detail": "3 entries (skip=2, n=3)"
+        },
+        "timed_logs": {
+          "ok": true,
+          "detail": "5 entries in 24h window ending 2026-07-30 07:22:00.712000"
+        }
+      },
+      "rotation_count": 2,
+      "sample_entry": {
+        "log_type": "tc_mld",
+        "timestamp": "2026-07-30 07:22:00.712000",
+        "level": "INFO",
+        "message": "TcServer tcserver00011@PoolA@4240@tc-dev-tc published, tcserver.exe36b4db24.syslog, TcServer Counts: Total: 4, Assigned: 3, Warm: 1",
+        "raw": "2026/07/30-07:22:00.712 UTC - INFO  - - 07ED3E4F5 -           - 05D5AA589R001 - TcServer tcserver00011@PoolA@4240@tc-dev-tc published, tcserver.exe36b4db24.syslog, TcServer Counts: Total: 4, Assigned: 3, Warm: 1",
+        "source": "- 07ED3E4F5",
+        "host": "05D5AA589R001",
+        "thread": null,
+        "details": null
+      }
+    },
+    {
+      "path": "C:\\Data\\Project\\ASBG\\LogAnalyser\\logs\\Utils\\preferences_manager_202672364121.log",
+      "folder": "Utils",
+      "name": "preferences_manager_202672364121.log",
+      "size": 1137,
+      "handler": "utility_banner",
+      "tools": {
+        "resolve_log_group": {
+          "ok": true,
+          "detail": "1 file(s) in rotation group"
+        },
+        "latest_logs": {
+          "ok": true,
+          "detail": "4 entries, last_ts=None"
+        },
+        "latest_logs_page": {
+          "ok": true,
+          "detail": "3 entries (skip=2, n=3)"
+        },
+        "timed_logs": {
+          "ok": true,
+          "detail": "skipped (no timestamp in latest entry)"
+        }
+      },
+      "rotation_count": 1,
+      "sample_entry": {
+        "log_type": "utility_banner",
+        "timestamp": null,
+        "level": null,
+        "message": "*******************************************************************************************************",
+        "raw": "*******************************************************************************************************\nChosen action mode = OVERRIDE\nImporting the XML preference file 'D:\\PLM\\Siemens\\Teamcenter2506\\tc_data\\TcPreference_1784788874869.xml'...\n\nThe value instance of preference \"AWS_FullTextSearch_IdxObjIndexedLocalizableProperties_ObjectData\" will not be updated since it has identical values in the database.\n\nA total of 0 preferences has been imported successfully!\n\n------------------------------------------------------\nAll requested preferences have been imported.\n------------------------------------------------------\n\nThe import operation has succeeded.\n",
+        "source": null,
+        "host": null,
+        "thread": null,
+        "details": [
+          "Chosen action mode = OVERRIDE",
+          "Importing the XML preference file 'D:\\PLM\\Siemens\\Teamcenter2506\\tc_data\\TcPreference_1784788874869.xml'...",
+          "",
+          "The value instance of preference \"AWS_FullTextSearch_IdxObjIndexedLocalizableProperties_ObjectData\" will not be updated since it has identical values in the database.",
+          "",
+          "A total of 0 preferences has been imported successfully!",
+          "",
+          "------------------------------------------------------",
+          "All requested preferences have been imported.",
+          "------------------------------------------------------",
+          "",
+          "The import operation has succeeded.",
+          ""
+        ]
+      }
+    },
+    {
+      "path": "C:\\Data\\Project\\ASBG\\LogAnalyser\\logs\\Utils\\preferences_manager_202672364136.log",
+      "folder": "Utils",
+      "name": "preferences_manager_202672364136.log",
+      "size": 1105,
+      "handler": "utility_banner",
+      "tools": {
+        "resolve_log_group": {
+          "ok": true,
+          "detail": "1 file(s) in rotation group"
+        },
+        "latest_logs": {
+          "ok": true,
+          "detail": "4 entries, last_ts=None"
+        },
+        "latest_logs_page": {
+          "ok": true,
+          "detail": "3 entries (skip=2, n=3)"
+        },
+        "timed_logs": {
+          "ok": true,
+          "detail": "skipped (no timestamp in latest entry)"
+        }
+      },
+      "rotation_count": 1,
+      "sample_entry": {
+        "log_type": "utility_banner",
+        "timestamp": null,
+        "level": null,
+        "message": "*******************************************************************************************************",
+        "raw": "*******************************************************************************************************\nChosen action mode = OVERRIDE\nImporting the XML preference file 'D:\\PLM\\Siemens\\Teamcenter2506\\tc_data\\TcPreference_1784788889162.xml'...\n\nThe value instance of preference \"AW_FullTextSearch_TypeCategories\" will not be updated since it has identical values in the database.\n\nA total of 0 preferences has been imported successfully!\n\n------------------------------------------------------\nAll requested preferences have been imported.\n------------------------------------------------------\n\nThe import operation has succeeded.\n",
+        "source": null,
+        "host": null,
+        "thread": null,
+        "details": [
+          "Chosen action mode = OVERRIDE",
+          "Importing the XML preference file 'D:\\PLM\\Siemens\\Teamcenter2506\\tc_data\\TcPreference_1784788889162.xml'...",
+          "",
+          "The value instance of preference \"AW_FullTextSearch_TypeCategories\" will not be updated since it has identical values in the database.",
+          "",
+          "A total of 0 preferences has been imported successfully!",
+          "",
+          "------------------------------------------------------",
+          "All requested preferences have been imported.",
+          "------------------------------------------------------",
+          "",
+          "The import operation has succeeded.",
+          ""
+        ]
+      }
+    },
+    {
+      "path": "C:\\Data\\Project\\ASBG\\LogAnalyser\\logs\\Utils\\dd_vs_setup_bootstrapper_decompression_log.txt",
+      "folder": "Utils",
+      "name": "dd_vs_setup_bootstrapper_decompression_log.txt",
+      "size": 803,
+      "handler": "vs_bracket",
+      "tools": {
+        "resolve_log_group": {
+          "ok": true,
+          "detail": "1 file(s) in rotation group"
+        },
+        "latest_logs": {
+          "ok": true,
+          "detail": "5 entries, last_ts=2026-07-23 05:35:24"
+        },
+        "latest_logs_page": {
+          "ok": true,
+          "detail": "3 entries (skip=2, n=3)"
+        },
+        "timed_logs": {
+          "ok": true,
+          "detail": "5 entries in 24h window ending 2026-07-23 05:35:24"
+        }
+      },
+      "rotation_count": 1,
+      "sample_entry": {
+        "log_type": "vs_bracket",
+        "timestamp": "2026-07-23 05:35:24",
+        "level": null,
+        "message": "=== Logging stopped: 2026/07/23 05:35:24 ===",
+        "raw": "[7/23/2026, 5:35:24] === Logging stopped: 2026/07/23 05:35:24 ===",
+        "source": null,
+        "host": null,
+        "thread": null,
+        "details": null
+      }
+    },
+    {
+      "path": "C:\\Data\\Project\\ASBG\\LogAnalyser\\logs\\Utils\\dd_updateconfiguration_20260730070633.log",
+      "folder": "Utils",
+      "name": "dd_updateconfiguration_20260730070633.log",
+      "size": 282,
+      "handler": "vs_bracket",
+      "tools": {
+        "resolve_log_group": {
+          "ok": true,
+          "detail": "1 file(s) in rotation group"
+        },
+        "latest_logs": {
+          "ok": true,
+          "detail": "2 entries, last_ts=2026-07-30 07:06:34"
+        },
+        "latest_logs_page": {
+          "ok": true,
+          "detail": "2 entries (skip=2, n=3)"
+        },
+        "timed_logs": {
+          "ok": true,
+          "detail": "2 entries in 24h window ending 2026-07-30 07:06:34"
+        }
+      },
+      "rotation_count": 1,
+      "sample_entry": {
+        "log_type": "vs_bracket",
+        "timestamp": "2026-07-30 07:06:34",
+        "level": null,
+        "message": "No update since last run. Skipping current operation.",
+        "raw": "[0ed8:0001][2026-07-30T07:06:34] No update since last run. Skipping current operation.",
+        "source": null,
+        "host": null,
+        "thread": "0ed8:0001",
+        "details": null
+      }
+    },
+    {
+      "path": "C:\\Data\\Project\\ASBG\\LogAnalyser\\logs\\LOGS_WEB_DUMPS\\WEB_1\\TcWebTierLOG.txt",
+      "folder": "LOGS_WEB_DUMPS/WEB_1",
+      "name": "TcWebTierLOG.txt",
+      "size": 204921,
+      "handler": "web",
+      "tools": {
+        "resolve_log_group": {
+          "ok": true,
+          "detail": "1 file(s) in rotation group"
+        },
+        "latest_logs": {
+          "ok": true,
+          "detail": "5 entries, last_ts=2023-02-08 00:02:43.224000"
+        },
+        "latest_logs_page": {
+          "ok": true,
+          "detail": "3 entries (skip=2, n=3)"
+        },
+        "timed_logs": {
+          "ok": true,
+          "detail": "5 entries in 24h window ending 2023-02-08 00:02:43.224000"
+        }
+      },
+      "rotation_count": 1,
+      "sample_entry": {
+        "log_type": "web",
+        "timestamp": "2023-02-08 00:02:43.224000",
+        "level": "ERROR",
+        "message": "Error in Processing the Request in the RequestInjector implementation.",
+        "raw": "2023-02-08 00:02:43,224 [30] ERROR Teamcenter.Presentation.Framework.RequestProcessing.RequestInjectorImpl [(null)] <(null)> - Error in Processing the Request in the RequestInjector implementation.\nSystem.NullReferenceException: Object reference not set to an instance of an object.\n   at Teamcenter.WebIntegrations.SOA.ExceptionMapperJson.WriteSoaException(Exception ex, Stream outStream, String contentType)\n   at Teamcenter.WebIntegrations.SOA.SOAResponseHandler.GenerateResponse()\n   at Teamcenter.Presentation.Framework.RequestProcessing.RequestInjectorImpl.ProcessOption(String option)\n   at Teamcenter.Presentation.Framework.RequestProcessing.RequestInjectorImpl.ProcessRequest()",
+        "source": "Teamcenter.Presentation.Framework.RequestProcessing.RequestInjectorImpl",
+        "host": null,
+        "thread": "30",
+        "details": [
+          "System.NullReferenceException: Object reference not set to an instance of an object.",
+          "   at Teamcenter.WebIntegrations.SOA.ExceptionMapperJson.WriteSoaException(Exception ex, Stream outStream, String contentType)",
+          "   at Teamcenter.WebIntegrations.SOA.SOAResponseHandler.GenerateResponse()",
+          "   at Teamcenter.Presentation.Framework.RequestProcessing.RequestInjectorImpl.ProcessOption(String option)",
+          "   at Teamcenter.Presentation.Framework.RequestProcessing.RequestInjectorImpl.ProcessRequest()"
+        ]
+      }
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 import os
 
-DEFAULT_LATEST_LOGS = int(os.getenv("DEFAULT_LATEST_LOGS", "10"))
+DEFAULT_LATEST_LOGS = int(os.getenv("DEFAULT_LATEST_LOGS", "25"))
 MAX_LOGS_PER_CALL = int(os.getenv("MAX_LOGS_PER_CALL", "100"))
 DEFAULT_MAX_DISCOVER = int(os.getenv("DEFAULT_MAX_DISCOVER", "500"))

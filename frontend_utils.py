@@ -1,7 +1,10 @@
 from pathlib import Path
 from uuid import uuid4
 
-from Tools.log_discovery import DEFAULT_LOG_EXTENSIONS, discover_logs
+from Tools.log_discovery import discover_logs
+
+ALL_FILES_OPTION = '__all_files__'
+
 
 def generate_thread_id(generation_type: str):
     '''
@@ -13,10 +16,6 @@ def generate_thread_id(generation_type: str):
         return 'scheduled_'+str(uuid4())
     else:
         raise ValueError(f"Invalid generation type: {generation_type}")
-
-
-LOG_FILE_EXTENSIONS = DEFAULT_LOG_EXTENSIONS
-ALL_FILES_OPTION = '__all_files__'
 
 
 def discover_log_files(logs_root: Path) -> list[Path]:

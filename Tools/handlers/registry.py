@@ -31,14 +31,6 @@ _HANDLERS: list[FormatHandler] = [
 _BY_NAME = {handler.name: handler for handler in _HANDLERS}
 
 
-def list_handlers() -> list[FormatHandler]:
-    return list(_HANDLERS)
-
-
-def get_handler(name: str) -> FormatHandler | None:
-    return _BY_NAME.get(name)
-
-
 def detect_handler(sample_lines: list[str], path_hint: str | None = None) -> FormatHandler:
     """Pick the first handler that claims the sample; raw always matches."""
     hint = (path_hint or "").lower()

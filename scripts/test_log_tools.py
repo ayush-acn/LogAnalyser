@@ -3,7 +3,6 @@ from __future__ import annotations
 
 import json
 import sys
-import traceback
 from collections import defaultdict
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -11,11 +10,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from Tools.log_discovery import discover_logs, group_all_logs, resolve_log_group
-from Tools.log_resources import LogResources, detect_log_type
+from Tools.log_discovery import discover_logs, resolve_log_group
+from Tools.log_resources import detect_log_type
 from Tools.log_tools import (
     fetch_latest_logs,
-    fetch_paginated_logs,
     fetch_timed_logs,
     list_logs,
     resolve_log_group_tool,
@@ -42,11 +40,10 @@ def test_file(path: Path) -> dict:
     }
 
     if result["size"] == 0:
-        for tool in ("latest_logs", "page_logs", "timed_logs", "resolve_log_group"):
+        for tool in ("latest_logs", "latest_logs_page", "timed_logs", "resolve_log_group"):
             result["tools"][tool] = _status(True, "skipped (empty file)")
         return result
 
-    # resolve_log_group
     try:
         group = resolve_log_group_tool.invoke({"file_path": fp})
         result["tools"]["resolve_log_group"] = _status(
@@ -56,7 +53,6 @@ def test_file(path: Path) -> dict:
     except Exception as exc:
         result["tools"]["resolve_log_group"] = _status(False, str(exc))
 
-    # latest_logs
     try:
         entries = fetch_latest_logs.invoke({"file_path": fp, "n": SAMPLE_N})
         ok = isinstance(entries, list)
@@ -69,16 +65,15 @@ def test_file(path: Path) -> dict:
     except Exception as exc:
         result["tools"]["latest_logs"] = _status(False, str(exc))
 
-    # page_logs (skip=2)
+    # Pagination via latest_logs(skip=...) — replaces former page_logs tool
     try:
-        entries = fetch_paginated_logs.invoke({"file_path": fp, "n": 3, "skip": 2})
-        result["tools"]["page_logs"] = _status(
+        entries = fetch_latest_logs.invoke({"file_path": fp, "n": 3, "skip": 2})
+        result["tools"]["latest_logs_page"] = _status(
             True, f"{len(entries)} entries (skip=2, n=3)"
         )
     except Exception as exc:
-        result["tools"]["page_logs"] = _status(False, str(exc))
+        result["tools"]["latest_logs_page"] = _status(False, str(exc))
 
-    # timed_logs — use last entry timestamp if available
     try:
         entries = fetch_latest_logs.invoke({"file_path": fp, "n": 1})
         if entries and entries[0].get("timestamp"):
@@ -112,7 +107,6 @@ def main() -> int:
     print(f"Root: {LOGS_ROOT}")
     print("=" * 72)
 
-    # Tool: list_logs
     print("\n[1/2] Testing list_logs ...")
     try:
         listed = list_logs.invoke({"root_dir": str(LOGS_ROOT), "max_files": 500})
@@ -121,14 +115,11 @@ def main() -> int:
         print(f"  FAIL — {exc}")
         return 1
 
-    # Pick one representative file per handler type (prefer non-empty, varied folders)
     discovered = discover_logs(LOGS_ROOT, max_files=500)
     by_handler: dict[str, list[Path]] = defaultdict(list)
     for p in discovered:
-        h = detect_log_type(p)
-        by_handler[h].append(p)
+        by_handler[detect_log_type(p)].append(p)
 
-    # Also ensure syslog/fscproxylog extensions are represented
     for p in LOGS_ROOT.rglob("*"):
         if p.is_file() and p.suffix.lower() in {".syslog", ".fscproxylog"} and p.stat().st_size > 0:
             h = detect_log_type(p)
@@ -141,7 +132,6 @@ def main() -> int:
 
     for handler in sorted(by_handler.keys()):
         files = sorted(by_handler[handler], key=lambda p: p.stat().st_size, reverse=True)
-        # Test up to 2 representatives per handler (largest files)
         reps = files[:2]
         handler_summary[handler] = {"total_files": len(files), "tested": [], "pass": 0, "fail": 0}
 
@@ -162,13 +152,21 @@ def main() -> int:
                 mark = "ok" if info["ok"] else "FAIL"
                 print(f"       {tool}: {mark} — {info['detail']}")
 
-    # Rotation group smoke test
-    print("\n--- Rotation groups (group_all_logs) ---")
-    groups = group_all_logs(LOGS_ROOT, max_files=500)
-    multi = [g for g in groups if g["count"] > 1]
-    print(f"  {len(groups)} unique groups, {len(multi)} with multiple files")
+    print("\n--- Rotation groups ---")
+    seen: set[str] = set()
+    multi = 0
+    groups = 0
+    for path in discovered:
+        members = resolve_log_group(path)
+        key = "|".join(str(p.resolve()) for p in members)
+        if key in seen:
+            continue
+        seen.add(key)
+        groups += 1
+        if len(members) > 1:
+            multi += 1
+    print(f"  {groups} unique groups, {multi} with multiple files")
 
-    # Summary table
     print("\n" + "=" * 72)
     print("SUMMARY BY HANDLER TYPE")
     print("=" * 72)
@@ -191,7 +189,7 @@ def main() -> int:
         "run_at": datetime.now().isoformat(sep=" "),
         "logs_root": str(LOGS_ROOT),
         "list_logs_count": len(listed),
-        "rotation_groups": len(groups),
+        "rotation_groups": groups,
         "handler_summary": handler_summary,
         "results": all_results,
     }

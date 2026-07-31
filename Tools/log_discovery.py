@@ -2,12 +2,10 @@ from __future__ import annotations
 
 import re
 from pathlib import Path
-from typing import Any
 
 from Tools import DEFAULT_MAX_DISCOVER
 
 DEFAULT_LOG_EXTENSIONS = {".log", ".txt", ".syslog", ".fscproxylog"}
-SKIP_EMPTY_EXTENSIONS = {".pjl", ".tmp"}
 
 _NUMERIC_ROTATION = re.compile(r"^(?P<stem>.+)\.log\.(?P<n>\d+)$", re.IGNORECASE)
 _DATED_SUFFIX = re.compile(
@@ -169,24 +167,3 @@ def resolve_log_group(file_path: str | Path) -> list[Path]:
             return group
 
     return [path]
-
-
-def group_all_logs(root_dir: str | Path, **kwargs: Any) -> list[dict[str, Any]]:
-    """Discover files and collapse into unique logical groups."""
-    files = discover_logs(root_dir, **kwargs)
-    seen: set[str] = set()
-    groups: list[dict[str, Any]] = []
-    for path in files:
-        members = resolve_log_group(path)
-        key = "|".join(str(p.resolve()) for p in members)
-        if key in seen:
-            continue
-        seen.add(key)
-        groups.append(
-            {
-                "primary": str(members[-1] if members else path),
-                "paths": [str(p) for p in members],
-                "count": len(members),
-            }
-        )
-    return groups

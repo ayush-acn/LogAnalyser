@@ -12,8 +12,6 @@ from Tools.handlers.registry import detect_handler
 
 class LogResources:
     def __init__(self):
-        self.logs_dir = None
-        self.file_name = None
         self.default_latest_count = DEFAULT_LATEST_LOGS
         self._handler_cache: dict[str, FormatHandler] = {}
 
@@ -307,11 +305,8 @@ class LogResources:
             entry.details.append(line)
 
 
-def get_logs_root(project_root: str | Path) -> Path:
-    return Path(project_root) / "logs"
-
-
 def detect_log_type(log_file: Path) -> str:
+    """Return the detected handler name for a log file (used by test harness)."""
     resources = LogResources()
     try:
         if not log_file.is_file() or log_file.stat().st_size == 0:
@@ -319,48 +314,3 @@ def detect_log_type(log_file: Path) -> str:
         return resources._detect_handler(log_file).name
     except OSError:
         return "unknown"
-
-
-def discover_log_files(logs_root: str | Path) -> list[dict[str, Any]]:
-    """Legacy metadata discovery used by older demos; prefers .log/.txt."""
-    logs_root = Path(logs_root)
-    records: list[dict[str, Any]] = []
-    if not logs_root.exists():
-        return records
-    for log_file in sorted(logs_root.rglob("*")):
-        if not log_file.is_file():
-            continue
-        if log_file.suffix.lower() not in {".log", ".txt"}:
-            continue
-        records.append(
-            {
-                "label": log_file.name,
-                "path": log_file,
-                "type": detect_log_type(log_file),
-                "folder": log_file.parent.name.lower(),
-                "logs_subdir": log_file.parent.relative_to(logs_root).as_posix(),
-            }
-        )
-    return records
-
-
-def list_log_types(records: list[dict[str, Any]]) -> list[str]:
-    return sorted({row["type"] for row in records})
-
-
-def list_folders(records: list[dict[str, Any]], log_type: str) -> list[str]:
-    scoped = records if log_type == "all" else [row for row in records if row["type"] == log_type]
-    return sorted({row["folder"] for row in scoped})
-
-
-def filter_records(
-    records: list[dict[str, Any]],
-    log_type: str,
-    log_folder: str,
-) -> list[dict[str, Any]]:
-    result = records
-    if log_type != "all":
-        result = [row for row in result if row["type"] == log_type]
-    if log_folder != "all":
-        result = [row for row in result if row["folder"] == log_folder]
-    return result

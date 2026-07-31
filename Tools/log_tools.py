@@ -30,7 +30,7 @@ def _resolve_paths(file_path: str, include_rotations: bool) -> list[Path]:
 def _fetch(
     file_path: str,
     *,
-    n: int,
+    n: int = DEFAULT_LATEST_LOGS,
     skip: int = 0,
     start_time: datetime | None = None,
     end_time: datetime | None = None,
@@ -102,25 +102,6 @@ def fetch_latest_logs(
     )
 
 
-@tool("page_logs")
-def fetch_paginated_logs(
-    file_path: str,
-    n: int = DEFAULT_LATEST_LOGS,
-    skip: int = 0,
-    include_rotations: bool = True,
-) -> list[dict]:
-    """
-    Fetch paginated log entries from a log file (and rotations by default).
-    Use skip to page further back from the end of the log.
-    """
-    return _fetch(
-        file_path,
-        n=_clamp_n(n),
-        skip=max(0, skip or 0),
-        include_rotations=include_rotations,
-    )
-
-
 @tool("timed_logs")
 def fetch_timed_logs(
     file_path: str,
@@ -140,7 +121,6 @@ def fetch_timed_logs(
     """
     logs = _fetch(
         file_path,
-        n=_clamp_n(n) * 50,  # gather a wider window then clamp
         start_time=start_time,
         end_time=end_time,
         include_rotations=include_rotations,
@@ -152,6 +132,5 @@ log_fetch_tools = [
     list_logs,
     resolve_log_group_tool,
     fetch_latest_logs,
-    fetch_paginated_logs,
     fetch_timed_logs,
 ]

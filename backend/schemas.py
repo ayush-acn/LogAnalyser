@@ -1,7 +1,5 @@
 from pydantic import BaseModel, Field
 
-from Models.log_agent import IssuesReported
-
 
 class AnalysisRequest(BaseModel):
     log_file_path: str = Field(description="Absolute path to a log file, or newline-separated paths.")
@@ -21,9 +19,3 @@ class QueryAnalysisRequest(AnalysisRequest):
 
 class HealthResponse(BaseModel):
     status: str = "ok"
-
-
-class ScheduledAnalysisResult(BaseModel):
-    """Final structured payload for scheduled analysis (also sent on SSE done)."""
-    thread_id: str
-    issues: IssuesReported

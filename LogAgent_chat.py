@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import Generator, Iterator
+from typing import Generator
 
 from langchain_core.messages import AIMessage, AnyMessage, HumanMessage, SystemMessage
 from langgraph.checkpoint.memory import MemorySaver
@@ -25,18 +25,6 @@ def new_chat(log_file_path: str, user_query: str | None = None) -> str:
     return LogsAnalyzerSystemPrompt.format(file_path=log_file_path)
 
 
-def stream_messages(
-    messages: list[AnyMessage],
-    thread_id: str,
-    log_file_path: str,
-    user_query: str | None = None,
-) -> Generator[str, None, None]:
-    """Stream assistant text tokens for a turn (query or scheduled)."""
-    for event in stream_turn(messages, thread_id, log_file_path, user_query):
-        if event.get("type") == "token":
-            yield event["text"]
-
-
 def stream_turn(
     messages: list[AnyMessage],
     thread_id: str,
@@ -46,8 +34,7 @@ def stream_turn(
     """
     Stream structured events:
       {"type": "token", "text": "..."}
-      {"type": "done"}
-    Returns IssuesReported (scheduled) via generator return value.
+      {"type": "done", "issues": ...|null}
     """
     default_query = DEFAULT_SCHEDULED_QUERY
     new_messages: list[AnyMessage] = []
