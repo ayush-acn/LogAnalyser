@@ -1,53 +1,21 @@
-import os
-import re
+from __future__ import annotations
+
 from collections import deque
-from dataclasses import asdict, dataclass
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Literal
+
 from Tools import DEFAULT_LATEST_LOGS
+from Tools.handlers.base import FormatHandler, LogEntry
+from Tools.handlers.registry import detect_handler
 
-LogFormat = Literal["web", "pool"]
-
-@dataclass
-class LogEntry:
-    log_type: str
-    timestamp: datetime | None
-    level: str | None
-    message: str
-    raw: str
-    source: str | None = None
-    host: str | None = None
-    thread: str | None = None
-    details: list[str] | None = None
-
-    def to_dict(self) -> dict[str, Any]:
-        data = asdict(self)
-        data["timestamp"] = self.timestamp.isoformat(sep=" ") if self.timestamp else None
-        return data
 
 class LogResources:
-    WEB_LOG = re.compile(
-        r"^(?P<time>\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2},\d{3}) "
-        r"\[(?P<thread>[^\]]+)\]\s+(?P<level>\w+)\s+"
-        r"(?P<source>.*?)\s+\[[^\]]*\]\s+<[^>]*>\s+-\s+(?P<message>.*)$"
-    )
-    POOL_LOG = re.compile(
-        r"^(?P<level>\w+)\s+-\s+"
-        r"(?P<time>\d{4}/\d{2}/\d{2}-\d{2}:\d{2}:\d{2},\d{3}) UTC - "
-        r"(?P<host>.*?) - (?P<source>.*?)\s+-\s+(?P<message>.*)$"
-    )
-    # Cheap timestamp-only peeks (avoid full LogEntry construction out of range).
-    WEB_TIME = re.compile(r"^(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2},\d{3}) ")
-    POOL_TIME = re.compile(
-        r"^\w+\s+-\s+(\d{4}/\d{2}/\d{2}-\d{2}:\d{2}:\d{2},\d{3}) UTC - "
-    )
-
     def __init__(self):
         self.logs_dir = None
         self.file_name = None
         self.default_latest_count = DEFAULT_LATEST_LOGS
-        self._format_cache: dict[str, LogFormat | None] = {}
+        self._handler_cache: dict[str, FormatHandler] = {}
 
     def fetch_logs(
         self,
@@ -58,24 +26,73 @@ class LogResources:
         n: int = DEFAULT_LATEST_LOGS,
     ) -> list[dict[str, Any]]:
         """
-        Returns formatted logs from a file.
-
-        - start_time/end_time: inclusive time range.
-        - from_bottom + limit: bottom-based paging, e.g. from_bottom=20, limit=30 gives 20-50.
-        - no filters: latest default_latest_count logs.
+        Returns formatted logs from a file (or merged multi-file path list via
+        fetch_logs_from_paths).
         """
-        if not file_path.is_file():
-            raise FileNotFoundError(f"File {file_path} not found")
-            
+        path = Path(file_path)
+        if not path.is_file():
+            raise FileNotFoundError(f"File {path} not found")
+
+        if path.stat().st_size == 0:
+            return []
+
         if start_time or end_time:
             start_time, end_time = self._normalize_time_range(start_time, end_time)
-            entries = self._parse_time_range(file_path, start_time, end_time)
+            entries = self._parse_time_range(path, start_time, end_time)
         else:
-            bottom = skip or 0
             count = n or self.default_latest_count
-            entries = self._parse_latest(file_path, count, skip=bottom)
+            entries = self._parse_latest(path, count, skip=skip or 0)
 
         return [entry.to_dict() for entry in entries]
+
+    def fetch_logs_from_paths(
+        self,
+        paths: list[Path],
+        start_time: datetime | None = None,
+        end_time: datetime | None = None,
+        skip: int = 0,
+        n: int = DEFAULT_LATEST_LOGS,
+    ) -> list[dict[str, Any]]:
+        """Parse multiple files in order (already-merged rotation group)."""
+        if not paths:
+            return []
+        if len(paths) == 1:
+            return self.fetch_logs(paths[0], start_time=start_time, end_time=end_time, skip=skip, n=n)
+
+        # Parse each file fully for the filter, then apply skip/n on the combined list.
+        combined: list[LogEntry] = []
+        for path in paths:
+            if not path.is_file() or path.stat().st_size == 0:
+                continue
+            handler = self._detect_handler(path)
+            with open(path, "r", encoding="utf-8", errors="replace") as file:
+                lines = [line.rstrip("\n") for line in file]
+            combined.extend(self._parse_lines(lines, handler))
+
+        if start_time or end_time:
+            start_time, end_time = self._normalize_time_range(start_time, end_time)
+            combined = [
+                entry
+                for entry in combined
+                if entry.timestamp is None
+                or (
+                    (start_time is None or entry.timestamp >= start_time)
+                    and (end_time is None or entry.timestamp <= end_time)
+                )
+            ]
+            return [entry.to_dict() for entry in combined]
+
+        count = n or self.default_latest_count
+        bottom = skip or 0
+        if not combined:
+            return []
+        if bottom:
+            end = len(combined) - bottom
+            start = max(0, end - count)
+            window = combined[start:end] if end > 0 else []
+        else:
+            window = combined[-count:]
+        return [entry.to_dict() for entry in window]
 
     def _parse_time_range(
         self,
@@ -83,30 +100,36 @@ class LogResources:
         start_time: datetime | None,
         end_time: datetime | None,
     ) -> list[LogEntry]:
-        log_format = self._detect_format(file_path)
+        handler = self._detect_handler(file_path)
         entries: list[LogEntry] = []
         keep_current = False
-        start_offset = self._find_time_offset(file_path, start_time, log_format) if start_time else 0
+        start_offset = self._find_time_offset(file_path, start_time, handler) if start_time else 0
 
         with open(file_path, "r", encoding="utf-8", errors="replace") as file:
             if start_offset > 0:
-                # Offset is always aligned to a line start (after a too-early entry).
                 file.seek(start_offset)
 
             for line in file:
                 line = line.rstrip("\n")
-                timestamp = self._peek_timestamp(line, log_format)
+                timestamp = handler.peek_timestamp(line)
 
-                if timestamp is not None:
-                    if end_time and timestamp > end_time:
-                        break
-
-                    in_range = (start_time is None or timestamp >= start_time) and (
-                        end_time is None or timestamp <= end_time
-                    )
-                    keep_current = in_range
-                    if in_range:
-                        entry = self._parse_line(line, log_format)
+                if handler.is_record_start(line):
+                    if timestamp is not None:
+                        if end_time and timestamp > end_time:
+                            break
+                        in_range = (start_time is None or timestamp >= start_time) and (
+                            end_time is None or timestamp <= end_time
+                        )
+                        keep_current = in_range
+                        if in_range:
+                            entry = handler.parse_line(line)
+                            if entry:
+                                entries.append(entry)
+                        continue
+                    # Untimestamped record starts: include if no time filter binding.
+                    keep_current = start_time is None and end_time is None
+                    if keep_current:
+                        entry = handler.parse_line(line)
                         if entry:
                             entries.append(entry)
                     continue
@@ -126,25 +149,18 @@ class LogResources:
         if entry_count <= 0 or needed <= 0:
             return []
 
-        log_format = self._detect_format(file_path)
-        # Tail covers skip+count starts; only materialize the older page entries.
-        lines = self._read_tail_lines(file_path, needed, log_format)
-        return self._parse_lines(lines, log_format, max_entries=entry_count, keep="first")
+        handler = self._detect_handler(file_path)
+        # Tail covers skip+count starts; keep="first" yields the older page.
+        lines = self._read_tail_lines(file_path, needed, handler)
+        return self._parse_lines(lines, handler, max_entries=entry_count, keep="first")
 
     def _read_tail_lines(
         self,
         file_path: Path,
         entry_count: int,
-        log_format: LogFormat | None = None,
+        handler: FormatHandler,
         chunk_size: int = 16 * 1024,
     ) -> list[str]:
-        """
-        Read the smallest tail that contains at least `entry_count` log starts,
-        then trim to the exact window starting at the Nth-from-last start.
-        """
-        if log_format is None:
-            log_format = self._detect_format(file_path)
-
         buffer = b""
         with open(file_path, "rb") as file:
             file.seek(0, 2)
@@ -157,27 +173,25 @@ class LogResources:
                 buffer = file.read(read_size) + buffer
 
                 text = buffer.decode("utf-8", errors="replace")
-                # If we did not start at EOF beginning, first line may be partial.
                 lines = text.splitlines()
-                start_indexes = self._log_start_indexes(lines, log_format)
+                start_indexes = [i for i, line in enumerate(lines) if handler.is_record_start(line)]
                 if len(start_indexes) >= entry_count:
-                    # Trim to exact window so callers never parse overshoot.
                     trim_at = start_indexes[-entry_count]
                     return lines[trim_at:]
 
         lines = buffer.decode("utf-8", errors="replace").splitlines()
-        start_indexes = self._log_start_indexes(lines, log_format)
+        start_indexes = [i for i, line in enumerate(lines) if handler.is_record_start(line)]
         if not start_indexes:
-            return []
+            # Untimestamped / raw: return whole tail-ish content as lines.
+            return lines[-max(entry_count * 4, entry_count) :] if lines else []
         if len(start_indexes) >= entry_count:
             return lines[start_indexes[-entry_count] :]
-        # Incomplete leading fragment (mid-line seek) — drop until first real start.
         return lines[start_indexes[0] :]
 
     def _parse_lines(
         self,
         lines: list[str],
-        log_format: LogFormat | None = None,
+        handler: FormatHandler,
         max_entries: int | None = None,
         keep: Literal["first", "last"] = "last",
     ) -> list[LogEntry]:
@@ -186,74 +200,53 @@ class LogResources:
 
         if max_entries is None:
             entries: list[LogEntry] | deque[LogEntry] = []
-            stop_after_first = False
+            stop_after = False
         elif keep == "first":
             entries = []
-            stop_after_first = True
+            stop_after = True
         else:
             entries = deque(maxlen=max_entries)
-            stop_after_first = False
+            stop_after = False
 
         for line in lines:
-            entry = self._parse_line(line, log_format)
-            if entry:
-                if stop_after_first and len(entries) >= max_entries:
-                    break
-                entries.append(entry)
-            elif entries:
+            if handler.is_record_start(line):
+                entry = handler.parse_line(line)
+                if entry:
+                    if stop_after and len(entries) >= max_entries:
+                        break
+                    entries.append(entry)
+                continue
+            if entries:
                 self._append_detail(entries[-1], line)
 
         return list(entries)
 
-    def _log_start_indexes(
-        self,
-        lines: list[str],
-        log_format: LogFormat | None,
-    ) -> list[int]:
-        return [i for i, line in enumerate(lines) if self._is_log_start(line, log_format)]
-
-    def _is_log_start(self, line: str, log_format: LogFormat | None = None) -> bool:
-        if log_format == "web":
-            return self.WEB_TIME.match(line) is not None
-        if log_format == "pool":
-            return self.POOL_TIME.match(line) is not None
-        return self.WEB_TIME.match(line) is not None or self.POOL_TIME.match(line) is not None
-
-    def _detect_format(self, file_path: Path | str) -> LogFormat | None:
+    def _detect_handler(self, file_path: Path | str) -> FormatHandler:
         key = str(file_path)
-        if key in self._format_cache:
-            return self._format_cache[key]
+        if key in self._handler_cache:
+            return self._handler_cache[key]
 
-        detected: LogFormat | None = None
+        sample: list[str] = []
         try:
             with open(file_path, "r", encoding="utf-8", errors="replace") as file:
                 for _ in range(200):
                     line = file.readline()
                     if not line:
                         break
-                    line = line.rstrip("\n")
-                    if self.WEB_LOG.match(line):
-                        detected = "web"
-                        break
-                    if self.POOL_LOG.match(line):
-                        detected = "pool"
-                        break
+                    sample.append(line.rstrip("\n"))
         except OSError:
-            detected = None
+            sample = []
 
-        self._format_cache[key] = detected
-        return detected
+        handler = detect_handler(sample, path_hint=key)
+        self._handler_cache[key] = handler
+        return handler
 
     def _find_time_offset(
         self,
         file_path: Path,
         start_time: datetime,
-        log_format: LogFormat | None,
+        handler: FormatHandler,
     ) -> int:
-        """
-        Binary-search a byte offset at/before the first log with timestamp >= start_time.
-        Returns 0 if the file is small or search is inconclusive.
-        """
         size = file_path.stat().st_size
         if size < 64 * 1024:
             return 0
@@ -268,7 +261,7 @@ class LogResources:
                 mid = (low + high) // 2
                 file.seek(mid)
                 if mid > 0:
-                    file.readline()  # discard partial line
+                    file.readline()
 
                 timestamp = None
                 for _ in range(50):
@@ -276,17 +269,15 @@ class LogResources:
                     if not raw:
                         break
                     line = raw.decode("utf-8", errors="replace").rstrip("\n")
-                    timestamp = self._peek_timestamp(line, log_format)
+                    timestamp = handler.peek_timestamp(line)
                     if timestamp is not None:
                         break
 
                 if timestamp is None:
-                    # No log header nearby — search earlier.
                     high = mid
                     continue
 
                 if timestamp < start_time:
-                    # Safe to skip everything through this too-early entry.
                     low = file.tell()
                     best = low
                 else:
@@ -299,102 +290,21 @@ class LogResources:
         start_time: datetime | None,
         end_time: datetime | None,
     ) -> tuple[datetime | None, datetime | None]:
-        # Strip timezone info to match log file timestamps (which are naive)
         if start_time and start_time.tzinfo is not None:
             start_time = start_time.replace(tzinfo=None)
         if end_time and end_time.tzinfo is not None:
             end_time = end_time.replace(tzinfo=None)
-        
         if start_time and end_time and start_time > end_time:
             return end_time, start_time
         return start_time, end_time
 
-    def _is_in_time_range(
-        self,
-        entry: LogEntry,
-        start_time: datetime | None,
-        end_time: datetime | None,
-    ) -> bool:
-        # Strip timezone info to match log file timestamps (which are naive)
-        if start_time and start_time.tzinfo is not None:
-            start_time = start_time.replace(tzinfo=None)
-        if end_time and end_time.tzinfo is not None:
-            end_time = end_time.replace(tzinfo=None)
-        
-        # Boundaries are inclusive: start_time <= log timestamp <= end_time.
-        return bool(
-            entry.timestamp
-            and (start_time is None or entry.timestamp >= start_time)
-            and (end_time is None or entry.timestamp <= end_time)
-        )
-
-    def _peek_timestamp(
-        self,
-        line: str,
-        log_format: LogFormat | None = None,
-    ) -> datetime | None:
-        if log_format == "web" or log_format is None:
-            match = self.WEB_TIME.match(line)
-            if match:
-                return datetime.strptime(match.group(1), "%Y-%m-%d %H:%M:%S,%f")
-            if log_format == "web":
-                return None
-
-        if log_format == "pool" or log_format is None:
-            match = self.POOL_TIME.match(line)
-            if match:
-                return datetime.strptime(match.group(1), "%Y/%m/%d-%H:%M:%S,%f")
-
-        return None
-
-    def _append_detail(self, entry: LogEntry, line: str) -> None:
+    @staticmethod
+    def _append_detail(entry: LogEntry, line: str) -> None:
         entry.raw += "\n" + line
         if entry.details is None:
             entry.details = [line]
         else:
             entry.details.append(line)
-
-    def _parse_line(
-        self,
-        line: str,
-        log_format: LogFormat | None = None,
-    ) -> LogEntry | None:
-        if log_format == "web":
-            return self._parse_web_line(line)
-        if log_format == "pool":
-            return self._parse_pool_line(line)
-
-        return self._parse_web_line(line) or self._parse_pool_line(line)
-
-    def _parse_web_line(self, line: str) -> LogEntry | None:
-        web_match = self.WEB_LOG.match(line)
-        if not web_match:
-            return None
-        data = web_match.groupdict()
-        return LogEntry(
-            log_type="web",
-            timestamp=datetime.strptime(data["time"], "%Y-%m-%d %H:%M:%S,%f"),
-            level=data["level"],
-            source=data["source"].strip(),
-            thread=data["thread"],
-            message=data["message"].strip(),
-            raw=line,
-        )
-
-    def _parse_pool_line(self, line: str) -> LogEntry | None:
-        pool_match = self.POOL_LOG.match(line)
-        if not pool_match:
-            return None
-        data = pool_match.groupdict()
-        return LogEntry(
-            log_type="pool",
-            timestamp=datetime.strptime(data["time"], "%Y/%m/%d-%H:%M:%S,%f"),
-            level=data["level"],
-            source=data["source"].strip(),
-            host=data["host"].strip(),
-            message=data["message"].strip(),
-            raw=line,
-        )
 
 
 def get_logs_root(project_root: str | Path) -> Path:
@@ -402,22 +312,21 @@ def get_logs_root(project_root: str | Path) -> Path:
 
 
 def detect_log_type(log_file: Path) -> str:
-    with open(log_file, "r", encoding="utf-8", errors="replace") as file:
-        for _ in range(200):
-            line = file.readline()
-            if not line:
-                break
-            stripped = line.rstrip("\n")
-            if LogResources.WEB_LOG.match(stripped):
-                return "web"
-            if LogResources.POOL_LOG.match(stripped):
-                return "pool"
-    return "unknown"
+    resources = LogResources()
+    try:
+        if not log_file.is_file() or log_file.stat().st_size == 0:
+            return "empty"
+        return resources._detect_handler(log_file).name
+    except OSError:
+        return "unknown"
 
 
 def discover_log_files(logs_root: str | Path) -> list[dict[str, Any]]:
+    """Legacy metadata discovery used by older demos; prefers .log/.txt."""
     logs_root = Path(logs_root)
     records: list[dict[str, Any]] = []
+    if not logs_root.exists():
+        return records
     for log_file in sorted(logs_root.rglob("*")):
         if not log_file.is_file():
             continue
@@ -455,31 +364,3 @@ def filter_records(
     if log_folder != "all":
         result = [row for row in result if row["folder"] == log_folder]
     return result
-
-
-
-
-
-
-
-
-
-
-if __name__ == "__main__":
-    log_resources = LogResources(r"logs\LOGS_POOL_DUMP\PoolServer1")
-    # logs = log_resources.fetch_logs_from_file("ServerManager.log")
-    # print(logs)
-    # print(len(logs))
-
-    # st = '2024/07/14-20:35:34,479 UTC'
-    # st = datetime.strptime(st, "%Y/%m/%d-%H:%M:%S,%f UTC")
-    # et = '2024/07/15-05:07:19,510 UTC'
-    # et = datetime.strptime(et, "%Y/%m/%d-%H:%M:%S,%f UTC")
-    # logs = log_resources.fetch_logs_from_file("ServerManager.log", st, et)
-    # print(logs)
-    # print(len(logs))
-    # print(logs[0])
-
-    logs = log_resources.fetch_logs_from_file("ServerManager.log", skip=100, n=30)
-    print(logs)
-    print(len(logs))

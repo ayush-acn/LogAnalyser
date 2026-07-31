@@ -9,3 +9,4 @@ class FlowState(TypedDict):
     messages: Annotated[List[AnyMessage], add_messages]
     logs: Annotated[List[dict], add]
     issues: IssuesReported | None
+    tool_rounds: int

@@ -11,6 +11,8 @@ langchain-community
 langsmith
 langchain-aws
 
-
 boto3
 streamlit
+flask
+flask-cors
+requests

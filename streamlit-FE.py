@@ -1,6 +1,8 @@
 from pathlib import Path
+import json
 
 import streamlit as st
+import requests
 from langchain_core.messages import HumanMessage, AIMessage
 
 from frontend_utils import (
@@ -9,34 +11,21 @@ from frontend_utils import (
     discover_log_files,
     thread_label,
 )
-
-try:
-    from LogAgent_chat import stream_messages
-    BACKEND_IMPORT_ERROR = None
-except Exception as exc:  # pragma: no cover - shown directly in the UI
-    stream_messages = None
-    BACKEND_IMPORT_ERROR = str(exc)
+from config import BACKEND_URL
 
 
 st.set_page_config(page_title='Log Analyser Chat', page_icon=':mag:', layout='wide')
 
 
-# ---------------------------------------------------------------------------
-# Session state
-# ---------------------------------------------------------------------------
-# Everything about every chat (messages, thread ids, which thread is active)
-# lives only in st.session_state for this browser session. There is no DB/
-# backend lookup to rebuild this data - if the page is refreshed, history is lost.
-
 def init_session_state() -> None:
     if 'threads' not in st.session_state:
-        st.session_state.threads = {}          # thread_id -> thread dict
+        st.session_state.threads = {}
     if 'thread_order' not in st.session_state:
-        st.session_state.thread_order = []     # thread_ids, most recent first
+        st.session_state.thread_order = []
     if 'current_thread_id' not in st.session_state:
         st.session_state.current_thread_id = None
     if 'draft_nonce' not in st.session_state:
-        st.session_state.draft_nonce = 0       # bump to reset the "new chat" form widgets
+        st.session_state.draft_nonce = 0
 
 
 def start_new_chat_draft() -> None:
@@ -45,10 +34,6 @@ def start_new_chat_draft() -> None:
 
 
 def resolve_log_selection(selection: str, log_files: list[Path]) -> str:
-    '''
-    Turns the dropdown selection into the path string passed to the agent.
-    "All files" becomes a newline-separated list of absolute paths.
-    '''
     if selection == ALL_FILES_OPTION:
         return '\n'.join(str(path.resolve()) for path in log_files)
     return str(Path(selection).resolve())
@@ -59,17 +44,13 @@ def create_thread(mode: str, log_target: str) -> str:
     st.session_state.threads[thread_id] = {
         'mode': mode,
         'log_file': log_target,
-        'messages': [],   # full LangChain message history for this thread, kept in memory only
-        'label': None,    # filled in once the first message is sent
+        'messages': [],
+        'label': None,
     }
     st.session_state.thread_order.insert(0, thread_id)
     st.session_state.current_thread_id = thread_id
     return thread_id
 
-
-# ---------------------------------------------------------------------------
-# Sidebar: new chat + history of threads
-# ---------------------------------------------------------------------------
 
 def render_sidebar() -> None:
     with st.sidebar:
@@ -97,9 +78,30 @@ def render_sidebar() -> None:
                 st.session_state.current_thread_id = thread_id
 
 
-# ---------------------------------------------------------------------------
-# New chat form (mode, query/scheduled, file selection)
-# ---------------------------------------------------------------------------
+def stream_backend_tokens(
+    *,
+    endpoint: str,
+    payload: dict,
+) -> object:
+    """
+    Generator of text chunks for st.write_stream, reading Flask SSE.
+    """
+    url = f"{BACKEND_URL.rstrip('/')}{endpoint}"
+    with requests.post(url, json=payload, stream=True, timeout=600) as response:
+        response.raise_for_status()
+        for raw_line in response.iter_lines(decode_unicode=True):
+            if not raw_line:
+                continue
+            line = raw_line.strip()
+            if not line.startswith('data:'):
+                continue
+            data = json.loads(line[5:].strip())
+            event_type = data.get('type')
+            if event_type == 'token' and data.get('text'):
+                yield data['text']
+            elif event_type == 'done':
+                break
+
 
 def render_new_chat_form() -> None:
     st.subheader('Start a new analysis')
@@ -142,7 +144,7 @@ def render_new_chat_form() -> None:
 
     log_files = discover_log_files(folder_path)
     if not log_files:
-        st.error(f'No `.log` / `.txt` files found under `{folder_path}`.')
+        st.error(f'No log files found under `{folder_path}`.')
         return
 
     options = [ALL_FILES_OPTION, *[str(path.resolve()) for path in log_files]]
@@ -168,17 +170,12 @@ def render_new_chat_form() -> None:
         st.rerun()
 
 
-# ---------------------------------------------------------------------------
-# Active chat: history + streaming turns + follow-up input
-# ---------------------------------------------------------------------------
-
 def render_message_history(messages) -> None:
     for message in messages:
         if isinstance(message, HumanMessage):
             st.chat_message('user').write(message.content)
         elif isinstance(message, AIMessage):
             st.chat_message('assistant').write(message.content)
-        # SystemMessage is intentionally not shown, it's just the agent's instructions.
 
 
 def run_turn(thread_id: str, user_query: str | None) -> None:
@@ -192,12 +189,20 @@ def run_turn(thread_id: str, user_query: str | None) -> None:
     if user_query:
         st.chat_message('user').write(user_query)
 
+    endpoint = '/query-analysis' if thread_id.startswith('query_') else '/scheduled-analysis'
+    payload = {
+        'log_file_path': thread['log_file'],
+        'thread_id': thread_id,
+    }
+    if user_query:
+        payload['user_query'] = user_query
+    elif thread['mode'] == 'Query':
+        payload['user_query'] = ''
+
     with st.chat_message('assistant'):
         try:
-            # stream_messages mutates `messages` in place (adds the system/human
-            # messages), so our session-state history stays the single source of truth.
             response_text = st.write_stream(
-                stream_messages(messages, thread_id, thread['log_file'], user_query)
+                stream_backend_tokens(endpoint=endpoint, payload=payload)
             )
         except Exception as exc:
             response_text = (
@@ -214,12 +219,10 @@ def run_turn(thread_id: str, user_query: str | None) -> None:
                 )
                 st.warning(response_text)
 
-    # If stream_messages raised before it could append the system/human messages
-    # itself (e.g. on the very first turn of a thread), make sure the question the
-    # user just asked is still kept in history - the whole point of keeping history
-    # in the frontend is that a backend hiccup should never make a message vanish.
     if not had_history_before and not any(isinstance(m, HumanMessage) for m in messages):
         messages.append(HumanMessage(content=user_query or 'Please analyse the latest logs from the file.'))
+    elif user_query and had_history_before:
+        messages.append(HumanMessage(content=user_query))
 
     messages.append(AIMessage(content=response_text))
 
@@ -243,17 +246,11 @@ def render_active_chat() -> None:
         st.rerun()
 
 
-# ---------------------------------------------------------------------------
-# Entry point
-# ---------------------------------------------------------------------------
-
 def main() -> None:
-    if BACKEND_IMPORT_ERROR:
-        st.error(f'Could not load the agent backend from `LogAgent_chat.py`:\n\n{BACKEND_IMPORT_ERROR}')
-        st.stop()
-
     init_session_state()
     render_sidebar()
+
+    st.caption(f'Backend: `{BACKEND_URL}`')
 
     if st.session_state.current_thread_id is None:
         render_new_chat_form()
