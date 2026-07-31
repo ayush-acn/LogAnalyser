@@ -99,6 +99,8 @@ def stream_backend_tokens(
             event_type = data.get('type')
             if event_type == 'token' and data.get('text'):
                 yield data['text']
+            elif event_type == 'error':
+                raise RuntimeError(data.get('message') or 'Backend analysis failed')
             elif event_type == 'done':
                 break
 

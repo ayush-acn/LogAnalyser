@@ -8,7 +8,7 @@ from config import tool_llm_config, main_llm_config, DEFAULT_MAX_TOOL_ROUNDS
 from Resources.graph_state import FlowState
 from Tools.log_tools import log_fetch_tools
 from Models.log_agent import IssuesReported
-from Resources.utils import _parse_tool_logs, issues_to_message, trace
+from Resources.utils import _parse_tool_logs, issues_to_message, message_text, trace
 
 llm = ChatBedrockConverse(**main_llm_config)
 main_llm = ChatBedrockConverse(**main_llm_config).with_structured_output(IssuesReported)
@@ -95,11 +95,9 @@ def route_after_orch(state: FlowState, config: RunnableConfig) -> str:
         trace('ROUTE', from_node='orch', to='tools', mode=mode, tool_calls=_tool_names(last))
         return 'tools'
     if _is_query_thread(config):
-        # Query with no further tools: if we already used tools this turn, go to
-        # resp for a polished answer; first-shot orch text is final (END).
-        if rounds > 0:
-            trace('ROUTE', from_node='orch', to='resp', mode=mode, reason='query after tools')
-            return 'resp'
+        # Query answers come from orch. Do not send orch's AIMessage into resp:
+        # Bedrock Converse rejects assistant-prefill (conversation must end
+        # with a user message). Empty timed windows are a valid orch answer.
         trace('ROUTE', from_node='orch', to='END', mode=mode, reason='query final answer')
         return END
     trace('ROUTE', from_node='orch', to='resp', mode=mode, reason='scheduled structuring')
@@ -146,11 +144,40 @@ def route_after_tools(state: FlowState, config: RunnableConfig) -> str:
     return 'orch'
 
 
+def _ensure_user_turn(messages: list[AnyMessage], nudge: str) -> list[AnyMessage]:
+    '''Bedrock Converse requires the conversation to end with a user message.'''
+    last = messages[-1] if messages else None
+    if isinstance(last, HumanMessage):
+        return messages
+    return messages + [HumanMessage(content=nudge)]
+
+
 def resp_node(state: FlowState, config: RunnableConfig) -> FlowState:
     messages = list(state.get('messages', []))
     mode = 'query' if _is_query_thread(config) else 'scheduled'
 
     if _is_query_thread(config):
+        last = messages[-1] if messages else None
+        # Prefer the orch answer when it already finalized after tools.
+        if (
+            isinstance(last, AIMessage)
+            and not _has_tool_calls(last)
+            and message_text(last.content).strip()
+        ):
+            trace(
+                'MODEL response',
+                node='resp',
+                mode=mode,
+                output='chat',
+                reason='reuse orch answer',
+            )
+            return {'messages': [], 'issues': None}
+
+        invoke_messages = _ensure_user_turn(
+            messages,
+            'Based on the tool results above, answer the user question now. '
+            'If no logs matched the requested time window, say so clearly.',
+        )
         trace(
             'MODEL call',
             node='resp',
@@ -158,9 +185,9 @@ def resp_node(state: FlowState, config: RunnableConfig) -> FlowState:
             mode=mode,
             output='chat',
             thread=_thread_id(config),
-            message_count=len(messages),
+            message_count=len(invoke_messages),
         )
-        response = llm.invoke(messages)
+        response = llm.invoke(invoke_messages)
         if not isinstance(response, AIMessage):
             response = AIMessage(content=str(response))
         trace('MODEL response', node='resp', mode=mode, output='chat')
@@ -169,19 +196,12 @@ def resp_node(state: FlowState, config: RunnableConfig) -> FlowState:
             'issues': None,
         }
 
-    invoke_messages = messages
-    last = messages[-1] if messages else None
-    nudged = False
-    if isinstance(last, AIMessage) and not _has_tool_calls(last):
-        nudged = True
-        invoke_messages = messages + [
-            HumanMessage(
-                content=(
-                    'Please structure the findings from the conversation above '
-                    'into the required issue report format.'
-                )
-            )
-        ]
+    invoke_messages = _ensure_user_turn(
+        messages,
+        'Please structure the findings from the conversation above '
+        'into the required issue report format.',
+    )
+    nudged = len(invoke_messages) != len(messages)
 
     trace(
         'MODEL call',

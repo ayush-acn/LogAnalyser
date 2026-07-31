@@ -51,8 +51,12 @@ def iter_sse_events(
 
     yield _sse({"type": "meta", "thread_id": tid})
 
-    for event in stream_turn(messages, tid, log_file_path, user_query):
-        yield _sse(event)
+    try:
+        for event in stream_turn(messages, tid, log_file_path, user_query):
+            yield _sse(event)
+    except Exception as exc:
+        yield _sse({"type": "error", "message": str(exc)})
+        yield _sse({"type": "done", "issues": None})
 
 
 def _sse(payload: dict) -> str:
