@@ -17,41 +17,58 @@ checkpointer = MemorySaver()
 graph = build_graph(checkpointer)
 
 DEFAULT_SCHEDULED_QUERY = "Please analyse the latest logs from the file."
+ANALYSIS_MODES = ("query", "scheduled")
 
 
-def new_chat(log_file_path: str, user_query: str | None = None) -> str:
-    if user_query:
+def system_prompt_for(mode: str, log_file_path: str) -> str:
+    if mode == "query":
         return UserLogQuerySystemPrompt.format(file_path=log_file_path)
     return LogsAnalyzerSystemPrompt.format(file_path=log_file_path)
 
 
+def _is_new_thread(thread_id: str) -> bool:
+    config = {"configurable": {"thread_id": thread_id}}
+    try:
+        snapshot = graph.get_state(config)
+        values = snapshot.values if snapshot else {}
+        messages = values.get("messages") if isinstance(values, dict) else None
+        return not messages
+    except Exception:
+        return True
+
+
 def stream_turn(
-    messages: list[AnyMessage],
     thread_id: str,
     log_file_path: str,
     user_query: str | None = None,
+    mode: str = "scheduled",
 ) -> Generator[dict, None, IssuesReported | None]:
     """
     Stream structured events:
       {"type": "token", "text": "..."}
       {"type": "done", "issues": ...|null}
-    """
-    default_query = DEFAULT_SCHEDULED_QUERY
-    new_messages: list[AnyMessage] = []
-    if len(messages) == 0:
-        system_message = SystemMessage(content=new_chat(log_file_path, user_query))
-        messages.append(system_message)
-        new_messages.append(system_message)
 
-    human_message = HumanMessage(content=user_query if user_query else default_query)
-    messages.append(human_message)
-    new_messages.append(human_message)
+    `mode` selects the route: "query" or "scheduled".
+    The system prompt is attached only on the first turn of a thread.
+    """
+    if mode not in ANALYSIS_MODES:
+        raise ValueError(f"Invalid analysis mode: {mode}")
+
+    default_query = DEFAULT_SCHEDULED_QUERY
+    human_text = user_query if user_query else default_query
+    new_messages: list[AnyMessage] = []
+    if _is_new_thread(thread_id):
+        new_messages.append(
+            SystemMessage(content=system_prompt_for(mode, log_file_path))
+        )
+    new_messages.append(HumanMessage(content=human_text))
 
     config = {"configurable": {"thread_id": thread_id}}
     trace(
         "TURN start",
         thread=thread_id,
-        query=(user_query or default_query)[:80],
+        mode=mode,
+        query=human_text[:80],
         new_messages=len(new_messages),
     )
 
@@ -59,7 +76,7 @@ def stream_turn(
     resp_emitted = False
 
     for chunk, metadata in graph.stream(
-        {"messages": new_messages, "tool_rounds": 0},
+        {"messages": new_messages, "tool_rounds": 0, "mode": mode},
         config=config,
         stream_mode="messages",
     ):

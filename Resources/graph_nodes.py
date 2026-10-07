@@ -17,9 +17,13 @@ tool_llm = ChatBedrockConverse(**tool_llm_config).bind_tools(log_fetch_tools)
 log_tool_node = ToolNode(log_fetch_tools)
 
 
-def _is_query_thread(config: RunnableConfig) -> bool:
-    thread_id = (config.get('configurable') or {}).get('thread_id', '')
-    return str(thread_id).startswith('query_')
+def _mode(state: FlowState) -> str:
+    '''Route stored on the graph state by the API: query or scheduled.'''
+    return 'query' if state.get('mode') == 'query' else 'scheduled'
+
+
+def _is_query(state: FlowState) -> bool:
+    return _mode(state) == 'query'
 
 
 def _thread_id(config: RunnableConfig) -> str:
@@ -84,7 +88,7 @@ def route_after_orch(state: FlowState, config: RunnableConfig) -> str:
     '''
     messages = state.get('messages', [])
     last = messages[-1] if messages else None
-    mode = 'query' if _is_query_thread(config) else 'scheduled'
+    mode = _mode(state)
     rounds = int(state.get('tool_rounds') or 0)
 
     if (
@@ -94,7 +98,7 @@ def route_after_orch(state: FlowState, config: RunnableConfig) -> str:
     ):
         trace('ROUTE', from_node='orch', to='tools', mode=mode, tool_calls=_tool_names(last))
         return 'tools'
-    if _is_query_thread(config):
+    if _is_query(state):
         # Query answers come from orch. Do not send orch's AIMessage into resp:
         # Bedrock Converse rejects assistant-prefill (conversation must end
         # with a user message). Empty timed windows are a valid orch answer.
@@ -136,7 +140,7 @@ def tools_node(state: FlowState, config: RunnableConfig) -> FlowState:
 def route_after_tools(state: FlowState, config: RunnableConfig) -> str:
     '''After tools, return to orch for another fetch round, or resp when done/cap.'''
     rounds = int(state.get('tool_rounds') or 0)
-    mode = 'query' if _is_query_thread(config) else 'scheduled'
+    mode = _mode(state)
     if rounds >= DEFAULT_MAX_TOOL_ROUNDS:
         trace('ROUTE', from_node='tools', to='resp', mode=mode, reason='safeguard')
         return 'resp'
@@ -154,9 +158,9 @@ def _ensure_user_turn(messages: list[AnyMessage], nudge: str) -> list[AnyMessage
 
 def resp_node(state: FlowState, config: RunnableConfig) -> FlowState:
     messages = list(state.get('messages', []))
-    mode = 'query' if _is_query_thread(config) else 'scheduled'
+    mode = _mode(state)
 
-    if _is_query_thread(config):
+    if _is_query(state):
         last = messages[-1] if messages else None
         # Prefer the orch answer when it already finalized after tools.
         if (

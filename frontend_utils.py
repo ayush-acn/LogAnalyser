@@ -30,6 +30,10 @@ def thread_label(mode: str, text: str | None, thread_id: str) -> str:
     '''
     Builds a short, unique label for a thread, to be shown in the sidebar history.
     '''
-    base = text.strip() if text else ('Scheduled analysis' if mode == 'Scheduled Analyses' else 'Query')
+    titles = {
+        'scheduled': 'Scheduled analysis',
+        'query': 'Query',
+    }
+    base = text.strip() if text else titles.get(mode, mode)
     base = base[:40] + ('...' if len(base) > 40 else '')
     return f"{base}  ({thread_id[-6:]})"

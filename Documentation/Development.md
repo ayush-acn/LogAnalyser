@@ -1,5 +1,39 @@
 # Log Analyser Agent Development
 
+*Date: October 7th, 2026*
+
+Few changes that need to be implemented on different ends of the flow to make it more compatible with the Team Center
+
+## Frontend Changes: 
+2 seprate Pages for schdulded Analysis and query analysis
+
+### Schdulded Analysis Page:
+This page shall accept the file name / location, then do the schdulded analysis on the Logs of that perticular section.
+
+- No query mode. 
+
+### Query Analysis Page: 
+This page shall accepet the file name and the query related to the logs and perfom the Analysis on the logs and provide the solution. 
+
+## Agentic flow: 
+These both should have different Prompts and a common flow and seprate backend APIs.
+
+## ToDos Update
+Need to update the prompts to make it more compatible with the Team Center.
+- Set the output format, for the schdulded analysis for prompts.
+
+- Work on the Log Fetching and Paging functionality and make it more robust.
+- Remove the chat option from the schduled mode
+- Look for better Agentic workflow for the task.
+- 
+
+## For Later
+- Documentation Implementation via RAG to get better solution.
+- RAG for saving the findings and referring them -> Brain / memory like structure.
+
+
+---------------------
+
 *Date: July 9th, 2026*
 
 ## Objective

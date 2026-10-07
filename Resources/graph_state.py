@@ -10,3 +10,5 @@ class FlowState(TypedDict):
     logs: Annotated[List[dict], add]
     issues: IssuesReported | None
     tool_rounds: int
+    # "query" or "scheduled". Set by the API route on every turn.
+    mode: str

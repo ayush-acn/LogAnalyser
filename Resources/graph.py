@@ -28,4 +28,11 @@ def build_graph(memory_checkpointer):
     builder.add_edge('resp', END)
 
     graph = builder.compile(checkpointer=memory_checkpointer)
+    # graph.get_graph().draw_mermaid_png(output_file_path='Results/graph.png')
     return graph
+
+if __name__ == '__main__':
+    from langgraph.checkpoint.memory import MemorySaver
+
+    memory_checkpointer = MemorySaver()
+    build_graph(memory_checkpointer=memory_checkpointer)
