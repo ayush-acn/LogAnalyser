@@ -1,16 +1,8 @@
 python-dotenv
 pydantic
-pandas
-numpy
-
 langchain
 langgraph
-langchain-anthropic
-langchain-openai
-langchain-community
-langsmith
 langchain-aws
-
 boto3
 streamlit
 flask

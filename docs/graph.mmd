@@ -1,0 +1,21 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	orch(orch)
+	tools(tools)
+	resp(resp)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> orch;
+	orch -.-> __end__;
+	orch -.-> resp;
+	orch -.-> tools;
+	tools -.-> orch;
+	tools -.-> resp;
+	resp --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

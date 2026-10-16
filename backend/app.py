@@ -1,11 +1,15 @@
 from __future__ import annotations
 
+import logging
+
 from flask import Flask, jsonify
 from flask_cors import CORS
 
 from backend.routes import register_routes
 from backend.schemas import HealthResponse
 from config import BACKEND_HOST, BACKEND_PORT
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s %(message)s")
 
 
 def create_app() -> Flask:
